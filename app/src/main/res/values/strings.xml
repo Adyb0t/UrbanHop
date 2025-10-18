@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Urban Hop</string>
+    <string name="home_string">Home</string>
+    <string name="ar_string">AR</string>
+    <string name="account_string">Profile</string>
+    <string name="train_string">Schedule</string>
+    <string name="event_string">Events</string>
+</resources>
