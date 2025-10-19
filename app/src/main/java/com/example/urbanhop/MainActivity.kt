@@ -7,35 +7,43 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.annotation.RequiresApi
-import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.BoxScope
-import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.systemBars
-import androidx.compose.material3.Scaffold
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.input.rememberTextFieldState
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.SearchBar
+import androidx.compose.material3.SearchBarDefaults
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.urbanhop.graphics.backdrops.LayerBackdrop
-import com.example.urbanhop.graphics.backdrops.layerBackdrop
-import com.example.urbanhop.graphics.backdrops.rememberLayerBackdrop
 import com.example.urbanhop.pages.Map
 import com.example.urbanhop.ui.theme.UrbanHopTheme
+import com.kyant.backdrop.backdrops.layerBackdrop
+import com.kyant.backdrop.backdrops.rememberLayerBackdrop
+import com.kyant.backdrop.drawBackdrop
+import com.kyant.backdrop.effects.lens
 
 class MainActivity : ComponentActivity() {
+    @OptIn(ExperimentalMaterial3Api::class)
     @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     @SuppressLint(
         "UnusedMaterial3ScaffoldPaddingParameter",
@@ -51,72 +59,51 @@ class MainActivity : ComponentActivity() {
                 }
                 val contentPadding = WindowInsets.systemBars.asPaddingValues()
                 val backdrop = rememberLayerBackdrop()
+                val textFieldState = rememberTextFieldState()
 
                 Box(
                     modifier = Modifier
-                        .layerBackdrop(backdrop)
                         .fillMaxSize()
                 ) {
+                    Box {
+                        Map(contentPadding, backdrop)
+                    }
+                    Box (
+                        modifier = Modifier
+                            .fillMaxSize(),
+                    ) {
+                        var expanded by rememberSaveable { mutableStateOf(false) }
+                        SearchBar(
+                            modifier = Modifier
+                                .align(Alignment.TopCenter)
+                                .padding(horizontal = 24.dp)
+                                .fillMaxWidth(),
+                            inputField = {
+                                Box(Modifier.fillMaxSize())
+                                SearchBarDefaults.InputField(
+                                    query = textFieldState.text.toString(),
+                                    onQueryChange = { textFieldState.edit { replace(0, length, it) } },
+                                    onSearch = {
+                                        onSearch(textFieldState.text.toString())
+                                        expanded = false
+                                    },
+                                    expanded = expanded,
+                                    onExpandedChange = { expanded = it },
+                                    placeholder = { Text("Search") }
+                                )
+                            },
+                            expanded = expanded,
+                            onExpandedChange = { expanded = it },
+                        ){
 
-                    NavBar(
-                            contentPadding,
+                        }
+                        NavBar(
+                            Modifier.align(Alignment.BottomCenter),
                             selectedPage,
                             backdrop
                         ) { selectedPage = it }
+                    }
                 }
-
-//                Scaffold(
-//                    containerColor = Color.Transparent,
-//                    modifier = Modifier
-//                        .fillMaxSize(),
-//                    bottomBar = {
-//                        NavBar(
-//                            contentPadding,
-//                            selectedPage,
-//                            backdrop
-//                        ) { selectedPage = it }
-//                    }
-//                ) {
-//                    Map(contentPadding, backdrop)
-//                }
-
-//                val isLightTheme = !isSystemInDarkTheme()
-//                val contentColor = if (isLightTheme) Color.Black else Color.White
-//
-//                val airplaneModeIcon = painterResource(R.drawable.flight_40px)
-//                val iconColorFilter = ColorFilter.tint(contentColor)
-//
-//                BackdropDemoScaffold(
-//                    initialPainterResId = R.drawable.system_home_screen_light
-//                ) { backdrop ->
-//                    Column(verticalArrangement = Arrangement.spacedBy(32f.dp)) {
-//                        Block {
-//                            var selectedTabIndex by rememberSaveable { mutableIntStateOf(0) }
-//
-//                            LiquidBottomTabs(
-//                                selectedTabIndex = { selectedTabIndex },
-//                                onTabSelected = { selectedTabIndex = it },
-//                                backdrop = backdrop,
-//                                tabsCount = 3,
-//                                modifier = Modifier.padding(horizontal = 36f.dp)
-//                            ) {
-//                                repeat(3) { index ->
-//                                    LiquidBottomTab({ selectedTabIndex = index }) {
-//                                        Box(
-//                                            Modifier
-//                                                .size(28f.dp)
-//                                                .paint(airplaneModeIcon, colorFilter = iconColorFilter)
-//                                        )
-//                                        BasicText(
-//                                            "Tab ${index + 1}",
-//                                            style = TextStyle(contentColor, 12f.sp)
-//                                        )
-//                                    }
-//                                }
-//                            }
-//                        }
-//                    }
-//                }
             }
         }
     }
@@ -131,25 +118,6 @@ fun Preview() {
     }
 }
 
-//@Composable
-//fun BackdropScaffold(
-//    modifier: Modifier,
-//    content: @Composable BoxScope.(backdrop: LayerBackdrop) -> Unit
-//) {
-//    Box(
-//        modifier = Modifier
-//    ) {
-//        val backdrop = rememberLayerBackdrop()
-//        Image(
-//            painterResource(R.drawable.wallpaper_light),
-//            null,
-//            Modifier
-//                .layerBackdrop(backdrop)
-//                .then(modifier)
-//                .fillMaxSize(),
-//            contentScale = ContentScale.Crop
-//        )
-////        Map(PaddingValues(10.dp), backdrop)
-//        content(backdrop)
-//    }
-//}
+fun onSearch(search: String){
+
+}
