@@ -1,9 +1,10 @@
 package com.example.urbanhop
 
 import android.os.Build
-import android.widget.Toast
-import androidx.activity.compose.BackHandler
 import androidx.annotation.RequiresApi
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -37,7 +38,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -45,7 +45,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.layout.onSizeChanged
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.platform.SoftwareKeyboardController
 import androidx.compose.ui.res.painterResource
@@ -98,20 +97,26 @@ fun NavigationUI(
     backstack: NavBackStack<NavKey>,
     getComponentSize: (IntSize) -> Unit
 ) {
-    val context = LocalContext.current
-
     Box(
         modifier = Modifier
             .fillMaxSize(),
     ) {
         val keyboardController = LocalSoftwareKeyboardController.current
 
-        SearchBarBackdrop(
-            Modifier.align(Alignment.TopCenter),
-            textFieldState,
-            backdrop,
-            keyboardController
-        )
+        AnimatedVisibility(
+            visible = backstack.last() == PageMarker.Home.navKey,
+            enter = slideInVertically(initialOffsetY = { -it }),
+            exit = slideOutVertically(targetOffsetY = { -it }),
+            label = "SearchBarAnimation"
+        ) {
+            SearchBarCustom(
+                // The modifier is now applied inside the AnimatedVisibility scope
+                modifier = Modifier.align(Alignment.TopCenter),
+                textFieldState = textFieldState,
+                backdrop = backdrop,
+                keyboardController = keyboardController
+            )
+        }
         NavBar(
             Modifier.align(Alignment.BottomCenter),
             backstack,
@@ -129,7 +134,7 @@ fun NavigationUI(
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)
-private fun SearchBarBackdrop(
+private fun SearchBarCustom(
     modifier: Modifier,
     textFieldState: TextFieldState,
     backdrop: LayerBackdrop,
