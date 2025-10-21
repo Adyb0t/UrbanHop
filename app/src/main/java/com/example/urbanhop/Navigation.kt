@@ -110,7 +110,6 @@ fun NavigationUI(
             label = "SearchBarAnimation"
         ) {
             SearchBarCustom(
-                // The modifier is now applied inside the AnimatedVisibility scope
                 modifier = Modifier.align(Alignment.TopCenter),
                 textFieldState = textFieldState,
                 backdrop = backdrop,

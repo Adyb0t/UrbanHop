@@ -30,7 +30,6 @@ import com.example.urbanhop.screens.ProfileScreen
 import com.example.urbanhop.ui.theme.UrbanHopTheme
 import com.kyant.backdrop.backdrops.rememberLayerBackdrop
 
-
 class MainActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.VANILLA_ICE_CREAM)
     @OptIn(ExperimentalMaterial3Api::class)
@@ -43,6 +42,7 @@ class MainActivity : ComponentActivity() {
                 var uiSize by remember { mutableStateOf(IntSize.Zero) }
                 val backdrop = rememberLayerBackdrop()
                 val textFieldState = rememberTextFieldState()
+
 
 
                 Box(
@@ -87,6 +87,6 @@ fun Preview() {
     }
 }
 
-fun onSearch(search: String) {
+fun onSearch(query: String) {
 
 }

@@ -19,7 +19,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
+//import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
@@ -50,7 +50,7 @@ fun Map(backdrop: LayerBackdrop, uiSize: IntSize = IntSize.Zero) {
         position = CameraPosition.fromLatLngZoom(LatLng(3.2510878785510826, 101.73429681730538), 6f)
     }
     val scope = rememberCoroutineScope()
-    val context = LocalContext.current
+//    val context = LocalContext.current
     val uiHeight = with(LocalDensity.current) { uiSize.height.toDp() }
 
     Box(
