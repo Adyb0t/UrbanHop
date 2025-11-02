@@ -19,11 +19,14 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-//import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation3.runtime.NavKey
+import com.example.urbanhop.draw.StationMarkersMapContent
+import com.example.urbanhop.state.MapScreenViewState
+import com.example.urbanhop.state.MapViewModel
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMapOptions
 import com.google.android.gms.maps.model.CameraPosition
@@ -38,20 +41,25 @@ import com.kyant.backdrop.backdrops.layerBackdrop
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.serialization.Serializable
+import org.koin.androidx.compose.koinViewModel
 
 @Serializable
 data object MapScreen: NavKey
 
 @Composable
-fun Map(backdrop: LayerBackdrop, uiSize: IntSize = IntSize.Zero) {
+fun Map(
+    backdrop: LayerBackdrop,
+    uiSize: IntSize = IntSize.Zero,
+    viewModel: MapViewModel = koinViewModel()
+) {
     var hasInitialZoom by rememberSaveable { mutableStateOf(false) }
     var isMapLoaded by remember { mutableStateOf(false) }
     val cameraPositionState = rememberCameraPositionState {
         position = CameraPosition.fromLatLngZoom(LatLng(3.2510878785510826, 101.73429681730538), 6f)
     }
     val scope = rememberCoroutineScope()
-//    val context = LocalContext.current
     val uiHeight = with(LocalDensity.current) { uiSize.height.toDp() }
+    val mapViewState by viewModel.mapScreenViewState.collectAsStateWithLifecycle()
 
     Box(
         modifier = Modifier
@@ -74,7 +82,15 @@ fun Map(backdrop: LayerBackdrop, uiSize: IntSize = IntSize.Zero) {
             uiSettings = MapUiSettings(
                 zoomControlsEnabled = false
             )
-        )
+        ) {
+            when(mapViewState) {
+                is MapScreenViewState.Loading -> {}
+                is MapScreenViewState.StationList -> {
+                    StationMarkersMapContent(
+                        stations = (mapViewState as MapScreenViewState.StationList).stations)
+                }
+            }
+        }
 
         if (!isMapLoaded) {
             AnimatedVisibility(

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Monorail Bukit Bintang",
+    "address": "Bukit Bintang, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+    "coordinates": {
+      "latitude": 3.146107831493971,
+      "longitude": 101.71156819279469
+    }
+  },
+  {
+    "name": "KL Sentral",
+    "address": "Kuala Lumpur Sentral, 50470 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+    "coordinates": {
+      "latitude": 3.1343713118758942,
+      "longitude": 101.68608919351229
+    }
+  }
+]

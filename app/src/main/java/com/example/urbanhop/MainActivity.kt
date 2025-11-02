@@ -27,8 +27,10 @@ import com.example.urbanhop.screens.Map
 import com.example.urbanhop.screens.MapScreen
 import com.example.urbanhop.screens.Profile
 import com.example.urbanhop.screens.ProfileScreen
+import com.example.urbanhop.state.MapViewModel
 import com.example.urbanhop.ui.theme.UrbanHopTheme
 import com.kyant.backdrop.backdrops.rememberLayerBackdrop
+import org.koin.androidx.compose.koinViewModel
 
 class MainActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.VANILLA_ICE_CREAM)
@@ -42,8 +44,6 @@ class MainActivity : ComponentActivity() {
                 var uiSize by remember { mutableStateOf(IntSize.Zero) }
                 val backdrop = rememberLayerBackdrop()
                 val textFieldState = rememberTextFieldState()
-
-
 
                 Box(
                     modifier = Modifier
@@ -76,14 +76,6 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun Preview() {
-    UrbanHopTheme {
-
     }
 }
 
