@@ -14,5 +14,21 @@
       "latitude": 3.1343713118758942,
       "longitude": 101.68608919351229
     }
+  },
+  {
+    "name": "KLCC",
+    "address": "50450 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+    "coordinates": {
+      "latitude": 3.1594408126904154,
+      "longitude": 101.71334096536327
+    }
+  },
+  {
+    "name": "LRT Pasar Seni",
+    "address": "Kuala Lumpur City Centre, 50000 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+    "coordinates": {
+      "latitude": 3.14247535897058,
+      "longitude": 101.69532813838816
+    }
   }
 ]

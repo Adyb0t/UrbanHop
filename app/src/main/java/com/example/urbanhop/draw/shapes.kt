@@ -14,7 +14,12 @@ fun DrawScope.drawWithLayer(block: DrawScope.() -> Unit) {
     }
 }
 
-fun DrawScope.drawCrescent(xPosition: Float, flipped: Boolean, crescentOffset: Float, crescentRadius: Float) {
+fun DrawScope.drawCrescent(
+    xPosition: Float,
+    flipped: Boolean,
+    crescentOffset: Float,
+    crescentRadius: Float
+) {
     drawWithLayer {
         val offset = if (flipped) -crescentOffset else crescentOffset
 

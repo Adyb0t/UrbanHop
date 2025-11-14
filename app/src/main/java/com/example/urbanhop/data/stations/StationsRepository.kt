@@ -27,7 +27,6 @@ class StationsRepository(val context: Context) {
                 }
             }
         }
-        Log.d("StationsRepository", "Stations loaded: ${stations.value}")
         return stations
     }
 
