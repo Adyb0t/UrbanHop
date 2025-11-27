@@ -6,7 +6,6 @@ import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.text.input.TextFieldState
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -18,7 +17,6 @@ import com.example.urbanhop.R
 import com.example.urbanhop.navigation.navbar.NavBar
 import com.example.urbanhop.navigation.searchbar.SearchBarCustom
 import com.example.urbanhop.screens.ARScreen
-import com.example.urbanhop.screens.EventsScreen
 import com.example.urbanhop.screens.MapScreen
 import com.example.urbanhop.screens.ProfileScreen
 import com.kyant.backdrop.backdrops.LayerBackdrop
@@ -38,10 +36,6 @@ enum class Pages(
     Account(
         R.string.account_string,
         ProfileScreen
-    ),
-    Events(
-        R.string.events_string,
-        EventsScreen
     )
 }
 
@@ -99,6 +93,7 @@ fun NavigationUI(
                 Pages.Ar.navKey,
                 Pages.Home.navKey,
                 Pages.Account.navKey -> true
+
                 else -> false
             },
             enter = slideInVertically(initialOffsetY = { it }),

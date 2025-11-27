@@ -5,6 +5,7 @@ import android.util.Log
 import com.example.urbanhop.R
 import com.google.android.gms.maps.model.LatLng
 import com.google.gson.GsonBuilder
+import com.google.gson.annotations.SerializedName
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -35,11 +36,13 @@ class StationsRepository(val context: Context) {
         return locationArray.map { location ->
             Station(
                 name = location.name,
+                queryName = location.queryName,
                 address = location.address,
                 coordinates = LatLng(
                     location.coordinates.latitude,
                     location.coordinates.longitude
-                )
+                ),
+                code = location.code
             )
         }
     }
@@ -47,11 +50,18 @@ class StationsRepository(val context: Context) {
 
 private data class Location(
     val name: String,
+    @SerializedName("query_name")
+    val queryName: String,
     val address: String,
-    val coordinates: Coordinates
+    val coordinates: Coordinates,
+    val code: String
 )
 
 private data class Coordinates(
     val latitude: Double,
     val longitude: Double
 )
+
+fun StationsRepository.getStationCodesAndQueries(): Map<String, String> {
+    return stations.value.associate { it.code to it.queryName }
+}

@@ -56,12 +56,15 @@ fun NavBar(
     ) { pageCount }
     val scope = rememberCoroutineScope()
 
-    if (when (currentPage) {
-        PageMarker.Ar,
-        PageMarker.Home,
-        PageMarker.Account -> true
-        else -> false
-    }) {
+    if (
+        when (currentPage) {
+            PageMarker.Ar,
+            PageMarker.Home,
+            PageMarker.Account -> true
+
+            else -> false
+        }
+    ) {
         LaunchedEffect(pagerState.currentPage) {
             onSwiped(PageMarker.entries[pagerState.currentPage])
         }

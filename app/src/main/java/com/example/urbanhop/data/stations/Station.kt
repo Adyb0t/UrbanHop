@@ -4,6 +4,8 @@ import com.google.android.gms.maps.model.LatLng
 
 data class Station(
     val name: String,
+    val queryName: String,
     val address: String,
-    val coordinates: LatLng
+    val coordinates: LatLng,
+    val code: String
 )

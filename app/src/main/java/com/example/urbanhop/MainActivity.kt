@@ -9,21 +9,25 @@ import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.text.input.rememberTextFieldState
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.IntSize
+import androidx.compose.ui.unit.sp
+import androidx.lifecycle.viewmodel.navigation3.rememberViewModelStoreNavEntryDecorator
 import androidx.navigation3.runtime.NavEntry
 import androidx.navigation3.runtime.rememberNavBackStack
+import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
 import com.example.urbanhop.navigation.NavigationUI
 import com.example.urbanhop.navigation.Pages
 import com.example.urbanhop.screens.AR
 import com.example.urbanhop.screens.ARScreen
-import com.example.urbanhop.screens.Events
-import com.example.urbanhop.screens.EventsScreen
 import com.example.urbanhop.screens.Map
 import com.example.urbanhop.screens.MapScreen
 import com.example.urbanhop.screens.Profile
@@ -47,26 +51,35 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier
                         .fillMaxSize()
                 ) {
+
                     NavDisplay(
                         backStack = backStack,
+                        entryDecorators = listOf(
+                            rememberSaveableStateHolderNavEntryDecorator(),
+                            rememberViewModelStoreNavEntryDecorator()
+                        ),
                         entryProvider = { key ->
                             when (key) {
-                                MapScreen -> {
-                                    NavEntry(key) { Map(backdrop, uiSize, backStack) }
+
+                                is MapScreen -> {
+                                    NavEntry(key) {
+                                        Map(backdrop, uiSize)
+                                    }
                                 }
-                                ARScreen -> {
+
+                                is ARScreen -> {
                                     NavEntry(key) { AR() }
                                 }
-                                ProfileScreen -> {
+
+                                is ProfileScreen -> {
                                     NavEntry(key) { Profile() }
                                 }
-                                EventsScreen -> {
-                                    NavEntry(key) { Events() }
-                                }
+
                                 else -> throw RuntimeException("Unknown key: $key")
                             }
                         },
                     )
+
                     NavigationUI(
                         textFieldState,
                         backdrop,
@@ -83,3 +96,4 @@ class MainActivity : ComponentActivity() {
 fun onSearch(query: String) {
 
 }
+
