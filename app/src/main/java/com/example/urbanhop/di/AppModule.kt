@@ -3,9 +3,11 @@ package com.example.urbanhop.di
 import com.example.urbanhop.BuildConfig
 import com.example.urbanhop.data.events.EventsRepository
 import com.example.urbanhop.data.location.GeocodeApi
-import com.example.urbanhop.data.stations.StationsRepository
+import com.example.urbanhop.data.event_stations.StationsRepository
+import com.example.urbanhop.data.navigation_stations.TrainNavigationDataSource
 import com.example.urbanhop.state.EventsViewModel
 import com.example.urbanhop.state.MapViewModel
+import com.example.urbanhop.state.TrainNavViewModel
 import okhttp3.OkHttpClient
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.module.dsl.viewModelOf
@@ -17,6 +19,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 const val GOOGLE_MAPS_DI = "GoogleMapsDI"
 
 val appModule = module {
+    single { TrainNavigationDataSource(androidContext()) }
     single { StationsRepository(androidContext()) }
     single { EventsRepository(androidContext(), get<GeocodeApi>()) }
     single(named(GOOGLE_MAPS_DI)) {
@@ -40,5 +43,8 @@ val appModule = module {
             .build()
     }
     viewModelOf(::MapViewModel)
+    viewModelOf(::TrainNavViewModel)
+
+    //unused
     viewModelOf(::EventsViewModel)
 }

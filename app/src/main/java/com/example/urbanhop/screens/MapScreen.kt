@@ -1,8 +1,11 @@
 package com.example.urbanhop.screens
 
+import android.util.Log
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -22,6 +25,7 @@ import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.input.rememberTextFieldState
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.Card
@@ -29,7 +33,6 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ContainedLoadingIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
-import androidx.compose.material3.FloatingActionButtonMenu
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
@@ -46,18 +49,21 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.navigation3.runtime.NavBackStack
 import androidx.navigation3.runtime.NavKey
 import com.example.urbanhop.R
 import com.example.urbanhop.data.events.Event
-import com.example.urbanhop.data.stations.Station
+import com.example.urbanhop.data.event_stations.EventStation
+import com.example.urbanhop.data.navigation_stations.NavigationStation
 import com.example.urbanhop.draw.CustomMarker
+import com.example.urbanhop.navigation.searchbar.SearchBarCustom
 import com.example.urbanhop.state.MapScreenViewState
 import com.example.urbanhop.state.MapViewModel
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -69,7 +75,6 @@ import com.google.maps.android.compose.CameraPositionState
 import com.google.maps.android.compose.ComposeMapColorScheme
 import com.google.maps.android.compose.GoogleMap
 import com.google.maps.android.compose.MapUiSettings
-import com.google.maps.android.compose.Marker
 import com.google.maps.android.compose.rememberCameraPositionState
 import com.kyant.backdrop.backdrops.LayerBackdrop
 import com.kyant.backdrop.backdrops.layerBackdrop
@@ -85,6 +90,7 @@ private const val PIN_OFFSET = -80
 @Composable
 fun Map(
     backdrop: LayerBackdrop,
+    backStack: NavBackStack<NavKey>,
     uiSize: IntSize = IntSize.Zero,
     viewModel: MapViewModel = koinViewModel()
 ) {
@@ -92,12 +98,14 @@ fun Map(
 
     var isZoomedToBound by remember { mutableStateOf(false) }
     var isMapLoaded by remember { mutableStateOf(false) }
-    var openedPin: Station? by remember { mutableStateOf(null) }
+    var openedMarker: EventStation? by remember { mutableStateOf(null) }
     val cameraPositionState = rememberCameraPositionState {
         position =
             CameraPosition.fromLatLngZoom(LatLng(3.2510878785510826, 101.73429681730538), 15f)
     }
     val sheetState = rememberModalBottomSheetState()
+    val textFieldState = rememberTextFieldState()
+    val keyboardController = LocalSoftwareKeyboardController.current
 
     val uiHeight = with(LocalDensity.current) { uiSize.height.toDp() }
 
@@ -114,6 +122,8 @@ fun Map(
         modifier = Modifier
             .fillMaxSize()
     ) {
+        var navStations: List<NavigationStation> by remember { mutableStateOf(emptyList()) }
+
         GoogleMap(
             modifier = Modifier
                 .layerBackdrop(backdrop)
@@ -134,21 +144,25 @@ fun Map(
         )
 
         when (mapViewState) {
-            is MapScreenViewState.Loading -> {}
+            is MapScreenViewState.LoadingPage -> {}
+
+            is MapScreenViewState.LoadingEvents -> {
+
+            }
 
             is MapScreenViewState.StationList -> {
-                val stations = (mapViewState as MapScreenViewState.StationList).stations
+                val stations = (mapViewState as MapScreenViewState.StationList).eventStations
                 stations.forEach { station ->
                     CustomMarker(
                         modifier = Modifier
                             .offset { station.coordinates.mapToMap() },
                         station,
-                        openedPin,
+                        openedMarker,
                         onOpened = { station ->
-                            openedPin = station
+                            openedMarker = station
                         },
                         onClickStation = {
-                            viewModel.onClickStationLabel(openedPin?.code!!)
+                            viewModel.onClickStationLabel(openedMarker?.code!!)
                         }
                     )
                 }
@@ -165,16 +179,22 @@ fun Map(
                         modifier = Modifier
                             .offset {
                                 event.location?.let {
-                                    LatLng(event.location!!.lat!!, event.location!!.lng!!).mapToMap()
+                                    LatLng(
+                                        event.location!!.lat!!,
+                                        event.location!!.lng!!
+                                    ).mapToMap()
                                 }!!
                             }
-                            .size(24.dp),
+                            .height(24.dp),
                         shape = RoundedCornerShape(6.dp),
                         colors = CardDefaults.cardColors(
                             containerColor = Color.White
                         )
-                    ) { }
+                    ) {
+                        Text(text = event.title!!)
+                    }
                 }
+
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
@@ -189,7 +209,7 @@ fun Map(
                                 .size(48.dp),
                             onClick = {
                                 viewModel.displayAllStation()
-                                openedPin = null
+                                openedMarker = null
                             },
                             shape = RoundedCornerShape(12.dp),
                             contentPadding = PaddingValues(0.dp),
@@ -243,6 +263,33 @@ fun Map(
                     }
                 }
             }
+
+            is MapScreenViewState.ExpandedSearch -> {
+                Log.d("MapScreen", "ExpandedSearch")
+                navStations = (mapViewState as MapScreenViewState.ExpandedSearch).stations
+            }
+        }
+
+        AnimatedVisibility(
+            visible = backStack.last() == MapScreen && mapViewState !is MapScreenViewState.EventList,
+            enter = slideInVertically(initialOffsetY = { -it }),
+            exit = slideOutVertically(targetOffsetY = { -it }),
+            label = "SearchBarAnimation"
+        ) {
+            SearchBarCustom(
+                modifier = Modifier.align(Alignment.TopCenter),
+                textFieldState = textFieldState,
+                navigationStations = navStations,
+                backdrop = backdrop,
+                keyboardController = keyboardController,
+                onSearch = { searchString ->
+                    backStack.add(TrainNavScreen(searchString))
+                },
+                onExpandedChange = { isSearchExpanded ->
+                    if (isSearchExpanded) viewModel.onExpandedSearch()
+                    else viewModel.displayAllStation()
+                }
+            )
         }
 
         if (!isMapLoaded) {
@@ -316,16 +363,16 @@ private fun ListEvent(events: List<Event>) {
 
 @Composable
 private fun zoomToBound(
-    stations: List<Station>,
+    eventStations: List<EventStation>,
     isMapLoaded: Boolean,
     zoomToBound: Boolean,
     cameraPositionState: CameraPositionState
 ): Boolean {
     var isZoomedToBound = zoomToBound
-    LaunchedEffect(stations, isMapLoaded) {
-        if (stations.isNotEmpty() && !isZoomedToBound && isMapLoaded) {
+    LaunchedEffect(eventStations, isMapLoaded) {
+        if (eventStations.isNotEmpty() && !isZoomedToBound && isMapLoaded) {
             val boundsBuilder = LatLngBounds.builder()
-            for (station in stations) {
+            for (station in eventStations) {
                 boundsBuilder.include(station.coordinates)
             }
             cameraPositionState.animate(

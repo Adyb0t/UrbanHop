@@ -9,10 +9,7 @@ import com.google.firebase.Firebase
 import com.google.firebase.firestore.firestore
 import com.google.firebase.firestore.toObject
 import com.google.gson.GsonBuilder
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import org.simmetrics.metrics.CosineSimilarity
 import java.io.InputStream
@@ -34,8 +31,10 @@ class EventsRepository(
         code: String,
         codeQueryMap: Map<String, String>,
     ): List<Event> {
+
         val capturedEvents = mutableListOf<Event>()
         var filteredEvents = emptyList<Event>()
+
         if (isNotWeeklyUpdate) {
             try {
                 capturedEvents +=
@@ -87,7 +86,7 @@ class EventsRepository(
             coroutineScope {
                 capturedEvents.forEach { event ->
                     if (event.location == null) {
-                        findCoordinateNSaveEvent(event)
+                        findCoordinateAndSaveEvent(event)
                     } else {
                         eventCollectionRef.add(event)
                     }
@@ -148,7 +147,7 @@ private fun EventsRepository.readEventInfo(inputStream: InputStream): List<Event
     }
 }
 
-private suspend fun EventsRepository.findCoordinateNSaveEvent(event: Event) =
+private suspend fun EventsRepository.findCoordinateAndSaveEvent(event: Event) =
     try {
         if (event.address?.get(1) != null) {
             val location = searchCoordinate(

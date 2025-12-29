@@ -6,4 +6,5 @@
     <string name="train_string">Schedule</string>
     <string name="event_string">Events</string>
     <string name="events_string">Events</string>
+    <string name="train_nav_string">TrainNavigation</string>
 </resources>

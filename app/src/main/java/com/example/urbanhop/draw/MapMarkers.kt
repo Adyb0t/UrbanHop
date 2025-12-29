@@ -25,18 +25,18 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.urbanhop.R
-import com.example.urbanhop.data.stations.Station
+import com.example.urbanhop.data.event_stations.EventStation
 import com.example.urbanhop.ui.theme.UrbanHopTheme
 
 @Composable
 fun CustomMarker(
     modifier: Modifier,
-    station: Station,
-    openedPin: Station?,
-    onOpened: (Station?) -> Unit,
+    eventStation: EventStation,
+    openedPin: EventStation?,
+    onOpened: (EventStation?) -> Unit,
     onClickStation: () -> Unit
 ) {
-    var isOpened = openedPin == station
+    var isOpened = openedPin == eventStation
     Row(
         modifier = modifier
             .height(48.dp)
@@ -45,7 +45,7 @@ fun CustomMarker(
             modifier = Modifier
                 .size(48.dp),
             onClick = {
-                onOpened(station)
+                onOpened(eventStation)
             },
             shape = RoundedCornerShape(12.dp),
             contentPadding = PaddingValues(0.dp),
@@ -81,7 +81,7 @@ fun CustomMarker(
                     .background(MaterialTheme.colorScheme.secondaryContainer)
             ) {
                 Text(
-                    text = station.name,
+                    text = eventStation.name,
                     modifier = Modifier
                         .height(48.dp)
                         .padding(horizontal = 8.dp, vertical = 4.dp),
@@ -122,7 +122,7 @@ fun CustomMarker(
 @Composable
 fun CustomMarkerStatic(
     modifier: Modifier,
-    station: Station,
+    eventStation: EventStation,
 ) {
     Button(
         modifier = modifier

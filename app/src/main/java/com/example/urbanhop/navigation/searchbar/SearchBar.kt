@@ -1,12 +1,20 @@
 package com.example.urbanhop.navigation.searchbar
 
+import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxScope
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.input.TextFieldState
@@ -22,8 +30,14 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.SoftwareKeyboardController
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
@@ -31,20 +45,37 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.urbanhop.R
-import com.example.urbanhop.onSearch
+import com.example.urbanhop.data.navigation_stations.NavigationStation
+import com.example.urbanhop.utils.filterAndRank
 import com.example.urbanhop.utils.lightBlur
 import com.kyant.backdrop.backdrops.LayerBackdrop
 import com.kyant.backdrop.drawBackdrop
+
+const val CANDIDATE_COUNT = 20
+const val SUGGESTION_COUNT = 5
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)
 fun SearchBarCustom(
     modifier: Modifier,
     textFieldState: TextFieldState,
+    navigationStations: List<NavigationStation>,
     backdrop: LayerBackdrop,
-    keyboardController: SoftwareKeyboardController?
+    keyboardController: SoftwareKeyboardController?,
+    onSearch: (String) -> Unit,
+    onExpandedChange: (Boolean) -> Unit
 ) {
     var expandedSearch by remember { mutableStateOf(false) }
+    val focusRequester = remember { FocusRequester() }
+    val focusManager = LocalFocusManager.current
+    val stationsRef = remember(navigationStations) {
+        mutableListOf<String>().apply {
+            navigationStations.forEach { station ->
+                station.names.forEach { add(it) }
+            }
+        }
+    }
+    val filteredAndRanked = filterAndRank(stationsRef, textFieldState.text.toString())
 
     SearchBar(
         modifier = modifier
@@ -63,6 +94,11 @@ fun SearchBarCustom(
                 modifier = Modifier
                     .padding(horizontal = 16.dp)
                     .fillMaxWidth()
+                    .focusRequester(focusRequester)
+                    .onFocusChanged {
+                        expandedSearch = (it.isFocused && !expandedSearch)
+                        onExpandedChange(expandedSearch)
+                    }
                     .drawBackdrop(
                         backdrop = backdrop,
                         shape = { RoundedCornerShape(32.dp) },
@@ -83,19 +119,33 @@ fun SearchBarCustom(
                     )
                 },
                 trailingIcon = {
-                    Icon(
+                    Box(
                         modifier = Modifier
-                            .size(32.dp)
+                            .size(48.dp)
+                            .clip(CircleShape)
                             .clickable(
                                 onClick = {
-                                    onSearch(textFieldState.text.toString())
-                                    keyboardController?.hide()
-                                    expandedSearch = false
+                                    if (textFieldState.text.toString().length > 2) {
+                                        expandedSearch = onCollapseSearch(
+                                            textFieldState.text.toString(),
+                                            filteredAndRanked,
+                                            onSearch,
+                                            keyboardController,
+                                            true
+                                        )
+                                    }
                                 }
-                            ),
-                        painter = painterResource(id = R.drawable.search_icon),
-                        contentDescription = "Search"
-                    )
+                            )
+                    ) {
+                        Icon(
+                            modifier = Modifier
+                                .size(32.dp)
+                                .align(Alignment.Center),
+                            painter = painterResource(id = R.drawable.search_icon),
+                            contentDescription = "Search",
+                            tint = Color.White
+                        )
+                    }
                 },
                 colors = TextFieldDefaults.colors(
                     focusedContainerColor = Color.Transparent,
@@ -107,28 +157,148 @@ fun SearchBarCustom(
                 ),
                 textStyle = TextStyle(fontSize = 16.sp),
                 keyboardActions = KeyboardActions(
-                    onSearch = {
-                        onSearch(textFieldState.text.toString())
-                        keyboardController?.hide()
-                        expandedSearch = false
+                    onNext = {
+                        expandedSearch = onCollapseSearch(
+                            textFieldState.text.toString(),
+                            filteredAndRanked,
+                            onSearch,
+                            keyboardController,
+                            expandedSearch
+                        )
                     }
                 ),
                 singleLine = true
             )
         },
         expanded = expandedSearch,
-        onExpandedChange = { expandedSearch = it },
+        onExpandedChange = { focusManager.clearFocus() },
     ) {
-        ExpandedSearch()
+        ExpandedSearch(
+            filteredAndRanked,
+            textFieldState.text.toString()
+        ) { selected ->
+            onSearch(selected)
+        }
     }
 }
 
 @Composable
-private fun ExpandedSearch() {
-    Box(
+private fun ExpandedSearch(
+    filteredAndRanked: List<String>,
+    query: String,
+    onSearch: (String) -> Unit
+) {
+    Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(horizontal = 16.dp)
-            .background(Color.White)
-    )
+            .padding(horizontal = 16.dp, vertical = 16.dp)
+    ) {
+        SearchRow(
+            text = query,
+            icon = {
+                Icon(
+                    modifier = Modifier
+                        .size(20.dp)
+                        .align(Alignment.Center),
+                    painter = painterResource(id = R.drawable.search_icon),
+                    contentDescription = "Your Query",
+                    tint = Color.Black
+                )
+            },
+            onClickRow = { _ ->
+                onCollapseSearch(
+                    query = query,
+                    filteredAndRanked = filteredAndRanked,
+                    onSearch = onSearch
+                )
+            }
+        )
+        filteredAndRanked.forEach { name ->
+            SearchRow(
+                text = name,
+                icon = {
+                    Icon(
+                        modifier = Modifier
+                            .size(20.dp)
+                            .align(Alignment.Center),
+                        painter = painterResource(id = R.drawable.outline_train),
+                        contentDescription = "Station",
+                        tint = Color.Black
+                    )
+                },
+                onClickRow = { selected ->
+                    onSearch(selected)
+                }
+            )
+        }
+    }
+}
+
+private fun onCollapseSearch(
+    query: String,
+    filteredAndRanked: List<String>,
+    onSearch: (String) -> Unit,
+    keyboardController: SoftwareKeyboardController? = null,
+    expandedSearch: Boolean = false
+): Boolean {
+    if (query.length > 2 && filteredAndRanked.isNotEmpty()) {
+        onSearch(filteredAndRanked.first())
+    } else {
+        Log.d("SearchBarCustom", "No search results")
+    }
+    keyboardController?.hide()
+    return !expandedSearch
+}
+
+@Composable
+private fun SearchRow(
+    text: String,
+    icon: @Composable BoxScope.() -> Unit,
+    onClickRow: (String) -> Unit
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth(),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable(
+                    onClick = { onClickRow(text) }
+                )
+        ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Box(
+                    modifier = Modifier
+                        .size(28.dp)
+                        .clip(CircleShape)
+                        .background(Color.White)
+                ) {
+                    icon()
+                }
+                Spacer(modifier = Modifier.width(16.dp))
+                Text(
+                    text = text,
+                    color = Color.White,
+                    fontSize = 20.sp
+                )
+            }
+            Row {
+                Spacer(modifier = Modifier.width(44.dp))
+                Spacer(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 7.dp)
+                        .height(1.dp)
+                        .background(Color.White)
+                )
+            }
+        }
+    }
+    Spacer(modifier = Modifier.height(8.dp))
 }

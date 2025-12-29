@@ -1,7 +1,6 @@
-package com.example.urbanhop.data.stations
+package com.example.urbanhop.data.event_stations
 
 import android.content.Context
-import android.util.Log
 import com.example.urbanhop.R
 import com.google.android.gms.maps.model.LatLng
 import com.google.gson.GsonBuilder
@@ -15,15 +14,15 @@ import java.io.InputStream
 
 class StationsRepository(val context: Context) {
     private val gson = GsonBuilder().create()
-    private val _stations = MutableStateFlow(emptyList<Station>())
-    val stations: StateFlow<List<Station>> = _stations.asStateFlow()
+    private val _stations = MutableStateFlow(emptyList<EventStation>())
+    val stations: StateFlow<List<EventStation>> = _stations.asStateFlow()
     private var loaded = false
 
-    suspend fun loadStations(): StateFlow<List<Station>> {
+    suspend fun loadStations(): StateFlow<List<EventStation>> {
         if (!loaded) {
             loaded = true
             _stations.value = withContext(Dispatchers.IO) {
-                context.resources.openRawResource(R.raw.stations).use { inputStream ->
+                context.resources.openRawResource(R.raw.event_stations).use { inputStream ->
                     readLocations(inputStream)
                 }
             }
@@ -31,10 +30,10 @@ class StationsRepository(val context: Context) {
         return stations
     }
 
-    private fun readLocations(inputStream: InputStream): List<Station> {
+    private fun readLocations(inputStream: InputStream): List<EventStation> {
         val locationArray = gson.fromJson(inputStream.reader(), Array<Location>::class.java)
         return locationArray.map { location ->
-            Station(
+            EventStation(
                 name = location.name,
                 queryName = location.queryName,
                 address = location.address,

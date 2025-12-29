@@ -3,8 +3,8 @@ package com.example.urbanhop.state
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.urbanhop.data.events.EventsRepository
-import com.example.urbanhop.data.stations.StationsRepository
-import com.example.urbanhop.data.stations.getStationCodesAndQueries
+import com.example.urbanhop.data.event_stations.StationsRepository
+import com.example.urbanhop.data.event_stations.getStationCodesAndQueries
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch

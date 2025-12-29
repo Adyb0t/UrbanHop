@@ -1,8 +1,8 @@
-package com.example.urbanhop.data.stations
+package com.example.urbanhop.data.event_stations
 
 import com.google.android.gms.maps.model.LatLng
 
-data class Station(
+data class EventStation(
     val name: String,
     val queryName: String,
     val address: String,
