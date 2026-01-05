@@ -1,29 +1,52 @@
 package com.example.urbanhop.screens
 
+import android.content.Intent
+import android.location.Location
 import android.util.Log
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.animateColorAsState
+import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.StartOffset
+import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeOut
+import androidx.compose.animation.shrinkHorizontally
+import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutHorizontally
 import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.input.rememberTextFieldState
 import androidx.compose.material3.Button
@@ -34,7 +57,7 @@ import androidx.compose.material3.ContainedLoadingIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.material3.Icon
-import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.MaterialTheme.colorScheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
@@ -47,25 +70,32 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.painter.Painter
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.core.net.toUri
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation3.runtime.NavBackStack
 import androidx.navigation3.runtime.NavKey
 import com.example.urbanhop.R
-import com.example.urbanhop.data.events.Event
 import com.example.urbanhop.data.event_stations.EventStation
+import com.example.urbanhop.data.events.Coordinate
+import com.example.urbanhop.data.events.Event
 import com.example.urbanhop.data.navigation_stations.NavigationStation
 import com.example.urbanhop.draw.CustomMarker
 import com.example.urbanhop.navigation.searchbar.SearchBarCustom
 import com.example.urbanhop.state.MapScreenViewState
 import com.example.urbanhop.state.MapViewModel
+import com.example.urbanhop.utils.mapToMap
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMapOptions
 import com.google.android.gms.maps.model.CameraPosition
@@ -89,40 +119,44 @@ private const val PIN_OFFSET = -80
 @OptIn(ExperimentalMaterial3ExpressiveApi::class, ExperimentalMaterial3Api::class)
 @Composable
 fun Map(
+    resetPage: Boolean,
     backdrop: LayerBackdrop,
     backStack: NavBackStack<NavKey>,
     uiSize: IntSize = IntSize.Zero,
+    onHomeSelectedCallback: () -> Unit,
     viewModel: MapViewModel = koinViewModel()
 ) {
     val mapViewState by viewModel.mapScreenViewState.collectAsStateWithLifecycle()
-
+    var navStations: List<NavigationStation> by remember { mutableStateOf(emptyList()) }
     var isZoomedToBound by remember { mutableStateOf(false) }
     var isMapLoaded by remember { mutableStateOf(false) }
     var openedMarker: EventStation? by remember { mutableStateOf(null) }
     val cameraPositionState = rememberCameraPositionState {
         position =
-            CameraPosition.fromLatLngZoom(LatLng(3.2510878785510826, 101.73429681730538), 15f)
+            CameraPosition.fromLatLngZoom(
+                LatLng(3.2510878785510826, 101.73429681730538),
+                15f
+            )
     }
-    val sheetState = rememberModalBottomSheetState()
+    val sheetState = rememberModalBottomSheetState(
+        skipPartiallyExpanded = true
+    )
     val textFieldState = rememberTextFieldState()
     val keyboardController = LocalSoftwareKeyboardController.current
-
     val uiHeight = with(LocalDensity.current) { uiSize.height.toDp() }
 
-    fun LatLng.mapToMap(): IntOffset {
-        cameraPositionState.position
-        return cameraPositionState.projection
-            ?.toScreenLocation(this)
-            ?.let { point ->
-                IntOffset(point.x + PIN_OFFSET, point.y)
-            } ?: IntOffset.Zero
+    LaunchedEffect(resetPage) {
+        if (resetPage) {
+            openedMarker = null
+            viewModel.displayAllStation()
+            onHomeSelectedCallback()
+        }
     }
 
     Box(
         modifier = Modifier
             .fillMaxSize()
     ) {
-        var navStations: List<NavigationStation> by remember { mutableStateOf(emptyList()) }
 
         GoogleMap(
             modifier = Modifier
@@ -147,7 +181,64 @@ fun Map(
             is MapScreenViewState.LoadingPage -> {}
 
             is MapScreenViewState.LoadingEvents -> {
-
+                openedMarker?.let { marker ->
+                    val transition = rememberInfiniteTransition()
+                    val radius by transition.animateFloat(
+                        initialValue = 0f,
+                        targetValue = 2000f,
+                        animationSpec = infiniteRepeatable(
+                            animation = tween(750),
+                            repeatMode = RepeatMode.Reverse
+                        )
+                    )
+                    val radiusSecond by transition.animateFloat(
+                        initialValue = 0f,
+                        targetValue = 2000f,
+                        animationSpec = infiniteRepeatable(
+                            animation = tween(750),
+                            repeatMode = RepeatMode.Reverse,
+                            initialStartOffset = StartOffset(150)
+                        )
+                    )
+                    Canvas(modifier = Modifier.fillMaxSize()) {
+                        val center =
+                            marker.coordinates.mapToMap(cameraPositionState = cameraPositionState)
+                        drawCircle(
+                            color = Color.White.copy(alpha = 0.3f),
+                            radius = radius,
+                            center = Offset(
+                                center.x.toFloat(),
+                                center.y.toFloat()
+                            ),
+                            style = Stroke(width = 4.dp.toPx())
+                        )
+                        drawCircle(
+                            color = Color.White.copy(alpha = 0.1f),
+                            radius = radius,
+                            center = Offset(
+                                center.x.toFloat(),
+                                center.y.toFloat()
+                            )
+                        )
+                        drawCircle(
+                            color = Color.White.copy(alpha = 0.3f),
+                            radius = radiusSecond,
+                            center = Offset(
+                                center.x.toFloat(),
+                                center.y.toFloat()
+                            ),
+                            style = Stroke(width = 4.dp.toPx())
+                        )
+                        drawCircle(
+                            color = Color.White.copy(alpha = 0.1f),
+                            radius = radiusSecond,
+                            center = Offset(
+                                center.x.toFloat(),
+                                center.y.toFloat()
+                            )
+                        )
+                    }
+                }
             }
 
             is MapScreenViewState.StationList -> {
@@ -155,7 +246,12 @@ fun Map(
                 stations.forEach { station ->
                     CustomMarker(
                         modifier = Modifier
-                            .offset { station.coordinates.mapToMap() },
+                            .offset {
+                                station.coordinates.mapToMap(
+                                    PIN_OFFSET,
+                                    cameraPositionState
+                                )
+                            },
                         station,
                         openedMarker,
                         onOpened = { station ->
@@ -167,32 +263,60 @@ fun Map(
                     )
                 }
                 isZoomedToBound =
-                    zoomToBound(stations, isMapLoaded, isZoomedToBound, cameraPositionState)
+                    zoomToStationBound(stations, isMapLoaded, isZoomedToBound, cameraPositionState)
             }
 
             is MapScreenViewState.EventList -> {
-                var isBottomSheetVisible by remember { mutableStateOf(false) }
                 val events = (mapViewState as MapScreenViewState.EventList).events
-
-                events.forEach { event ->
-                    Card(
-                        modifier = Modifier
-                            .offset {
-                                event.location?.let {
-                                    LatLng(
-                                        event.location!!.lat!!,
-                                        event.location!!.lng!!
-                                    ).mapToMap()
-                                }!!
+                val eventsFiltered = remember(events, openedMarker) {
+                    if (openedMarker != null) {
+                        events.filter { event ->
+                            val results = FloatArray(1)
+                            if (event.location?.lat != null && event.location?.lng != null) {
+                                Location.distanceBetween(
+                                    openedMarker!!.coordinates.latitude,
+                                    openedMarker!!.coordinates.longitude,
+                                    event.location!!.lat!!,
+                                    event.location!!.lng!!,
+                                    results
+                                )
+                                results[0] <= 2000f
+                            } else {
+                                false
                             }
-                            .height(24.dp),
-                        shape = RoundedCornerShape(6.dp),
-                        colors = CardDefaults.cardColors(
-                            containerColor = Color.White
-                        )
-                    ) {
-                        Text(text = event.title!!)
+                        }
+                    } else {
+                        viewModel.displayAllStation()
+                        emptyList()
                     }
+                }
+                val eventsGrouped =
+                    remember(eventsFiltered) { eventsFiltered.groupBy { it.location } }
+                var openedEvents: Coordinate? by remember { mutableStateOf(null) }
+                var openedEventList: Event? by remember { mutableStateOf(null) }
+                var isBottomSheetVisible by remember { mutableStateOf(false) }
+                var fromEventPin by remember { mutableStateOf(false) }
+                val listState = rememberLazyListState()
+
+                ZoomToEventBound(
+                    eventsFiltered,
+                    cameraPositionState
+                )
+
+                eventsGrouped.forEach { eventGroup ->
+                    EventPin(
+                        openedEvents,
+                        eventGroup,
+                        cameraPositionState,
+                        onClickPin = { event ->
+                            openedEvents = event
+                        },
+                        onClickEvent = { bottomSheetVisible, event, fromPin ->
+                            isBottomSheetVisible = bottomSheetVisible
+                            openedEventList = event
+                            fromEventPin = fromPin
+                        }
+                    )
                 }
 
                 Box(
@@ -214,8 +338,8 @@ fun Map(
                             shape = RoundedCornerShape(12.dp),
                             contentPadding = PaddingValues(0.dp),
                             colors = ButtonColors(
-                                containerColor = Color.White,
-                                contentColor = Color.Black,
+                                containerColor = colorScheme.secondary,
+                                contentColor = colorScheme.onSecondary,
                                 disabledContainerColor = Color.Gray,
                                 disabledContentColor = Color.DarkGray
                             )
@@ -223,7 +347,7 @@ fun Map(
                             Icon(
                                 painter = painterResource(id = R.drawable.rounded_close_24),
                                 contentDescription = null,
-                                tint = Color.Black
+                                tint = colorScheme.onSecondary
                             )
                         }
                         Spacer(modifier = Modifier.height(8.dp))
@@ -236,8 +360,8 @@ fun Map(
                             shape = RoundedCornerShape(12.dp),
                             contentPadding = PaddingValues(0.dp),
                             colors = ButtonColors(
-                                containerColor = Color.White,
-                                contentColor = Color.Black,
+                                containerColor = colorScheme.secondary,
+                                contentColor = colorScheme.onSecondary,
                                 disabledContainerColor = Color.Gray,
                                 disabledContentColor = Color.DarkGray
                             )
@@ -245,10 +369,29 @@ fun Map(
                             Icon(
                                 painter = painterResource(id = R.drawable.event_icon),
                                 contentDescription = null,
-                                tint = Color.Black
+                                tint = colorScheme.onSecondary
                             )
                         }
                     }
+                }
+
+                LaunchedEffect(
+                    isBottomSheetVisible,
+                    openedEventList,
+                    eventsFiltered,
+                    fromEventPin
+                ) {
+                    if (fromEventPin && isBottomSheetVisible && openedEventList != null) {
+                        val index = eventsFiltered.indexOf(openedEventList)
+                        if (index != -1) {
+                            listState.animateScrollToItem(index)
+                        }
+                        fromEventPin = false
+                    }
+                }
+
+                LaunchedEffect(eventsFiltered) {
+                    if (eventsFiltered.isEmpty()) isBottomSheetVisible = true
                 }
 
                 if (isBottomSheetVisible) {
@@ -257,9 +400,30 @@ fun Map(
                         onDismissRequest = {
                             isBottomSheetVisible = false
                         },
-                        sheetGesturesEnabled = false,
+                        containerColor = colorScheme.surface
                     ) {
-                        ListEvent(events)
+                        if (eventsFiltered.isEmpty()) {
+                            Box(
+                                modifier = Modifier
+                                    .fillMaxSize()
+                                    .padding(16.dp),
+                                contentAlignment = Alignment.Center
+                            ){
+                                Text(
+                                    text = "Uh oh! seems like there is no events",
+                                    fontSize = 32.sp,
+                                    color = colorScheme.onSurface.copy(0.5f),
+                                    textAlign = TextAlign.Center
+                                )
+                            }
+                        }
+                        ListEvent(
+                            eventsFiltered,
+                            openedEventList,
+                            listState
+                        ) {
+                            openedEventList = it
+                        }
                     }
                 }
             }
@@ -301,7 +465,7 @@ fun Map(
             ) {
                 ContainedLoadingIndicator(
                     modifier = Modifier
-                        .background(MaterialTheme.colorScheme.background)
+                        .background(colorScheme.background)
                         .wrapContentSize()
                 )
             }
@@ -310,59 +474,464 @@ fun Map(
 }
 
 @Composable
-private fun ListEvent(events: List<Event>) {
-    LazyColumn(
+private fun EventPin(
+    openedEvents: Coordinate?,
+    eventGroup: Map.Entry<Coordinate?, List<Event>>,
+    cameraPositionState: CameraPositionState,
+    onClickPin: (Coordinate?) -> Unit,
+    onClickEvent: (Boolean, Event, Boolean) -> Unit
+) {
+    val isOpened = openedEvents == eventGroup.key
+    val changeSize by animateDpAsState(
+        targetValue = if (isOpened) 40.dp else 48.dp
+    )
+    val pointToCurve by animateDpAsState(
+        targetValue = if (isOpened) 6.dp else 0.dp,
+    )
+    val roundToCurve by animateDpAsState(
+        targetValue = if (isOpened) 6.dp else 24.dp,
+    )
+    val roundToCurveInner by animateDpAsState(
+        targetValue = if (isOpened) 4.dp else 22.dp,
+    )
+    val innerPaddingChange by animateDpAsState(
+        targetValue = if (isOpened) 2.dp else 4.dp,
+    )
+    val iconPaddingChange by animateDpAsState(
+        targetValue = if (isOpened) 2.dp else 6.dp
+    )
+
+    Column(
         modifier = Modifier
-            .fillMaxSize()
-            .padding(horizontal = 16.dp)
-            .border(
-                BorderStroke(2.dp, Color.White),
-                RoundedCornerShape(20.dp)
-            )
-            .padding(8.dp)
-            .clip(RoundedCornerShape(12.dp))
+            .offset {
+                eventGroup.key?.let {
+                    LatLng(
+                        it.lat!!,
+                        it.lng!!
+                    ).mapToMap(cameraPositionState = cameraPositionState)
+                }!!
+            }
     ) {
-        items(events) {
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clip(
-                        RoundedCornerShape(12.dp)
+        AnimatedVisibility(
+            visible = isOpened || openedEvents == null,
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            ){
+                Card(
+                    modifier = Modifier
+                        .size(changeSize)
+                        .clickable(
+                            onClick = {
+                                onClickPin(
+                                    if (isOpened) null
+                                    else eventGroup.key
+                                )
+                            }
+                        ),
+                    shape = RoundedCornerShape(
+                        topStart = pointToCurve,
+                        topEnd = roundToCurve,
+                        bottomEnd = roundToCurve,
+                        bottomStart = roundToCurve
+                    ),
+                    colors = CardDefaults.cardColors(
+                        containerColor = colorScheme.secondary
                     )
-                    .background(Color.White)
-                    .padding(horizontal = 8.dp, vertical = 4.dp)
-            ) {
-                Row(
-                    modifier = Modifier,
-                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Text(
-                        text = it.title ?: "No title"
-                    )
+                    Box(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(innerPaddingChange)
+                            .clip(
+                                RoundedCornerShape(roundToCurveInner)
+                            )
+                            .background(colorScheme.onSecondary)
+                            .padding(iconPaddingChange),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Icon(
+                            modifier = Modifier
+                                .fillMaxSize(),
+                            painter = painterResource(
+                                id =
+                                    if (!isOpened) R.drawable.event_icon_2
+                                    else R.drawable.rounded_close_24
+                            ),
+                            contentDescription = null,
+                            tint = colorScheme.secondary
+                        )
+                    }
                 }
-                Row(
-                    modifier = Modifier,
-                    verticalAlignment = Alignment.CenterVertically
+                Spacer(Modifier.width(4.dp))
+                AnimatedVisibility(
+                    visible = isOpened
                 ) {
                     Text(
-                        text = it.date ?: "Unspecified date",
-                        modifier = Modifier.weight(1.0F)
-                    )
-                    Spacer(Modifier.width(4.dp))
-                    Text(
-                        text = it.venue?.name ?: "No specified venue",
-                        modifier = Modifier.weight(1.0F),
-                        textAlign = TextAlign.End
+                        modifier = Modifier
+                            .fillMaxWidth(0.33f),
+                        text = "Interested? Click the events to know more",
+                        fontSize = 12.sp,
+                        color = colorScheme.onBackground,
+                        lineHeight = 12.sp
                     )
                 }
             }
-            Spacer(modifier = Modifier.height(8.dp))
+        }
+        AnimatedVisibility(
+            visible = isOpened,
+            enter = slideInHorizontally { -it }
+        ) {
+            Column {
+                eventGroup.value.forEach { event ->
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(6.dp))
+                            .widthIn(max = 300.dp)
+                            .background(colorScheme.secondary)
+                            .clickable(
+                                onClick = {
+                                    onClickEvent(true, event, true)
+                                }
+                            )
+                            .padding(vertical = 4.dp, horizontal = 8.dp),
+                        text = event.title!!,
+                        color = colorScheme.onSecondary,
+                    )
+                }
+            }
         }
     }
 }
 
 @Composable
-private fun zoomToBound(
+private fun ListEvent(
+    events: List<Event>,
+    openedEventList: Event?,
+    listState: LazyListState,
+    onClick: (Event?) -> Unit
+) {
+    LazyColumn(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(horizontal = 16.dp)
+            .border(
+                BorderStroke(2.dp, colorScheme.onSurface),
+                RoundedCornerShape(24.dp)
+            )
+            .padding(8.dp)
+            .clip(RoundedCornerShape(16.dp)),
+        state = listState
+    ) {
+        items(events) { event ->
+            val isOpened = event == openedEventList
+            if (event == events.first()) {
+                Text(
+                    modifier = Modifier
+                        .fillMaxWidth(),
+                    text = "Click on the event to see details",
+                    textAlign = TextAlign.Center,
+                    fontSize = 20.sp,
+                    color = colorScheme.onSurface.copy(0.5f)
+                )
+                Spacer(modifier = Modifier.height(4.dp))
+            }
+            EventDetail(
+                event,
+                isOpened
+            ) {
+                onClick(it)
+            }
+            Spacer(modifier = Modifier.height(8.dp))
+            if (event == events.last()) {
+                Text(
+                    modifier = Modifier
+                        .fillMaxWidth(),
+                    text = "More Events Coming Soon...",
+                    textAlign = TextAlign.Center,
+                    fontSize = 20.sp,
+                    color = colorScheme.onSurface.copy(0.75f)
+                )
+                Spacer(modifier = Modifier.height(4.dp))
+            }
+        }
+    }
+}
+
+@Composable
+private fun EventDetail(
+    event: Event,
+    isOpened: Boolean,
+    onClick: (Event?) -> Unit
+) {
+    val context = LocalContext.current
+    val backgroundColorChange by animateColorAsState(
+        targetValue = if (isOpened) colorScheme.primary else colorScheme.secondary
+    )
+    val spacerChange by animateDpAsState(
+        targetValue = if (isOpened) 4.dp else 0.dp
+    )
+
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(
+                RoundedCornerShape(14.dp)
+            )
+            .background(backgroundColorChange)
+            .padding(8.dp)
+            .clickable(
+                enabled = !isOpened,
+                onClick = {
+                    onClick(event)
+                }
+            )
+            .animateContentSize()
+    ) {
+        Box(
+            modifier = Modifier
+                .animateContentSize()
+        ) {
+            Row {
+                AnimatedVisibility(
+                    visible = isOpened,
+                    enter = slideInHorizontally { -it },
+                ) {
+                    Text(
+                        text = event.title ?: "No title",
+                        color = colorScheme.onSecondary,
+                        fontSize = 28.sp,
+                        lineHeight = 22.sp
+                    )
+                }
+            }
+            Row(
+                modifier = Modifier
+                    .height(IntrinsicSize.Min),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                AnimatedVisibility(
+                    visible = !isOpened,
+                    exit = shrinkHorizontally { -it }
+                ) {
+                    VerticalIconBox(painterResource(id = R.drawable.event_icon_2))
+                }
+                Spacer(modifier = Modifier.width(8.dp))
+                AnimatedVisibility(
+                    visible = !isOpened,
+                    exit = fadeOut() + slideOutHorizontally { it }
+                ) {
+                    Text(
+                        text = event.title ?: "No title",
+                        color = colorScheme.onSecondary,
+                        fontSize = 24.sp,
+                        lineHeight = 18.sp
+                    )
+                }
+            }
+        }
+        Spacer(modifier = Modifier.height(4.dp))
+
+        AnimatedVisibility(
+            visible = isOpened,
+        ) {
+            Text(
+                text = "DATE",
+                color = colorScheme.onPrimary.copy(alpha = 0.5f),
+                fontSize = 16.sp
+            )
+        }
+        Box(
+            modifier = Modifier
+                .animateContentSize()
+        ) {
+            Row {
+                AnimatedVisibility(
+                    visible = isOpened,
+                    enter = slideInHorizontally { -it },
+                ) {
+                    Text(
+                        text = event.date ?: "Unspecified date",
+                        color = colorScheme.onSecondary,
+                        fontSize = 24.sp
+                    )
+                }
+            }
+            Row(
+                modifier = Modifier
+                    .height(IntrinsicSize.Min),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                AnimatedVisibility(
+                    visible = !isOpened,
+                    exit = shrinkHorizontally { -it }
+                ) {
+                    VerticalIconBox(painterResource(id = R.drawable.event_icon))
+                }
+                Spacer(Modifier.width(8.dp))
+                AnimatedVisibility(
+                    visible = !isOpened,
+                    exit = fadeOut() + slideOutHorizontally { it }
+                ) {
+                    Text(
+                        text = event.date ?: "Unspecified date",
+                        color = colorScheme.onSecondary,
+                        fontSize = 20.sp
+                    )
+                }
+            }
+        }
+        Spacer(modifier = Modifier.height(4.dp))
+
+        AnimatedVisibility(
+            visible = isOpened,
+        ) {
+            Text(
+                text = "VENUE",
+                color = colorScheme.onPrimary.copy(alpha = 0.5f),
+                fontSize = 16.sp
+            )
+        }
+        Box(
+            modifier = Modifier
+                .animateContentSize()
+        ) {
+            Row {
+                AnimatedVisibility(
+                    visible = isOpened,
+                    enter = slideInHorizontally { -it },
+                ) {
+                    Text(
+                        text = event.venue?.name ?: "No specified venue",
+                        color = colorScheme.onSecondary,
+                        fontSize = 24.sp
+                    )
+                }
+            }
+            Row(
+                modifier = Modifier
+                    .height(IntrinsicSize.Min),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                AnimatedVisibility(
+                    visible = !isOpened,
+                    exit = shrinkHorizontally { -it }
+                ) {
+                    VerticalIconBox(painterResource(id = R.drawable.location_icon))
+                }
+                Spacer(Modifier.width(8.dp))
+                AnimatedVisibility(
+                    visible = !isOpened,
+                    exit = fadeOut() + slideOutHorizontally { it }
+                ) {
+                    Text(
+                        text = event.venue?.name ?: "No specified venue",
+                        color = colorScheme.onSecondary,
+                        fontSize = 20.sp
+                    )
+                }
+            }
+        }
+        Spacer(modifier = Modifier.height(spacerChange))
+
+        AnimatedVisibility(
+            visible = isOpened,
+        ) {
+            Text(
+                text = "DETAILS",
+                color = colorScheme.onPrimary.copy(alpha = 0.5f),
+                fontSize = 16.sp
+            )
+        }
+        AnimatedVisibility(
+            visible = isOpened,
+        ) {
+            Text(
+                text = event.description ?: "No description",
+                color = colorScheme.onSecondary,
+                fontSize = 18.sp
+            )
+        }
+        AnimatedVisibility(
+            visible = isOpened,
+        ) {
+            Text(
+                text = "AVAILABLE TICKETS",
+                color = colorScheme.onPrimary.copy(alpha = 0.5f),
+                fontSize = 16.sp
+            )
+        }
+        AnimatedVisibility(
+            visible = isOpened
+        ) {
+            Column {
+                event.ticketInfo?.forEach { ticketInfo ->
+                    Spacer(Modifier.height(4.dp))
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clip(RoundedCornerShape(8.dp))
+                            .background(Color.White)
+                            .padding(vertical = 4.dp, horizontal = 8.dp)
+                            .clickable(
+                                enabled = isOpened,
+                                onClick = {
+                                    val intent = Intent(
+                                        Intent.ACTION_VIEW,
+                                        ticketInfo?.link?.toUri()
+                                    )
+                                    context.startActivity(intent)
+                                }
+                            ),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Text(
+                            text = ticketInfo?.source!!,
+                            fontSize = 24.sp,
+                            color = colorScheme.onSecondary
+                        )
+                        Icon(
+                            modifier = Modifier
+                                .size(24.dp),
+                            painter = painterResource(R.drawable.arrow_right_icon),
+                            tint = colorScheme.onSecondary,
+                            contentDescription = null,
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun VerticalIconBox(
+    icon: Painter
+) {
+    Box(
+        modifier = Modifier
+            .heightIn(min = 40.dp)
+            .fillMaxHeight()
+            .width(40.dp)
+            .clip(RoundedCornerShape(8.dp))
+            .background(colorScheme.tertiary)
+            .padding(4.dp),
+        contentAlignment = Alignment.Center
+    ) {
+        Icon(
+            modifier = Modifier
+                .size(28.dp),
+            painter = icon,
+            contentDescription = null,
+            tint = colorScheme.onTertiary
+        )
+    }
+}
+
+@Composable
+private fun zoomToStationBound(
     eventStations: List<EventStation>,
     isMapLoaded: Boolean,
     zoomToBound: Boolean,
@@ -386,4 +955,31 @@ private fun zoomToBound(
         }
     }
     return isZoomedToBound
+}
+
+@Composable
+private fun ZoomToEventBound(
+    events: List<Event>,
+    cameraPositionState: CameraPositionState
+) {
+    LaunchedEffect(events) {
+        if (events.isNotEmpty()) {
+            val boundsBuilder = LatLngBounds.builder()
+            events.forEach { event ->
+                boundsBuilder.include(
+                    LatLng(
+                        event.location?.lat!!,
+                        event.location?.lng!!
+                    )
+                )
+            }
+            cameraPositionState.animate(
+                update = CameraUpdateFactory.newLatLngBounds(
+                    boundsBuilder.build(),
+                    160
+                ),
+                durationMs = 1500
+            )
+        }
+    }
 }

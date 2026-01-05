@@ -43,6 +43,7 @@ class MainActivity : ComponentActivity() {
                 val backStack = rememberNavBackStack(MapScreen)
                 var uiSize by remember { mutableStateOf(IntSize.Zero) }
                 val backdrop = rememberLayerBackdrop()
+                var resetPage by remember { mutableStateOf(false) }
 
                 Box(
                     modifier = Modifier
@@ -61,9 +62,14 @@ class MainActivity : ComponentActivity() {
                                 is MapScreen -> {
                                     NavEntry(key) {
                                         Map(
+                                            resetPage,
                                             backdrop,
                                             backStack,
-                                            uiSize
+                                            uiSize,
+                                            onHomeSelectedCallback =
+                                                {
+                                                    resetPage = false
+                                                }
                                         )
                                     }
                                 }
@@ -92,9 +98,15 @@ class MainActivity : ComponentActivity() {
                     NavigationUI(
                         backdrop,
                         backStack,
-                    ) { size ->
-                        uiSize = size
-                    }
+                        getComponentSize = { size ->
+                            uiSize = size
+                        },
+                        onHomeSelected = {
+                            backStack.clear()
+                            backStack.add(MapScreen)
+                            resetPage = true
+                        }
+                    )
                 }
             }
         }

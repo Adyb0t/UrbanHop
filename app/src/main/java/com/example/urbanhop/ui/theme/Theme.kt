@@ -1,6 +1,5 @@
 package com.example.urbanhop.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
@@ -11,14 +10,83 @@ import androidx.compose.material3.dynamicDarkColorScheme
 import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.staticCompositionLocalOf
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import com.example.urbanhop.utils.AppGradients
 
+private val gradients = AppGradients(
+    background = Brush.radialGradient(
+        colors = listOf(
+            Color(0xFF0B1018),
+            Color(0xFF0B1018),
+            Color(0xFF0B1018),
+            Color(0xFF0B1018),
+            Color(0xFF0B1018),
+            Color(0xFF0B1018),
+            TransitBlue.copy(0.25f)
+        ),
+        radius = 900f
+    )
+)
+
+enum class LineColor(
+    val code: String,
+    val color: Color
+) {
+    KJ(
+        code = "KJ",
+        color = KJRed
+    ),
+    AG(
+        code = "AG",
+        color = AGOrange
+    ),
+    SP(
+        code = "SP",
+        color = SPMaroon
+    ),
+    KG(
+        code = "KG",
+        color = KGGreen
+    ),
+    PY(
+        code = "PY",
+        color = PYYellow
+    ),
+    MR(
+        code = "MR",
+        color = MRLime
+    )
+}
+
+val LocalAppGradients = staticCompositionLocalOf<AppGradients> {
+    error("No gradients provided")
+}
+val LocalLineColors = staticCompositionLocalOf<Array<LineColor>> {
+    error("No line colors provided")
+}
 private val DarkColorScheme = darkColorScheme(
-//    primary = Purple80,
-    primary = AltBlack,
-    primaryContainer = AltWhite,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+
+    primary = TransitBlue,
+    onPrimary = onTransitBlue,
+
+    primaryContainer = DarkBlue,
+    onPrimaryContainer = BluishWhite,
+
+    secondary = Secondary,
+    onSecondary = onTransitBlue,
+
+    tertiary = AltWhite,
+    onTertiary = onTransitBlue,
+
+    surface = DarKSchemeSurface,
+    onSurface = BluishWhite,
+
+    background = DarkerSurface,
+    onBackground = AltWhite,
 )
 
 private val LightColorScheme = lightColorScheme(
@@ -26,15 +94,7 @@ private val LightColorScheme = lightColorScheme(
     secondary = PurpleGrey40,
     tertiary = Pink40
 
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+    //focus on dark theme only
 )
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
@@ -42,7 +102,7 @@ private val LightColorScheme = lightColorScheme(
 fun UrbanHopTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
@@ -54,11 +114,19 @@ fun UrbanHopTheme(
         darkTheme -> DarkColorScheme
         else -> LightColorScheme
     }
+    val appGradients = gradients
+    val lineColorSet = LineColor.entries.toTypedArray()
 
-    MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
-        content = content,
-        motionScheme = MotionScheme.expressive()
-    )
+
+    CompositionLocalProvider(
+        LocalAppGradients provides appGradients,
+        LocalLineColors provides lineColorSet
+    ) {
+        MaterialTheme(
+            colorScheme = colorScheme,
+            typography = Typography,
+            content = content,
+            motionScheme = MotionScheme.expressive()
+        )
+    }
 }

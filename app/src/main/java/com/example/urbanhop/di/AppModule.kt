@@ -5,7 +5,6 @@ import com.example.urbanhop.data.events.EventsRepository
 import com.example.urbanhop.data.location.GeocodeApi
 import com.example.urbanhop.data.event_stations.StationsRepository
 import com.example.urbanhop.data.navigation_stations.TrainNavigationDataSource
-import com.example.urbanhop.state.EventsViewModel
 import com.example.urbanhop.state.MapViewModel
 import com.example.urbanhop.state.TrainNavViewModel
 import okhttp3.OkHttpClient
@@ -44,7 +43,4 @@ val appModule = module {
     }
     viewModelOf(::MapViewModel)
     viewModelOf(::TrainNavViewModel)
-
-    //unused
-    viewModelOf(::EventsViewModel)
 }

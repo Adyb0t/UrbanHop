@@ -44,7 +44,8 @@ enum class PageMarker(
 fun NavigationUI(
     backdrop: LayerBackdrop,
     backstack: NavBackStack<NavKey>,
-    getComponentSize: (IntSize) -> Unit
+    getComponentSize: (IntSize) -> Unit,
+    onHomeSelected: () -> Unit
 ) {
     Box(
         modifier = Modifier
@@ -70,8 +71,7 @@ fun NavigationUI(
             ) {
                 if (backstack.last() != it.navKey) backstack.add(it.navKey)
                 if (it.navKey == MapScreen) {
-                    backstack.clear()
-                    backstack.add(MapScreen)
+                    onHomeSelected()
                 }
             }
         }

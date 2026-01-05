@@ -1,6 +1,7 @@
 package com.example.urbanhop.navigation.searchbar
 
 import android.util.Log
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -17,9 +18,11 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.text.input.TextFieldState
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme.colorScheme
 import androidx.compose.material3.SearchBar
 import androidx.compose.material3.SearchBarDefaults
 import androidx.compose.material3.Text
@@ -42,6 +45,7 @@ import androidx.compose.ui.platform.SoftwareKeyboardController
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.urbanhop.R
@@ -76,108 +80,122 @@ fun SearchBarCustom(
         }
     }
     val filteredAndRanked = filterAndRank(stationsRef, textFieldState.text.toString())
+    val searchBackground by animateFloatAsState(
+        targetValue = if (expandedSearch) 1f else 0.0f
+    )
 
-    SearchBar(
-        modifier = modifier
-            .fillMaxWidth(),
-        colors = SearchBarDefaults.colors(
-            containerColor = if (expandedSearch) Color.Black else Color.Transparent,
-            dividerColor = Color.Transparent
-        ),
-        inputField = {
-            TextField(
-                value = textFieldState.text.toString(),
-                onValueChange = {
-                    textFieldState.edit { replace(0, length, it) }
-                    expandedSearch = it.isNotEmpty()
-                },
-                modifier = Modifier
-                    .padding(horizontal = 16.dp)
-                    .fillMaxWidth()
-                    .focusRequester(focusRequester)
-                    .onFocusChanged {
-                        expandedSearch = (it.isFocused && !expandedSearch)
+    Box {
+        Box(
+            modifier = Modifier
+                .fillMaxSize(searchBackground)
+                .background(colorScheme.background)
+        )
+        SearchBar(
+            modifier = modifier
+                .fillMaxWidth(),
+            colors = SearchBarDefaults.colors(
+                containerColor = Color.Transparent,
+                dividerColor = Color.Transparent
+            ),
+            inputField = {
+                TextField(
+                    value = textFieldState.text.toString(),
+                    onValueChange = {
+                        textFieldState.edit { replace(0, length, it) }
+                        expandedSearch = it.isNotEmpty()
                         onExpandedChange(expandedSearch)
-                    }
-                    .drawBackdrop(
-                        backdrop = backdrop,
-                        shape = { RoundedCornerShape(32.dp) },
-                        effects = {
-                            lightBlur()
-                        },
-                        onDrawSurface = {
-                            if (!expandedSearch) drawRect(Color.White.copy(alpha = 0.20f))
-                            else drawRect(Color.White.copy(alpha = 0.50f))
-                        },
-                    )
-                    .padding(horizontal = 8.dp),
-                placeholder = {
-                    Text(
-                        "Ready to go?",
-                        fontWeight = FontWeight.Bold,
-                        fontSize = 16.sp
-                    )
-                },
-                trailingIcon = {
-                    Box(
-                        modifier = Modifier
-                            .size(48.dp)
-                            .clip(CircleShape)
-                            .clickable(
-                                onClick = {
-                                    if (textFieldState.text.toString().length > 2) {
-                                        expandedSearch = onCollapseSearch(
-                                            textFieldState.text.toString(),
-                                            filteredAndRanked,
-                                            onSearch,
-                                            keyboardController,
-                                            true
-                                        )
-                                    }
-                                }
-                            )
-                    ) {
-                        Icon(
+                    },
+                    modifier = Modifier
+                        .padding(horizontal = 16.dp)
+                        .fillMaxWidth()
+                        .focusRequester(focusRequester)
+                        .onFocusChanged {
+                            expandedSearch = (it.isFocused && !expandedSearch)
+                            onExpandedChange(expandedSearch)
+                        }
+                        .drawBackdrop(
+                            backdrop = backdrop,
+                            shape = { RoundedCornerShape(32.dp) },
+                            effects = {
+                                lightBlur()
+                            },
+                            onDrawSurface = {
+                                if (!expandedSearch) drawRect(Color.White.copy(alpha = 0.20f))
+                                else drawRect(Color.White.copy(alpha = 0.50f))
+                            },
+                        )
+                        .padding(horizontal = 8.dp),
+                    placeholder = {
+                        Text(
+                            "Ready to go?",
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 16.sp
+                        )
+                    },
+                    trailingIcon = {
+                        Box(
                             modifier = Modifier
-                                .size(32.dp)
-                                .align(Alignment.Center),
-                            painter = painterResource(id = R.drawable.search_icon),
-                            contentDescription = "Search",
-                            tint = Color.White
-                        )
-                    }
-                },
-                colors = TextFieldDefaults.colors(
-                    focusedContainerColor = Color.Transparent,
-                    unfocusedContainerColor = Color.Transparent,
-                    disabledContainerColor = Color.Transparent,
-                    focusedIndicatorColor = Color.Transparent,
-                    unfocusedIndicatorColor = Color.Transparent,
-                    disabledIndicatorColor = Color.Transparent
-                ),
-                textStyle = TextStyle(fontSize = 16.sp),
-                keyboardActions = KeyboardActions(
-                    onNext = {
-                        expandedSearch = onCollapseSearch(
-                            textFieldState.text.toString(),
-                            filteredAndRanked,
-                            onSearch,
-                            keyboardController,
-                            expandedSearch
-                        )
-                    }
-                ),
-                singleLine = true
-            )
-        },
-        expanded = expandedSearch,
-        onExpandedChange = { focusManager.clearFocus() },
-    ) {
-        ExpandedSearch(
-            filteredAndRanked,
-            textFieldState.text.toString()
-        ) { selected ->
-            onSearch(selected)
+                                .size(48.dp)
+                                .clip(CircleShape)
+                                .clickable(
+                                    onClick = {
+                                        if (textFieldState.text.toString().length > 2) {
+                                            expandedSearch = onCollapseSearch(
+                                                textFieldState.text.toString(),
+                                                filteredAndRanked,
+                                                onSearch,
+                                                keyboardController,
+                                                true
+                                            )
+                                        }
+                                    }
+                                )
+                        ) {
+                            Icon(
+                                modifier = Modifier
+                                    .size(32.dp)
+                                    .align(Alignment.Center),
+                                painter = painterResource(id = R.drawable.search_icon),
+                                contentDescription = "Search",
+                                tint = colorScheme.tertiary
+                            )
+                        }
+                    },
+                    colors = TextFieldDefaults.colors(
+                        focusedContainerColor = Color.Transparent,
+                        unfocusedContainerColor = Color.Transparent,
+                        disabledContainerColor = Color.Transparent,
+                        focusedIndicatorColor = Color.Transparent,
+                        unfocusedIndicatorColor = Color.Transparent,
+                        disabledIndicatorColor = Color.Transparent
+                    ),
+                    textStyle = TextStyle(fontSize = 16.sp),
+                    keyboardOptions = KeyboardOptions(
+                        imeAction = ImeAction.Search
+                    ),
+                    keyboardActions = KeyboardActions(
+                        onSearch = {
+                            expandedSearch = onCollapseSearch(
+                                textFieldState.text.toString(),
+                                filteredAndRanked,
+                                onSearch,
+                                keyboardController,
+                                expandedSearch
+                            )
+                        }
+                    ),
+                    singleLine = true
+                )
+            },
+            expanded = expandedSearch,
+            onExpandedChange = { focusManager.clearFocus() },
+        ) {
+            ExpandedSearch(
+                filteredAndRanked,
+                textFieldState.text.toString()
+            ) { selected ->
+                onSearch(selected)
+            }
         }
     }
 }
@@ -202,7 +220,7 @@ private fun ExpandedSearch(
                         .align(Alignment.Center),
                     painter = painterResource(id = R.drawable.search_icon),
                     contentDescription = "Your Query",
-                    tint = Color.Black
+                    tint = colorScheme.surface
                 )
             },
             onClickRow = { _ ->
@@ -223,7 +241,7 @@ private fun ExpandedSearch(
                             .align(Alignment.Center),
                         painter = painterResource(id = R.drawable.outline_train),
                         contentDescription = "Station",
-                        tint = Color.Black
+                        tint = colorScheme.surface
                     )
                 },
                 onClickRow = { selected ->
@@ -277,14 +295,14 @@ private fun SearchRow(
                     modifier = Modifier
                         .size(28.dp)
                         .clip(CircleShape)
-                        .background(Color.White)
+                        .background(colorScheme.tertiary)
                 ) {
                     icon()
                 }
                 Spacer(modifier = Modifier.width(16.dp))
                 Text(
                     text = text,
-                    color = Color.White,
+                    color = colorScheme.tertiary,
                     fontSize = 20.sp
                 )
             }
@@ -295,7 +313,7 @@ private fun SearchRow(
                         .fillMaxWidth()
                         .padding(top = 7.dp)
                         .height(1.dp)
-                        .background(Color.White)
+                        .background(colorScheme.tertiary)
                 )
             }
         }

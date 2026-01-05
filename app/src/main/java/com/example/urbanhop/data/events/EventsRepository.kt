@@ -56,22 +56,22 @@ class EventsRepository(
                 val eventPerCode = context.resources.openRawResource(
                     when (map.key) {
                         "MBB" -> {
-                            Log.i(TAG, "querying MBB: events in ${map.value}")
+                            Log.i(TAG, "querying MBB: events near ${map.value}")
                             R.raw.events_bukit_bintang
                         }
 
                         "LKC" -> {
-                            Log.i(TAG, "querying LKC: events in ${map.value}")
+                            Log.i(TAG, "querying LKC: events near ${map.value}")
                             R.raw.events_klcc
                         }
 
                         "LKS" -> {
-                            Log.i(TAG, "querying LKS: events in ${map.value}")
+                            Log.i(TAG, "querying LKS: events near ${map.value}")
                             R.raw.events_kl_sentral
                         }
 
                         "LPS" -> {
-                            Log.i(TAG, "querying LPS: events in ${map.value}")
+                            Log.i(TAG, "querying LPS: events near ${map.value}")
                             R.raw.events_pasar_seni
                         }
 

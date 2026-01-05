@@ -7,6 +7,7 @@ import com.example.urbanhop.data.events.EventsRepository
 import com.example.urbanhop.data.event_stations.StationsRepository
 import com.example.urbanhop.data.event_stations.getStationCodesAndQueries
 import com.example.urbanhop.data.navigation_stations.TrainNavigationDataSource
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
@@ -31,6 +32,7 @@ class MapViewModel(
     internal fun onClickStationLabel(code: String) {
         viewModelScope.launch {
             _mapScreenViewState.value = MapScreenViewState.LoadingEvents
+            delay(3000)
             Log.i("MapViewModel", "Selected Station: $code")
             eventsRepository.loadEvents(code, stationsCodeQueryMap).also { events ->
                 _mapScreenViewState.value = MapScreenViewState.EventList(events)
