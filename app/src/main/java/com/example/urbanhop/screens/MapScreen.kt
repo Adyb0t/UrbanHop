@@ -3,6 +3,7 @@ package com.example.urbanhop.screens
 import android.content.Intent
 import android.location.Location
 import android.util.Log
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.animateColorAsState
@@ -151,6 +152,10 @@ fun Map(
             viewModel.displayAllStation()
             onHomeSelectedCallback()
         }
+    }
+
+    BackHandler(mapViewState is MapScreenViewState.EventList) {
+        viewModel.displayAllStation()
     }
 
     Box(

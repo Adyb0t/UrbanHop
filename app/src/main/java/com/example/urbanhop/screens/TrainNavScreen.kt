@@ -1,5 +1,6 @@
 package com.example.urbanhop.screens
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing
@@ -38,6 +39,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.MaterialTheme.colorScheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
@@ -52,7 +54,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.onSizeChanged
@@ -92,6 +96,10 @@ fun TrainNav(
     val destinationTextField = rememberTextFieldState()
     val startingTextField = rememberTextFieldState()
 
+    BackHandler(trainNavViewState is TrainNavScreenViewState.NavigationInfo) {
+        viewModel.onBack()
+    }
+
     when (trainNavViewState) {
         is TrainNavScreenViewState.Loading -> {}
 
@@ -123,33 +131,8 @@ fun TrainNav(
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Text(
-                    text = "Destination",
-                    color = colorScheme.secondary
-                )
                 CustomTextField(
-                    textFieldState = destinationTextField,
-                    stations = stationsRef.keys,
-                    onValueChange = {
-                        destinationTextField.edit { replace(0, length, it) }
-                    },
-                    icon = {
-                        Icon(
-                            modifier = Modifier
-                                .size(28.dp)
-                                .align(Alignment.Center),
-                            painter = painterResource(id = R.drawable.search_icon),
-                            contentDescription = "Search",
-                            tint = colorScheme.onSecondary
-                        )
-                    }
-                )
-                Spacer(modifier = Modifier.height(8.dp))
-                Text(
-                    text = "Starting station",
-                    color = colorScheme.secondary
-                )
-                CustomTextField(
+                    isStarting = true,
                     textFieldState = startingTextField,
                     stations = stationsRef.keys,
                     onValueChange = {
@@ -160,9 +143,39 @@ fun TrainNav(
                             modifier = Modifier
                                 .size(28.dp)
                                 .align(Alignment.Center),
-                            painter = painterResource(id = R.drawable.search_icon),
+                            painter = painterResource(id = R.drawable.outline_train),
                             contentDescription = "Search",
                             tint = colorScheme.onSecondary
+                        )
+                    },
+                    placeholder = {
+                        Text(
+                            text = "Starting station",
+                            color = colorScheme.onSecondary.copy(0.5f)
+                        )
+                    }
+                )
+                CustomTextField(
+                    isStarting = false,
+                    textFieldState = destinationTextField,
+                    stations = stationsRef.keys,
+                    onValueChange = {
+                        destinationTextField.edit { replace(0, length, it) }
+                    },
+                    icon = {
+                        Icon(
+                            modifier = Modifier
+                                .size(28.dp)
+                                .align(Alignment.Center),
+                            painter = painterResource(id = R.drawable.outline_train),
+                            contentDescription = "Search",
+                            tint = colorScheme.onSecondary
+                        )
+                    },
+                    placeholder = {
+                        Text(
+                            text = "Enter destination",
+                            color = colorScheme.onSecondary.copy(0.5f)
                         )
                     }
                 )
@@ -804,58 +817,90 @@ private fun EndCircle(
 
 @Composable
 private fun CustomTextField(
+    isStarting: Boolean,
     textFieldState: TextFieldState,
     stations: Set<String>,
     onValueChange: (String) -> Unit = {},
-    icon: @Composable BoxScope.() -> Unit = {}
+    icon: @Composable BoxScope.() -> Unit = {},
+    placeholder: @Composable () -> Unit
 ) {
     val filteredAndRanked = filterAndRank(stations, textFieldState.text.toString())
 
-    if (filteredAndRanked.size == 1 && textFieldState.text.length >= filteredAndRanked.first().length - 1) {
+    if (filteredAndRanked.size == 1 && textFieldState.text.length >= filteredAndRanked.first().length) {
         onValueChange(filteredAndRanked.first())
     }
 
-    Column {
-        TextField(
+    val showSuggestion =
+        filteredAndRanked.isNotEmpty() && textFieldState.text.toString().isNotEmpty() &&
+                textFieldState.text.toString() != filteredAndRanked.first()
+
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 32.dp)
+    ) {
+        Box(
             modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = 32.dp)
-                .clip(RoundedCornerShape(16.dp))
-                .background(colorScheme.secondary),
-            value = textFieldState.text.toString(),
-            onValueChange = {
-                onValueChange(it)
-            },
-            leadingIcon = {
+                .height(64.dp)
+        ) {
+            if (!isStarting && showSuggestion) {
                 Box(
                     modifier = Modifier
-                        .size(36.dp)
-                ) {
-                    icon()
-                }
-            },
-            colors = TextFieldDefaults.colors(
-                focusedContainerColor = Color.Transparent,
-                unfocusedContainerColor = Color.Transparent,
-                disabledContainerColor = Color.Transparent,
-                focusedIndicatorColor = Color.Transparent,
-                unfocusedIndicatorColor = Color.Transparent,
-                disabledIndicatorColor = Color.Transparent,
-                focusedTextColor = Color.Black,
-                unfocusedTextColor = Color.Black,
-            ),
-            singleLine = true,
-        )
-        Spacer(modifier = Modifier.height(8.dp))
+                        .fillMaxSize()
+                        .background(colorScheme.primary)
+                )
+            }
+            TextField(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .clip(
+                        if (isStarting) RoundedCornerShape(topStart = 16.dp, topEnd = 16.dp)
+                        else RoundedCornerShape(bottomStart = 16.dp, bottomEnd = 16.dp)
+                    )
+                    .background(colorScheme.secondary)
+                    .topOrBottomIndicator(
+                        colorScheme.background,
+                        isBottom = isStarting
+                    ),
+                value = textFieldState.text.toString(),
+                onValueChange = {
+                    onValueChange(it)
+                },
+                leadingIcon = {
+                    Box(
+                        modifier = Modifier
+                            .size(36.dp)
+                    ) {
+                        icon()
+                    }
+                },
+                placeholder = {
+                    placeholder()
+                },
+                colors = TextFieldDefaults.colors(
+                    focusedContainerColor = Color.Transparent,
+                    unfocusedContainerColor = Color.Transparent,
+                    disabledContainerColor = Color.Transparent,
+                    focusedIndicatorColor = Color.Transparent,
+                    unfocusedIndicatorColor = Color.Transparent,
+                    disabledIndicatorColor = Color.Transparent,
+                    focusedTextColor = Color.Black,
+                    unfocusedTextColor = Color.Black,
+                ),
+                singleLine = true,
+            )
+        }
         AnimatedVisibility(
-            visible = filteredAndRanked.isNotEmpty() && textFieldState.text.toString().length > 1 && textFieldState.text.toString() != filteredAndRanked.first()
+            visible = showSuggestion
         ) {
             LazyColumn(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 32.dp)
-                    .clip(RoundedCornerShape(16.dp))
-                    .background(Color.LightGray),
+                    .clip(
+                        if (!isStarting) RoundedCornerShape(bottomStart = 16.dp, bottomEnd = 16.dp)
+                        else RoundedCornerShape(0.dp)
+                    )
+                    .background(colorScheme.primary),
             ) {
                 items(filteredAndRanked) { suggestion ->
                     Text(
@@ -869,11 +914,26 @@ private fun CustomTextField(
                             )
                             .padding(horizontal = 8.dp, vertical = 8.dp),
                         text = suggestion,
-                        color = Color.Black,
+                        color = colorScheme.onPrimary,
                         textAlign = TextAlign.Center
                     )
                 }
             }
         }
     }
+}
+
+private fun Modifier.topOrBottomIndicator(
+    color: Color,
+    isBottom: Boolean,
+    thickness: Dp = 2.dp
+) = drawBehind {
+    val y = if (isBottom) size.height else 0f
+
+    drawLine(
+        color = color,
+        start = Offset(size.width * 0.1f, y),
+        end = Offset(size.width * 0.9f, y),
+        strokeWidth = thickness.toPx()
+    )
 }
