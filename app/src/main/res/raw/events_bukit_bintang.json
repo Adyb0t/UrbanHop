@@ -2,34 +2,32 @@
   "search_metadata":
   {
     "id":
-    "6916d9f118dc93844f5e4c5a",
+    "695d11869f07001f8f3e7ddf",
     "status":
     "Success",
     "json_endpoint":
-    "https://serpapi.com/searches/3266ddf455ba50a8/6916d9f118dc93844f5e4c5a.json",
+    "https://serpapi.com/searches/fbf27d4159e5ecca/695d11869f07001f8f3e7ddf.json",
     "created_at":
-    "2025-11-14 07:27:45 UTC",
+    "2026-01-06 13:43:34 UTC",
     "processed_at":
-    "2025-11-14 07:27:45 UTC",
+    "2026-01-06 13:43:34 UTC",
     "google_events_url":
-    "https://www.google.com/search?q=events+in+bukit+bintang&ibp=htl;events&uule=w+CAIQICIBS3VhbGEgTHVtcHVyLEZlZGVyYWwgVGVycml0b3J5IG9mIEt1YWxhIEx1bXB1cixNYWxheXNpYQ&hl=en&gl=my",
+    "https://www.google.com/search?q=events+near+Bukit+Bintang&ibp=htl;events&uule=w+CAIQICIITWFsYXlzaWE&gl=my",
     "raw_html_file":
-    "https://serpapi.com/searches/3266ddf455ba50a8/6916d9f118dc93844f5e4c5a.html",
+    "https://serpapi.com/searches/fbf27d4159e5ecca/695d11869f07001f8f3e7ddf.html",
     "total_time_taken":
-    1.50
+    1.78
   },
   "search_parameters":
   {
     "q":
-    "events in bukit bintang",
+    "events near Bukit Bintang",
     "engine":
     "google_events",
     "location_requested":
-    "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+    "Malaysia",
     "location_used":
-    "Kuala Lumpur,Federal Territory of Kuala Lumpur,Malaysia",
-    "hl":
-    "en",
+    "Malaysia",
     "gl":
     "my"
   },
@@ -42,1147 +40,13 @@
   [
     {
       "title":
-      "CHOOSE YOUR DREAM MASTER’S PROGRAM ON NOVEMBER 15TH – KUALA LUMPUR",
+      "Warehouse Management For Best-in-class Performance",
       "date":
       {
         "start_date":
-        "Nov 15",
+        "Jan 6",
         "when":
-        "Sat, 15 Nov, 1:00 – 7:00 pm"
-      },
-      "address":
-      [
-        "The Ritz-Carlton, Kuala Lumpur, 168, Jln Imbi, Pudu",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://evvnt.com/events/?_evDiscoveryPath=/event/3294170-choose-your-dream-master-s-program-on-november-15th-kuala-lumpur",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=Z-anB30i1HkOLf-xjkYK30vx4pHwJIF9xq42C-YO1-3w1fUDmrV1utGNZAuPTxCNtgV6d88HIq87aBSdgdJ0nsvCxb5lYkE9Yi0qm6gXB_F6IsgowNY",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362dd2afffff:0x28ba98fb3bfbe45a?sa=X&ved=2ahUKEwic7fr4jvGQAxXcrokEHeJ9N8gQ9eIBegQIAxAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362dd2afffff%3A0x28ba98fb3bfbe45a&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&type=place"
-      },
-      "description":
-      "Looking to take your career to the next level? Top universities from around the world are coming to Kuala Lumpur to help you explore your options for a Master’s degree – whether you already have a...",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Eventbrite.co.uk",
-          "link":
-          "https://www.eventbrite.co.uk/e/choose-your-dream-masters-program-on-november-15th-kuala-lumpur-tickets-1786006546659",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Evvnt",
-          "link":
-          "https://evvnt.com/events/?_evDiscoveryPath=/event/3294170-choose-your-dream-master-s-program-on-november-15th-kuala-lumpur",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "MediaAssistants - Yapsody",
-          "link":
-          "https://mediaassistants.yapsody.com/event/index/856993/CHOOSE-YOUR-DREAM-MASTERS-PROGRAM-ON-NOVEMBER-15TH-KUALA",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "AllEvents",
-          "link":
-          "https://allevents.in/kuala-lumpur/choose-your-dream-master%E2%80%99s-program-on-november-15th-kuala-lumpur/100001786006546659",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "The Ritz-Carlton, Kuala Lumpur",
-        "rating":
-        4.5,
-        "reviews":
-        3907,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=The+Ritz-Carlton,+Kuala+Lumpur&ludocid=2934826311995876442&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqaCCy7vNvaWaUV-uuXhIfs5kQrcMGOWVSHUZjKFg&s"
-    },
-    {
-      "title":
-      "Finanzmodellierung in Excel",
-      "date":
-      {
-        "start_date":
-        "Nov 14",
-        "when":
-        "Thu, 13 Nov, 9:00 am – Fri, 14 Nov, 5:00 pm"
-      },
-      "address":
-      [
-        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://www.eventbrite.sg/e/financial-modeling-in-excel-tickets-1247757208399",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwic7fr4jvGQAxXcrokEHeJ9N8gQ9eIBegQICxAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&type=place"
-      },
-      "description":
-      "The objective of this program is to provide knowledge and practical experience about the creation of comprehensive and flexible financial models used in financial planning and fundraising...",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Eventbrite.sg",
-          "link":
-          "https://www.eventbrite.sg/e/financial-modeling-in-excel-tickets-1247757208399",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "10Times",
-          "link":
-          "https://10times.com/financial-modeling-in-excel",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "JW Marriott Hotel Kuala Lumpur",
-        "rating":
-        4.5,
-        "reviews":
-        8396,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdNV9jTk-twaDL_FPljr-OYBtOu60UR95VpoVaBGcLuDvZ5JL16PEoy98&s"
-    },
-    {
-      "title":
-      "Filo & Lumo. Filamen's Interns Show",
-      "date":
-      {
-        "start_date":
-        "Nov 14",
-        "when":
-        "Tue 11 – Sun 16 Nov"
-      },
-      "address":
-      [
-        "GMBB, 2, Jalan Robertson",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://www.artrabbit.com/events/filo-lumo-filamens-interns-show",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=N2avaFtxOfWHuvVBaEZlzP0VjRdKQSf6mf7fmCcUVOph7PIb4WSfAjIIpDTxtFrqiU4vZ7FlA2mvVm93BLBGp2_jVCnooLBRvX5tTHWP06F1pUIATx0",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49fb171f6e09:0xb6fce1088a906e02?sa=X&ved=2ahUKEwic7fr4jvGQAxXcrokEHeJ9N8gQ9eIBegQIExAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49fb171f6e09%3A0xb6fce1088a906e02&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&type=place"
-      },
-      "ticket_info":
-      [
-        {
-          "source":
-          "Art Rabbit",
-          "link":
-          "https://www.artrabbit.com/events/filo-lumo-filamens-interns-show",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "GMBB",
-        "rating":
-        4.4,
-        "reviews":
-        870,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=GMBB&ludocid=13185661235834678786&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPDbVo-l647vIHma5c0YQxXmY7xH1ZyZyEFKTVK1DUaBjRV6jm4rtUBaw&s"
-    },
-    {
-      "title":
-      "Jambu Jambu Asia & Aristo present: The Cellar",
-      "date":
-      {
-        "start_date":
-        "Nov 14",
-        "when":
-        "Fri, 14 Nov, 11:00 pm – Sat, 15 Nov, 3:00 am"
-      },
-      "address":
-      [
-        "Aristo KL, 27, Jln Mesui, Bukit Bintang",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://ra.co/events/2300191",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=Pk48HqsdwVvLZCDdKwutbrr6_8yJFCzZP9SC9ajLpQzWfqabVwj_s8P89K73GkO9f1FC4jlp33Iuw8NULEmc5YsAsnvhvK7-De7lN7VnlZuj2i-NQJw",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37c5c8db9fcb:0x77e0502002452a20?sa=X&ved=2ahUKEwic7fr4jvGQAxXcrokEHeJ9N8gQ9eIBegQIGxAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37c5c8db9fcb%3A0x77e0502002452a20&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&type=place"
-      },
-      "description":
-      "Jambu Jambu Asia & Aristo Present: The Cellar. Next Friday we unveil our newest bi-weekly series at Aristo Bar KL. The Cellar explores deeper sections of House, Techno, and Garage. Each night...",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Resident Advisor",
-          "link":
-          "https://ra.co/events/2300191",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Aristo KL",
-        "rating":
-        4.9,
-        "reviews":
-        17,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=Aristo+KL&ludocid=8637992183703874080&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR2zL1cZWzOrT9TbFUaHf74hpxow0joOe9491rdZOVRkDjlfUeiIhkWWo&s"
-    },
-    {
-      "title":
-      "Jeff Satur",
-      "date":
-      {
-        "start_date":
-        "Nov 15",
-        "when":
-        "Sat, 15 Nov, 8:00 – 11:00 pm"
-      },
-      "address":
-      [
-        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://www.last.fm/event/4950387+Jeff+Satur+Red+Giant+Tour+2025",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwic7fr4jvGQAxXcrokEHeJ9N8gQ9eIBegQIIxAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&type=place"
-      },
-      "description":
-      "Presented by iMe Malaysia, JEFF SATUR RED GIANT TOUR 2025 is set to take place on November 15, 2025 (Saturday) at Zepp Kuala Lumpur. This marks JEFF SATUR’s highly anticipated first solo concert...",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Last.fm",
-          "link":
-          "https://www.last.fm/event/4950387+Jeff+Satur+Red+Giant+Tour+2025",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "Facebook",
-          "link":
-          "https://www.facebook.com/events/zepp-kuala-lumpur/jeff-satur-red-giant-tour-2025-in-kuala-lumpur/776227228123728/",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "AllEvents",
-          "link":
-          "https://allevents.in/kuala-lumpur/jeff-satur-red-giant-tour-2025-in-kuala-lumpur/200028727266135",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "Viagogo",
-          "link":
-          "https://www.viagogo.com/Concert-Tickets/Other-Concerts/Jeff-Satur-Tickets",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "New York Concerts",
-          "link":
-          "https://www.eventworld.co/kuala-lumpur/jeff-satur-tickets-2025-11-15-491620/",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Zepp Kuala Lumpur",
-        "rating":
-        4.6,
-        "reviews":
-        1472,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzezEafla7f35glFlxqGDDnZfCalwJNPNBOQ-3Ym-UoHUALoZ79GN8l-k&s"
-    },
-    {
-      "title":
-      "Ftisland",
-      "date":
-      {
-        "start_date":
-        "Nov 15",
-        "when":
-        "Sat, 15 Nov, 7:30 – 9:30 pm"
-      },
-      "address":
-      [
-        "MyTicket @ Mega Star Arena KL, Mega Star Arena, KL @ Sg Wang Plaza, 1F, 3, Jalan Bulan 2, Bukit Bintang",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://www.viagogo.com/Concert-Tickets/K-Pop/FTISLAND-Tickets/E-159104302",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=WYr_UBcoqj-Us9KlWqDe65aIUC58ec7tYpgaEPuNQV-skOWm3AN8RUmXnJxDhRJR1xrz5Dk1PQm_QH3qieRObnU008Eq2y91KGLKvVI8Rva9Eihyo-Y",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3741aff43d93:0x15ce022f5d00b927?sa=X&ved=2ahUKEwic7fr4jvGQAxXcrokEHeJ9N8gQ9eIBegQIKxAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3741aff43d93%3A0x15ce022f5d00b927&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&type=place"
-      },
-      "description":
-      "Ticket listings for Ftisland at Mega Star Arena KL at Sungei Wang Plaza - Complex in Kuala Lumpur on 11/15/2025",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Everythingboleh.com",
-          "link":
-          "https://everythingboleh.com/event/ftisland-concert-2025/",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Viagogo",
-          "link":
-          "https://www.viagogo.com/Concert-Tickets/K-Pop/FTISLAND-Tickets/E-159104302",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "MyTicket @ Mega Star Arena KL",
-        "rating":
-        2.7,
-        "reviews":
-        3,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=MyTicket+%40+Mega+Star+Arena+KL&ludocid=1571195722445928743&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz4v5RQW03wbxR25hGkv6TOgO6MNL8wcKun7Aw-PsRmjTgpGisfhOcd68&s"
-    },
-    {
-      "title":
-      "Mika Kobayashi",
-      "date":
-      {
-        "start_date":
-        "Nov 16",
-        "when":
-        "Sun, 16 Nov, 8:00 – 11:00 pm"
-      },
-      "address":
-      [
-        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://open.spotify.com/concert/1ufKDwSPKqtZrrtdd3zw9I",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwic7fr4jvGQAxXcrokEHeJ9N8gQ9eIBegQIMxAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&type=place"
-      },
-      "description":
-      "Find tickets for Mika Kobayashi at Zepp Kuala Lumpur in Kuala Lumpur on 11/16/2025 at 8:00 PM",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Spotify.com",
-          "link":
-          "https://open.spotify.com/concert/1ufKDwSPKqtZrrtdd3zw9I",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Bandsintown.com",
-          "link":
-          "https://www.bandsintown.com/e/107056017?app_id=szm_feed&came_from=283&utm_medium=web&utm_source=szm_feed&utm_campaign=event",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Stubhub.com",
-          "link":
-          "https://www.stubhub.com/_C-59683?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-158873624%7Ccy-3578&ps_ev=158873624",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Viagogo.com",
-          "link":
-          "https://www.viagogo.com/_C-59683?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-158873624%7Ccy-3578&ps_ev=158873624",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Shazam",
-          "link":
-          "https://www.shazam.com/track/116149778",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Zepp Kuala Lumpur",
-        "rating":
-        4.6,
-        "reviews":
-        1472,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtXdLoctZdxAHhxgv4zCHjBPd1AVx5WdhOd_mcIajgKHyW7kf9yWsra6E&s"
-    },
-    {
-      "title":
-      "Maddix",
-      "date":
-      {
-        "start_date":
-        "Dec 6",
-        "when":
-        "Sat, 6 Dec, 5:00 – 9:00 pm"
-      },
-      "address":
-      [
-        "1F, Mega Star Arena KL, Mega star arena, kl @ Sg wang plaza, 3, Jalan Bulan 2, Bukit Bintang",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://open.spotify.com/concert/589NLqzojtLpsX9NoQsU4o",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=36Fdo2gikhD5s8ynLvjZnuldv4hKXLAHZmn3MC1vloarwwcE793thhLWIDH8iDdQJ-llHC3x7QGCjvLPcNGBLczd74aY6xSUk10EEBcQVYoa0ga_v9s",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4a154eff332f:0x82657f2bc1c3386d?sa=X&ved=2ahUKEwic7fr4jvGQAxXcrokEHeJ9N8gQ9eIBegQIOxAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4a154eff332f%3A0x82657f2bc1c3386d&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&type=place"
-      },
-      "description":
-      "Find tickets for Maddix at Mega Star Arena in Kuala Lumpur on 12/6/2025 at 5:00 PM",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Spotify.com",
-          "link":
-          "https://open.spotify.com/concert/589NLqzojtLpsX9NoQsU4o",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Songkick.com",
-          "link":
-          "https://www.songkick.com/concerts/42874341-maddix-at-mega-star-arena?utm_medium=organic&utm_source=microformat",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Resident Advisor",
-          "link":
-          "https://ra.co/events/2298258",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Mega Star Arena KL",
-        "rating":
-        4.1,
-        "reviews":
-        642,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=Mega+Star+Arena+KL&ludocid=9396056023489525869&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr52DNf2MBbAT_s1Z7Iun8V30nTKitKPfKHziKhgndr_WI4LhUQim_s5A&s"
-    },
-    {
-      "title":
-      "PLAY",
-      "date":
-      {
-        "start_date":
-        "Nov 22",
-        "when":
-        "22–30 Nov"
-      },
-      "address":
-      [
-        "2, Jalan Robertson",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://www.artrabbit.com/events/play-michael-chuah-gallery",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=vQde-lDJ3Q2RudQZsae2T4euUMwGuacY2gJiQKqAeFmKKQqBy6KZ2MZ0g_jp3fF44JlfwpvxpEwabPqlYktyrshh_K6SzQa_pUw-ofkv4cql1lCvrXM",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49d65b640f0f:0xe31545b0e2e22a36?sa=X&ved=2ahUKEwic7fr4jvGQAxXcrokEHeJ9N8gQ9eIBegQIQxAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49d65b640f0f%3A0xe31545b0e2e22a36&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&type=place"
-      },
-      "ticket_info":
-      [
-        {
-          "source":
-          "Art Rabbit",
-          "link":
-          "https://www.artrabbit.com/events/play-michael-chuah-gallery",
-          "link_type":
-          "more info"
-        }
-      ],
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThUGsUahcwqnORSF8NQD4tlxCQ3pa7v-ASHzWMPpZMiCe19Vm0f2PuQPg&s"
-    },
-    {
-      "title":
-      "Cosmic Gate in Kuala Lumpur",
-      "date":
-      {
-        "start_date":
-        "Nov 20",
-        "when":
-        "Thu, 20 Nov, 10:00 pm – Fri, 21 Nov, 12:00 am"
-      },
-      "address":
-      [
-        "Sense 3 Kuala Lumpur, 23, Jln Sultan Ismail, Bukit Bintang",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://allevents.in/kuala-lumpur/cosmic-gate-in-kuala-lumpur/3300029145866239",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=pkdoDcfEgDPO9GKvlQYB4KL8azMobUYUBJCUUtx1s3V8fATfgoP566tzqLpGXw4zP9DV0Bh9s0-mGhZg3KUVPP3NoZCQAEeLsRHxOYpJ4M5D0RYnL3w",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3700462fff37:0x50c609ecc6b67759?sa=X&ved=2ahUKEwic7fr4jvGQAxXcrokEHeJ9N8gQ9eIBegQISxAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3700462fff37%3A0x50c609ecc6b67759&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&type=place"
-      },
-      "description":
-      "🎶 The Ultimate Cosmic Gate Experience LIVE at Sense 3 Kuala Lumpur—This Thursday, November 20, 2025! 🎶 It's that time of the year where everyone wants to have a musical breath! Your favorite...",
-      "ticket_info":
-      [
-        {
-          "source":
-          "AllEvents",
-          "link":
-          "https://allevents.in/kuala-lumpur/cosmic-gate-in-kuala-lumpur/3300029145866239",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Sense 3 Kuala Lumpur",
-        "rating":
-        4.8,
-        "reviews":
-        71,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=Sense+3+Kuala+Lumpur&ludocid=5820350480973723481&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgAT6At_0j7MggFrqnPYGQaEkD2UsqGDlyd2KI_tTrz_tV1cBWucw7Fcc&s"
-    },
-    {
-      "title":
-      "Maddix",
-      "date":
-      {
-        "start_date":
-        "Dec 6",
-        "when":
-        "Sat, 6 Dec, 5:00 – 9:00 pm"
-      },
-      "address":
-      [
-        "1F, Mega Star Arena KL, Mega star arena, kl @ Sg wang plaza, 3, Jalan Bulan 2, Bukit Bintang",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://open.spotify.com/concert/589NLqzojtLpsX9NoQsU4o",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=36Fdo2gikhD5s8ynLvjZnuldv4hKXLAHZmn3MC1vloarwwcE793thhLWIDH8iDdQJ-llHC3x7QGCjvLPcNGBLczd74aY6xSUk10EEBcQVYoa0ga_v9s",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4a154eff332f:0x82657f2bc1c3386d?sa=X&ved=2ahUKEwiZ693ej_GQAxX8m2oFHazpJUg4ChD14gF6BAgDEAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4a154eff332f%3A0x82657f2bc1c3386d&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&start=10&type=place"
-      },
-      "description":
-      "Find tickets for Maddix at Mega Star Arena in Kuala Lumpur on 12/6/2025 at 5:00 PM",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Spotify.com",
-          "link":
-          "https://open.spotify.com/concert/589NLqzojtLpsX9NoQsU4o",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Songkick.com",
-          "link":
-          "https://www.songkick.com/concerts/42874341-maddix-at-mega-star-arena?utm_medium=organic&utm_source=microformat",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Resident Advisor",
-          "link":
-          "https://ra.co/events/2298258",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Mega Star Arena KL",
-        "rating":
-        4.1,
-        "reviews":
-        642,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=Mega+Star+Arena+KL&ludocid=9396056023489525869&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr52DNf2MBbAT_s1Z7Iun8V30nTKitKPfKHziKhgndr_WI4LhUQim_s5A&s"
-    },
-    {
-      "title":
-      "Music Co Fest: The Enya Experience",
-      "date":
-      {
-        "start_date":
-        "Nov 29",
-        "when":
-        "Sat, 29 Nov, 12:00 – 8:00 pm"
-      },
-      "address":
-      [
-        "The Starhill, 181, Bukit Bintang Rd, Bukit Bintang",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://www.eventbrite.sg/e/music-co-fest-the-enya-experience-tickets-1875715287919",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=FtDZHUODVMFWfHFyFBi_xAptRTYxo2h0JQ0f_0yztOVUiUWLkPLtBdGwj76M7YEfpUGuH4SBLVbnvfJGrwPVXpQateSH3AJUVplR3oYsxvzrYhxeXAg",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362bdfb655cb:0x851f0f1e7efda98?sa=X&ved=2ahUKEwiZ693ej_GQAxX8m2oFHazpJUg4ChD14gF6BAgLEAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362bdfb655cb%3A0x851f0f1e7efda98&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&start=10&type=place"
-      },
-      "description":
-      "The Enya Experience is here! Discover Enya smart guitars, enjoy artist performances, and get exclusive insight from the Enya Music CEO",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Eventbrite.sg",
-          "link":
-          "https://www.eventbrite.sg/e/music-co-fest-the-enya-experience-tickets-1875715287919",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "AllEvents",
-          "link":
-          "https://allevents.in/kuala-lumpur/music-co-fest-the-enya-experience/100001875715287919",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "The Starhill",
-        "rating":
-        4.3,
-        "reviews":
-        3083,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=The+Starhill&ludocid=599525147186027160&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPb59VeyC8DIZEFYxyRwI5wiXmqHvuo4odT-F9cx7cVI0tcDD-jHUe_10&s"
-    },
-    {
-      "title":
-      "PLAY",
-      "date":
-      {
-        "start_date":
-        "Nov 22",
-        "when":
-        "22–30 Nov"
-      },
-      "address":
-      [
-        "2, Jalan Robertson",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://www.artrabbit.com/events/play-michael-chuah-gallery",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=vQde-lDJ3Q2RudQZsae2T4euUMwGuacY2gJiQKqAeFmKKQqBy6KZ2MZ0g_jp3fF44JlfwpvxpEwabPqlYktyrshh_K6SzQa_pUw-ofkv4cql1lCvrXM",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49d65b640f0f:0xe31545b0e2e22a36?sa=X&ved=2ahUKEwiZ693ej_GQAxX8m2oFHazpJUg4ChD14gF6BAgTEAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49d65b640f0f%3A0xe31545b0e2e22a36&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&start=10&type=place"
-      },
-      "ticket_info":
-      [
-        {
-          "source":
-          "Art Rabbit",
-          "link":
-          "https://www.artrabbit.com/events/play-michael-chuah-gallery",
-          "link_type":
-          "more info"
-        }
-      ],
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThUGsUahcwqnORSF8NQD4tlxCQ3pa7v-ASHzWMPpZMiCe19Vm0f2PuQPg&s"
-    },
-    {
-      "title":
-      "Cosmic Gate in Kuala Lumpur",
-      "date":
-      {
-        "start_date":
-        "Nov 20",
-        "when":
-        "Thu, 20 Nov, 10:00 pm – Fri, 21 Nov, 12:00 am"
-      },
-      "address":
-      [
-        "Sense 3 Kuala Lumpur, 23, Jln Sultan Ismail, Bukit Bintang",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://allevents.in/kuala-lumpur/cosmic-gate-in-kuala-lumpur/3300029145866239",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=pkdoDcfEgDPO9GKvlQYB4KL8azMobUYUBJCUUtx1s3V8fATfgoP566tzqLpGXw4zP9DV0Bh9s0-mGhZg3KUVPP3NoZCQAEeLsRHxOYpJ4M5D0RYnL3w",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3700462fff37:0x50c609ecc6b67759?sa=X&ved=2ahUKEwiZ693ej_GQAxX8m2oFHazpJUg4ChD14gF6BAgbEAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3700462fff37%3A0x50c609ecc6b67759&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&start=10&type=place"
-      },
-      "description":
-      "🎶 The Ultimate Cosmic Gate Experience LIVE at Sense 3 Kuala Lumpur—This Thursday, November 20, 2025! 🎶 It's that time of the year where everyone wants to have a musical breath! Your favorite...",
-      "ticket_info":
-      [
-        {
-          "source":
-          "AllEvents",
-          "link":
-          "https://allevents.in/kuala-lumpur/cosmic-gate-in-kuala-lumpur/3300029145866239",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Sense 3 Kuala Lumpur",
-        "rating":
-        4.8,
-        "reviews":
-        71,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=Sense+3+Kuala+Lumpur&ludocid=5820350480973723481&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgAT6At_0j7MggFrqnPYGQaEkD2UsqGDlyd2KI_tTrz_tV1cBWucw7Fcc&s"
-    },
-    {
-      "title":
-      "Swee Lee Lot 10 Presents: Open Mic Night",
-      "date":
-      {
-        "start_date":
-        "Nov 28",
-        "when":
-        "Fri, 28 Nov, 7:00 – 9:00 pm"
-      },
-      "address":
-      [
-        "Swee Lee Flagship Lot 10, T16 & T17, 3rd Floor, Lot 10 Shopping Centre, 50, Jln Sultan Ismail, Bukit Bintang",
-        "Kuala Lumpur"
-      ],
-      "link":
-      "https://www.eventbrite.com/e/swee-lee-lot-10-presents-open-mic-night-tickets-1751308303279",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=Vj7banoBjqctRQ4uXUp1bgUkuuQCAnJS-L5I8pmxVCrN_0QgXj3qKkvTZyZuUI9clOMK-sJnAIFbik9t75dUGlwGbAvHeQZ4SoYDiK7ttE7fo5s_7RM",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362bfd6f93b5:0x1821902088eb3d76?sa=X&ved=2ahUKEwiZ693ej_GQAxX8m2oFHazpJUg4ChD14gF6BAgjEAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362bfd6f93b5%3A0x1821902088eb3d76&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&start=10&type=place"
-      },
-      "description":
-      "Join us for a night of original music, from some of the best musicians in town!",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Eventbrite.com",
-          "link":
-          "https://www.eventbrite.com/e/swee-lee-lot-10-presents-open-mic-night-tickets-1751308303279",
-          "link_type":
-          "tickets"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Swee Lee Flagship Lot 10",
-        "rating":
-        4.5,
-        "reviews":
-        546,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=Swee+Lee+Flagship+Lot+10&ludocid=1738829400552193398&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy4HYG4fLfng3UoYMoMV1jTRK2REJqg0nw0s2TxPkKyGR1HVJGGGZcGfU&s"
-    },
-    {
-      "title":
-      "Collaboration & Chemistry in Music with Altimet and Az Samad",
-      "date":
-      {
-        "start_date":
-        "Nov 20",
-        "when":
-        "Thu, 20 Nov, 7:00 – 8:00 pm"
-      },
-      "address":
-      [
-        "Swee Lee Flagship Lot 10, T16 & T17, 3rd Floor, Lot 10 Shopping Centre, 50, Jln Sultan Ismail, Bukit Bintang",
-        "Kuala Lumpur"
-      ],
-      "link":
-      "https://www.eventbrite.com/e/collaboration-chemistry-in-music-with-altimet-and-az-samad-tickets-1861448064269",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=Vj7banoBjqctRQ4uXUp1bgUkuuQCAnJS-L5I8pmxVCrN_0QgXj3qKkvTZyZuUI9clOMK-sJnAIFbik9t75dUGlwGbAvHeQZ4SoYDiK7ttE7fo5s_7RM",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362bfd6f93b5:0x1821902088eb3d76?sa=X&ved=2ahUKEwiZ693ej_GQAxX8m2oFHazpJUg4ChD14gF6BAgrEAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362bfd6f93b5%3A0x1821902088eb3d76&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&start=10&type=place"
-      },
-      "description":
-      "In this session with Az Samad and Altimet, explore how chemistry shapes creative partnerships.",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Eventbrite.com",
-          "link":
-          "https://www.eventbrite.com/e/collaboration-chemistry-in-music-with-altimet-and-az-samad-tickets-1861448064269",
-          "link_type":
-          "tickets"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Swee Lee Flagship Lot 10",
-        "rating":
-        4.5,
-        "reviews":
-        546,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=Swee+Lee+Flagship+Lot+10&ludocid=1738829400552193398&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxi0uaa09ngV0-Wbtbj98IwjTZMcodtDq7YZJy0wFchSHw4OMrSUar8aw&s"
-    },
-    {
-      "title":
-      "Judika",
-      "date":
-      {
-        "start_date":
-        "Nov 15",
-        "when":
-        "Sat, 15 Nov, 5:00 – 10:00 pm"
-      },
-      "address":
-      [
-        "National Hockey Stadium, Jalan Merah Caga, Bukit Jalil",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://www.viagogo.com/sg/Concert-Tickets/Rock-and-Pop/Judika-Nalom-Abadi-Sihotang-Tickets/E-159363056",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=HQKhWlI0QKc_CeriTMNL5IV8hHmxVwEiHWA9sMr8lB7pnw_1xMwVYKyAHV82_W8jMAT3nOYrKavEU5tzhjj9tPULd9DpvhVDg4nbJ9WVyPFTPOLWOyU",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4ba4160cd8cb:0xeefd32648552b010?sa=X&ved=2ahUKEwiZ693ej_GQAxX8m2oFHazpJUg4ChD14gF6BAgzEAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4ba4160cd8cb%3A0xeefd32648552b010&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&start=10&type=place"
-      },
-      "description":
-      "Ticket listings for Judika at National Hockey Stadium in Kuala Lumpur on 15/11/2025",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Bandsintown.com",
-          "link":
-          "https://www.bandsintown.com/f/201734-judika:-satu-malam-satu-suara-untuk-anda-2025?came_from=209",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Ticket2u",
-          "link":
-          "https://www.ticket2u.com.my/event/44956/judika-live-in-malaysia-2025",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "StubHub",
-          "link":
-          "https://www.stubhub.com/judika-nalom-abadi-sihotang-tickets/performer/150088865/kuala-lumpur-city/3578",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "Viagogo",
-          "link":
-          "https://www.viagogo.com/au/Concert-Tickets/Rock-and-Pop/Judika-Nalom-Abadi-Sihotang-Tickets",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "EverythingBoleh.com",
-          "link":
-          "https://everythingboleh.com/event/judika-concert-2025/",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "National Hockey Stadium",
-        "rating":
-        4.5,
-        "reviews":
-        141,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=National+Hockey+Stadium&ludocid=17220975957449551888&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1FQD95m-Hi-KkY7CKh3OOteg8r3AjZThZF13YLdB0S7scDsikWnCzysU&s"
-    },
-    {
-      "title":
-      "BLAK with Alignment, Anderex, Anxhela and many more",
-      "date":
-      {
-        "start_date":
-        "Nov 21",
-        "when":
-        "Fri, 21 Nov, 5:00 – 8:00 pm"
-      },
-      "address":
-      [
-        "1F, Mega Star Arena KL, Mega star arena, kl @ Sg wang plaza, 3, Jalan Bulan 2, Bukit Bintang",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://ra.co/events/2199796",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=36Fdo2gikhD5s8ynLvjZnuldv4hKXLAHZmn3MC1vloarwwcE793thhLWIDH8iDdQJ-llHC3x7QGCjvLPcNGBLczd74aY6xSUk10EEBcQVYoa0ga_v9s",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4a154eff332f:0x82657f2bc1c3386d?sa=X&ved=2ahUKEwiZ693ej_GQAxX8m2oFHazpJUg4ChD14gF6BAg7EAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4a154eff332f%3A0x82657f2bc1c3386d&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&start=10&type=place"
-      },
-      "description":
-      "A new force awakens in the underground. Blak is more than a music festival — it’s an industrial rave ritual. Featuring 7 international artists at the forefront of Raw and Hard Techno, this is...",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Stubhub.com",
-          "link":
-          "https://www.stubhub.com/blak-kuala-lumpur-tickets-11-21-2025/event/159320237/",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Viagogo.com",
-          "link":
-          "https://www.viagogo.com/_C-150561799?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-45012%7Cev-159320237%7Ccy-3578&ps_ev=159320237",
-          "link_type":
-          "tickets"
-        },
-        {
-          "source":
-          "Resident Advisor",
-          "link":
-          "https://ra.co/events/2199796",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "Facebook",
-          "link":
-          "https://www.facebook.com/events/mega-star-arena/blak-malaysia-2025/1423705279061476/",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "AllEvents",
-          "link":
-          "https://allevents.in/kuala-lumpur/blak-malaysia-2025/200028432860831",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Mega Star Arena KL",
-        "rating":
-        4.1,
-        "reviews":
-        642,
-        "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=Mega+Star+Arena+KL&ludocid=9396056023489525869&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_N_5eY8QMRdpU1B4pr9ED7Wf0wS0w1eDwK8PXxXOH2ew8z-2NSd0DCKU&s"
-    },
-    {
-      "title":
-      "Building Task Leadership Skills",
-      "date":
-      {
-        "start_date":
-        "Nov 23",
-        "when":
-        "23 Nov, 8:00 am – 4 Dec, 11:00 am"
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
       },
       "address":
       [
@@ -1190,25 +54,25 @@
         "Kuala Lumpur, Federal Territory of Kuala Lumpur"
       ],
       "link":
-      "https://www.bmc.net/ct-Building-Task-Leadership-Skills-Kuala-Lumpur-MNG222-3",
+      "https://www.bmc.net/ct-Warehouse-Management-For-Best-in-class-Performance-Kuala-Lumpur-WLS3-3",
       "event_location_map":
       {
         "image":
         "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
         "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwiZ693ej_GQAxX8m2oFHazpJUg4ChD14gF6BAhDEAA&hl=en&gl=my",
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwiYl4vmhfeRAxV4G9AFHWIXAPsQ9eIBegQIAxAA&gl=my",
         "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&start=10&type=place"
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&type=place"
       },
       "description":
-      "BMC Training provides Building Task Leadership Skills in Kuala Lumpur from 2025-11-23 to 2025-12-4",
+      "BMC Training provides Warehouse Management For Best-in-class Performance in Kuala Lumpur from 2025-12-28 to 2026-1-8",
       "ticket_info":
       [
         {
           "source":
           "BMC Training",
           "link":
-          "https://www.bmc.net/ct-Building-Task-Leadership-Skills-Kuala-Lumpur-MNG222-3",
+          "https://www.bmc.net/ct-Warehouse-Management-For-Best-in-class-Performance-Kuala-Lumpur-WLS3-3",
           "link_type":
           "more info"
         }
@@ -1220,48 +84,347 @@
         "rating":
         4.4,
         "reviews":
-        5626,
+        5673,
         "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
       },
       "thumbnail":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+      "image":
       "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU"
     },
     {
       "title":
-      "The Only Arena",
+      "Professional Sales and Time Management",
       "date":
       {
         "start_date":
-        "Jan 20",
+        "Jan 6",
         "when":
-        "Tue, 20 Jan, 7:30 – 11:30 pm"
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
       },
       "address":
       [
-        "Grand Millennium Hotel Kuala Lumpur, 160, Bukit Bintang Rd",
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
         "Kuala Lumpur, Federal Territory of Kuala Lumpur"
       ],
       "link":
-      "https://open.spotify.com/concert/2kRV6v9KYbvaSIW0bD76TN",
+      "https://www.bmc.net/ct-Professional-sales-and-time-management-Kuala-Lumpur-PRC33-3",
       "event_location_map":
       {
         "image":
-        "https://www.google.com/maps/vt/data=gCTW5D_LV-_hh8Jb3p7ug8JSlVBTBJwwcnkI-CRbnd2R8gpKbMf1ENTKwq7Xq6Fgj1w_xeZTutRzqeYGX7cyqLLTAdAQZYk6rdia_eRoNFulwf40mNY",
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
         "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362832b00e6b:0x9514d96ecbe632ce?sa=X&ved=2ahUKEwiZ693ej_GQAxX8m2oFHazpJUg4ChD14gF6BAhLEAA&hl=en&gl=my",
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwiYl4vmhfeRAxV4G9AFHWIXAPsQ9eIBegQICxAA&gl=my",
         "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362832b00e6b%3A0x9514d96ecbe632ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+bukit+bintang&start=10&type=place"
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&type=place"
       },
       "description":
-      "Find tickets for The Only Arena at Celebrity Millennium in Kuala Lumpur on 1/20/2026 at 7:30 PM",
+      "BMC Training provides Professional Sales and Time Management in Kuala Lumpur from 2025-12-28 to 2026-1-8",
       "ticket_info":
       [
         {
           "source":
-          "Spotify.com",
+          "BMC Training",
           "link":
-          "https://open.spotify.com/concert/2kRV6v9KYbvaSIW0bD76TN",
+          "https://www.bmc.net/ct-Professional-sales-and-time-management-Kuala-Lumpur-PRC33-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-_BaNkeHOeII2KT7qUBpmOFpcV0tOReXU0C7Q4gahaYoDEXG2uF6m9W0&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrmW-YZCu_hVjAoKp2KbFzJWgH6nn19igFzlKBVyMJQ&s"
+    },
+    {
+      "title":
+      "Supply Chain Risk",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
+      },
+      "address":
+      [
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.bmc.net/ct-Fashion-Retail-Supply-Chain-Best-Practices-Kuala-Lumpur-WLS22-3",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwiYl4vmhfeRAxV4G9AFHWIXAPsQ9eIBegQIExAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&type=place"
+      },
+      "description":
+      "BMC Training provides Fashion Retail Supply Chain Best Practices in Kuala Lumpur from 2025-12-28 to 2026-1-8",
+      "ticket_info":
+      [
+        {
+          "source":
+          "BMC Training",
+          "link":
+          "https://www.bmc.net/ct-Supply-Chain-Risk-Kuala-Lumpur-WLS38-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+      "image":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU"
+    },
+    {
+      "title":
+      "DIGITAL FUTURE FOR WOMEN (MELIA HOTEL, KUALA LUMPUR)",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 9:00 am – Thu, 8 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "The Kitchen @ Melia, Melia Kuala Lumpur, 16, Jln Imbi, Imbi",
+        "Kuala Lumpur"
+      ],
+      "link":
+      "https://www.myhits.com.my/event/digital-future-for-women-melia-hotel-kuala-lumpur/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=gsJ_ukwBIhC_M1_dAyfLqEuYS2HkVrFws3IDGkqIZ7vf2kc155u1Ngzuu_DbVEIU6ydkm2tDJxXDLr6Jz7Fnt5M5_JMz_A-6DJvZujGAAlMyJFbQBnI",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3628f833750b:0x1231bfa22dbf4f3a?sa=X&ved=2ahUKEwiYl4vmhfeRAxV4G9AFHWIXAPsQ9eIBegQIGxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3628f833750b%3A0x1231bfa22dbf4f3a&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&type=place"
+      },
+      "description":
+      "Brochure Register",
+      "ticket_info":
+      [
+        {
+          "source":
+          "High Impact Training Services",
+          "link":
+          "https://www.myhits.com.my/event/digital-future-for-women-melia-hotel-kuala-lumpur/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Kitchen @ Melia",
+        "rating":
+        3.5,
+        "reviews":
+        55,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Kitchen+%40+Melia&ludocid=1311039669814644538&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCQgVocVkkdrfbGQqyXyNo8BI9zTSs-DGfWFI-mLnthtcBAZhiyMJ-bpQ&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1n9Dsln1QwSavnTpaC7XSSBqVWoSIUWPCDChM8pfc5ufAU0ZXYtsqx9x9zA&s=10"
+    },
+    {
+      "title":
+      "Strategic Leadership and Operational Excellence in the Oil Refinery Sector",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
+      },
+      "address":
+      [
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.bmc.net/ct-strategic-leadership-and-operational-excellence-in-the-oil-refinery-sector-Kuala-Lumpur-MNG267-3",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwiYl4vmhfeRAxV4G9AFHWIXAPsQ9eIBegQIIxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&type=place"
+      },
+      "description":
+      "BMC Training provides Strategic Leadership and Operational Excellence in the Oil Refinery Sector in Kuala Lumpur from 2025-12-28 to 2026-1-8",
+      "ticket_info":
+      [
+        {
+          "source":
+          "BMC Training",
+          "link":
+          "https://www.bmc.net/ct-strategic-leadership-and-operational-excellence-in-the-oil-refinery-sector-Kuala-Lumpur-MNG267-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+      "image":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU"
+    },
+    {
+      "title":
+      "Accusefive",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 8:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.co.za/Concert-Tickets/Pop-Rock/Asian-Pop/C-Pop/Accusefive-Tickets/E-159803006",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiYl4vmhfeRAxV4G9AFHWIXAPsQ9eIBegQIKxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&type=place"
+      },
+      "description":
+      "Ticket listings for Accusefive at Zepp Kuala Lumpur in Kuala Lumpur on 07/01/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/accusefive-kuala-lumpur-tickets-1-7-2026/event/159803006/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-179261?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159803006%7Ccy-3578&ps_ev=159803006",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "EverythingBoleh.com",
+          "link":
+          "https://everythingboleh.com/events/tag/accusefive-asia-tour/list/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1525,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7CO29sDoKtsOAxlSE1zHINsVau-NgT3npHCq1vlqMF6hye6moBNNMub8&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnIaU2mJDJsaxLzhjpk_w6d2WHolrEo2xoiMDQTaQ_Ie4E27_rXZeI54frQQ&s=10"
+    },
+    {
+      "title":
+      "Accusefive",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 8:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.stubhub.com/E-159811218?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159811218%7Ccy-3578&ps_ev=159811218",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiYl4vmhfeRAxV4G9AFHWIXAPsQ9eIBegQIMxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&type=place"
+      },
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/_C-179261?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159811218%7Ccy-3578&ps_ev=159811218",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-179261?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159811218%7Ccy-3578&ps_ev=159811218",
           "link_type":
           "tickets"
         }
@@ -1269,16 +432,2336 @@
       "venue":
       {
         "name":
-        "Grand Millennium Hotel Kuala Lumpur",
+        "Zepp Kuala Lumpur",
         "rating":
-        4.4,
+        4.6,
         "reviews":
-        6547,
+        1525,
         "link":
-        "https://www.google.com/search?sca_esv=be9bcadcc598f779&gl=my&hl=en&q=Grand+Millennium+Hotel+Kuala+Lumpur&ludocid=10742450081075966670&ibp=gwp%3B0,7"
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
       },
       "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsPTyPL_to4ucUwPFBRR4OxvMxPBUhO_ju-ImBboFpD1pGamY67RlICWk&s"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKb_KL1rk-Jlr3mOF-4t3YO6N_QzHGYnWRvxfBTjEHYnM9a2XqL3vrZAk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtJC3wR4Ak-_fuDvECMpJOQ1W3-PWn7hqRfh6sdJ4eUQ&s=10"
+    },
+    {
+      "title":
+      "Managing Corporate Treasury Risks",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Mon, 5 Jan, 9:00 am – Wed, 7 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/managing-corporate-treasury-risks-tickets-1895023208429",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiYl4vmhfeRAxV4G9AFHWIXAPsQ9eIBegQIOxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&type=place"
+      },
+      "description":
+      "This interactive workshop course is apt for participants working in and with corporate treasuries and need to keep pace with developments. This interactive workshop course is apt for participants...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/managing-corporate-treasury-risks-tickets-1895023208429",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeDWLsqpYaWNSNEf1PY2Q3W84GqmGlMf4pK-HG72vHnnW2UWmpTRKEQGk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTftxEhqmUYtIuj-9C2pWXx3xsNAxqkvJ4mCBrn90XY5g&s=10"
+    },
+    {
+      "title":
+      "Advanced Excel for Professional",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Mon, 5 Jan, 9:00 am – Wed, 7 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/advanced-excel-for-professional-tickets-1868266739109",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiYl4vmhfeRAxV4G9AFHWIXAPsQ9eIBegQIQxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&type=place"
+      },
+      "description":
+      "The course will provide a detailed explanation of the basic concepts and swiftly moves to an advanced level to teach new concepts.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/advanced-excel-for-professional-tickets-1868266739109",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+      "image":
+      "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k"
+    },
+    {
+      "title":
+      "LaLaport BBCC - Little Makers Workshop 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 17",
+        "when":
+        "17 Jan, 2:30 pm – 7 Feb, 6:00 pm"
+      },
+      "address":
+      [
+        "LaLaport Bukit Bintang City Centre, 2, Jln Hang Tuah, Bukit Bintang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.ticket2u.com.my/event/47433/lalaport-bbcc-little-makers-workshop-2026",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=LRRnGKqe2pOLadY-52pdkOhZr5MEPC8o8OZ4DMDcSsqgnp4b27SPe2V-vOHBLsx91CyI3zEYc3sBik1XEGldkYf3CHoiZBKJAsxApTRIAln_q19OLfQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3726cf342663:0x5f4e529b3d3e41b0?sa=X&ved=2ahUKEwiKjuyKhveRAxViJjQIHYKXJkQ4ChD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3726cf342663%3A0x5f4e529b3d3e41b0&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=10&type=place"
+      },
+      "description":
+      "Attention kids ages 6 to 12! Join us every 2nd or 3rd week of the month for our fun and engaging Kids Workshop packed with fun and learning activities. Our workshop offers a variety of creative...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Ticket2u",
+          "link":
+          "https://www.ticket2u.com.my/event/47433/lalaport-bbcc-little-makers-workshop-2026",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "LaLaport Bukit Bintang City Centre",
+        "rating":
+        4.3,
+        "reviews":
+        6827,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=LaLaport+Bukit+Bintang+City+Centre&ludocid=6867517308487483824&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=LRRnGKqe2pOLadY-52pdkOhZr5MEPC8o8OZ4DMDcSsqgnp4b27SPe2V-vOHBLsx91CyI3zEYc3sBik1XEGldkYf3CHoiZBKJAsxApTRIAln_q19OLfQ",
+      "image":
+      "https://www.google.com/maps/vt/data=LRRnGKqe2pOLadY-52pdkOhZr5MEPC8o8OZ4DMDcSsqgnp4b27SPe2V-vOHBLsx91CyI3zEYc3sBik1XEGldkYf3CHoiZBKJAsxApTRIAln_q19OLfQ"
+    },
+    {
+      "title":
+      "Swee Lee Lot 10 Presents: Open Mic Night",
+      "date":
+      {
+        "start_date":
+        "Jan 30",
+        "when":
+        "Fri, 30 Jan, 7:00 – 9:00 pm"
+      },
+      "address":
+      [
+        "Swee Lee Flagship Lot 10, T16 & T17, 3rd Floor, Lot 10 Shopping Centre, 50, Jln Sultan Ismail, Bukit Bintang",
+        "Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/swee-lee-lot-10-presents-open-mic-night-tickets-1978808665988",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Vj7banoBjqctRQ4uXUp1bgUkuuQCAnJS-L5I8pmxVCrN_0QgXj3qKkvTZyZuUI9clOMK-sJnAIFbik9t75dUGlwGbAvHeQZ4SoYDiK7ttE7fo5s_7RM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362bfd6f93b5:0x1821902088eb3d76?sa=X&ved=2ahUKEwiKjuyKhveRAxViJjQIHYKXJkQ4ChD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362bfd6f93b5%3A0x1821902088eb3d76&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=10&type=place"
+      },
+      "description":
+      "Join us for a night of music, from some of the best musicians in town!",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/swee-lee-lot-10-presents-open-mic-night-tickets-1978808665988",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Swee Lee Flagship Lot 10",
+        "rating":
+        4.5,
+        "reviews":
+        551,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Swee+Lee+Flagship+Lot+10&ludocid=1738829400552193398&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy4HYG4fLfng3UoYMoMV1jTRK2REJqg0nw0s2TxPkKyGR1HVJGGGZcGfU&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO5VFehIYoYEqBz2MJ2FYNdRRhEZm2s0SUnnRtacJI9Q&s=10"
+    },
+    {
+      "title":
+      "Kim Sejeong in Malaysia",
+      "date":
+      {
+        "start_date":
+        "Mar 8",
+        "when":
+        "Sun, 8 Mar"
+      },
+      "address":
+      [
+        "1F, Mega Star Arena KL, Mega star arena, kl @ Sg wang plaza, 3, Jalan Bulan 2, Bukit Bintang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://thesmartlocal.my/kim-sejeong-in-malaysia/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=36Fdo2gikhD5s8ynLvjZnuldv4hKXLAHZmn3MC1vloarwwcE793thhLWIDH8iDdQJ-llHC3x7QGCjvLPcNGBLczd74aY6xSUk10EEBcQVYoa0ga_v9s",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4a154eff332f:0x82657f2bc1c3386d?sa=X&ved=2ahUKEwiKjuyKhveRAxViJjQIHYKXJkQ4ChD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4a154eff332f%3A0x82657f2bc1c3386d&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=10&type=place"
+      },
+      "description":
+      "She's got us swooning with her smooth vocals and laughing out loud from her acting chops. That's Kim Sejeong for you. Whether you've been with the Korean singer and actress since she released Door...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "TheSmartLocal Malaysia",
+          "link":
+          "https://thesmartlocal.my/kim-sejeong-in-malaysia/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Mega Star Arena KL",
+        "rating":
+        4.2,
+        "reviews":
+        667,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Mega+Star+Arena+KL&ludocid=9396056023489525869&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=36Fdo2gikhD5s8ynLvjZnuldv4hKXLAHZmn3MC1vloarwwcE793thhLWIDH8iDdQJ-llHC3x7QGCjvLPcNGBLczd74aY6xSUk10EEBcQVYoa0ga_v9s",
+      "image":
+      "https://www.google.com/maps/vt/data=36Fdo2gikhD5s8ynLvjZnuldv4hKXLAHZmn3MC1vloarwwcE793thhLWIDH8iDdQJ-llHC3x7QGCjvLPcNGBLczd74aY6xSUk10EEBcQVYoa0ga_v9s"
+    },
+    {
+      "title":
+      "Barbarik",
+      "date":
+      {
+        "start_date":
+        "Jan 31",
+        "when":
+        "Sat, 31 Jan, 8:30 – 11:30 pm"
+      },
+      "address":
+      [
+        "MyTicket @ Mega Star Arena KL, Mega Star Arena, KL @ Sg Wang Plaza, 1F, 3, Jalan Bulan 2, Bukit Bintang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Barbarik-Tickets",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=WYr_UBcoqj-Us9KlWqDe65aIUC58ec7tYpgaEPuNQV-skOWm3AN8RUmXnJxDhRJR1xrz5Dk1PQm_QH3qieRObnU008Eq2y91KGLKvVI8Rva9Eihyo-Y",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3741aff43d93:0x15ce022f5d00b927?sa=X&ved=2ahUKEwiKjuyKhveRAxViJjQIHYKXJkQ4ChD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3741aff43d93%3A0x15ce022f5d00b927&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=10&type=place"
+      },
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/_C-150029478?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-45012%7Cev-160133885%7Ccy-3578&ps_ev=160133885",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-150029478?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-45012%7Cev-160133885%7Ccy-3578&ps_ev=160133885",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "MyTicket @ Mega Star Arena KL",
+        "rating":
+        2.7,
+        "reviews":
+        3,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=MyTicket+%40+Mega+Star+Arena+KL&ludocid=1571195722445928743&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0oANAUYt9nnW3c46sNdUyM5j8jVY0vy9gvWdW8jU_uLTCY094E7ngDi4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrr460304Pn57QmAWEP9Ve5YiiURKM8gZQjQCTYHAVRg&s=10"
+    },
+    {
+      "title":
+      "Butterfingers and Amir Jahari",
+      "date":
+      {
+        "start_date":
+        "Jan 24",
+        "when":
+        "Sat, 24 Jan, 3:00 – 6:00 pm"
+      },
+      "address":
+      [
+        "LaLaport Bukit Bintang City Centre, 2, Jln Hang Tuah, Bukit Bintang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/Concert-Tickets/Rap-and-Hip-Hop-Music/Butterfingers-Tickets/E-160134103",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=LRRnGKqe2pOLadY-52pdkOhZr5MEPC8o8OZ4DMDcSsqgnp4b27SPe2V-vOHBLsx91CyI3zEYc3sBik1XEGldkYf3CHoiZBKJAsxApTRIAln_q19OLfQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3726cf342663:0x5f4e529b3d3e41b0?sa=X&ved=2ahUKEwiKjuyKhveRAxViJjQIHYKXJkQ4ChD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3726cf342663%3A0x5f4e529b3d3e41b0&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=10&type=place"
+      },
+      "description":
+      "Ticket listings for Butterfingers and Amir Jahari at Zepp Kuala Lumpur in Kuala Lumpur on 01/24/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/butterfingers-kuala-lumpur-tickets-1-24-2026/event/160134103/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-80655?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-160134103%7Ccy-3578&ps_ev=160134103",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "LaLaport Bukit Bintang City Centre",
+        "rating":
+        4.3,
+        "reviews":
+        6827,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=LaLaport+Bukit+Bintang+City+Centre&ludocid=6867517308487483824&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQ4HMCiIH2pSkdQV0Ex93xrVhfUdBj9K_k3GqnWmzrHY-PrRmjytWTc4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW6_nxADdvPHRjy1aijq6LbrhXof5oCxznQg8hJ_hHfQ&s=10"
+    },
+    {
+      "title":
+      "IVE WORLD TOUR 'SHOW WHAT I AM' IN KUALA LUMPUR",
+      "date":
+      {
+        "start_date":
+        "Apr 4",
+        "when":
+        "Sat, 4 Apr"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://thebeat.asia/kuala-lumpur/the-list/events/ive-world-tour-show-what-i-am-in-kuala-lumpur",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiKjuyKhveRAxViJjQIHYKXJkQ4ChD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=10&type=place"
+      },
+      "description":
+      "IVE brings their \"SHOW WHAT I AM\" Tour to Axiata Arena on April 4, 2026, promising high-energy performances and chart-topping hits fans know by heart.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "The Beat Asia",
+          "link":
+          "https://thebeat.asia/kuala-lumpur/the-list/events/ive-world-tour-show-what-i-am-in-kuala-lumpur",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1525,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ZbIIv7F-NSVigPhAqAa7QGnyzovvRhAHYDWd8TmlbRqzVyCnzh0ZCDk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZbivqwUL-S0XqvvDi6UJq0qzIKpY5T2wqq5RVWU-A1g&s"
+    },
+    {
+      "title":
+      "Sunset Rollercoaster",
+      "date":
+      {
+        "start_date":
+        "Mar 28",
+        "when":
+        "Sat, 28 Mar, 8:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/E-159946736",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiKjuyKhveRAxViJjQIHYKXJkQ4ChD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=10&type=place"
+      },
+      "description":
+      "Ticket listings for Sunset Rollercoaster at Zepp Kuala Lumpur in Kuala Lumpur on 03/28/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/_C-93024?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159946736%7Ccy-3578&ps_ev=159946736",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-93024?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159946736%7Ccy-3578&ps_ev=159946736",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "New York Concerts",
+          "link":
+          "https://www.eventworld.co/kuala-lumpur/sunset-rollercoaster-tickets-2026-03-28-514549/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1525,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGRq_AYPI9PuN8TGmCm7xeMXxAarFtsqpcYOhc93zQNiKb97nDaj7zCso&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUEFfueeWJy-fCestOL1cvT7XfyslIkFTgrJ_qeQGtrQx-Royy5iM_5Vn9O6K9&s"
+    },
+    {
+      "title":
+      "Due Diligence Masterclass",
+      "date":
+      {
+        "start_date":
+        "Apr 28",
+        "when":
+        "Tue, 28 Apr, 9:00 am – Thu, 30 Apr, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/due-diligence-masterclass-tickets-1972444459475",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiKjuyKhveRAxViJjQIHYKXJkQ4ChD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=10&type=place"
+      },
+      "description":
+      "The course equips you with a comprehension of the various concepts and practices in due diligence. In today’s world, principal decision-makers commit many blunders during the investment or...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/due-diligence-masterclass-tickets-1972444459475",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+      "image":
+      "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k"
+    },
+    {
+      "title":
+      "Dating for High Performers, How Successful Men Navigate Modern Women",
+      "date":
+      {
+        "start_date":
+        "Jan 17",
+        "when":
+        "Sat, 17 Jan, 2:00 – 4:00 pm"
+      },
+      "address":
+      [
+        "Agile Residence Bukit Bintang, Jln Delima, off, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/dating-for-high-performers-how-successful-men-navigate-modern-women-tickets-1977477355001",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=EAD5l0TuyC9ZYFzUjGXujSsj6dv5jMScPaxRSpEN0l2502ujPcS-_iwOi7jtBcEq6CJNe9QpGYw9oXIoe68CiwBOI4rmriawEa3MRQrPulRKDMA-58g",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0xfb61dd4d2b204c3:0xb3890121f9504009?sa=X&ved=2ahUKEwiKjuyKhveRAxViJjQIHYKXJkQ4ChD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0xfb61dd4d2b204c3%3A0xb3890121f9504009&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=10&type=place"
+      },
+      "description":
+      "Learn how you can meet, date, and attract women with confidence as a high-performing professional in today’s modern dating world. Welcome to Dating for High Performers , a high-impact seminar for...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/dating-for-high-performers-how-successful-men-navigate-modern-women-tickets-1977477355001",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Agile Residence Bukit Bintang",
+        "rating":
+        4,
+        "reviews":
+        114,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Agile+Residence+Bukit+Bintang&ludocid=12936872650026795017&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUBHx53rp8UpafVKZ3rvnOl8zVJ3heyYMPWMzlr5hePS5C0kQMoeslfl0&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX4S1K--ToGMlWRULKq7yGOHqJ1qsG-zFOAN5wztr3wA&s"
+    },
+    {
+      "title":
+      "NCT Wish",
+      "date":
+      {
+        "start_date":
+        "Feb 6",
+        "when":
+        "Fri, 6 Feb, 8:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "1F, Mega Star Arena KL, Mega star arena, kl @ Sg wang plaza, 3, Jalan Bulan 2, Bukit Bintang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://thesmartlocal.my/nct-wish-malaysia/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=36Fdo2gikhD5s8ynLvjZnuldv4hKXLAHZmn3MC1vloarwwcE793thhLWIDH8iDdQJ-llHC3x7QGCjvLPcNGBLczd74aY6xSUk10EEBcQVYoa0ga_v9s",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4a154eff332f:0x82657f2bc1c3386d?sa=X&ved=2ahUKEwiuqq7chveRAxXnKkQIHQzlJIY4FBD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4a154eff332f%3A0x82657f2bc1c3386d&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=20&type=place"
+      },
+      "description":
+      "Malaysian WISHzens were wishing for a tour, and NCT Wish said, “Granted”. The baby unit of K-pop boy group NCT announced their very first concert tour, and confirmed that the six-member group is...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/nct-wish-kuala-lumpur-tickets-2-6-2026/event/159946770/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-150315067?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-45012%7Cev-159946770%7Ccy-3578&ps_ev=159946770",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "TheSmartLocal Malaysia",
+          "link":
+          "https://thesmartlocal.my/nct-wish-malaysia/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Mega Star Arena KL",
+        "rating":
+        4.2,
+        "reviews":
+        667,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Mega+Star+Arena+KL&ludocid=9396056023489525869&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLfhFjSGtECCfgL2mawJuKDhu6lrZWlZ-Co8ikR-vr876UV6QYb11mEA4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgKTAyExc7jtmawboK_9w8NpH1A1gs3_dEg1eP4HXLIQ&s=10"
+    },
+    {
+      "title":
+      "Raisa",
+      "date":
+      {
+        "start_date":
+        "Feb 13",
+        "when":
+        "Fri, 13 Feb, 8:30 – 11:30 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/Concert-Tickets/World-Music/Raisa-Andriana-Tickets/E-160145393",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiuqq7chveRAxXnKkQIHQzlJIY4FBD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=20&type=place"
+      },
+      "description":
+      "Ticket listings for Raisa at Zepp Kuala Lumpur in Kuala Lumpur on 02/13/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/_C-108965?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-160145393%7Ccy-3578&ps_ev=160145393",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-108965?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-160145393%7Ccy-3578&ps_ev=160145393",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1525,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+      "image":
+      "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM"
+    },
+    {
+      "title":
+      "Sheng Wang",
+      "date":
+      {
+        "start_date":
+        "Jan 9",
+        "when":
+        "Fri, 9 Jan, 8:00 pm – Sat, 10 Jan, 12:00 am"
+      },
+      "address":
+      [
+        "Level 6, Hao Xiang Chi Seafood | ICC PUDU, ICC Pudu Hao Xiang Chi Seafood, c5, Jalan Kijang, Pudu",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://open.spotify.com/concert/4Fsoh3GbBXcNBUzbDBmGan",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Qp9edw3wJSj4lMxMAl_DuJUBKoaiL6lmgJu1PK_5tqeXqiZ9dBeRI5tE9AXosXT6gLSjHUDpw6ErHzWERFpDhXW3C9OPTG_UL8civQ3zuU3JNWVoXn4",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc36244f53558d:0x1b5f32e47846239f?sa=X&ved=2ahUKEwiuqq7chveRAxXnKkQIHQzlJIY4FBD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc36244f53558d%3A0x1b5f32e47846239f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=20&type=place"
+      },
+      "description":
+      "Find tickets for Sheng Wang at HXC Grand Ballroom in Kuala Lumpur on 1/9/2026 at 8:00 PM",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Spotify.com",
+          "link":
+          "https://open.spotify.com/concert/4Fsoh3GbBXcNBUzbDBmGan",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo",
+          "link":
+          "https://www.viagogo.com/Theater-Tickets/Comedy/Sheng-Wang-Tickets/E-159320540",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "StubHub",
+          "link":
+          "https://www.stubhub.com/hxc-grand-ballroom-tickets/venue/137046647/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Hao Xiang Chi Seafood | ICC PUDU",
+        "rating":
+        4.5,
+        "reviews":
+        2011,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Hao+Xiang+Chi+Seafood+%7C+ICC+PUDU&ludocid=1972351118663361439&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMu3OgBNm-6aX36ZkVH5WzMZwuQ1jZyrPKutXp-mhajVOM6Ons2oir1g&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH6BF9AgZBAj4O0FE2vfzLL46iaXXwZ-R8lHMEHSUeCg&s=10"
+    },
+    {
+      "title":
+      "QWER",
+      "date":
+      {
+        "start_date":
+        "Jan 17",
+        "when":
+        "Sat, 17 Jan, 7:00 – 10:00 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/Concert-Tickets/K-pop/QWER-Tickets/E-159464378",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiuqq7chveRAxXnKkQIHQzlJIY4FBD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=20&type=place"
+      },
+      "description":
+      "Ticket listings for QWER at Zepp Kuala Lumpur in Kuala Lumpur on 01/17/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/qwer-kuala-lumpur-tickets-1-17-2026/event/159464378/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-150277156?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159464378%7Ccy-3578&ps_ev=159464378",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1525,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0oANAUYt9nnW3c46sNdUyM5j8jVY0vy9gvWdW8jU_uLTCY094E7ngDi4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrr460304Pn57QmAWEP9Ve5YiiURKM8gZQjQCTYHAVRg&s=10"
+    },
+    {
+      "title":
+      "Cash Flow and Working Capital Management",
+      "date":
+      {
+        "start_date":
+        "May 14",
+        "when":
+        "Thu, 14 May, 9:00 am – Fri, 15 May, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/cash-flow-and-working-capital-management-tickets-1975007301003",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiuqq7chveRAxXnKkQIHQzlJIY4FBD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=20&type=place"
+      },
+      "description":
+      "The Course will provide participants with a structured process and methodology to analyze and understand cash and working capital. The Course will provide participants with a structured process...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/cash-flow-and-working-capital-management-tickets-1975007301003",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuHEZ9vlBGzGIZ43ocivu17znLGJjNpi-_aPixrcWIrV4PpCXWFjm9yMA&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfsl_6XHVcBYncRSNWrKcAunNtT1j4hHIq4pw0WTEVbg&s=10"
+    },
+    {
+      "title":
+      "Men I Trust",
+      "date":
+      {
+        "start_date":
+        "Jan 27",
+        "when":
+        "Tue, 27 Jan, 7:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://open.spotify.com/concert/1x5OgdWFWzV4fEvaggodDT",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiuqq7chveRAxXnKkQIHQzlJIY4FBD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=20&type=place"
+      },
+      "description":
+      "Find tickets for Men I Trust at Zepp Kuala Lumpur in Kuala Lumpur on 1/27/2026 at 7:00 PM",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Spotify.com",
+          "link":
+          "https://open.spotify.com/concert/1x5OgdWFWzV4fEvaggodDT",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Songkick.com",
+          "link":
+          "http://www.songkick.com/concerts/42804226-men-i-trust-at-zepp-kuala-lumpur?utm_medium=organic&utm_source=microformat",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/_C-69261?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159581945%7Ccy-3578&ps_ev=159581945",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-69261?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159581945%7Ccy-3578&ps_ev=159581945",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "FUTURE SOUND ASIA",
+          "link":
+          "https://futuresoundasia.com/events/men-i-trust-equus-tour-2026",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1525,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgdy7GeGsZaLkDPxxF4VXwR0BVxLWnm5GwccnT9R3wgrtkzjSOc4SHmJM&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSoGdKcf0uNxUMSXZCp0YVUcBrgddCOGtg1_j2JJK7NlLRTuj7x0I9foFU4g&s=10"
+    },
+    {
+      "title":
+      "Repvblik",
+      "date":
+      {
+        "start_date":
+        "Feb 8",
+        "when":
+        "Sun, 8 Feb, 8:45 – 11:45 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventworld.co/kuala-lumpur/repvblik-tickets-2026-02-08-510071/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiuqq7chveRAxXnKkQIHQzlJIY4FBD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=20&type=place"
+      },
+      "description":
+      "Repvblik concert in Kuala Lumpur on Sun, February 8, 2026 at Zepp Kuala Lumpur",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/repvblik-kuala-lumpur-tickets-2-8-2026/event/159803144/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-171836?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159803144%7Ccy-3578&ps_ev=159803144",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "New York Concerts",
+          "link":
+          "https://www.eventworld.co/kuala-lumpur/repvblik-tickets-2026-02-08-510071/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1525,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_hIekY0s0xmj-qMZ0Rsdg9hIBl5j6UUj3MeqE6gp-T2Ye3xQyxHZkQwQ&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdbanRHQVJFkrKS2wmEkMoSlZjj-aBjHRgsea8gRV9skALF1nmgiQ2JGHPbA&s=10"
+    },
+    {
+      "title":
+      "Slow Crush @ Petai Belalang KL",
+      "date":
+      {
+        "start_date":
+        "Jan 18",
+        "when":
+        "Sun, 18 Jan, 12:00 – 4:00 pm"
+      },
+      "address":
+      [
+        "No 112 & 114, Petai Belalang, Wisma Hainan, Jln Pudu, City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://evvntly.com/event/ev-ce0a379cc77670f4161ea8a15",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=8q9Qhnh8cJOllD_15VPprWSIN-KnvcuzxmD8prRq3GhXd7hVoxbDneebCTYmLHCEpt3zuv8ZT9KBzOs8HqVAHS-eo63F94mJDs0ZNyjiJkOjjmXwuWY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4f371e2fa917:0xc651a9657b5c300?sa=X&ved=2ahUKEwiuqq7chveRAxXnKkQIHQzlJIY4FBD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4f371e2fa917%3A0xc651a9657b5c300&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=20&type=place"
+      },
+      "description":
+      "Find tickets for Slow Crush at Petai Belalang KL, Kuala Lumpur, on Sun, Jan 18th, 2026 12:00 PM. Find and track events at Evvntly.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Songkick.com",
+          "link":
+          "https://www.songkick.com/concerts/42934074-slow-crush-at-petai-belalang-kl?utm_medium=organic&utm_source=microformat",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Evvntly",
+          "link":
+          "https://evvntly.com/event/ev-ce0a379cc77670f4161ea8a15",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Petai Belalang",
+        "rating":
+        4.8,
+        "reviews":
+        39,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Petai+Belalang&ludocid=893149334121857792&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS2HXYlkX2v6ebTxizGlHAZPMYAOSdEjqZ5Y4xYoahgITORMpmrlgf1bQ&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_5IGHkQZZDPLZ1dcWOw7odTyieC9qtAgDYpHSiXswkJ5nEY3mmqijGOVcg&s=10"
+    },
+    {
+      "title":
+      "The Lantis ft Fugo",
+      "date":
+      {
+        "start_date":
+        "Jan 24",
+        "when":
+        "Sat, 24 Jan, 8:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/Concert-Tickets/Alternative-Music/The-Lantis-Tickets/E-160130549",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiuqq7chveRAxXnKkQIHQzlJIY4FBD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=20&type=place"
+      },
+      "description":
+      "Ticket listings for The Lantis ft Fugo at Zepp Kuala Lumpur in Kuala Lumpur on 01/24/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.ca",
+          "link":
+          "https://www.stubhub.ca/the-lantis-kuala-lumpur-tickets-1-24-2026/event/160130549/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-150605136?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-160130549%7Ccy-3578&ps_ev=160130549",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1525,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI5-gMd3HEnMX-b0HUgEwqvbaptqA7opE82EZQ37ThqIUdZju5A-brI1s&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRStwvR6spWT1YY3UVsgKsEEpdlz-czL1ysN1rb-rK64Q&s=10"
+    },
+    {
+      "title":
+      "Real Estate Modeling and Analysis",
+      "date":
+      {
+        "start_date":
+        "May 11",
+        "when":
+        "Mon, 11 May, 9:00 am – Wed, 13 May, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/real-estate-modeling-and-analysis-tickets-1975077244205",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiwz43rhveRAxWkhIkEHQdKEeI4HhD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=30&type=place"
+      },
+      "description":
+      "The course equips you with a comprehension on the various concepts and practices in the real estate sector. The course equips you with a comprehension on the various concepts and practices in the...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/real-estate-modeling-and-analysis-tickets-1975077244205",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUEx5X3UZ6UXuXXUzUiasYpe0vBmcj_G7qw2BWFI2u5rW81EalFEhIqGs&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZl-SzfQT9hSN1d9hkPcguTIPmMcgjcYYFEm-Dne0dbw&s=10"
+    },
+    {
+      "title":
+      "Kristal X and Azlan & The Typewriter",
+      "date":
+      {
+        "start_date":
+        "Feb 1",
+        "when":
+        "Sun, 1 Feb, 8:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/au/Concert-Tickets/Rock-and-Pop/Kristal-X-Tickets/E-159592743",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiwz43rhveRAxWkhIkEHQdKEeI4HhD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=30&type=place"
+      },
+      "description":
+      "Ticket listings for Kristal X and Azlan & The Typewriter at Zepp Kuala Lumpur in Kuala Lumpur on 01/02/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/kristal-x-kuala-lumpur-tickets-2-1-2026/event/159592743/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-150580675?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159592743%7Ccy-3578&ps_ev=159592743",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1525,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0oANAUYt9nnW3c46sNdUyM5j8jVY0vy9gvWdW8jU_uLTCY094E7ngDi4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrr460304Pn57QmAWEP9Ve5YiiURKM8gZQjQCTYHAVRg&s=10"
+    },
+    {
+      "title":
+      "Corporate Fundraising Masterclass",
+      "date":
+      {
+        "start_date":
+        "Jun 8",
+        "when":
+        "Mon, 8 Jun, 9:00 am – Wed, 10 Jun, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/corporate-fundraising-masterclass-tickets-1975250738130",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiwz43rhveRAxWkhIkEHQdKEeI4HhD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=30&type=place"
+      },
+      "description":
+      "The course equips you with a comprehension of the various industry standards, strategies, and practices in corporate fundraising. The course equips you with a comprehension of the various industry...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/corporate-fundraising-masterclass-tickets-1975250738130",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-eqhSKSK2vh-giyjgs07ohJBoeKo3rOhLceuOi0DRxzWsoyyFz6UjIuA&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWhGneBvdq2Ny2L_H_Q2ES2nhlU-9nhXsk18X43HAYw&s=10"
+    },
+    {
+      "title":
+      "Project Finance Modeling Training",
+      "date":
+      {
+        "start_date":
+        "Apr 14",
+        "when":
+        "Tue, 14 Apr, 9:00 am – Thu, 16 Apr, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/project-finance-modeling-training-tickets-1972969457759",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiwz43rhveRAxWkhIkEHQdKEeI4HhD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=30&type=place"
+      },
+      "description":
+      "The objective of this program is to provide knowledge and practical experience about the creation of comprehensive and flexible project finance models used in financial planning, structuring and...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/project-finance-modeling-training-tickets-1972969457759",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdNV9jTk-twaDL_FPljr-OYBtOu60UR95VpoVaBGcLuDvZ5JL16PEoy98&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHazL0SEWY37N-j5ve1WtNwkkFwnQ2ySW40NzIzm-LeA&s=10"
+    },
+    {
+      "title":
+      "Dream Theater",
+      "date":
+      {
+        "start_date":
+        "Feb 4",
+        "when":
+        "Wed, 4 Feb, 7:00 – 10:00 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://megatix.asia/events/dream-theater",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiwz43rhveRAxWkhIkEHQdKEeI4HhD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=30&type=place"
+      },
+      "description":
+      "We are thrilled to announce that progressive metal pioneers Dream Theater will be performing live in Malaysia on February 4, 2026 . Dream Theater share a unique bond with one of the most...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Megatix.asia",
+          "link":
+          "https://megatix.asia/events/dream-theater",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/_C-5540?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-160130577%7Ccy-3578&ps_ev=160130577",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-5540?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-160130577%7Ccy-3578&ps_ev=160130577",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Evvnt",
+          "link":
+          "https://evvnt.com/events/?_evDiscoveryPath=/event/3323092-dream-theater-live-in-kuala-lumpur",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "New York Concerts",
+          "link":
+          "https://www.eventworld.co/kuala-lumpur/dream-theater-tickets-2026-02-04-519838/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1525,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt5k_wHqA9yMB2YSjswJkOEFnUf9viHpHMYwJ5Lq0&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojShTlZmnBUPjjAl9CEkA71GtuIoYs_xN0XUI0zxDdw&s=10"
+    },
+    {
+      "title":
+      "Andmesh",
+      "date":
+      {
+        "start_date":
+        "Feb 14",
+        "when":
+        "Sat, 14 Feb, 8:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "1F, Mega Star Arena KL, Mega star arena, kl @ Sg wang plaza, 3, Jalan Bulan 2, Bukit Bintang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Andmesh-Kamaleng-Tickets/E-159997369",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=36Fdo2gikhD5s8ynLvjZnuldv4hKXLAHZmn3MC1vloarwwcE793thhLWIDH8iDdQJ-llHC3x7QGCjvLPcNGBLczd74aY6xSUk10EEBcQVYoa0ga_v9s",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4a154eff332f:0x82657f2bc1c3386d?sa=X&ved=2ahUKEwiwz43rhveRAxWkhIkEHQdKEeI4HhD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4a154eff332f%3A0x82657f2bc1c3386d&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=30&type=place"
+      },
+      "description":
+      "Ticket listings for Andmesh at Mega Star Arena KL at Sungei Wang Plaza - Complex in Kuala Lumpur on 02/14/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/andmesh-kamaleng-kuala-lumpur-tickets-2-14-2026/event/159997369/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-150065375?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-45012%7Cev-159997369%7Ccy-3578&ps_ev=159997369",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Ticket2u",
+          "link":
+          "https://www.ticket2u.com.my/event/47531/andmesh-love-story-suara-dari-ketulusan-hati-",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Mega Star Arena KL",
+        "rating":
+        4.2,
+        "reviews":
+        667,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Mega+Star+Arena+KL&ludocid=9396056023489525869&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScKQ9fwwAUYe4CwBtxGwGTD3POcF3I-8HNHLWW-bGbkrHWwflpUDxn7xQ&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzA5a_A5PSY1wsW-I9Go7nJ7envBT4ASFbHsCFsgPzNw&s=10"
+    },
+    {
+      "title":
+      "(BTS-26) 2026 - International Conference on Emerging Trends in Business, Technology, and Sustainable Development",
+      "date":
+      {
+        "start_date":
+        "Mar 14",
+        "when":
+        "Sat, 14 Mar"
+      },
+      "address":
+      [
+        "The Federal Kuala Lumpur, Federal Hotel Kuala Lumpur, The, 35, Jln Bukit Bintang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://ourglocal.com/event/?eventid=84961",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=x5PjjGmVQaqUe4sHGxkuINwC2CfXdEyxpfrNXgLxzMx_3YgzxTpIXVyumt0mvuIJXDLwXiVvIS-hbOyXzu6hhJMelmh1lBZNGWI1q88vX60znYQWxL0",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3629bbc80187:0xb4ceab2d21007c9b?sa=X&ved=2ahUKEwiwz43rhveRAxWkhIkEHQdKEeI4HhD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3629bbc80187%3A0xb4ceab2d21007c9b&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=30&type=place"
+      },
+      "description":
+      "Website https://isrconference.org/events-calendar/bts-mar-event-26/ | Edit Freely",
+      "ticket_info":
+      [
+        {
+          "source":
+          "ourGlocal",
+          "link":
+          "https://ourglocal.com/event/?eventid=84961",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Federal Kuala Lumpur",
+        "rating":
+        4.1,
+        "reviews":
+        2742,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Federal+Kuala+Lumpur&ludocid=13028538982344981659&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=x5PjjGmVQaqUe4sHGxkuINwC2CfXdEyxpfrNXgLxzMx_3YgzxTpIXVyumt0mvuIJXDLwXiVvIS-hbOyXzu6hhJMelmh1lBZNGWI1q88vX60znYQWxL0",
+      "image":
+      "https://www.google.com/maps/vt/data=x5PjjGmVQaqUe4sHGxkuINwC2CfXdEyxpfrNXgLxzMx_3YgzxTpIXVyumt0mvuIJXDLwXiVvIS-hbOyXzu6hhJMelmh1lBZNGWI1q88vX60znYQWxL0"
+    },
+    {
+      "title":
+      "Copy of PETRONAS Malaysia Open 8th Jan 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 5:00 am"
+      },
+      "address":
+      [
+        "Axiata Arena Bukit Jalil, L2-E-10, Enterprise 4, Technology Park Malaysia, Lebuhraya Bukit Jalil, Bukit Jalil",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.premiertickets.co/event/petronas-malaysia-open-8th-jan-2026-2/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=lwo_ZBZUeswlHkY6z66vyEMcxId3v-82oT7Vf8DGkW2pzz_aCvsDXD7TBqj0toaeGzBD218ut2hIQ961iuFv88UP9s12ajtsSqaXjNYtYuXNia9RY2E",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4a97daf75aff:0x35e03f9f339a13b1?sa=X&ved=2ahUKEwiwz43rhveRAxWkhIkEHQdKEeI4HhD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4a97daf75aff%3A0x35e03f9f339a13b1&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=30&type=place"
+      },
+      "description":
+      "Experience the excitement of PETRONAS Malaysia Open 2026 on 8 Jan 2026, 8:00 AM at Axiata Arena Bukit Jalil with top badminton stars.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Premier Tickets",
+          "link":
+          "https://www.premiertickets.co/event/petronas-malaysia-open-8th-jan-2026-2/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Axiata Arena Bukit Jalil",
+        "rating":
+        4.5,
+        "reviews":
+        6691,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Axiata+Arena+Bukit+Jalil&ludocid=3882172831791453105&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO39LiWoRLbvKgkVaOh6rYMq5vJxF1TLArlizGUM7tBY4xYBGJ5yTdWko&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWLK6M0sFDWFNrKQgqiIGIretf903e2sH1wjv1Xsyro8HrBKjHfyMX9WnMVQ&s=10"
+    },
+    {
+      "title":
+      "Managing Corporate Treasury Risks",
+      "date":
+      {
+        "start_date":
+        "May 4",
+        "when":
+        "Mon, 4 May, 9:00 am – Wed, 6 May, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/effective-liquidity-risk-management-tickets-1975016622885",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiwz43rhveRAxWkhIkEHQdKEeI4HhD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=30&type=place"
+      },
+      "description":
+      "This interactive workshop course is apt for participants already engaged in or in support of liquidity risk management. This interactive workshop course is apt for participants already engaged in...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/managing-corporate-treasury-risks-tickets-1975062804014",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUEx5X3UZ6UXuXXUzUiasYpe0vBmcj_G7qw2BWFI2u5rW81EalFEhIqGs&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZl-SzfQT9hSN1d9hkPcguTIPmMcgjcYYFEm-Dne0dbw&s=10"
+    },
+    {
+      "title":
+      "Chartered Financial Modeler (CFM)",
+      "date":
+      {
+        "start_date":
+        "Feb 24",
+        "when":
+        "Tue, 24 Feb, 9:00 am – Thu, 26 Feb, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/chartered-financial-modeler-cfm-tickets-1967415184779",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiAlKP6hveRAxVYkyYFHZoRHmk4KBD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=40&type=place"
+      },
+      "description":
+      "In these uncertain times, constructing dynamic cash flows is important to go ahead of the invariable forecasting protocol. In these uncertain times, constructing dynamic cash flows is important to...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/chartered-financial-modeler-cfm-tickets-1967415184779",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe8eNUFhXA3HhV-Vd7QZ9QdChTl5pVKOfz9uDhgA2RWqxsoTjaAkDAW4k&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsOZjO71thxAtZB5sDXz8GYM9UBf4r5MGFXbdEJBdvf_ebVKuZ_pUX2agH2w&s=10"
+    },
+    {
+      "title":
+      "Chartered Financial Modeler (CFM)",
+      "date":
+      {
+        "start_date":
+        "Jun 23",
+        "when":
+        "Tue, 23 Jun, 9:00 am – Thu, 25 Jun, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/chartered-financial-modeler-cfm-tickets-1975235324026",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiAlKP6hveRAxVYkyYFHZoRHmk4KBD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=40&type=place"
+      },
+      "description":
+      "In these uncertain times, constructing dynamic cash flows is important to go ahead of the invariable forecasting protocol. In these uncertain times, constructing dynamic cash flows is important to...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/chartered-financial-modeler-cfm-tickets-1975235324026",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe8eNUFhXA3HhV-Vd7QZ9QdChTl5pVKOfz9uDhgA2RWqxsoTjaAkDAW4k&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsOZjO71thxAtZB5sDXz8GYM9UBf4r5MGFXbdEJBdvf_ebVKuZ_pUX2agH2w&s=10"
+    },
+    {
+      "title":
+      "Advanced Excel for Professional",
+      "date":
+      {
+        "start_date":
+        "May 12",
+        "when":
+        "Tue, 12 May, 9:00 am – Thu, 14 May, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/advanced-excel-for-professional-tickets-1975000872776",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiAlKP6hveRAxVYkyYFHZoRHmk4KBD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=40&type=place"
+      },
+      "description":
+      "The course will provide a detailed explanation of the basic concepts and swiftly moves to an advanced level to teach new concepts. Microsoft Excel is an excellent business tool because it has...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/advanced-excel-for-professional-tickets-1975000872776",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuHEZ9vlBGzGIZ43ocivu17znLGJjNpi-_aPixrcWIrV4PpCXWFjm9yMA&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfsl_6XHVcBYncRSNWrKcAunNtT1j4hHIq4pw0WTEVbg&s=10"
+    },
+    {
+      "title":
+      "SQL E-Invoice Mandatory Implementation Course ENGLISH",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 9:30 am – 12:30 pm"
+      },
+      "address":
+      [
+        "SQL Accounting HQ, 1, Jln Setia Dagang AK U13/AK, Setia Alam",
+        "Shah Alam, Selangor"
+      ],
+      "link":
+      "https://www.ticket2u.com.my/event/47846/sql-e-invoice-mandatory-implementation-course-english",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=l-BjtOCdGFzQAV6ZYBd1A4Aml15kpDCsp06MNAKr0ol2kWJ8ICoWGpMwNPoJpkCNjyDnFa3u392YzhBiiM2DWji9MQ8LjfUNUPAxWIP8JuvZhVg_UOA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc531a8f38dd77:0x32ff1b6fa257a8d8?sa=X&ved=2ahUKEwiAlKP6hveRAxVYkyYFHZoRHmk4KBD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc531a8f38dd77%3A0x32ff1b6fa257a8d8&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=40&type=place"
+      },
+      "description":
+      "SQL E-Invoice Mandatory Implementation Course Get fully equipped to navigate Malaysia’s e-Invoicing requirements with confidence using SQL Accounting software. Whether you're just getting started...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Ticket2u",
+          "link":
+          "https://www.ticket2u.com.my/event/47846/sql-e-invoice-mandatory-implementation-course-english",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "SQL Accounting HQ",
+        "rating":
+        4.5,
+        "reviews":
+        126,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=SQL+Accounting+HQ&ludocid=3674685987236587736&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRevtydkQ1T_VLv8J26zvNp3MvtuPjPdyfqx4G0XW4QsIEYSMEnmMezMyU&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-c4VLKzGJ49idKozq7jQQ89oelbORXRXj2WSkicY5Lw&s=10"
+    },
+    {
+      "title":
+      "Rick Price",
+      "date":
+      {
+        "start_date":
+        "Apr 5",
+        "when":
+        "Sun, 5 Apr, 8:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/E-160134136",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwiAlKP6hveRAxVYkyYFHZoRHmk4KBD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=40&type=place"
+      },
+      "description":
+      "Ticket listings for Rick Price at Zepp Kuala Lumpur in Kuala Lumpur on 04/05/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/_C-59696?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-160134136%7Ccy-3578&ps_ev=160134136",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-59696?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-160134136%7Ccy-3578&ps_ev=160134136",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "New York Concerts",
+          "link":
+          "https://www.eventworld.co/kuala-lumpur/rick-price-tickets-2026-04-05-519968/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1525,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0oANAUYt9nnW3c46sNdUyM5j8jVY0vy9gvWdW8jU_uLTCY094E7ngDi4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrr460304Pn57QmAWEP9Ve5YiiURKM8gZQjQCTYHAVRg&s=10"
+    },
+    {
+      "title":
+      "Advanced AI & ChatGPT for Secretarial and Administrative Professionals",
+      "date":
+      {
+        "start_date":
+        "Jan 28",
+        "when":
+        "Wed, 28 Jan, 9:00 am – Thu, 29 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "16, Meliá Kuala Lumpur, Jln Imbi",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/advanced-ai-chatgpt-for-secretarial-and-administrative-professionals-tickets-1978947553404?aff=ebdssbcategorybrowse",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=36rTUkH7DEk3YvOj8us9bk4Q-rOeFlT9yQtGlg1D-F6nZqB9DZl-biH6gQeid9JqPb4mcfEzTmKxlk7BGhCdCot3TiquexF80Ys0EZAYCSE7MZeN-Ac",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362842962319:0x200c0ae4933ae07f?sa=X&ved=2ahUKEwiAlKP6hveRAxVYkyYFHZoRHmk4KBD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362842962319%3A0x200c0ae4933ae07f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=40&type=place"
+      },
+      "description":
+      "Advanced AI & ChatGPT for Secretarial and Administrative Professionals, 100% HRDC Claimable Courses Advanced AI & ChatGPT for Secretarial and Administrative Professionals 28 & 29 January 2026 Join...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/advanced-ai-chatgpt-for-secretarial-and-administrative-professionals-tickets-1978947553404",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Meliá Kuala Lumpur",
+        "rating":
+        4.3,
+        "reviews":
+        4013,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Meli%C3%A1+Kuala+Lumpur&ludocid=2309232685773152383&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6vR7RWVPlaYZhP84_dAn1vVgzKDgeExytKMiq3CjcbRNC6RLh-HgZ6cA&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtNj4moZJxBZCaJ1J6SMd_T5nJBK34Xt5GMnpD9McWcxJZMUr2qu1bDPJLw&s"
+    },
+    {
+      "title":
+      "International Conference on Social Sciences",
+      "date":
+      {
+        "start_date":
+        "May 5",
+        "when":
+        "Tue, 5 May, 9:00 am – Wed, 6 May, 8:30 pm"
+      },
+      "address":
+      [
+        "Hotel Capitol Kuala Lumpur, Jalan Bulan, off, Jln Bukit Bintang, Bukit Bintang",
+        "Kuala Lumpur"
+      ],
+      "link":
+      "https://allevents.in/kuala-lumpur/kuala-lumpur-international-conference-on-social-science-and-humanities-05-06-may-2026/200028517651336",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UJo61TFvKzQpk5fLkb-KnoWjFh22SKXwHMOXJaPMquZbtGOxBk1om2TSreg3M4pqS91gQQ0CBQp6VhbA6sGAAlYZqIp1MwxeL-k97J4PbwFXAAbypYY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3629a75d9ec9:0x9d3f41defc14df8?sa=X&ved=2ahUKEwiAlKP6hveRAxVYkyYFHZoRHmk4KBD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3629a75d9ec9%3A0x9d3f41defc14df8&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=40&type=place"
+      },
+      "description":
+      "Wed, 06 May, 2026 at 11:30 am to 08:30 pm (MYT)",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Viagogo",
+          "link":
+          "https://www.viagogo.com/Theater-Tickets/Speaking-Tour-Convention/International-Conference-on-Social-Sciences-Tickets/E-159304694",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "StubHub",
+          "link":
+          "https://www.stubhub.com/hotel-capitol-kuala-lumpur-tickets/venue/150196367/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "AllEvents",
+          "link":
+          "https://allevents.in/kuala-lumpur/kuala-lumpur-international-conference-on-social-science-and-humanities-05-06-may-2026/200028517651336",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Hotel Capitol Kuala Lumpur",
+        "rating":
+        4.1,
+        "reviews":
+        2334,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Hotel+Capitol+Kuala+Lumpur&ludocid=708177975840951800&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnTbT7cySF3klaiZY8mjENpfoX1nJGkbyHZCl9Ns-0Hh7EZAFODW2DtrA&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYHj-eN5CATqfHlh6THYzaezRqFI2Lusfwo0HCNxJbjg&s=10"
+    },
+    {
+      "title":
+      "Corporate Finance Masterclass",
+      "date":
+      {
+        "start_date":
+        "Jan 13",
+        "when":
+        "Tue, 13 Jan, 9:00 am – Thu, 15 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "JW Marriott Hotel Kuala Lumpur, 183, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/corporate-finance-masterclass-tickets-1869703005019",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=rhATgcksi920jnEA92DPCtm1_XLKiK_KXTJaW9apMIQCAaPiXCT7-FQzCC4yaFsp8lo4iJUloAS1BNsjA-Uv2HTYqW6Uc-7qaQujMmsJsomSC6C8Y2k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xb61eef789115b4cb?sa=X&ved=2ahUKEwiAlKP6hveRAxVYkyYFHZoRHmk4KBD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xb61eef789115b4cb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=40&type=place"
+      },
+      "description":
+      "The Course will provide participants with a structured process and methodology to analyze and understand financial information and improve their analytical skills. The curriculum is designed to...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/corporate-finance-masterclass-tickets-1869703005019",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JW Marriott Hotel Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        8470,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JW+Marriott+Hotel+Kuala+Lumpur&ludocid=13123189665313436875&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVfW7mkmyZrO0y3b6lz5xEz0Q7bEWXOSjCq3ejgSQ7pI8sb6c2q9XHls4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB3HgiAfmGsLhcStUZnIGNlKlb6zPM-JuyKbRTBhMY-g&s=10"
+    },
+    {
+      "title":
+      "Access MBA One- to- One MBA Event",
+      "date":
+      {
+        "start_date":
+        "Apr 18",
+        "when":
+        "Sat, 18 Apr"
+      },
+      "address":
+      [
+        "The Ritz-Carlton, Kuala Lumpur, 168, Jln Imbi, Pudu",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://10times.com/venues/kuala-lumpur-the-ritz-carlton",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Z-anB30i1HkOLf-xjkYK30vx4pHwJIF9xq42C-YO1-3w1fUDmrV1utGNZAuPTxCNtgV6d88HIq87aBSdgdJ0nsvCxb5lYkE9Yi0qm6gXB_F6IsgowNY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362dd2afffff:0x28ba98fb3bfbe45a?sa=X&ved=2ahUKEwiAlKP6hveRAxVYkyYFHZoRHmk4KBD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362dd2afffff%3A0x28ba98fb3bfbe45a&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Bukit+Bintang&start=40&type=place"
+      },
+      "ticket_info":
+      [
+        {
+          "source":
+          "10Times",
+          "link":
+          "https://10times.com/venues/kuala-lumpur-the-ritz-carlton",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Ritz-Carlton, Kuala Lumpur",
+        "rating":
+        4.5,
+        "reviews":
+        3939,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Ritz-Carlton,+Kuala+Lumpur&ludocid=2934826311995876442&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuft8qLR1hSqYFGHqo2CsczzbKZq1FysxuC7if1mc&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqEFOvnaaHpbXTpE6F5INWjgiNGku-nLTk-EaOK7fCEA&s=10"
     }
   ]
 }

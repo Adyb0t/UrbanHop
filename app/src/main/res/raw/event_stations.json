@@ -38,5 +38,45 @@
       "longitude": 101.69532813838816
     },
     "code": "LPS"
+  },
+  {
+    "name": "MRT Mutiara Damansara",
+    "query_name": "Mutiara Damansara",
+    "address": "Bandar Utama, 47800 Petaling Jaya, Selangor",
+    "coordinates": {
+      "latitude": 3.1549216219796175,
+      "longitude": 101.60869277627249
+    },
+    "code": "MMD"
+  },
+  {
+    "name": "LRT Wangsa Maju",
+    "query_name": "Wangsa Maju",
+    "address": "Desa Setapak, 53300 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+    "coordinates": {
+      "latitude": 3.2056090083103137,
+      "longitude": 101.73190763205126
+    },
+    "code": "LWM"
+  },
+  {
+    "name": "LRT SS15",
+    "query_name": "SS15",
+    "address": "Jalan SS 15/4, 47500 Subang Jaya, Selangor",
+    "coordinates": {
+      "latitude": 3.0760523495618637,
+      "longitude": 101.58597763463564
+    },
+    "code": "L15"
+  },
+  {
+    "name": "MRT Kajang",
+    "query_name": "Kajang",
+    "address": "43000 Kajang, Selangor",
+    "coordinates": {
+      "latitude": 2.9834546938590196,
+      "longitude": 101.7901553565842
+    },
+    "code": "MKG"
   }
 ]

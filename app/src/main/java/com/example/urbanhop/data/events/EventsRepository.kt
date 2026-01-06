@@ -36,7 +36,7 @@ class EventsRepository(
         var filteredEvents = emptyList<Event>()
 
         if (isNotWeeklyUpdate) {
-            try {
+            try { //if already updated, load from firebase
                 capturedEvents +=
                     eventCollectionRef
                         .whereEqualTo("code", code)
@@ -47,12 +47,13 @@ class EventsRepository(
             } catch (e: Exception) {
                 Log.e(TAG, "Error loading events: ${e.message}")
             }
-        } else {
+        } else { //update firebase weekly
             val batch = Firebase.firestore.batch()
             eventCollectionRef.get().await().documents.forEach { batch.delete(it.reference) }
             batch.commit().await()
             codeQueryMap.forEach { map ->
                 //API query simulation
+                Log.d(TAG, map.toString())
                 val eventPerCode = context.resources.openRawResource(
                     when (map.key) {
                         "MBB" -> {
@@ -73,6 +74,26 @@ class EventsRepository(
                         "LPS" -> {
                             Log.i(TAG, "querying LPS: events near ${map.value}")
                             R.raw.events_pasar_seni
+                        }
+
+                        "MMD" -> {
+                            Log.i(TAG, "querying MMD: events near ${map.value}")
+                            R.raw.events_mutiara_damansara
+                        }
+
+                        "LWM" -> {
+                            Log.i(TAG, "querying LWM: events near ${map.value}")
+                            R.raw.events_wangsa_maju
+                        }
+
+                        "L15" -> {
+                            Log.i(TAG, "querying L15: events near ${map.value}")
+                            R.raw.events_ss15
+                        }
+
+                        "MKG" -> {
+                            Log.i(TAG, "querying MKG: events near ${map.value}")
+                            R.raw.events_kajang
                         }
 
                         else -> throw Exception("Unknown code")

@@ -1,728 +1,3200 @@
 {
-  "search_metadata": {
-    "id": "691955145989b9fe6d9257e2",
-    "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/98c12634838f4466/691955145989b9fe6d9257e2.json",
-    "created_at": "2025-11-16 04:37:40 UTC",
-    "processed_at": "2025-11-16 04:37:40 UTC",
-    "google_events_url": "https://www.google.com/search?q=events+in+klcc&ibp=htl;events&uule=w+CAIQICIBS3VhbGEgTHVtcHVyLEZlZGVyYWwgVGVycml0b3J5IG9mIEt1YWxhIEx1bXB1cixNYWxheXNpYQ&hl=en&gl=my&start=10",
-    "raw_html_file": "https://serpapi.com/searches/98c12634838f4466/691955145989b9fe6d9257e2.html",
-    "total_time_taken": 1.85
+  "search_metadata":
+  {
+    "id":
+    "695d14a5cfa23000385039b2",
+    "status":
+    "Success",
+    "json_endpoint":
+    "https://serpapi.com/searches/bd01d3af945c0c35/695d14a5cfa23000385039b2.json",
+    "created_at":
+    "2026-01-06 13:56:53 UTC",
+    "processed_at":
+    "2026-01-06 13:56:53 UTC",
+    "google_events_url":
+    "https://www.google.com/search?q=events+near+KLCC&ibp=htl;events&uule=w+CAIQICIITWFsYXlzaWE&gl=my&start=0",
+    "raw_html_file":
+    "https://serpapi.com/searches/bd01d3af945c0c35/695d14a5cfa23000385039b2.html",
+    "total_time_taken":
+    2.86
   },
-  "search_parameters": {
-    "q": "events in klcc",
-    "engine": "google_events",
-    "location_requested": "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
-    "location_used": "Kuala Lumpur,Federal Territory of Kuala Lumpur,Malaysia",
-    "start": 10,
-    "hl": "en",
-    "gl": "my"
+  "search_parameters":
+  {
+    "q":
+    "events near KLCC",
+    "engine":
+    "google_events",
+    "location_requested":
+    "Malaysia",
+    "location_used":
+    "Malaysia",
+    "start":
+    0,
+    "gl":
+    "my"
   },
-  "search_information": {
-    "events_results_state": "Results for exact spelling"
+  "search_information":
+  {
+    "events_results_state":
+    "Results for exact spelling"
   },
-  "events_results": [
+  "events_results":
+  [
     {
-      "title": "Aiwei Foo. The Light I Cannot Hold",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "8 Nov – 7 Dec"
+      "title":
+      "malaysia brand day 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 10:00 am – Sat, 10 Jan, 6:00 pm"
       },
-      "address": [
-        "Suma Orientalis Fine Art 什么画廊, The Five @ KPD, B-3a-1, Level 3A, Block B, Jalan Dungun, Bukit Damansara",
+      "address":
+      [
+        "Kuala Lumpur Convention Centre Car Park, Kuala Lumpur Convention Centre, Kuala Lumpur City Centre",
         "Kuala Lumpur, Federal Territory of Kuala Lumpur"
       ],
-      "link": "https://www.artrabbit.com/events/aiwei-foo-the-light-i-cannot-hold",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=xPqx2NgmwOpTKKuXOFguWjwUlqVRzepZOy9SQGjLzb0omLcKAGHeOSxoAW7EYdRtOaxzw3WmVbFPPtbEJAvIJahZpsh9GMp7SimKnF-SNh08zjQ4lbk",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4bd80072d5fd:0x7ad20d11a59ce30e?sa=X&ved=2ahUKEwi-uNzw7PWQAxVsne4BHfRDL-kQ9eIBegQIAxAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4bd80072d5fd%3A0x7ad20d11a59ce30e&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&type=place"
+      "link":
+      "https://www.rogers-asia.com/events/malaysia-brand-day-2026/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Ch3iA8H7eqtvxU88n9lywBl_sdI8iut3RdOZxABV67a66B8CnW8KeS4mxpOdk6wLu2XpIjoCkRBWzeTdmAt5PlhpZl3fuvZBmZb7SbYwLlWmiVBwhYE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc371fa91643c7:0x42a417882ad8f9ca?sa=X&ved=2ahUKEwis8Y3jiPeRAxVYkO4BHeEwLcMQ9eIBegQIAxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc371fa91643c7%3A0x42a417882ad8f9ca&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=0&type=place"
       },
-      "description": "Suma Orientalis Fine Art is delighted to present Aiwei Foo’s new body of works which examine the connection between migration, personal memory, and the environmental and economic conditions...",
-      "ticket_info": [
+      "description":
+      "Rogers Asia is an alliance of Rogers Companies from Indonesia, Malaysia, Thailand, Singapore and Vietnam. This cohesive grouping of Rogers Companies brings together the best practices of each...",
+      "ticket_info":
+      [
         {
-          "source": "Art Rabbit",
-          "link": "https://www.artrabbit.com/events/aiwei-foo-the-light-i-cannot-hold",
-          "link_type": "more info"
+          "source":
+          "Rogers-asia.com",
+          "link":
+          "https://www.rogers-asia.com/events/malaysia-brand-day-2026/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Expolah",
+          "link":
+          "https://expolah.com/event/malaysia-brand-day-2026-klcc/",
+          "link_type":
+          "more info"
         }
       ],
-      "venue": {
-        "name": "Suma Orientalis Fine Art 什么画廊",
-        "rating": 4.7,
-        "reviews": 20,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=Suma+Orientalis+Fine+Art+%E4%BB%80%E4%B9%88%E7%94%BB%E5%BB%8A&ludocid=8850150587180573454&ibp=gwp%3B0,7"
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre Car Park",
+        "rating":
+        4.4,
+        "reviews":
+        18,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre+Car+Park&ludocid=4801988976285645258&ibp=gwp%3B0,7"
       },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMf_NnjVHb08Cq9EpTkV87hf_iAKaaFWvyljcXOv8&s"
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJhMxHS79TxMojb5j5Mc_mXAwIA0GwJL0PTmYGXmkKqHxkme2hYeJQC-U&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6nVI82eVQZzrLL6vit3H3ZenXYyhFD0sS1AoVnZBOPD-8huUF-KXU_7C8dA&s=10"
     },
     {
-      "title": "Alex Koo",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Sat, 15 Nov, 8:00 pm – Sun, 16 Nov, 12:00 am"
+      "title":
+      "Vir Das: Hey Stranger",
+      "date":
+      {
+        "start_date":
+        "May 23",
+        "when":
+        "Sat, 23 May"
       },
-      "address": [
-        "Suite 10-02, Embassy of Belgium in Malaysia, Menara Tan & Tan, 207, Jln Tun Razak, Kuala Lumpur",
+      "address":
+      [
+        "Plenary Hall, KLCC, 21, Jalan Pinang, Kuala Lumpur",
         "Kuala Lumpur, Federal Territory of Kuala Lumpur"
       ],
-      "link": "https://open.spotify.com/concert/73bS1ZoO0nSioJBmnzxg5z",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=dcggvj2Gknq0cObjWY0mVMEkXUkUKABklP1WY8DFx__AqM9sTSTygIvlx2CKssL9oaE_DFLXNMdyMLI3zaH62YfS3b06QjR7175Tl4xolS2VQoNFCJ8",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37ce7b9bcecf:0x2c499739c07247b?sa=X&ved=2ahUKEwi-uNzw7PWQAxVsne4BHfRDL-kQ9eIBegQICxAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37ce7b9bcecf%3A0x2c499739c07247b&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&type=place"
+      "link":
+      "https://www.livenation.my/event/vir-das-hey-stranger-kuala-lumpur-tickets-edp1640195",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=vwAIGnFXF6fbRnETdtm9sjeBe98QZolNbN2ZL7Kq_QihjTlA8X744oxgv0eBzhVxiHeQeUfmk99d7Qzvh9430pSpcwf9FIA2UvaUaTLXlCR1T83Vr6g",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d3780957e1:0x44599eaa16a32b34?sa=X&ved=2ahUKEwis8Y3jiPeRAxVYkO4BHeEwLcMQ9eIBegQICxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d3780957e1%3A0x44599eaa16a32b34&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=0&type=place"
       },
-      "description": "Find tickets for Alex Koo at Embassy of Belgium in Malaysia in Kuala Lumpur on 11/15/2025 at 8:00 PM",
-      "ticket_info": [
+      "ticket_info":
+      [
         {
-          "source": "Spotify.com",
-          "link": "https://open.spotify.com/concert/73bS1ZoO0nSioJBmnzxg5z",
-          "link_type": "tickets"
+          "source":
+          "Livenation.asia",
+          "link":
+          "https://www.livenation.asia/event/vir-das-hey-stranger-kuala-lumpur-ticket-edp1640195",
+          "link_type":
+          "tickets"
         }
       ],
-      "venue": {
-        "name": "Embassy of Belgium in Malaysia",
-        "rating": 4.6,
-        "reviews": 28,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=Embassy+of+Belgium+in+Malaysia&ludocid=199453005329147003&ibp=gwp%3B0,7"
+      "venue":
+      {
+        "name":
+        "Plenary Hall, KLCC",
+        "rating":
+        4.6,
+        "reviews":
+        1125,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Plenary+Hall,+KLCC&ludocid=4925142120867769140&ibp=gwp%3B0,7"
       },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQepYjErGoIdQm2jlZDJIspAW6xVIwkh4FAGXs1_vcTEOlmoqVhDW7lr9I&s"
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6fsvfM2z1s5Rb_6Q2Zzxc3PXcheOHqIcvXIhiilclUy_phEfnwtf1_Mg&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmgoa3dTpMAjqBcE39suCIUMBQ7M0MOKdlC8pIiLjrLA&s"
     },
     {
-      "title": "Now & Then 2",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "8–29 Nov"
+      "title":
+      "Malaysia International Jewellery Fair 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 29",
+        "when":
+        "Thu, 29 Jan, 11:00 am – Sun, 1 Feb, 7:00 pm"
       },
-      "address": [
-        "GALERI PUTEH, L3-01, Level 3, KL Eco City Mall, 3, Jalan Bangsar",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link": "https://www.artrabbit.com/events/now-then-2",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=xN_F7tS8sXYLW6HpBRtej7Dg4R1Q6ySw2iF88JNNJhvv2HVrnPN_N_dE4VlO3WFQ9SHE1-UaEk3JKw93nurDgVzmCjSSEeCEYwsePshd5zQcFetLSCM",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49b724b6b80d:0x8cfe7829d0b22bd?sa=X&ved=2ahUKEwi-uNzw7PWQAxVsne4BHfRDL-kQ9eIBegQIExAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49b724b6b80d%3A0x8cfe7829d0b22bd&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&type=place"
-      },
-      "ticket_info": [
-        {
-          "source": "Art Rabbit",
-          "link": "https://www.artrabbit.com/events/now-then-2",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "GALERI PUTEH",
-        "rating": 4.4,
-        "reviews": 39,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=GALERI+PUTEH&ludocid=634980620649046717&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShncjtkjQ8LsujFjIENS9ti_a9Z71DVNjGCAhqh2fN1QWfFfK1eMFDoyg&s"
-    },
-    {
-      "title": "KL: MyUtopia",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "15 Nov – 6 Dec"
-      },
-      "address": [
-        "Wei-Ling Gallery, 8, Jalan Scott, Brickfields",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link": "https://www.artrabbit.com/events/kl-myutopia",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=ldE5201FLIWtCdVhckQbPQIizqEttLhbamhVtttILC-xA0p7WM1VVY8J-RI6LE4J-mYz1fY02oNso7Qdst9e5Mjhk_8FZmlJ35Rz4NyWUPkz_flS6Jw",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49c392e16fb7:0xf7fc765fef0f8a13?sa=X&ved=2ahUKEwi-uNzw7PWQAxVsne4BHfRDL-kQ9eIBegQIGxAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49c392e16fb7%3A0xf7fc765fef0f8a13&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&type=place"
-      },
-      "description": "Wei-Ling Gallery is pleased to present a group exhibition titled KL: MyUtopia, featuring five Malaysian artists, all of whom are based in Kuala Lumpur — Chin Kong Yee, Gan Sze Hooi, Khabir Roslan...",
-      "ticket_info": [
-        {
-          "source": "Art Rabbit",
-          "link": "https://www.artrabbit.com/events/kl-myutopia",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "Wei-Ling Gallery",
-        "rating": 4.6,
-        "reviews": 158,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=Wei-Ling+Gallery&ludocid=17869287575904029203&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://www.google.com/maps/vt/data=ldE5201FLIWtCdVhckQbPQIizqEttLhbamhVtttILC-xA0p7WM1VVY8J-RI6LE4J-mYz1fY02oNso7Qdst9e5Mjhk_8FZmlJ35Rz4NyWUPkz_flS6Jw"
-    },
-    {
-      "title": "[English] NASM-CPT Live Workshop (Kuala Lumpur)",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Fri, 14 Nov, 9:00 am – Sun, 16 Nov, 6:00 pm"
-      },
-      "address": [
-        "PFC Studio, Plaza Damas, E-3-14, Jalan Sri Hartamas 1",
-        "Kuala Lumpur"
-      ],
-      "link": "https://pfcacademy.my/upcoming-workshop/english-nasm-cpt-live-workshop-kuala-lumpur-nov-2025/",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=3VksucUsVQfT19A9hJrjLlxo57iIqKr8h5MsOce_kuN_bx0-Cn4_wtJg4nJEyiDBwwubMcqt7BmQUuqdJ7Dox_FYHlQeuNRmFnnnyDT1fHZhdmOxOqU",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc48f6e2a01c41:0xcdcec5e90f0e45f8?sa=X&ved=2ahUKEwi-uNzw7PWQAxVsne4BHfRDL-kQ9eIBegQIIxAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc48f6e2a01c41%3A0xcdcec5e90f0e45f8&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&type=place"
-      },
-      "description": "The NASM-CPT Live Workshop is a practical, in-person training designed to help you become a confident and capable personal trainer. Over three intensive days, you’ll be guided by experienced...",
-      "ticket_info": [
-        {
-          "source": "PFC Academy",
-          "link": "https://pfcacademy.my/upcoming-workshop/english-nasm-cpt-live-workshop-kuala-lumpur-nov-2025/",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "PFC Studio",
-        "rating": 4.9,
-        "reviews": 46,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=PFC+Studio&ludocid=14830008227748267512&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwf3eplbsW0NefsjfGoFpYM_xZ7lG-DAZ1hAzqpNs&s"
-    },
-    {
-      "title": "The Element Code 305 (KL)",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "29 Oct, 7:00 pm – 16 Nov, 9:15 pm"
-      },
-      "address": [
-        "Lot 2-40A, Level 2, DFE Immersive Experience @ KL, Quill City Mall KL, Kuala Lumpur",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link": "https://megatix.asia/events/TEC305KL",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=XVwHl48GIOUtBsVkHc1AYIjQa9UdfqopUFp7DKB4jCn_cADj0ejcZ8sQCInKeo5n2Kqy-GHI27PvrXXgRRm8D5fHnF5BJ58NjiXl2NnOFgtpfPEOo2s",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc495902130301:0x84a62fa4e84cb622?sa=X&ved=2ahUKEwi-uNzw7PWQAxVsne4BHfRDL-kQ9eIBegQIKxAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc495902130301%3A0x84a62fa4e84cb622&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&type=place"
-      },
-      "description": "Year 2050. Time is fracturing… and reality is slipping away. You’re recruited to join elite scout Chen Guo and her loyal canine robot Xiao Tian on a desperate mission: find the vanished...",
-      "ticket_info": [
-        {
-          "source": "Megatix",
-          "link": "https://megatix.asia/events/TEC305KL",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "DFE Immersive Experience @ KL",
-        "rating": 4.9,
-        "reviews": 75,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=DFE+Immersive+Experience+%40+KL&ludocid=9558379644458939938&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC9kHv4odT9aoHtomq1-Q0TXsKHX39cZleyzt0Bt0&s"
-    },
-    {
-      "title": "The 2025 Investor Day of icapital.biz Berhad",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Sat, 15 Nov, 9:00 am – Sun, 16 Nov, 6:30 pm"
-      },
-      "address": [
+      "address":
+      [
         "Kuala Lumpur Convention Centre, Kuala Lumpur",
         "Kuala Lumpur, Federal Territory of Kuala Lumpur"
       ],
-      "link": "https://www.eventbrite.com/e/the-2025-investor-day-of-icapitalbiz-berhad-tickets-1850899473149",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwi-uNzw7PWQAxVsne4BHfRDL-kQ9eIBegQIMxAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&type=place"
+      "link":
+      "https://www.ticket2u.com.my/event/44765/malaysia-international-jewellery-fair-2026-(mijf)-spring-edition",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwis8Y3jiPeRAxVYkO4BHeEwLcMQ9eIBegQIExAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=0&type=place"
       },
-      "description": "Get ready to dive into the world of investments where expert insights and market strategies converge. It's like discovering gold. Welcome to the 2025 Investor Day of icapital.biz Berhad! Join us...",
-      "ticket_info": [
+      "description":
+      "Ticket2u provide ticketing solutions for event organizers to promote their events and sell tickets. We have the latest local events listing in Malaysia.",
+      "ticket_info":
+      [
         {
-          "source": "Eventbrite.com",
-          "link": "https://www.eventbrite.com/e/the-2025-investor-day-of-icapitalbiz-berhad-tickets-1850899473149",
-          "link_type": "tickets"
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/malaysia-international-jewellery-fair-2026-mijf-spring-edition-tickets-1498625572429",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Ticket2u",
+          "link":
+          "https://www.ticket2u.com.my/event/44765/malaysia-international-jewellery-fair-2026-(mijf)-spring-edition",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Evvnt",
+          "link":
+          "https://evvnt.com/events/?_evDiscoveryPath=/event%2F3139450-malaysia-international-jewellery-fair-spring-edition-mijfse-",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "EXPOSALE.net",
+          "link":
+          "https://exposale.net/en/exhibitions/242/81/all",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Expo Stand Builder",
+          "link":
+          "https://expostandbuilders.com/country-malayziya/city-kuala-lumpur/expt-malaysia-international-jewellery-fair",
+          "link_type":
+          "more info"
         }
       ],
-      "venue": {
-        "name": "Kuala Lumpur Convention Centre",
-        "rating": 4.5,
-        "reviews": 10909,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
       },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEkLLtC5h85yiZ78Pj7HgCNlw_-L4_p8qMaa7dTVs7AxTKao5OKN0w46k&s"
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSijlLVrap0iHnOkMs0fjuk2NINTSEZiapbGIB_9okJzjrnFktqk5zVYlI&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYpLXHqmpLplNffkpLhtlHVW5fK_i2BssGRNV0RbEIZw&s=10"
     },
     {
-      "title": "Commonwealth Chess Championship 2025",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "8 Nov, 8:00 am – 17 Nov, 6:00 pm"
+      "title":
+      "Malaysia Education Fair KL 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 24",
+        "when":
+        "Sat 24 – Sun 25 Jan"
       },
-      "address": [
-        "Corus KLCC, Persiaran Hampshire, Jalan Ampang",
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
         "Kuala Lumpur, Federal Territory of Kuala Lumpur"
       ],
-      "link": "https://chessaurus.com/event/commonwealth-chess-championship-2025/",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=K0QbadmVPlSMNTRUmaEodzS4e27_ScF1-seZLtc6Ub6fMuy3FiocgOdz1NIw7ou4_vy5KLL_b8_ryKCooSKI9YVauIBxiduaFECze8Xsm_ESAKE2tPA",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d08dd3676d:0xa9b38c6afc5405f7?sa=X&ved=2ahUKEwi-uNzw7PWQAxVsne4BHfRDL-kQ9eIBegQIOxAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d08dd3676d%3A0xa9b38c6afc5405f7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&type=place"
+      "link":
+      "https://www.facebook.com/events/klcc-convention-centre-kuala-lumpur-convention-centre/malaysia-education-fair-klcc/1767608617237544/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwis8Y3jiPeRAxVYkO4BHeEwLcMQ9eIBegQIGxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=0&type=place"
       },
-      "description": "Chessaurus is a chess event listing website. We do not hold any responsibility for any occurences, incidents or outcomes before, during & after the event. We also do not assume responsibility for...",
-      "ticket_info": [
+      "description":
+      "The Malaysia Education Fair 2026 returns to KLCC this January! Join us for two days of guidance, exploration, and opportunities as you meet leading universities, colleges, and education providers...",
+      "ticket_info":
+      [
         {
-          "source": "Chessaurus",
-          "link": "https://chessaurus.com/event/commonwealth-chess-championship-2025/",
-          "link_type": "more info"
+          "source":
+          "Vendelux",
+          "link":
+          "https://vendelux.com/app/event/malaysia-education-fair-kl-2026/0143f947-baaf-4ea9-97ae-0222287d237d",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Facebook",
+          "link":
+          "https://www.facebook.com/events/klcc-convention-centre-kuala-lumpur-convention-centre/malaysia-education-fair-klcc/1767608617237544/",
+          "link_type":
+          "more info"
         }
       ],
-      "venue": {
-        "name": "Corus KLCC",
-        "rating": 4.1,
-        "reviews": 5060,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=Corus+KLCC&ludocid=12228271804368815607&ibp=gwp%3B0,7"
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
       },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn7jrdMgb5LjVMaeikjPBDwlrXD_aziO_kxh7mcfQSZxbHMWE1gHDgqNY&s"
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2UPcZzHXw5YVWAeIOcgKrOvncLmeQ1jx0BNFYXO9iM5dzhluOf_CGVo0&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOwVzcBZCSbZzTh89h6iorwB77x13KJYa76xopirGdYNc0sy_4_xqERX17lg&s=10"
     },
     {
-      "title": "Musica Fest 2025",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Sun, 16 Nov, 7:00 pm"
+      "title":
+      "EFE - Export Furniture Exhibition Malaysia 2026",
+      "date":
+      {
+        "start_date":
+        "Mar 3",
+        "when":
+        "Tue, 3 Mar, 6:00 pm – Sat, 7 Mar, 1:00 am"
       },
-      "address": [
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.tradeindia.com/tradeshows/132221/efe-export-furniture-exhibition-malaysia-2026.html",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwis8Y3jiPeRAxVYkO4BHeEwLcMQ9eIBegQIIxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=0&type=place"
+      },
+      "description":
+      "Export Furniture Exhibition (EFE) 19th Edition will take place over a span of 4 days from The actual date of EFE 2026 is at 3 - 6 March 2026. at Kuala Lumpur Convention Centre (KLCC), Malaysia's...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/132221/efe-export-furniture-exhibition-malaysia-2026.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "PDS CONSULTING",
+          "link":
+          "https://pdsconsulting.com.my/event/efe-2026-export-furniture-exhibtion-malaysia/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Trade Fair Dates",
+          "link":
+          "https://www.tradefairdates.com/EFE-Export-Furniture-Exhibition-Malaysia-M11073/Kuala-Lumpur.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Fairs",
+          "link":
+          "https://www.ntradeshows.com/export-furniture-exhibition/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Neventum.com",
+          "link":
+          "https://www.neventum.com/tradeshows/export-furniture-exhibition",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfSVgEx6LZcCNpW6H360-zmQNL2YG-iLZfwZXI1e4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzhAGl8O02wdbzcKWdlOS5zoDt0Xmp7AmgY_H1yyzqfFa1&s=10"
+    },
+    {
+      "title":
+      "Sheng Wang",
+      "date":
+      {
+        "start_date":
+        "Jan 9",
+        "when":
+        "Fri, 9 Jan, 8:00 pm – Sat, 10 Jan, 12:00 am"
+      },
+      "address":
+      [
+        "Level 6, Hao Xiang Chi Seafood | ICC PUDU, ICC Pudu Hao Xiang Chi Seafood, c5, Jalan Kijang, Pudu",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://open.spotify.com/concert/4Fsoh3GbBXcNBUzbDBmGan",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Qp9edw3wJSj4lMxMAl_DuJUBKoaiL6lmgJu1PK_5tqeXqiZ9dBeRI5tE9AXosXT6gLSjHUDpw6ErHzWERFpDhXW3C9OPTG_UL8civQ3zuU3JNWVoXn4",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc36244f53558d:0x1b5f32e47846239f?sa=X&ved=2ahUKEwis8Y3jiPeRAxVYkO4BHeEwLcMQ9eIBegQIKxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc36244f53558d%3A0x1b5f32e47846239f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=0&type=place"
+      },
+      "description":
+      "Find tickets for Sheng Wang at HXC Grand Ballroom in Kuala Lumpur on 1/9/2026 at 8:00 PM",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Spotify.com",
+          "link":
+          "https://open.spotify.com/concert/4Fsoh3GbBXcNBUzbDBmGan",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo",
+          "link":
+          "https://www.viagogo.com/Theater-Tickets/Comedy/Sheng-Wang-Tickets/E-159320540",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "StubHub",
+          "link":
+          "https://www.stubhub.com/hxc-grand-ballroom-tickets/venue/137046647/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Hao Xiang Chi Seafood | ICC PUDU",
+        "rating":
+        4.5,
+        "reviews":
+        2011,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Hao+Xiang+Chi+Seafood+%7C+ICC+PUDU&ludocid=1972351118663361439&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMu3OgBNm-6aX36ZkVH5WzMZwuQ1jZyrPKutXp-mhajVOM6Ons2oir1g&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH6BF9AgZBAj4O0FE2vfzLL46iaXXwZ-R8lHMEHSUeCg&s=10"
+    },
+    {
+      "title":
+      "International Beauty Expo (IBE) 2026",
+      "date":
+      {
+        "start_date":
+        "Jun 13",
+        "when":
+        "Sat, 13 Jun, 11:00 am – Tue, 16 Jun, 7:00 pm"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.tradeindia.com/tradeshows/144129/ibe-international-beauty-expo-2026.html",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwis8Y3jiPeRAxVYkO4BHeEwLcMQ9eIBegQIMxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=0&type=place"
+      },
+      "description":
+      "IBE - International Beauty Expo 2026 will be held from 13th - 16th June 2026 at Kuala Lumpur Convention Centre, Kuala Lumpur, Malaysia. This is a largest exhibition and trade expo on beauty and...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/international-beauty-expo-ibe-2026-tickets-1498525071829",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Ticket2u",
+          "link":
+          "https://www.ticket2u.com.my/event/37078/international-beauty-expo-(ibe)-2026",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/144129/ibe-international-beauty-expo-2026.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Trade Fair Dates",
+          "link":
+          "https://www.tradefairdates.com/IBE-International-Beauty-Expo-M6702/Kuala-Lumpur.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Expolah",
+          "link":
+          "https://expolah.com/event/20th-ibe-2026-klcc/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI8PyInibCS18bKTrh8RRHykoeI5qT3phjJCr65nEvX5IwY09oWhDZ1dc&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzNNMURU0xczkvuR64L5GnVXBIkkelxslxBjySossW_Q&s=10"
+    },
+    {
+      "title":
+      "Automechanika Kuala Lumpur",
+      "date":
+      {
+        "start_date":
+        "May 14",
+        "when":
+        "Thu, 14 May, 6:00 pm – Sun, 17 May, 2:00 am"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.tradeindia.com/tradeshows/144123/automechanika-kuala-lumpur-2026.html",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwis8Y3jiPeRAxVYkO4BHeEwLcMQ9eIBegQIOxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=0&type=place"
+      },
+      "description":
+      "Automechanika Kuala Lumpur 2026 will be held from 14th - 16th May 2026 at Kuala Lumpur Convention Centre - KLCC in Kuala Lumpur, Malaysia. This is a leading trade fair for the automotive industry...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/144123/automechanika-kuala-lumpur-2026.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "ExpoBeds",
+          "link":
+          "https://www.expobeds.com/event/automechanika-kuala-lumpur",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Facebook",
+          "link":
+          "https://www.facebook.com/events/809148894790081/?ref_source=NEWS_FEED",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Trade Fair Dates",
+          "link":
+          "https://www.tradefairdates.com/automechanika-M3698/Kuala-Lumpur.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Fairs",
+          "link":
+          "https://www.ntradeshows.com/automechanika-kuala-lumpur/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWKrG6LMl4AOAn7uy8LrZmit7Rn7HSzztokXEuiMc&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkvqq0Ky4Vahftgmzi7dFFMTNV2z0IlrHj2Joc-i9n85a&s"
+    },
+    {
+      "title":
+      "MyFoodTech Kuala Lumpur",
+      "date":
+      {
+        "start_date":
+        "Jul 15",
+        "when":
+        "Wed, 15 Jul, 6:00 pm – Sat, 18 Jul, 1:00 am"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.tradeindia.com/tradeshows/145269/mifb-malaysian-international-food-beverage-trade-fair-2026.html",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwis8Y3jiPeRAxVYkO4BHeEwLcMQ9eIBegQIQxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=0&type=place"
+      },
+      "description":
+      "MIFB - Malaysian International Food And Beverage Trade Fair 2026 will take place from 15th 17th July 2026 at Kuala Lumpur Convention Centre - KLCC Kuala Lumpur, Malaysia. MIFB - Malaysian...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/146681/malaysian-international-food-beverage-trade-fair-2026.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "PDS CONSULTING",
+          "link":
+          "https://pdsconsulting.com.my/event/malaysia-international-food-beverage-expo-mifb-2026-kuala-lumpur/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Trade Fair Dates",
+          "link":
+          "https://www.tradefairdates.com/MyFoodTech-M14411/Kuala-Lumpur.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Fairs",
+          "link":
+          "https://www.ntradeshows.com/malaysian-international-food-beverage-trade-fair/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Neventum.com",
+          "link":
+          "https://www.neventum.com/tradeshows/malaysian-international-food-beverage-trade-fair",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH-jMTg3aLnI3416SXKUBXLH4NpHA8miOU7mcokio&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSUk5tfiQvniKhaUTl4743Av1Gm4oF6LEiYlnSxj5ZKnYo&s=10"
+    },
+    {
+      "title":
+      "Warehouse Management For Best-in-class Performance",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
+      },
+      "address":
+      [
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.bmc.net/ct-Warehouse-Management-For-Best-in-class-Performance-Kuala-Lumpur-WLS3-3",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwis8Y3jiPeRAxVYkO4BHeEwLcMQ9eIBegQISxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=0&type=place"
+      },
+      "description":
+      "BMC Training provides Warehouse Management For Best-in-class Performance in Kuala Lumpur from 2025-12-28 to 2026-1-8",
+      "ticket_info":
+      [
+        {
+          "source":
+          "BMC Training",
+          "link":
+          "https://www.bmc.net/ct-Warehouse-Management-For-Best-in-class-Performance-Kuala-Lumpur-WLS3-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+      "image":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU"
+    },
+    {
+      "title":
+      "Asiawater 2026",
+      "date":
+      {
+        "start_date":
+        "Apr 7",
+        "when":
+        "Tue, 7 Apr, 9:00 am – Thu, 9 Apr, 5:00 pm"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://globy.com/events-calendar/aw-asiawater-699fdf",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwjrmdv6iPeRAxXQG9AFHZFcIhI4ChD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=10&type=place"
+      },
+      "description":
+      "ASIAWATER Expo is returning to the prestigious Kuala Lumpur Convention Centre (KLCC), poised to be a transformative event for the water industry across developing Asia. This highly anticipated...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Gevme",
+          "link":
+          "https://www.gevme.com/asiawater-2026-65606963",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/141040/asiawater-2026.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "impeller.net",
+          "link":
+          "https://impeller.net/event/asiawater-2026/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Water & Wastewater Asia",
+          "link":
+          "https://waterwastewaterasia.com/event/asiawater-2026/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "EXPOSALE.net",
+          "link":
+          "https://exposale.net/en/exhibitions/1260/all/405",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZN-b2TLT7kgjpJbxCDdhm7RrCNKIElxJXeQqCJ1atQUX9CPC6M23WBA4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs7ZBGiIfLZgq3Ny8LYc_2UEKs1wkpXPkBAbrwVAfZB8lxcjtFFbnVQce0wLSc&s=10"
+    },
+    {
+      "title":
+      "TÜV SÜD Roadshow: Connecting flow experts KUALA LUMPUR",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 8:30 am – 1:00 pm"
+      },
+      "address":
+      [
+        "Sheraton Imperial Kuala Lumpur Hotel, Jln Sultan Ismail",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.co.uk/e/tuv-sud-roadshow-connecting-flow-experts-kuala-lumpur-tickets-1970095071392",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=jpUjEEayFQMK3Xpkt99PIWxo-PKrE042v5gAchd7Y1LxvH1XH85qgnxYoXn19Z003RLMquA5JB6xfFjRvYUF6Ti0Hj0g9pphI8pJnO0IuzqlBj_BiiA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc482f20ac978d:0x84b22106e12253b4?sa=X&ved=2ahUKEwjrmdv6iPeRAxXQG9AFHZFcIhI4ChD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc482f20ac978d%3A0x84b22106e12253b4&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=10&type=place"
+      },
+      "description":
+      "Join fellow professionals and industry specialists to explore best practices in flow measurement, diagnostics, and emissions quantification. Colin Lightbody, Principal Consultant at National...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.co.uk",
+          "link":
+          "https://www.eventbrite.co.uk/e/tuv-sud-roadshow-connecting-flow-experts-kuala-lumpur-tickets-1970095071392",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Sheraton Imperial Kuala Lumpur Hotel",
+        "rating":
+        4.3,
+        "reviews":
+        5378,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Sheraton+Imperial+Kuala+Lumpur+Hotel&ludocid=9561741272291627956&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREgX5OZ4B-PpzjrUyo4sWXLhpKLqK9nvLV7HP1K2MKANAZWYeK4VkM9Lc&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA1BSPv9YaB-oW27LPmCRJLEbLE6BuZTF_8VmuMYgi3A&s"
+    },
+    {
+      "title":
+      "DIGITAL FUTURE FOR WOMEN (MELIA HOTEL, KUALA LUMPUR)",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 9:00 am – Thu, 8 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "The Kitchen @ Melia, Melia Kuala Lumpur, 16, Jln Imbi, Imbi",
+        "Kuala Lumpur"
+      ],
+      "link":
+      "https://www.myhits.com.my/event/digital-future-for-women-melia-hotel-kuala-lumpur/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=gsJ_ukwBIhC_M1_dAyfLqEuYS2HkVrFws3IDGkqIZ7vf2kc155u1Ngzuu_DbVEIU6ydkm2tDJxXDLr6Jz7Fnt5M5_JMz_A-6DJvZujGAAlMyJFbQBnI",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3628f833750b:0x1231bfa22dbf4f3a?sa=X&ved=2ahUKEwjrmdv6iPeRAxXQG9AFHZFcIhI4ChD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3628f833750b%3A0x1231bfa22dbf4f3a&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=10&type=place"
+      },
+      "description":
+      "Brochure Register",
+      "ticket_info":
+      [
+        {
+          "source":
+          "High Impact Training Services",
+          "link":
+          "https://www.myhits.com.my/event/digital-future-for-women-melia-hotel-kuala-lumpur/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Kitchen @ Melia",
+        "rating":
+        3.5,
+        "reviews":
+        55,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Kitchen+%40+Melia&ludocid=1311039669814644538&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCQgVocVkkdrfbGQqyXyNo8BI9zTSs-DGfWFI-mLnthtcBAZhiyMJ-bpQ&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1n9Dsln1QwSavnTpaC7XSSBqVWoSIUWPCDChM8pfc5ufAU0ZXYtsqx9x9zA&s=10"
+    },
+    {
+      "title":
+      "ENERtec Asia 2026",
+      "date":
+      {
+        "start_date":
+        "Jun 3",
+        "when":
+        "Wed, 3 Jun, 6:00 pm – Sat, 6 Jun, 1:00 am"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.tradeindia.com/tradeshows/141038/enertec-asia-2026.html",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwjrmdv6iPeRAxXQG9AFHZFcIhI4ChD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=10&type=place"
+      },
+      "description":
+      "ENERtec Asia 2026 will be held from 03 - 05 June 2026 at Kuala Lumpur Convention Centre (KLCC) in Kuala Lumpur, Malaysia. This is a Southeast Asian trade show focused on energy transition...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/141038/enertec-asia-2026.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "ilikEvents",
+          "link":
+          "https://ilikevents.com/event/11311-enertec",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "EXPOSALE.net",
+          "link":
+          "https://exposale.net/en/exhibition/tenaga-expo-forum-malaysia",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "PDS CONSULTING",
+          "link":
+          "https://pdsconsulting.com.my/event/enertec-asia-2026/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Globy",
+          "link":
+          "https://cn.globy.com/events-calendar/enertec-asia-9d0a54",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYTXUyazemdJr-7mjDJCRHtL2HfWt9n5w0yqgn1xU&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7YK7bhKsyMmiCpuRnHlbhgaJknTENvv77odNYpLWc2JpQ&s=10"
+    },
+    {
+      "title":
+      "SQL E-Invoice Mandatory Implementation Course ENGLISH",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 9:30 am – 12:30 pm"
+      },
+      "address":
+      [
+        "SQL Accounting HQ, 1, Jln Setia Dagang AK U13/AK, Setia Alam",
+        "Shah Alam, Selangor"
+      ],
+      "link":
+      "https://www.ticket2u.com.my/event/47846/sql-e-invoice-mandatory-implementation-course-english",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=l-BjtOCdGFzQAV6ZYBd1A4Aml15kpDCsp06MNAKr0ol2kWJ8ICoWGpMwNPoJpkCNjyDnFa3u392YzhBiiM2DWji9MQ8LjfUNUPAxWIP8JuvZhVg_UOA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc531a8f38dd77:0x32ff1b6fa257a8d8?sa=X&ved=2ahUKEwjrmdv6iPeRAxXQG9AFHZFcIhI4ChD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc531a8f38dd77%3A0x32ff1b6fa257a8d8&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=10&type=place"
+      },
+      "description":
+      "SQL E-Invoice Mandatory Implementation Course Get fully equipped to navigate Malaysia’s e-Invoicing requirements with confidence using SQL Accounting software. Whether you're just getting started...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Ticket2u",
+          "link":
+          "https://www.ticket2u.com.my/event/47846/sql-e-invoice-mandatory-implementation-course-english",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "SQL Accounting HQ",
+        "rating":
+        4.5,
+        "reviews":
+        126,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=SQL+Accounting+HQ&ludocid=3674685987236587736&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRevtydkQ1T_VLv8J26zvNp3MvtuPjPdyfqx4G0XW4QsIEYSMEnmMezMyU&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-c4VLKzGJ49idKozq7jQQ89oelbORXRXj2WSkicY5Lw&s=10"
+    },
+    {
+      "title":
+      "Professional Sales and Time Management",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
+      },
+      "address":
+      [
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.bmc.net/ct-Professional-sales-and-time-management-Kuala-Lumpur-PRC33-3",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwjrmdv6iPeRAxXQG9AFHZFcIhI4ChD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=10&type=place"
+      },
+      "description":
+      "BMC Training provides Professional Sales and Time Management in Kuala Lumpur from 2025-12-28 to 2026-1-8",
+      "ticket_info":
+      [
+        {
+          "source":
+          "BMC Training",
+          "link":
+          "https://www.bmc.net/ct-Professional-sales-and-time-management-Kuala-Lumpur-PRC33-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-_BaNkeHOeII2KT7qUBpmOFpcV0tOReXU0C7Q4gahaYoDEXG2uF6m9W0&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrmW-YZCu_hVjAoKp2KbFzJWgH6nn19igFzlKBVyMJQ&s"
+    },
+    {
+      "title":
+      "TPAS Annual School Concert & Award Ceremony",
+      "date":
+      {
+        "start_date":
+        "Jan 11",
+        "when":
+        "Sun, 11 Jan, 2:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Temple of Fine Arts KL, 116, Jalan Berhala, Brickfields",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.com.au/e/tpas-annual-school-concert-award-ceremony-tickets-1978825769144",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=AliEGW0f-lBClhUG7XlCUW1hxOtBP55k0XxnW3R8arBSA8284UOx_1Wtkhw7LCtXICCpSL-4_W0-4C9mntW4nsEuiY-eIBafKLWYrIuBPIEwm-iau0g",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49ebb99f2a69:0xe36a866a7b9fe8a?sa=X&ved=2ahUKEwjrmdv6iPeRAxXQG9AFHZFcIhI4ChD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49ebb99f2a69%3A0xe36a866a7b9fe8a&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=10&type=place"
+      },
+      "description":
+      "The TPAS Annual Concert & Award Ceremony was a heartfelt celebration of creativity in every form. Graceful ballet, inspiring music, and expressive art came together to showcase our students’...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com.au",
+          "link":
+          "https://www.eventbrite.com.au/e/tpas-annual-school-concert-award-ceremony-tickets-1978825769144",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Temple of Fine Arts KL",
+        "rating":
+        4.4,
+        "reviews":
+        289,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Temple+of+Fine+Arts+KL&ludocid=1024191124127481482&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=AliEGW0f-lBClhUG7XlCUW1hxOtBP55k0XxnW3R8arBSA8284UOx_1Wtkhw7LCtXICCpSL-4_W0-4C9mntW4nsEuiY-eIBafKLWYrIuBPIEwm-iau0g",
+      "image":
+      "https://www.google.com/maps/vt/data=AliEGW0f-lBClhUG7XlCUW1hxOtBP55k0XxnW3R8arBSA8284UOx_1Wtkhw7LCtXICCpSL-4_W0-4C9mntW4nsEuiY-eIBafKLWYrIuBPIEwm-iau0g"
+    },
+    {
+      "title":
+      "Christmas Music Instrumental Performance at Berjaya Times Square",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 3:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Berjaya Times Square, 1, Jln Imbi, Bukit Bintang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/christmas-music-intrumental-performance-at-berjaya-times-square/2026-01-10/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=KglDuvRlbXAAsGRac9CrIrs4rUXW6hhNxl9SYp-0JCWTS0TpGBZWoFodi_Q8XNJ8EWXBFwymgKo1Y1NhBiuxleulo9PmNddyVvRABNuJ1jpn2TcIbzc",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3718e47dbaa1:0xc3d13b8d0aacf527?sa=X&ved=2ahUKEwjrmdv6iPeRAxXQG9AFHZFcIhI4ChD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3718e47dbaa1%3A0xc3d13b8d0aacf527&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=10&type=place"
+      },
+      "description":
+      "Cost: Free Event Category: Christmas Events Website: https://berjayatimessquarekl.com/events/a-magical-christmas-tale/",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kuala Lumpur with Kids",
+          "link":
+          "https://kualalumpurwithkids.com/event/christmas-music-intrumental-performance-at-berjaya-times-square/2026-01-10/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Berjaya Times Square",
+        "rating":
+        4.3,
+        "reviews":
+        33238,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Berjaya+Times+Square&ludocid=14110124584484009255&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZugk0nVccuDOQml8I7L6NKTygj1QuTZB_HhMhDEK5q5mc6_FeRVxFXbA&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4yzdnQMjRp62jMqwJeDtJsG8DuqSBoVsRRHed3MiL1F2efu-Aosp2w2GZQ&s=10"
+    },
+    {
+      "title":
+      "Strategic Leadership and Operational Excellence in the Oil Refinery Sector",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
+      },
+      "address":
+      [
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.bmc.net/ct-strategic-leadership-and-operational-excellence-in-the-oil-refinery-sector-Kuala-Lumpur-MNG267-3",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwjrmdv6iPeRAxXQG9AFHZFcIhI4ChD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=10&type=place"
+      },
+      "description":
+      "BMC Training provides Strategic Leadership and Operational Excellence in the Oil Refinery Sector in Kuala Lumpur from 2025-12-28 to 2026-1-8",
+      "ticket_info":
+      [
+        {
+          "source":
+          "BMC Training",
+          "link":
+          "https://www.bmc.net/ct-strategic-leadership-and-operational-excellence-in-the-oil-refinery-sector-Kuala-Lumpur-MNG267-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+      "image":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU"
+    },
+    {
+      "title":
+      "Park Hyatt Festive Afternoon Tea",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 12:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Park Lounge, Warisan Merdeka Tower, Level 75 Park Hyatt Kuala Lumpur, Presint Merdeka 118",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-10/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fyuYYlQX8xxNKzFXFHMuElocev3DjZi5G2OwqeJcQ-c_GnUjEwdGuzOWypylzh-mlCDVRaYfNjL7Ojb4DQNLUTLyTsFdsrn8GETxxpUV7ToSVcAV3jQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc490781872915:0x922c189a597b2d37?sa=X&ved=2ahUKEwjrmdv6iPeRAxXQG9AFHZFcIhI4ChD14gF6BAhLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc490781872915%3A0x922c189a597b2d37&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=10&type=place"
+      },
+      "description":
+      "Festive Afternoon Tea Delight in the art of afternoon tea, reimagined for the holidays. Enjoy classic scones, savoury bites like Lobster Dumpling and Duck Mousse Cone, and a dessert trolley laden...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-10/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Park Lounge",
+        "rating":
+        4.1,
+        "reviews":
+        67,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Park+Lounge&ludocid=10532820679718022455&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpExRh1Son8DQymW03dIaIyYci7Q8Yzqp2XVuMydHhTO-fzsZJNHOrPzk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XF1tB9gMPlPLnjjtMo_pLnvPBejY2XFO8Py7LlqB5A&s=10"
+    },
+    {
+      "title":
+      "Nervous System Reset",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 8:00 pm"
+      },
+      "address":
+      [
+        "Tower M Soho Empire City (Block M), M Tower SOHO, Empire City Damansara, 8, Jalan Damansara, PJU 8",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.breathmovementsyoga.com/event-details/nervous-system-reset",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=f0r2ZtnPPp7Zt_4ax1CjfLQa0So3QDSfRg_DqwxPXTJIpQ6aKJty49RCAkvQ5fNtcQMfJqBnSRI4ukKCYRhp1FhkwAt8iKMPBwf6vOSTG1650xZrhHo",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49af3e1d3dd1:0xf967ec6f7201b846?sa=X&ved=2ahUKEwiy77OGifeRAxXRDkQIHcm3Ky84FBD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49af3e1d3dd1%3A0xf967ec6f7201b846&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=20&type=place"
+      },
+      "description":
+      "A Transformative Journey Home",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Breathmovementsyoga.com",
+          "link":
+          "https://www.breathmovementsyoga.com/event-details/nervous-system-reset",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Tower M Soho Empire City (Block M)",
+        "rating":
+        2.9,
+        "reviews":
+        40,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Tower+M+Soho+Empire+City+(Block+M)&ludocid=17971592801443493958&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWhVHjizddT3Gs17DuE_R3m8Cr7qa-4Wi-_9zKOfy_GyoLHouukhFuUeo&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZjYCGfCoxXeNA1jG7EOCpWIPOaXU1qskQt-P5sO95LA&s"
+    },
+    {
+      "title":
+      "Lunar New Year Afternoon Tea at the Lobby Lounge Shangri-La Kuala Lumpur",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 3:00 – 6:00 pm"
+      },
+      "address":
+      [
+        "Shangri-la Lobby Lounge, Shangri La Hotel, 11, Jln Sultan Ismail, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/lunar-new-year-afternoon-tea-at-the-lobby-lounge-shangri-la-kuala-lumpur/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=LSltSfiP3DhhdzUE1De5MmzwsLFxyOBZtETiEBfeDzMjXtUSmtWGYSodO-y4X6J9OuubaWuxgdutN28pe6nKHls4oqaIchqjgwRK0w1SKcuQzJOfy6k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc482a72b1a05f:0x62ece6b8ccbf37a0?sa=X&ved=2ahUKEwiy77OGifeRAxXRDkQIHcm3Ky84FBD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc482a72b1a05f%3A0x62ece6b8ccbf37a0&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=20&type=place"
+      },
+      "description":
+      "Afternoon of Elegance & Prosperity at Shangri-La Kuala Lumpur Savour highlights such as five-spiced trout tartlet, waxed duck roll with mandarin gel, and prawn kataifi with mango salsa, followed...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/lunar-new-year-afternoon-tea-at-the-lobby-lounge-shangri-la-kuala-lumpur/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Shangri-la Lobby Lounge",
+        "rating":
+        4.5,
+        "reviews":
+        119,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Shangri-la+Lobby+Lounge&ludocid=7128325991604107168&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DWd0R1cXkHopS3rQoNY-zxf1FkqBollPinJ1QzRrp--J2GL6dXrUIVQ&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnElNuRYeV07FbgAt7NKfctDsoDQU5mq-WL0FVbt8ndxp6P9_7mGMvfrhTKA&s=10"
+    },
+    {
+      "title":
+      "Park Hyatt Festive Afternoon Tea",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 12:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Park Lounge, Warisan Merdeka Tower, Level 75 Park Hyatt Kuala Lumpur, Presint Merdeka 118",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-08/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fyuYYlQX8xxNKzFXFHMuElocev3DjZi5G2OwqeJcQ-c_GnUjEwdGuzOWypylzh-mlCDVRaYfNjL7Ojb4DQNLUTLyTsFdsrn8GETxxpUV7ToSVcAV3jQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc490781872915:0x922c189a597b2d37?sa=X&ved=2ahUKEwiy77OGifeRAxXRDkQIHcm3Ky84FBD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc490781872915%3A0x922c189a597b2d37&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=20&type=place"
+      },
+      "description":
+      "Festive Afternoon Tea Delight in the art of afternoon tea, reimagined for the holidays. Enjoy classic scones, savoury bites like Lobster Dumpling and Duck Mousse Cone, and a dessert trolley laden...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-08/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Park Lounge",
+        "rating":
+        4.1,
+        "reviews":
+        67,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Park+Lounge&ludocid=10532820679718022455&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpExRh1Son8DQymW03dIaIyYci7Q8Yzqp2XVuMydHhTO-fzsZJNHOrPzk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XF1tB9gMPlPLnjjtMo_pLnvPBejY2XFO8Py7LlqB5A&s=10"
+    },
+    {
+      "title":
+      "Park Hyatt Festive Afternoon Tea",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Mon, 5 Jan, 12:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Park Lounge, Warisan Merdeka Tower, Level 75 Park Hyatt Kuala Lumpur, Presint Merdeka 118",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-05/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fyuYYlQX8xxNKzFXFHMuElocev3DjZi5G2OwqeJcQ-c_GnUjEwdGuzOWypylzh-mlCDVRaYfNjL7Ojb4DQNLUTLyTsFdsrn8GETxxpUV7ToSVcAV3jQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc490781872915:0x922c189a597b2d37?sa=X&ved=2ahUKEwiy77OGifeRAxXRDkQIHcm3Ky84FBD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc490781872915%3A0x922c189a597b2d37&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=20&type=place"
+      },
+      "description":
+      "Festive Afternoon Tea Delight in the art of afternoon tea, reimagined for the holidays. Enjoy classic scones, savoury bites like Lobster Dumpling and Duck Mousse Cone, and a dessert trolley laden...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-05/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Park Lounge",
+        "rating":
+        4.1,
+        "reviews":
+        67,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Park+Lounge&ludocid=10532820679718022455&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpExRh1Son8DQymW03dIaIyYci7Q8Yzqp2XVuMydHhTO-fzsZJNHOrPzk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XF1tB9gMPlPLnjjtMo_pLnvPBejY2XFO8Py7LlqB5A&s=10"
+    },
+    {
+      "title":
+      "APU Open Day – Create Your Tomorrow @ APU Campus",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 10:00 am – Sun, 11 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "Asia Pacific University of Technology & Innovation (APU), Jalan Teknologi 5, MRANTI Park",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://studymalaysia.com/events/apu-open-day-create-your-tomorrow-apu-campus/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=smNUtCCJEzggSj1LRAdoKBjCpcQtl7KQV0KlYlS6h69782723WS2PIvIMDM6JDx_ne-oBBZVhctc9oazq7FC__fitPOUsXzdd53K6mOAGL8iTYVj7aA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4abb795025d9:0x1c37182a714ba968?sa=X&ved=2ahUKEwiy77OGifeRAxXRDkQIHcm3Ky84FBD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4abb795025d9%3A0x1c37182a714ba968&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=20&type=place"
+      },
+      "description":
+      "✨ Experience the future at Asia Pacific University of Technology & Innovation (APU).🎓 Join us at our Open Day to explore award-winning programmes, advanced facilities, and a vibrant tech-driven...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Apu.edu.my",
+          "link":
+          "https://www.apu.edu.my/apu-open-day?utm_source=studymalaysia&utm_medium=event",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "StudyMalaysia.com",
+          "link":
+          "https://studymalaysia.com/events/apu-open-day-create-your-tomorrow-apu-campus/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Asia Pacific University of Technology & Innovation (APU)",
+        "rating":
+        4.3,
+        "reviews":
+        1566,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Asia+Pacific+University+of+Technology+%26+Innovation+(APU)&ludocid=2033120327349545320&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=smNUtCCJEzggSj1LRAdoKBjCpcQtl7KQV0KlYlS6h69782723WS2PIvIMDM6JDx_ne-oBBZVhctc9oazq7FC__fitPOUsXzdd53K6mOAGL8iTYVj7aA",
+      "image":
+      "https://www.google.com/maps/vt/data=smNUtCCJEzggSj1LRAdoKBjCpcQtl7KQV0KlYlS6h69782723WS2PIvIMDM6JDx_ne-oBBZVhctc9oazq7FC__fitPOUsXzdd53K6mOAGL8iTYVj7aA"
+    },
+    {
+      "title":
+      "Park Hyatt Festive Afternoon Tea",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Tue, 6 Jan, 12:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Park Lounge, Warisan Merdeka Tower, Level 75 Park Hyatt Kuala Lumpur, Presint Merdeka 118",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-06/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fyuYYlQX8xxNKzFXFHMuElocev3DjZi5G2OwqeJcQ-c_GnUjEwdGuzOWypylzh-mlCDVRaYfNjL7Ojb4DQNLUTLyTsFdsrn8GETxxpUV7ToSVcAV3jQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc490781872915:0x922c189a597b2d37?sa=X&ved=2ahUKEwiy77OGifeRAxXRDkQIHcm3Ky84FBD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc490781872915%3A0x922c189a597b2d37&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=20&type=place"
+      },
+      "description":
+      "Festive Afternoon Tea Delight in the art of afternoon tea, reimagined for the holidays. Enjoy classic scones, savoury bites like Lobster Dumpling and Duck Mousse Cone, and a dessert trolley laden...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-06/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Park Lounge",
+        "rating":
+        4.1,
+        "reviews":
+        67,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Park+Lounge&ludocid=10532820679718022455&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpExRh1Son8DQymW03dIaIyYci7Q8Yzqp2XVuMydHhTO-fzsZJNHOrPzk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XF1tB9gMPlPLnjjtMo_pLnvPBejY2XFO8Py7LlqB5A&s=10"
+    },
+    {
+      "title":
+      "Copy of PETRONAS Malaysia Open 8th Jan 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 5:00 am"
+      },
+      "address":
+      [
         "Axiata Arena Bukit Jalil, L2-E-10, Enterprise 4, Technology Park Malaysia, Lebuhraya Bukit Jalil, Bukit Jalil",
         "Kuala Lumpur, Federal Territory of Kuala Lumpur"
       ],
-      "link": "https://www.viagogo.com/Festival-Tickets/International-Festivals/Musica-Fest-Tickets/E-158030060",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=lwo_ZBZUeswlHkY6z66vyEMcxId3v-82oT7Vf8DGkW2pzz_aCvsDXD7TBqj0toaeGzBD218ut2hIQ961iuFv88UP9s12ajtsSqaXjNYtYuXNia9RY2E",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4a97daf75aff:0x35e03f9f339a13b1?sa=X&ved=2ahUKEwi-uNzw7PWQAxVsne4BHfRDL-kQ9eIBegQIQxAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4a97daf75aff%3A0x35e03f9f339a13b1&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&type=place"
+      "link":
+      "https://www.premiertickets.co/event/petronas-malaysia-open-8th-jan-2026-2/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=lwo_ZBZUeswlHkY6z66vyEMcxId3v-82oT7Vf8DGkW2pzz_aCvsDXD7TBqj0toaeGzBD218ut2hIQ961iuFv88UP9s12ajtsSqaXjNYtYuXNia9RY2E",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4a97daf75aff:0x35e03f9f339a13b1?sa=X&ved=2ahUKEwiy77OGifeRAxXRDkQIHcm3Ky84FBD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4a97daf75aff%3A0x35e03f9f339a13b1&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=20&type=place"
       },
-      "description": "Ticket listings for Musica Fest 2025 at Axiata Arena in Kuala Lumpur on 11/16/2025",
-      "ticket_info": [
+      "description":
+      "Experience the excitement of PETRONAS Malaysia Open 2026 on 8 Jan 2026, 8:00 AM at Axiata Arena Bukit Jalil with top badminton stars.",
+      "ticket_info":
+      [
         {
-          "source": "StubHub",
-          "link": "https://www.stubhub.com/d-masiv-tickets/category/150076567",
-          "link_type": "more info"
-        },
-        {
-          "source": "Viagogo",
-          "link": "https://www.viagogo.com/hk/en/Concert-Tickets/Rock-and-Pop/d-Masiv-Tickets/E-158030060",
-          "link_type": "more info"
+          "source":
+          "Premier Tickets",
+          "link":
+          "https://www.premiertickets.co/event/petronas-malaysia-open-8th-jan-2026-2/",
+          "link_type":
+          "more info"
         }
       ],
-      "venue": {
-        "name": "Axiata Arena Bukit Jalil",
-        "rating": 4.5,
-        "reviews": 6641,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=Axiata+Arena+Bukit+Jalil&ludocid=3882172831791453105&ibp=gwp%3B0,7"
+      "venue":
+      {
+        "name":
+        "Axiata Arena Bukit Jalil",
+        "rating":
+        4.5,
+        "reviews":
+        6691,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Axiata+Arena+Bukit+Jalil&ludocid=3882172831791453105&ibp=gwp%3B0,7"
       },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKMml4POoAMKyyhWPZiIjQvobSWFrLCqrIorliKcNVEVn-aExSLNfLE1s&s"
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO39LiWoRLbvKgkVaOh6rYMq5vJxF1TLArlizGUM7tBY4xYBGJ5yTdWko&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWLK6M0sFDWFNrKQgqiIGIretf903e2sH1wjv1Xsyro8HrBKjHfyMX9WnMVQ&s=10"
     },
     {
-      "title": "Level 1 Foundations of Dry Needling Kuala Lumpur (November 2025)",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Fri, 14 Nov, 8:30 am – Sun, 16 Nov, 1:15 pm"
+      "title":
+      "Malaysia International Jewellery Fair 2026 (MIJF)",
+      "date":
+      {
+        "start_date":
+        "Jun 27",
+        "when":
+        "Sat, 27 Jun, 11:00 am – Tue, 30 Jun, 7:00 pm"
       },
-      "address": [
-        "Lot 3A, Block B, The Training Hub Damansara, 10, Jalan Semantan, Bukit Damansara",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link": "https://www.gemtinfo.com.au/course/level-1-dry-needling-kuala-lumpur-november-2025/",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=FDJKuPbUshhRrWhvOmRpfIjjcCS1_5TGAmfjfk0MtqAxL1CmYEOTnqTHz3Df2B-YxdXEoSYDJds7iUHGsYFT4oM2ObL-T4gV_F6Uvqpbd3di_rrC9mk",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4900214b4b25:0x8210cab2292327b6?sa=X&ved=2ahUKEwi-uNzw7PWQAxVsne4BHfRDL-kQ9eIBegQISxAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4900214b4b25%3A0x8210cab2292327b6&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&type=place"
-      },
-      "description": "An intro/intermediate course for evaluation and treatment of neuromyofascial pain and dysfunction present in both the acute and chronic orthopedic population. Instruction will include evaluation...",
-      "ticket_info": [
-        {
-          "source": "Gemtinfo.com.au",
-          "link": "https://www.gemtinfo.com.au/course/level-1-dry-needling-kuala-lumpur-november-2025/",
-          "link_type": "tickets"
-        }
-      ],
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwwCWzXozxnq_I3QKJh_o0aMvYmWF1SfVORFv8cKztzk677MSoUksQ5Vc&s"
-    },
-    {
-      "title": "🌟 Pullman Kuala Lumpur City Centre Hotel & Residences is Hiring! 🌟Walk-In Interview – Great Jobs, Great Future. Be There!",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Thu, 13 Nov, 10:00 am – Wed, 19 Nov, 3:00 pm"
-      },
-      "address": [
-        "Wisma PERKESO Kuala Lumpur, Wisma Perkeso, 155, Jln Tun Razak, Kampung Baru",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link": "https://myfuturejobs.gov.my/event/%F0%9F%8C%9F-pullman-kuala-lumpur-city-centre-hotel-residences-is-hiring-%F0%9F%8C%9Fwalk-in-interview-great-jobs-great-future-be-there-2/",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=gs5FntLTWptBwQmGaOG4_k-veovDyL0KbSHq_yAuBjzw0hilLfQjrSaoLWSsNjjc_V4ls4ZXPVBs_iuacweqH_KB6GYs_pJAP6YOwFP_ERFDtDvu2Jc",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37dc22100001:0xea977fc240a5eb1f?sa=X&ved=2ahUKEwifu_LT7PWQAxUlMjQIHWBANVs4ChD14gF6BAgDEAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37dc22100001%3A0xea977fc240a5eb1f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&start=10&type=place"
-      },
-      "description": "Register – Click Here List of Companies and Vacancies – Click Here",
-      "ticket_info": [
-        {
-          "source": "MYFutureJobs",
-          "link": "https://myfuturejobs.gov.my/event/%F0%9F%8C%9F-pullman-kuala-lumpur-city-centre-hotel-residences-is-hiring-%F0%9F%8C%9Fwalk-in-interview-great-jobs-great-future-be-there-2/",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "Wisma PERKESO Kuala Lumpur",
-        "rating": 2.8,
-        "reviews": 305,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=Wisma+PERKESO+Kuala+Lumpur&ludocid=16904120198643444511&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOk1kg8Pja8GS_kd5MFbJ4bI1dTWPMJR66bGBiokw&s"
-    },
-    {
-      "title": "WET Sessions feat Amine K",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Sat, 15 Nov, 7:00 pm – Sun, 16 Nov, 2:00 am"
-      },
-      "address": [
-        "Level 12, W, WET Deck, W Kuala Lumpur, 121, Jln Ampang, Kuala Lumpur",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link": "https://ra.co/events/2285616",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=97ZJ9ULb9hDxFp-RN9159HMp8ggYaK3k-atI_NorRWtnTY_wj7rfoQPiNmBaWMg9IbACpVb4E1Jz5E5V48FfmIhE91Nlnqv-RpXFjxub0sgYT06U0uw",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc373eaaa8c9fb:0x17a825d1a545792?sa=X&ved=2ahUKEwifu_LT7PWQAxUlMjQIHWBANVs4ChD14gF6BAgLEAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc373eaaa8c9fb%3A0x17a825d1a545792&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&start=10&type=place"
-      },
-      "description": "Lose yourself in the rhythm of the night. WET Sessions returns to WET Deck with a pulse-pounding lineup headlined by the Moroccan maestro of desert house, Amine K. Known for his hypnotic sets that...",
-      "ticket_info": [
-        {
-          "source": "Resident Advisor",
-          "link": "https://ra.co/events/2285616",
-          "link_type": "more info"
-        },
-        {
-          "source": "Facebook",
-          "link": "https://www.facebook.com/events/1460325251921033/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "WET Deck, W Kuala Lumpur",
-        "rating": 4.2,
-        "reviews": 1142,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=WET+Deck,+W+Kuala+Lumpur&ludocid=106540877581932434&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlEAyYZs0GFpWlSl-s5mJ-Hp5i4o3QLQ8izsu108Y&s"
-    },
-    {
-      "title": "Mika Kobayashi",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Sun, 16 Nov, 8:00 pm – Mon, 17 Nov, 12:00 am"
-      },
-      "address": [
-        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link": "https://open.spotify.com/concert/1ufKDwSPKqtZrrtdd3zw9I",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwifu_LT7PWQAxUlMjQIHWBANVs4ChD14gF6BAgTEAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&start=10&type=place"
-      },
-      "description": "Find tickets for Mika Kobayashi at Zepp Kuala Lumpur in Kuala Lumpur on 11/16/2025 at 8:00 PM",
-      "ticket_info": [
-        {
-          "source": "Spotify.com",
-          "link": "https://open.spotify.com/concert/1ufKDwSPKqtZrrtdd3zw9I",
-          "link_type": "tickets"
-        },
-        {
-          "source": "Bandsintown.com",
-          "link": "https://www.bandsintown.com/e/107056017?app_id=szm_feed&came_from=283&utm_medium=web&utm_source=szm_feed&utm_campaign=event",
-          "link_type": "tickets"
-        },
-        {
-          "source": "Shazam",
-          "link": "https://www.shazam.com/track/116149778",
-          "link_type": "more info"
-        },
-        {
-          "source": "stubhub.com",
-          "link": "https://www.stubhub.com/mika-kobayashi-tickets/category/138323626",
-          "link_type": "more info"
-        },
-        {
-          "source": "Viagogo",
-          "link": "https://www.viagogo.com/Concert-Tickets/J-Pop/Mika-Kobayashi-Tickets",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "Zepp Kuala Lumpur",
-        "rating": 4.6,
-        "reviews": 1473,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtXdLoctZdxAHhxgv4zCHjBPd1AVx5WdhOd_mcIajgKHyW7kf9yWsra6E&s"
-    },
-    {
-      "title": "Alice Sarmiento. Dear, Inclined One (Sintang Nasa Bingit)",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "7–29 Nov"
-      },
-      "address": [
-        "d6-G-8, A+ Works of Art, d6 Trade Centre, 801, Jln Sentul",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link": "https://www.artrabbit.com/events/alice-sarmiento-dear-inclined-one-sintang-nasa-bingit",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=N29LsW309SC5lui6rDNV5Vnsxmw8UIuTAI_aQf1E_zKhMn1gS-uOBq4D5VjWpZd14Gh9DpDi0d-2KtP13QZi6m0xhXeoHzBVIukoah0cKymBwpziU-0",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc490036ef4781:0xb3a70cd911ac7559?sa=X&ved=2ahUKEwifu_LT7PWQAxUlMjQIHWBANVs4ChD14gF6BAgbEAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc490036ef4781%3A0xb3a70cd911ac7559&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&start=10&type=place"
-      },
-      "description": "“Dear, Inclined One,” was translated by poet and activist Angelo Suarez to Tagalog as “Sintang Nasa Bingit,” literally, “Lover on the brink”. This reveals translation’s capacity to enrich a...",
-      "ticket_info": [
-        {
-          "source": "Art Rabbit",
-          "link": "https://www.artrabbit.com/events/alice-sarmiento-dear-inclined-one-sintang-nasa-bingit",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "A+ Works of Art",
-        "rating": 5,
-        "reviews": 9,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=A%2B+Works+of+Art&ludocid=12945329780343731545&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScCFCmBplUWjB15RDfLchakk7ojnMi_QuByLWWLTjQzaNHOF36j1g97fE&s"
-    },
-    {
-      "title": "Filo & Lumo. Filamen's Interns Show",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Tue 11 – Sun 16 Nov"
-      },
-      "address": [
-        "GMBB, 2, Jalan Robertson",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link": "https://www.artrabbit.com/events/filo-lumo-filamens-interns-show",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=N2avaFtxOfWHuvVBaEZlzP0VjRdKQSf6mf7fmCcUVOph7PIb4WSfAjIIpDTxtFrqiU4vZ7FlA2mvVm93BLBGp2_jVCnooLBRvX5tTHWP06F1pUIATx0",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49fb171f6e09:0xb6fce1088a906e02?sa=X&ved=2ahUKEwifu_LT7PWQAxUlMjQIHWBANVs4ChD14gF6BAgjEAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49fb171f6e09%3A0xb6fce1088a906e02&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&start=10&type=place"
-      },
-      "ticket_info": [
-        {
-          "source": "Art Rabbit",
-          "link": "https://www.artrabbit.com/events/filo-lumo-filamens-interns-show",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "GMBB",
-        "rating": 4.4,
-        "reviews": 870,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=GMBB&ludocid=13185661235834678786&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPDbVo-l647vIHma5c0YQxXmY7xH1ZyZyEFKTVK1DUaBjRV6jm4rtUBaw&s"
-    },
-    {
-      "title": "Yoga Retreat in Nature",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Sat, 15 Nov, 11:00 am – Sun, 16 Nov, 12:00 pm"
-      },
-      "address": [
-        "Align Yoga, C-6-3, The Link 2 @, Jalan Jalil Perkasa 1, Bukit Jalil",
-        "Kuala Lumpur"
-      ],
-      "link": "https://allevents.in/kuala-lumpur/yoga-retreat-in-nature/100001836191952559",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=xUiCM5JCiRR7jKYiJYACd8B7kJ3-fdiDMYLY-NBYFixghPwpYulfO3mkijj2VMA8gIWrz3uHy9sl43L2VV671npNbNjtgFN-omradFu2XBAj5ysdvTQ",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4b67027e4b3f:0x9de52ba80119252c?sa=X&ved=2ahUKEwifu_LT7PWQAxUlMjQIHWBANVs4ChD14gF6BAgrEAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4b67027e4b3f%3A0x9de52ba80119252c&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&start=10&type=place"
-      },
-      "description": "This retreat offers a blend of movement, mindfulness, creativity, and fresh air—all set in a serene highland backdrop. About this Event",
-      "ticket_info": [
-        {
-          "source": "Allevents.in",
-          "link": "https://allevents.in/kuala-lumpur/yoga-retreat-in-nature/100001836191952559",
-          "link_type": "tickets"
-        },
-        {
-          "source": "Eventbrite.com",
-          "link": "https://www.eventbrite.com/e/1836191952559",
-          "link_type": "tickets"
-        }
-      ],
-      "venue": {
-        "name": "Align Yoga",
-        "rating": 4.9,
-        "reviews": 33,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=Align+Yoga&ludocid=11377548034194351404&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgNMQFN1HNDM-oIM7gU6q15v0H0B6B3C-LG44lWu74rLR_B7lsXciglg&s"
-    },
-    {
-      "title": "Comic Fiesta 2025",
-      "date": {
-        "start_date": "Dec 20",
-        "when": "Sat, 20 Dec, 9:30 am – Sun, 21 Dec, 7:00 pm"
-      },
-      "address": [
+      "address":
+      [
         "Kuala Lumpur Convention Centre, Kuala Lumpur",
         "Kuala Lumpur, Federal Territory of Kuala Lumpur"
       ],
-      "link": "https://www.ticket2u.com.my/event/39699/comic-fiesta-2025",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwifu_LT7PWQAxUlMjQIHWBANVs4ChD14gF6BAgzEAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&start=10&type=place"
-      },
-      "description": "https://www.ticket2u.com.my/event/38378/comic-fiesta-2024",
-      "ticket_info": [
-        {
-          "source": "Ticket2u",
-          "link": "https://www.ticket2u.com.my/event/39699/comic-fiesta-2025",
-          "link_type": "more info"
-        },
-        {
-          "source": "TicketSwap",
-          "link": "https://www.ticketswap.com/event/comic-fiesta-2025/019a1b81-ba0f-7192-b8f1-173d58cef98c",
-          "link_type": "more info"
-        },
-        {
-          "source": "FanCons.com",
-          "link": "https://fancons.com/events/info/26706/comic-fiesta-2025",
-          "link_type": "more info"
-        },
-        {
-          "source": "AnimeCons.com",
-          "link": "https://animecons.com/events/info/26706/comic-fiesta-2025",
-          "link_type": "more info"
-        },
-        {
-          "source": "AllEvents",
-          "link": "https://allevents.in/org/comic-fiesta/26001404",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "Kuala Lumpur Convention Centre",
-        "rating": 4.5,
-        "reviews": 10909,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS04bQX2xyMQX2MpUYvLq1v5wSzkF2jNMO1uCdromzzKJhs0E8xnEEfYlE&s"
-    },
-    {
-      "title": "Somewhere, Quietly — Where the World Is Quietly Seen",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "13–27 Nov"
-      },
-      "address": [
-        "Awegallery, 21, Jalan 20/13, Taman Paramount",
-        "Petaling Jaya, Selangor"
-      ],
-      "link": "https://www.artrabbit.com/events/somewhere-quietly-where-the-world-is-quietly-seen",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=Iw96NMRY-S_-fPiyqIMy2m0NygWKnNFuRrbdbUg4dgWIjXgwppfLnbJACoeVvHtWBMmeK2GV0VN0MwhBLxuDaDJe9u4AmQVvFKdFO1Cwki_IQfKbXDA",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4bfb0f6940f1:0x9b62c8e28b5a7bbc?sa=X&ved=2ahUKEwifu_LT7PWQAxUlMjQIHWBANVs4ChD14gF6BAg7EAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4bfb0f6940f1%3A0x9b62c8e28b5a7bbc&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&start=10&type=place"
-      },
-      "description": "There are moments too small for words — the way morning light slides across a wall, the hush before it rains, the stillness that lingers long after sound has faded.",
-      "ticket_info": [
-        {
-          "source": "Art Rabbit",
-          "link": "https://www.artrabbit.com/events/somewhere-quietly-where-the-world-is-quietly-seen",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "Awegallery",
-        "rating": 4.5,
-        "reviews": 72,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=Awegallery&ludocid=11196732498922601404&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgpvH2V0J5b8SpQrkdzPe10QtPXH-DNdM9zxgP_2ceP5UvCUwj-6bQWcI&s"
-    },
-    {
-      "title": "Zakat x Wakaf Run 2025",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Sun, 16 Nov, 7:00 am"
-      },
-      "address": [
-        "DBKL Square, Jalan Raja Laut, 50350, Kuala Lumpur, WP, Kuala Lumpur City Centre",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link": "https://www.letsdothis.com/gb/e/zakat-x-wakaf-run-2025-257605",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=5vGwUbAwixWsScCXOqUGf0q_jwhMbFi0G-pLetBAgXDsFqP9y81z13P-U71BJiaIqAy5kyMqnOn7V8iQZvhvOzNY4ZpOa1UCDadI6_Cx7sHmC-A0r8k",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc494109cfc7e3:0xd5097f37d9150be8?sa=X&ved=2ahUKEwifu_LT7PWQAxUlMjQIHWBANVs4ChD14gF6BAhDEAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc494109cfc7e3%3A0xd5097f37d9150be8&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&start=10&type=place"
-      },
-      "description": "Get ready to lace up and hit the ground running at the Zakat x Wakaf Run 2025! This isn't just any race – it's a heart-pounding dash through the vibrant heart of Kuala Lumpur, with Dataran DBKL's...",
-      "ticket_info": [
-        {
-          "source": "Letsdothis.com",
-          "link": "https://www.letsdothis.com/e/zakat-x-wakaf-run-2025-257605",
-          "link_type": "tickets"
-        },
-        {
-          "source": "Race Roster",
-          "link": "https://raceroster.com/events/2025/111096/zakat-x-wakaf-run-2025/page/rules-and-regulations",
-          "link_type": "more info"
-        },
-        {
-          "source": "ToughASIA",
-          "link": "https://toughasia.com/event/zakat-x-wakaf-run-2025/",
-          "link_type": "more info"
-        },
-        {
-          "source": "Apuama - Find Running, Cycling, Triathlon Events and Training Groups.",
-          "link": "https://apuama.com/organizations/koperasi-ppz-berhad",
-          "link_type": "more info"
-        }
-      ],
-      "venue": {
-        "name": "DBKL Square",
-        "rating": 4.5,
-        "reviews": 119,
-        "link": "https://www.google.com/search?sca_esv=e9ed596c25797bdc&gl=my&hl=en&q=DBKL+Square&ludocid=15350940682711010280&ibp=gwp%3B0,7"
-      },
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtDNb-Wrs6yTY3oe6TSknRHVnlG9z9sYrzxt8YNNc&s"
-    },
-    {
-      "title": "Sunday Workshop: Acrylic Engraving- with your photo (2pm Sun)",
-      "date": {
-        "start_date": "Nov 16",
-        "when": "Sun, 16 Nov, 6:00 – 9:00 am"
-      },
-      "address": [
-        "42, Jln SS 1/11, Kampung Tunku",
-        "Petaling Jaya, Selangor"
-      ],
-      "link": "https://www.eventbrite.sg/e/sunday-workshop-acrylic-engraving-with-your-photo-2pm-sun-tickets-1955045516769?aff=ebdssbcategorybrowse",
-      "event_location_map": {
-        "image": "https://www.google.com/maps/vt/data=y60UFep0V_RxJrIZySB0JMv9rStGUDEtpDyPIuByVEyqiUg9OxowMOxcmKSEK2ciycecSf9jol5DUh8DIghHmYq7bWJq_lXwZWVrkPYK5Cl3lxa6yj8",
-        "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4bf5b3719cdb:0xc710e548fdf0448f?sa=X&ved=2ahUKEwifu_LT7PWQAxUlMjQIHWBANVs4ChD14gF6BAhLEAA&hl=en&gl=my",
-        "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4bf5b3719cdb%3A0xc710e548fdf0448f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+klcc&start=10&type=place"
+      "link":
+      "https://www.ticket2u.com.my/event/45632/malaysia-international-jewellery-fair-2026-(mijf)",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwiy77OGifeRAxXRDkQIHcm3Ky84FBD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=20&type=place"
       },
       "description":
-      "Unleash your creativity, have fun and create a masterpiece. No experience needed! Let's create a masterpiece that you will be proud to hang in your own home. ❤ RM160 per pax Workshop includes...",
-      "ticket_info": [
+      "Ticket2u provide ticketing solutions for event organizers to promote their events and sell tickets. We have the latest local events listing in Malaysia.",
+      "ticket_info":
+      [
         {
-          "source": "Eventbrite.sg",
-          "link": "https://www.eventbrite.sg/e/sunday-workshop-acrylic-engraving-with-your-photo-2pm-sun-tickets-1955045516769",
-          "link_type": "tickets"
+          "source":
+          "Ticket2u",
+          "link":
+          "https://www.ticket2u.com.my/event/45632/malaysia-international-jewellery-fair-2026-(mijf)",
+          "link_type":
+          "more info"
         },
         {
-          "source": "AllEvents",
-          "link": "https://allevents.in/petaling-jaya/sunday-workshop-acrylic-engraving-with-your-photo-2pm-sun/100001955045516769",
-          "link_type": "more info"
+          "source":
+          "Evvnt",
+          "link":
+          "https://evvnt.com/events/?_evDiscoveryPath=/event/3217992-malaysia-international-jewellery-fair-mijf-",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Expolah",
+          "link":
+          "https://expolah.com/event/mijf-2026-jun-klcc/",
+          "link_type":
+          "more info"
         }
       ],
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ04gZmEDm2bNLtuWLRTAgeui_zLQGlA2-ittkJUWSM9FN4dIsB73kj7c&s"
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXK7xOUS4yCO6mBiFU2FCKRcqNyU_vSQGxNdQdVzoxA70G6hZPRLW02rk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRbRQ4mmmhwI9BHY37bKURtzsjKhD1WQA821EkhM6Fsg&s=10"
+    },
+    {
+      "title":
+      "Human Personalities Through The Enneagram",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Tue, 6 Jan, 9:30 am – 5:00 pm"
+      },
+      "address":
+      [
+        "Sky Park @ One City USJ, 1, F-11-01, Jalan USJ 25/1B, One City",
+        "Subang Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/human-personalities-through-the-enneagram-tickets-1978368392117",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=vp2eU6ZTzR9T_CNwlr8yq38R1SWYJeAFT17P_vY-SVpHQlzKWzrn-nc8l57nf7BaNiQHTwv7wIkk4VAPyNAv8Nq7bhM4Lhs8vHL8HQ2EvmXIojoxaNE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cdb324de9f8567:0xc7f12946e2dd2b7?sa=X&ved=2ahUKEwiy77OGifeRAxXRDkQIHcm3Ky84FBD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cdb324de9f8567%3A0xc7f12946e2dd2b7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=20&type=place"
+      },
+      "description":
+      "Discover what truly drives you and others. Learn Enneagram basics to communicate better, reduce conflict, and build stronger relationships. Strengthen Every Relationship with the Knowledge of the...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/human-personalities-through-the-enneagram-tickets-1978368392117",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Sky Park @ One City USJ",
+        "rating":
+        3.8,
+        "reviews":
+        3976,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Sky+Park+%40+One+City+USJ&ludocid=900458879210345143&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2hPZ17LsS68fVf10Cnl4AUIFQxpLtIyAL2G5snTc&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKYt9fmhUVmTfIU8YIiM9thfesXobfDWvhlrZbvLIomw&s"
+    },
+    {
+      "title":
+      "Coffee Pickle Rave",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 10:00 am – 4:00 pm"
+      },
+      "address":
+      [
+        "The Pickle Fence – Indoor Pickleball Court in Subang Jaya, Lot 880, Jalan Subang 9, Taman Perindustrian Subang",
+        "Subang Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.co.uk/e/coffee-pickle-rave-tickets-1978208307299",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fdUYrwlPI36yPuK3fhwDX9AwDjiaOQspv06-pRYHo907mRlPdCTXC0z66Y_cUu0ncuZEMCkTh0UgaAlCUN-XyIBRwneXwBEewhngOk5Kxq-LuGzTLFU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cdb3ce85b41079:0x5fc09cdfac0c62c4?sa=X&ved=2ahUKEwiy77OGifeRAxXRDkQIHcm3Ky84FBD14gF6BAhLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cdb3ce85b41079%3A0x5fc09cdfac0c62c4&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=20&type=place"
+      },
+      "description":
+      "Pickleball meets speciality coffee and live DJs—play, sip, and vibe at KL’s ultimate social sports experience!",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.co.uk",
+          "link":
+          "https://www.eventbrite.co.uk/e/coffee-pickle-rave-tickets-1978208307299",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Pickle Fence – Indoor Pickleball Court in Subang Jaya",
+        "rating":
+        4.7,
+        "reviews":
+        50,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Pickle+Fence+%E2%80%93+Indoor+Pickleball+Court+in+Subang+Jaya&ludocid=6899687113609732804&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAtWa9BirjF5_Dk-IgsAQU6tIWm3vmbXlXw2_Z7QkeecnbtLkuDGC9VGs&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROEdIFqAQIy5JBGACMknS0Fmvt3Sq4iQOs3x-C8ryHj_85g1nQ4UAlX7k8rw&s"
+    },
+    {
+      "title":
+      "Marketing Management Training Class",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Mon 5 – Tue 6 Jan"
+      },
+      "address":
+      [
+        "Suite 1109, Level 11 Block B, Kognifi Sdn Bhd, Phileo Damansara 1, Jalan 16/11",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.kognifi.my/events/kelas-latihan-pengurusan-pemasaran/?pskip=17259",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=NLoAuwLcSXST3wfgFSlYwnCr-2L-ubPkC_GjamBL-UaCVV2kJIQcKU9uv2_2FLZ46Q3b-H7kT5WGiyRmxnCsDemmBaEdK8QyXCJMX8NWhMPAZcONxUE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49c13287867b:0x1d65a6723fff6164?sa=X&ved=2ahUKEwibj96WifeRAxW44ckDHfS0IAU4HhD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49c13287867b%3A0x1d65a6723fff6164&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=30&type=place"
+      },
+      "description":
+      "Learn how to manage sales and marketing activities. Learn how to select leading indicators of marketing plan success and how to check and track these KPIs. Build the marketing command center to...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kognifi.my",
+          "link":
+          "https://www.kognifi.my/events/marketing-management-training-classes/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kognifi Sdn Bhd",
+        "rating":
+        4.9,
+        "reviews":
+        245,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kognifi+Sdn+Bhd&ludocid=2118282209377870180&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2G29DPX8qaWVgYQP8Mum_sOWeL4XZqraJflVJrtB1oC2OejXDjNuAqzM&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD6yQy_mfx4xyiVEFPexyFtj3n5xJGWqH-kQfC6ds6x8RSjfCeB0UdRW5lyg&s=10"
+    },
+    {
+      "title":
+      "DRT Show Malaysia 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 30",
+        "when":
+        "Fri 30 Jan – Sun 1 Feb"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.tradeindia.com/tradeshows/141344/drt-diving-resort-travel-expo-malaysia-2026.html",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwibj96WifeRAxW44ckDHfS0IAU4HhD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=30&type=place"
+      },
+      "description":
+      "DRT - Diving & Resort Travel Expo Malaysia 2026 will be held from 30th January - 1st February 2026 at Kuala Lumpur Convention Centre - KLCC in Kuala Lumpur, Malaysia. This is an event for scuba...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Drtexpo.com",
+          "link":
+          "https://www.drtexpo.com/malaysia",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/144125/drt-show-malaysia-2026.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Vendelux",
+          "link":
+          "https://vendelux.com/app/event/diving-resort-travel-expo-malaysia-2026/a35576c9-8677-4b51-8637-9206be7249f6",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Trade Fair Dates",
+          "link":
+          "https://www.tradefairdates.com/DRT-SHOW-MALAYSIA-M11716/Kuala-Lumpur.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Conference Locate",
+          "link":
+          "https://www.clocate.com/diving-resort-and-travel-drt-show/99016/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgY8aonRPxfLhztfZIRLdbkH7cHIgV5uha3wpiJfM&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbMZGyOYytvbbrxgZ0WDO3X8pHmxMQJ6Z5odCc_yS53J9a&s=10"
+    },
+    {
+      "title":
+      "Bearded Elf Charm Craft Workshop at Mid Valley Mega Mall",
+      "date":
+      {
+        "start_date":
+        "Jan 11",
+        "when":
+        "Sun, 11 Jan, 4:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Mid Valley Megamall, Lingkaran Syed Putra, Mid Valley City",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/bearded-elf-charm-craft-workshop-at-mid-valley-mega-mall/2026-01-11/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=VbcReCmkD0WrP70sJhWxVHD9pOnjw18aWN-t2AFUfsGS739qoY8NVmY2VDCke9V-HZd5rboSgUYj0scvxRWVY583ACrDoB2PobgBxD47DucMR-6SrxE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc498eb19ab83d:0x564d5053f56991fb?sa=X&ved=2ahUKEwibj96WifeRAxW44ckDHfS0IAU4HhD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc498eb19ab83d%3A0x564d5053f56991fb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=30&type=place"
+      },
+      "description":
+      "Academy Workshop Training – Bearded Elf Charm Craft Enrol this workshop to learn Elf Wisdoms and Crafts! Price: Spend MYR 50 in a single receipt or Register free from Maybank cardholders to get...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/bearded-elf-charm-craft-workshop-at-mid-valley-mega-mall/2026-01-11/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Mid Valley Megamall",
+        "rating":
+        4.4,
+        "reviews":
+        41191,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Mid+Valley+Megamall&ludocid=6218714981998367227&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAvtKqiW4lHt_qQZ-gxf8BsuhrVcDk-4YnFma3EPqVsQc4O3YuFVpPBg&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4zyMIJ2xAwqs-9IP13uLeABw45GIZ5Vjsec4PSwQj1rf0cu4w_gEVAK40aw&s=10"
+    },
+    {
+      "title":
+      "ISO/IEC 27001 Foundations of Information Security Management System (ISMS)",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 9:00 am – 5:00 pm"
+      },
+      "address":
+      [
+        "Hotel Armada Petaling Jaya, Lot 6, Lorong Utara C, Section 52",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.co.uk/e/isoiec-27001-foundations-of-information-security-management-system-isms-tickets-1978811811396",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=j4T8AoUEkN_l4DW4kZAGuFZW5AHT_n-2aBZ5NO1-zgICsxVH5xSZAekHuuwYMswBpvOpLlh3cr9bxj9HZlSszGHLRMSsSogibk7Gy3IUlAoavrv49VY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4bdd178a0713:0xef1fe8f0c2a5d70f?sa=X&ved=2ahUKEwibj96WifeRAxW44ckDHfS0IAU4HhD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4bdd178a0713%3A0xef1fe8f0c2a5d70f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=30&type=place"
+      },
+      "description":
+      "An exciting 2-day training course covering the fundamentals of ISO/IEC 27001 and the essentials of Information Security Management Systems. ISO/IEC 27001 is the internationally recognised standard...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.co.uk",
+          "link":
+          "https://www.eventbrite.co.uk/e/isoiec-27001-foundations-of-information-security-management-system-isms-tickets-1978811811396",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Hotel Armada Petaling Jaya",
+        "rating":
+        4.1,
+        "reviews":
+        3262,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Hotel+Armada+Petaling+Jaya&ludocid=17230746820098250511&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRduH5LgoUR2lShOfHxNIrXGgS0xJRwCAkRnS8N3SMSoUJsakn3PMSVwdg&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkogytGqq2mBF4u1c-kLpRnktPLuEPajsAGFh50WqwAg&s=10"
+    },
+    {
+      "title":
+      "9th International Conference on Multi-Disciplinary Research Studies and Education",
+      "date":
+      {
+        "start_date":
+        "May 29",
+        "when":
+        "Fri 29 – Sat 30 May"
+      },
+      "address":
+      [
+        "Corus KLCC, Persiaran Hampshire, Jalan Ampang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "http://www.eventsnow.org/event/9th-international-conference-on-multi-disciplinary-research-studies-and-education/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=K0QbadmVPlSMNTRUmaEodzS4e27_ScF1-seZLtc6Ub6fMuy3FiocgOdz1NIw7ou4_vy5KLL_b8_ryKCooSKI9YVauIBxiduaFECze8Xsm_ESAKE2tPA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d08dd3676d:0xa9b38c6afc5405f7?sa=X&ved=2ahUKEwibj96WifeRAxW44ckDHfS0IAU4HhD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d08dd3676d%3A0xa9b38c6afc5405f7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=30&type=place"
+      },
+      "description":
+      "Welcome to the 9th International Conference on Multi-Disciplinary Research Studies and Education (ICMDRSE-2026), to be held on May 29th & 30th, 2026, in Kuala Lumpur, Malaysia. This prestigious...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventsnow",
+          "link":
+          "http://www.eventsnow.org/event/9th-international-conference-on-multi-disciplinary-research-studies-and-education/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "10Times",
+          "link":
+          "https://10times.com/venues/corus-hotel",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Corus KLCC",
+        "rating":
+        4.1,
+        "reviews":
+        5083,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Corus+KLCC&ludocid=12228271804368815607&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM7vFFK5IS5tzP7Xj1AQkRd3jXy1Sj9xkLX4lgXxSaFjtlVcF7CojV9Bs&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScSdsMlNC0tsQVJRyq7DvBVw2o3OAV8qdpgCnbahFGmQ&s=10"
+    },
+    {
+      "title":
+      "TikTok Marketing For Malaysian Businesses - HRDC Approved Training Course",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Mon, 5 Jan, 9:00 am – 5:00 pm"
+      },
+      "address":
+      [
+        "Hotel Armada Petaling Jaya, Lot 6, Lorong Utara C, Section 52",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.co.uk/e/tiktok-marketing-for-malaysian-businesses-hrdc-approved-training-course-tickets-1978880196939",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=j4T8AoUEkN_l4DW4kZAGuFZW5AHT_n-2aBZ5NO1-zgICsxVH5xSZAekHuuwYMswBpvOpLlh3cr9bxj9HZlSszGHLRMSsSogibk7Gy3IUlAoavrv49VY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4bdd178a0713:0xef1fe8f0c2a5d70f?sa=X&ved=2ahUKEwibj96WifeRAxW44ckDHfS0IAU4HhD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4bdd178a0713%3A0xef1fe8f0c2a5d70f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=30&type=place"
+      },
+      "description":
+      "Our popular TikTok training course focuses on the marketing advantages as well as business opportunities it provides as a social media tool. Our popular TikTok training course focuses on the...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.co.uk",
+          "link":
+          "https://www.eventbrite.co.uk/e/tiktok-marketing-for-malaysian-businesses-hrdc-approved-training-course-tickets-1978880196939",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Hotel Armada Petaling Jaya",
+        "rating":
+        4.1,
+        "reviews":
+        3262,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Hotel+Armada+Petaling+Jaya&ludocid=17230746820098250511&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-BXi4jTN0VYlmE4tNMAmV8kGl5wPySmG0V-oogEEBm7HYjE5o3LrSTMU&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxqwhcui-Ax7mds8eRrX_PNLST8rzjwy2DNewkkvNCLQ&s=10"
+    },
+    {
+      "title":
+      "FSMONE INVEST EXPO 2026: INVESTING PROFITABLY THEN. NOW. NEXT.",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 10:30 am – 7:00 pm"
+      },
+      "address":
+      [
+        "Pavilion Bukit Jalil, 2, Persiaran Jalil 8, Bukit Jalil",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/fsmone-invest-expo-2026-investing-profitably-then-now-next-tickets-1974950231306",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=qqnCBXDyIjotx7MaU40fiGrf9cxRgQYMoFxVR1FsbRlCtpog-PKwOvV5B9e07pz887LGnCJPWdD7OXBzBsBzeHhHkP-eYK1CWwvjREvJ3_hPcKLh2UQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4ae7f2b662d5:0x24640a80dedccc95?sa=X&ved=2ahUKEwibj96WifeRAxW44ckDHfS0IAU4HhD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4ae7f2b662d5%3A0x24640a80dedccc95&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=30&type=place"
+      },
+      "description":
+      "Our iconic “What & Where to Invest” event is leveling up — introducing the all-new FSMOne Invest Expo 2026! Register: https://bit.ly/4oPkcE6",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/fsmone-invest-expo-2026-investing-profitably-then-now-next-tickets-1974950231306",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Pavilion Bukit Jalil",
+        "rating":
+        3.9,
+        "reviews":
+        8987,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Pavilion+Bukit+Jalil&ludocid=2622232431647575189&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc-Z0kZ8TDous7m4S7NYVuXtXs7f_yGRjgR58c4QqusU4-3xiuy7mmvVU&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMj5dw5CnaNvG7avmLfikZw7knjbW8aX1ez7n1shXPTw&s"
+    },
+    {
+      "title":
+      "Blood Donation Program 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Tue, 6 Jan, 9:00 am – 3:30 pm"
+      },
+      "address":
+      [
+        "Tamura Electronics (M) Sdn Bhd - Transformer Manufacturer, 2, Jalan Halba 16/16, Seksyen 16",
+        "Shah Alam, Selangor"
+      ],
+      "link":
+      "https://tamura.com.my/events/month/2026-01/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=QHz5Big7vIoJB1MU9lZFLv3jXWv-a97aC6cn7nSLoJzuyUqVicwqcg6jClanrHbPCbLyW8nxOVn7caIFQ__J1YeB5i3k0vD-H_jceg_GJPZzy4htL8k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4c7163891813:0xea5795d317c12a32?sa=X&ved=2ahUKEwibj96WifeRAxW44ckDHfS0IAU4HhD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4c7163891813%3A0xea5795d317c12a32&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=30&type=place"
+      },
+      "description":
+      "Good day! Dear Respective Employees, We are pleased to inform you that a Blood Donation Program (collaboration with National Blood Centre) will be held on 06th Jan 2026 (Tuesday). This is a great...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Tamura Electronics (M) Sdn. Bhd.",
+          "link":
+          "https://tamura.com.my/events/month/2026-01/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Tamura Electronics (M) Sdn Bhd - Transformer Manufacturer",
+        "rating":
+        4.6,
+        "reviews":
+        22,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Tamura+Electronics+(M)+Sdn+Bhd+-+Transformer+Manufacturer&ludocid=16886130061718137394&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=QHz5Big7vIoJB1MU9lZFLv3jXWv-a97aC6cn7nSLoJzuyUqVicwqcg6jClanrHbPCbLyW8nxOVn7caIFQ__J1YeB5i3k0vD-H_jceg_GJPZzy4htL8k",
+      "image":
+      "https://www.google.com/maps/vt/data=QHz5Big7vIoJB1MU9lZFLv3jXWv-a97aC6cn7nSLoJzuyUqVicwqcg6jClanrHbPCbLyW8nxOVn7caIFQ__J1YeB5i3k0vD-H_jceg_GJPZzy4htL8k"
+    },
+    {
+      "title":
+      "OneWare 2026",
+      "date":
+      {
+        "start_date":
+        "Aug 5",
+        "when":
+        "Wed, 5 Aug, 10:00 am – Fri, 7 Aug, 6:00 pm"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://evvnt.com/events/?_evDiscoveryPath=/event/3383286-oneware-2026",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwibj96WifeRAxW44ckDHfS0IAU4HhD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=30&type=place"
+      },
+      "description":
+      "The 5th edition of the Malaysia International Hardware Technology Exhibition, OneWare 2026 returns from 5 to 7 August 2026 at the Kuala Lumpur Convention Centre (KLCC). As a key platform for the...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Evvnt",
+          "link":
+          "https://evvnt.com/events/?_evDiscoveryPath=/event/3383286-oneware-2026",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Fairs",
+          "link":
+          "https://www.ntradeshows.com/oneware-2025/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Discover Events",
+          "link":
+          "https://discover.events.com/online/e/leisure/oneware-kuala-lumpur-convention-centre-klcc-455179003",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuMCZIlZpJ9rvcA74ZQR795DCjRrvZ7CtJKj8mBKLuqdt6thSW3cfRJvk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt0oqRna5IgR3aFjEQ0qeks8mYekXMyS7Pp0t2qK-svQ&s=10"
+    },
+    {
+      "title":
+      "Personal Professional Growth Training Course",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 9:00 am – 5:00 pm"
+      },
+      "address":
+      [
+        "Hotel Armada Petaling Jaya, Lot 6, Lorong Utara C, Section 52",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.co.uk/e/personal-professional-growth-training-course-tickets-1978809225662",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=j4T8AoUEkN_l4DW4kZAGuFZW5AHT_n-2aBZ5NO1-zgICsxVH5xSZAekHuuwYMswBpvOpLlh3cr9bxj9HZlSszGHLRMSsSogibk7Gy3IUlAoavrv49VY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4bdd178a0713:0xef1fe8f0c2a5d70f?sa=X&ved=2ahUKEwibj96WifeRAxW44ckDHfS0IAU4HhD14gF6BAhLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4bdd178a0713%3A0xef1fe8f0c2a5d70f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=30&type=place"
+      },
+      "description":
+      "Unlock authentic leadership, enhanced awareness & team synergy in 2 days—reframe challenges, spark growth & drive lasting transformation. Our two-day Professional Growth Mastery Workshop empowers...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.co.uk",
+          "link":
+          "https://www.eventbrite.co.uk/e/personal-professional-growth-training-course-tickets-1978809225662",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Hotel Armada Petaling Jaya",
+        "rating":
+        4.1,
+        "reviews":
+        3262,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Hotel+Armada+Petaling+Jaya&ludocid=17230746820098250511&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA_qxSkxZ1_TsOu1HwBj8owFJMElIMUow1JJfaaVNDLS91nOaBV74hSF4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa_kzKKbAk8Txf9Vp9RGntOWVgGn9SLPAkbelEGho4JoHuBoUq4xAjoBlgbQ&s=10"
+    },
+    {
+      "title":
+      "Train The Trainer (TTT) Certification Course",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Mon, 5 Jan, 9:00 am – Fri, 9 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "Level 12, Malaysia HR Forum, Menara PKNS, 17, Jalan Yong Shook Lin",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://malaysiahrforum.com/catalogue/92-train-the-trainer-ttt-certification-course/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=qbsoOczU2ltULUD9Duxu37wtimMWmJ6UP2Of2Sz2QnHQvXHEfebafCzSCWQIKEc2nQ_inPxOBanL_R7k4GRltJWdnMLMOxh0iobELey1UsAfbYfOITI",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4d9b8ac6ee8f:0xf9d452401f39c36a?sa=X&ved=2ahUKEwif0e2jifeRAxVFCrkGHTxNJ2A4KBD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4d9b8ac6ee8f%3A0xf9d452401f39c36a&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=40&type=place"
+      },
+      "description":
+      "Be certified as an HRD Corp Certified Trainer, enabling you to conduct claimable training under the HRD Corp scheme",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Malaysiahrforum.com",
+          "link":
+          "https://malaysiahrforum.com/catalogue/92-train-the-trainer-ttt-certification-course/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Malaysia HR Forum",
+        "rating":
+        4.8,
+        "reviews":
+        98,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Malaysia+HR+Forum&ludocid=18002104045861978986&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=qbsoOczU2ltULUD9Duxu37wtimMWmJ6UP2Of2Sz2QnHQvXHEfebafCzSCWQIKEc2nQ_inPxOBanL_R7k4GRltJWdnMLMOxh0iobELey1UsAfbYfOITI",
+      "image":
+      "https://www.google.com/maps/vt/data=qbsoOczU2ltULUD9Duxu37wtimMWmJ6UP2Of2Sz2QnHQvXHEfebafCzSCWQIKEc2nQ_inPxOBanL_R7k4GRltJWdnMLMOxh0iobELey1UsAfbYfOITI"
+    },
+    {
+      "title":
+      "TRENCHLESS ASIA 2026",
+      "date":
+      {
+        "start_date":
+        "Jun 10",
+        "when":
+        "Wed 10 – Thu 11 Jun"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.tradeindia.com/tradeshows/144145/trenchless-asia-2026.html",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwif0e2jifeRAxVFCrkGHTxNJ2A4KBD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=40&type=place"
+      },
+      "description":
+      "TRENCHLESS ASIA 2026 will be held from 10 - 11 June, 2026 at Kuala Lumpur Convention Centre - KLCC, Kuala Lumpur, Malaysia. This will feature a multi-track conference program featuring a mix of...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/144145/trenchless-asia-2026.html",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThnq9t4O0_LH5kwwq3q4DpMmYbMZwBOuXfchVBw6s&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNXE7nrJTnBktWAmJLlmOwEZ-VE59vybGhLlCjO_pQLf0i&s"
+    },
+    {
+      "title":
+      "2nd Technology Excellence Award & Conference, 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 16",
+        "when":
+        "Fri, 16 Jan, 9:00 am – 5:00 pm"
+      },
+      "address":
+      [
+        "Corus KLCC, Persiaran Hampshire, Jalan Ampang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/2nd-technology-excellence-award-conference-2026-tickets-1832440291239",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=K0QbadmVPlSMNTRUmaEodzS4e27_ScF1-seZLtc6Ub6fMuy3FiocgOdz1NIw7ou4_vy5KLL_b8_ryKCooSKI9YVauIBxiduaFECze8Xsm_ESAKE2tPA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d08dd3676d:0xa9b38c6afc5405f7?sa=X&ved=2ahUKEwif0e2jifeRAxVFCrkGHTxNJ2A4KBD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d08dd3676d%3A0xa9b38c6afc5405f7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=40&type=place"
+      },
+      "description":
+      "Celebrating innovation and impact, uniting industry leaders to honor excellence in technology and digital transformation.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/2nd-technology-excellence-award-conference-2026-tickets-1832440291239",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Corus KLCC",
+        "rating":
+        4.1,
+        "reviews":
+        5083,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Corus+KLCC&ludocid=12228271804368815607&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTQeLy2SIGQ6NNdrkaQh-CKjBddMR-mQLf0EkrSO3QUgZE5Wt_FTBGNHI&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxFWOu62Z3eZ40XQlR52b1WR-_XBYWk5b2cRfXy6tBTQ&s=10"
+    },
+    {
+      "title":
+      "poultry asia 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 6:00 am – Mon, 12 Jan, 6:00 am"
+      },
+      "address":
+      [
+        "Setia City Convention Centre, No. 1, Jalan Setia Dagang AG U13/AG Setia Alam, Seksyen U13",
+        "Shah Alam, Selangor"
+      ],
+      "link":
+      "https://globy.com/events-calendar/poultry-asia-71680b",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=QdfTEv3zzgCVnj7XzQdjcDK2JQZaqWP7CLxZCrNWnCGInZoGdW3eq7XugSZ7u0eI9o1aThDR5bh4HCLEXU1xx5C-Xngpmt-tGOyoYRocb_mpXAeLqzc",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc53e537d1c9fd:0xddef824a35d32362?sa=X&ved=2ahUKEwif0e2jifeRAxVFCrkGHTxNJ2A4KBD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc53e537d1c9fd%3A0xddef824a35d32362&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=40&type=place"
+      },
+      "description":
+      "Poultry Asia: Advancing Innovation and Collaboration in Asia's Poultry IndustryHeld at the state-of-the-art Setia City Convention Centre in Shah Alam, Malaysia, Poultry Asia has established itself...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Rogers-asia.com",
+          "link":
+          "https://www.rogers-asia.com/events/poultry-asia-2026/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Globy",
+          "link":
+          "https://globy.com/events-calendar/poultry-asia-71680b",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Setia City Convention Centre",
+        "rating":
+        4.4,
+        "reviews":
+        5924,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Setia+City+Convention+Centre&ludocid=15992144057058141026&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyvSVq-FeQw0WyjpnX9snE1AoN-FL0bwfKgXaDVPQW1xVqG9MNR2nsbO5T&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEoJfe-MT8eV4XhtQbJTMkq4RXFcek253KaKOk5hdPAkHSyqNeLF93fOPG1DU&s=10"
+    },
+    {
+      "title":
+      "Inner Glow: Restore, Release & Radiate",
+      "date":
+      {
+        "start_date":
+        "Jan 11",
+        "when":
+        "Sun, 11 Jan, 10:30 am – 1:30 pm"
+      },
+      "address":
+      [
+        "27-2, The Golden Space Malaysia, Jalan PJU 5/20, Kota Damansara",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/inner-glow-restore-release-radiate-tickets-1977352761338",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Y7aNRttO82ZFvc-dAGT9Vw_7LA2EoJm2bd4rjDsV4ye28EnT9L8lQFneCi2N8ovBAdLLhXcpgo2PGJlp_EaiJEVnfi3Q9rQWDDole3vUc_aRdk4WAEg",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4f1f8a79ef9d:0xc380513098a43415?sa=X&ved=2ahUKEwif0e2jifeRAxVFCrkGHTxNJ2A4KBD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4f1f8a79ef9d%3A0xc380513098a43415&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=40&type=place"
+      },
+      "description":
+      "Join us in person to unwind, let go, and shine bright from within at Inner Glow: Restore, Release & Radiate! Join us for a deeply restorative 3-hour mini-retreat blending the art of conscious...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/inner-glow-restore-release-radiate-tickets-1977352761338",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Meetup",
+          "link":
+          "https://www.meetup.com/healing-relationships-and-family-bonding-meetup-group/events/312295450/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Golden Space Malaysia",
+        "rating":
+        4.9,
+        "reviews":
+        98,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Golden+Space+Malaysia&ludocid=14087348903576089621&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnh9LGnUS4S2bIivqhzw8w7JoW3WN5McETkPjhDIg&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6N4KYHJO7nLyiY4u_F8cHdaRHrmO0oP8QgkhDGpEeHA&s"
+    },
+    {
+      "title":
+      "BrowserStack QA Meetup - Malaysia : AI in Testing 2025 & Beyond",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 5:30 – 7:30 pm"
+      },
+      "address":
+      [
+        "Skill Quotient Group, Level 6, Tower 2A, Avenue 5, The Horizon, 8, Jalan Kerinchi, Bangsar South",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.meetup.com/browserstack-software-testing-and-qa-meetup-group-malaysia/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=cQRTSGiGObAhpSfV8zICqmCX7QWCOfXTa3uLIV3M9KTISzUCIx0e1cs3JdX4Om77f9gNw_BZPUv_tQQDXijjxNJxetjbBjsTc-6EH4FH2BkTDCTE2T0",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49d32b4dcde7:0x8f69a079a86f97c5?sa=X&ved=2ahUKEwif0e2jifeRAxVFCrkGHTxNJ2A4KBD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49d32b4dcde7%3A0x8f69a079a86f97c5&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=40&type=place"
+      },
+      "description":
+      "Join the BrowserStack QA community Meetup for an evening of networking, lightning talks, and real-world stories on how AI is reshaping software testing. ​This Meetup is all about bringing QAs...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Meetup",
+          "link":
+          "https://www.meetup.com/browserstack-software-testing-and-qa-meetup-group-malaysia/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Skill Quotient Group",
+        "rating":
+        4.3,
+        "reviews":
+        7,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Skill+Quotient+Group&ludocid=10333967264355686341&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=cQRTSGiGObAhpSfV8zICqmCX7QWCOfXTa3uLIV3M9KTISzUCIx0e1cs3JdX4Om77f9gNw_BZPUv_tQQDXijjxNJxetjbBjsTc-6EH4FH2BkTDCTE2T0",
+      "image":
+      "https://www.google.com/maps/vt/data=cQRTSGiGObAhpSfV8zICqmCX7QWCOfXTa3uLIV3M9KTISzUCIx0e1cs3JdX4Om77f9gNw_BZPUv_tQQDXijjxNJxetjbBjsTc-6EH4FH2BkTDCTE2T0"
+    },
+    {
+      "title":
+      "Star Education Fair 11 & 12 April 2026 / Kuala Lumpur Convention Centre",
+      "date":
+      {
+        "start_date":
+        "Apr 11",
+        "when":
+        "Sat, 11 Apr, 11:00 am – Sun, 12 Apr, 6:00 pm"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/star-education-fair-11-12-april-2026-kuala-lumpur-convention-centre-tickets-1514262934199",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwif0e2jifeRAxVFCrkGHTxNJ2A4KBD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=40&type=place"
+      },
+      "description":
+      "Star Education Fair 2026 | Wholesome One-Stop hub & Educational Pathway",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/star-education-fair-11-12-april-2026-kuala-lumpur-convention-centre-tickets-1514262934199",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "AllEvents",
+          "link":
+          "https://allevents.in/kuala-lumpur/star-education-fair-11-and-12-april-2026-kuala-lumpur-convention-centre/100001514262934199",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRWLocsUXvOtUHPjzPi38cqF-AdtYYyp8zRX5zrl03o70u-TUfzYZq8UU&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiXG4pRCdEoBFnNx4GwBcFX7zrNh0V2ycOzgep29JuDB56qdAS6hv5hgh8FA&s=10"
+    },
+    {
+      "title":
+      "Digital Transformation Summit Malaysia 2026 | 23rd April 26 | Malaysia",
+      "date":
+      {
+        "start_date":
+        "Apr 23",
+        "when":
+        "Thu, 23 Apr, 9:00 am – 5:00 pm"
+      },
+      "address":
+      [
+        "Aquaria KLCC, Kuala Lumpur Convention Centre, Jalan Pinang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://events.coinpedia.org/digital-transformation-summit-malaysia-2026-7462/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=pgGpbM9xLNiZbaOSh8DOHTtqYEjlibR68ChefWhsMCdOL50X-fzvo6LyqzPKRtaL5JjhNGU9ZK0RVm90BzGnlk5J82ZyeHKrO-_1paNhk0u7hU8uOho",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d39d319733:0x68a27ec3fd8f6bed?sa=X&ved=2ahUKEwif0e2jifeRAxVFCrkGHTxNJ2A4KBD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d39d319733%3A0x68a27ec3fd8f6bed&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=40&type=place"
+      },
+      "description":
+      "Attend the 34th edition of the Digital Transformation Summit Malaysia 2026 on 23rd April, in Kuala Lumpur, to shape the future of business transformation in Southeast Asia. This leading conference...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Coinpedia Events",
+          "link":
+          "https://events.coinpedia.org/digital-transformation-summit-malaysia-2026-7462/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Aquaria KLCC",
+        "rating":
+        4.3,
+        "reviews":
+        39033,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Aquaria+KLCC&ludocid=7539728106409389037&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_HmpJRA5xpJDqQR8G3NYyZdqmIXlL32xQTAPo64AbjVSSPyJ3vpL0dqo&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjD8i8Ig4J6uJEEE37Kp1znu_ZUtSMH_782HBwFUbjmZNuiMeGvekwHnqkqQ&s=10"
+    },
+    {
+      "title":
+      "ITEX Malaysia 2026",
+      "date":
+      {
+        "start_date":
+        "May 18",
+        "when":
+        "Mon, 18 May, 9:00 am – Wed, 20 May, 6:00 pm"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.gevme.com/international-invention-innovation--technology-exhibition-itex-2026-76456756",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwif0e2jifeRAxVFCrkGHTxNJ2A4KBD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=40&type=place"
+      },
+      "description":
+      "ITEX is a leading Malaysian exhibition for inventors and innovators to showcase prototypes and technologies. It attracts investors, entrepreneurs, and industry experts, fostering academic...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Gevme",
+          "link":
+          "https://www.gevme.com/international-invention-innovation--technology-exhibition-itex-2026-76456756",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/144130/itex-malaysia-2026.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Globy",
+          "link":
+          "https://es.globy.com/events-calendar/itex-77d7e2",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Trade Fair Dates",
+          "link":
+          "https://www.tradefairdates.com/ITEX-M13740/Kuala-Lumpur.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Fairs",
+          "link":
+          "https://www.ntradeshows.com/itex/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZN-b2TLT7kgjpJbxCDdhm7RrCNKIElxJXeQqCJ1atQUX9CPC6M23WBA4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs7ZBGiIfLZgq3Ny8LYc_2UEKs1wkpXPkBAbrwVAfZB8lxcjtFFbnVQce0wLSc&s=10"
+    },
+    {
+      "title":
+      "インターナショナルカフェ＆ビバレッジショー",
+      "date":
+      {
+        "start_date":
+        "May 7",
+        "when":
+        "Thu, 7 May, 8:23 am – Sat, 9 May, 8:23 am"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.tradeindia.com/tradeshows/143145/international-cafe-beverage-show-icbs-2026.html",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwif0e2jifeRAxVFCrkGHTxNJ2A4KBD14gF6BAhLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KLCC&start=40&type=place"
+      },
+      "description":
+      "The International Cafe and Beverage Show (ICBS) is a premier trade event in the cafÃ© and beverage industry in Malaysia, offering a one stop platform for businesses to showcase their latest...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/143145/international-cafe-beverage-show-icbs-2026.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "PDS CONSULTING",
+          "link":
+          "https://pdsconsulting.com.my/event/icbs-2026-international-cafe-beverage-show/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "CNS Travel Solutions",
+          "link":
+          "https://en.cns.travel/trade-show/icbs-formerly-cafa-malaysia-kuala-lumpur",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFo_NnlKu9jMDkqHB1xhNbAAmCrQ5USgquwGWvwCE&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBN64JKCfrLxxwGcBtuf3w7llih-HQcmyTLHwrzJxXCH4k&s"
     }
   ]
 }

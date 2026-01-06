@@ -2,34 +2,34 @@
   "search_metadata":
   {
     "id":
-    "691964e3b4ab7287e48560e3",
+    "695d14096372f3abc54447b7",
     "status":
     "Success",
     "json_endpoint":
-    "https://serpapi.com/searches/ff1ee504a3b2367d/691964e3b4ab7287e48560e3.json",
+    "https://serpapi.com/searches/3be3f1966d06bef0/695d14096372f3abc54447b7.json",
     "created_at":
-    "2025-11-16 05:45:07 UTC",
+    "2026-01-06 13:54:17 UTC",
     "processed_at":
-    "2025-11-16 05:45:07 UTC",
+    "2026-01-06 13:54:17 UTC",
     "google_events_url":
-    "https://www.google.com/search?q=events+in+kl+sentral&ibp=htl;events&uule=w+CAIQICIBS3VhbGEgTHVtcHVyLEZlZGVyYWwgVGVycml0b3J5IG9mIEt1YWxhIEx1bXB1cixNYWxheXNpYQ&hl=en&gl=my",
+    "https://www.google.com/search?q=events+near+KL+Sentral&ibp=htl;events&uule=w+CAIQICIITWFsYXlzaWE&gl=my&start=0",
     "raw_html_file":
-    "https://serpapi.com/searches/ff1ee504a3b2367d/691964e3b4ab7287e48560e3.html",
+    "https://serpapi.com/searches/3be3f1966d06bef0/695d14096372f3abc54447b7.html",
     "total_time_taken":
-    1.08
+    4.69
   },
   "search_parameters":
   {
     "q":
-    "events in kl sentral",
+    "events near KL Sentral",
     "engine":
     "google_events",
     "location_requested":
-    "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+    "Malaysia",
     "location_used":
-    "Kuala Lumpur,Federal Territory of Kuala Lumpur,Malaysia",
-    "hl":
-    "en",
+    "Malaysia",
+    "start":
+    0,
     "gl":
     "my"
   },
@@ -42,39 +42,39 @@
   [
     {
       "title":
-      "Open House Program -November 2025 | Kuala Lumpur| 15 November-2025",
+      "Discover Veterinary Medicine at the University of Edinburgh",
       "date":
       {
         "start_date":
-        "Nov 22",
+        "Jan 13",
         "when":
-        "Sat, 22 Nov, 1:00 – 5:00 pm"
+        "Tue, 13 Jan, 6:00 – 7:30 pm"
       },
       "address":
       [
-        "Level 20, Menara 1 Sentrum, WORQ KL Sentral, 201, Jalan Tun Sambanthan, Brickfields",
+        "Aloft Kuala Lumpur Sentral, 5, Jalan Stesen Sentral, Kuala Lumpur Sentral",
         "Kuala Lumpur, Federal Territory of Kuala Lumpur"
       ],
       "link":
-      "https://www.eventbrite.sg/e/open-house-program-november-2025-kuala-lumpur-15-november-2025-tickets-1781388684509",
+      "https://www.eventbrite.co.uk/e/discover-veterinary-medicine-at-the-university-of-edinburgh-tickets-1606801329029",
       "event_location_map":
       {
         "image":
-        "https://www.google.com/maps/vt/data=DGg6hJxfBLH0h5JeaH5QOitszt9yu36PRU_s_NDWBhBCAK-5BOh5aqMo1UczL39wJZxAsavKd6sqFjM5eU4ogNpm4x8SHxggFtI9cNvFvKMYeuiTNJA",
+        "https://www.google.com/maps/vt/data=WMbjXJHIX2gFXRr5r9uPQwoLF84pmHgN3-SQBrJ4WiFr8YwcZP424KRyI6P5THGF2s2O5brB7_Qd661zWYZNgTXEgupmR-kbhTe78UctnTZxl_UXY-U",
         "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4985cbb990c3:0xd1437c209786406c?sa=X&ved=2ahUKEwiMyOzd-_WQAxWhBjQIHTSpOwYQ9eIBegQIAxAA&hl=en&gl=my",
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49c0399b7711:0x7d7630ef854f66de?sa=X&ved=2ahUKEwisz-GZiPeRAxVrrZUCHbvJPJgQ9eIBegQIAxAA&gl=my",
         "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4985cbb990c3%3A0xd1437c209786406c&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+kl+sentral&type=place"
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49c0399b7711%3A0x7d7630ef854f66de&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+KL+Sentral&start=0&type=place"
       },
       "description":
-      "Exclusive Invitation – OPEN HOUSE for Study abroad program!",
+      "Join us in Kuala Lumpur on Tuesday 13 January at 6pm to learn more about studying Veterinary Medicine at the University of Edinburgh. You are warmly invited to join us at our upcoming event in...",
       "ticket_info":
       [
         {
           "source":
-          "Eventbrite.sg",
+          "Eventbrite.co.uk",
           "link":
-          "https://www.eventbrite.sg/e/open-house-program-november-2025-kuala-lumpur-15-november-2025-tickets-1781388684509",
+          "https://www.eventbrite.co.uk/e/discover-veterinary-medicine-at-the-university-of-edinburgh-tickets-1606801329029",
           "link_type":
           "tickets"
         }
@@ -82,183 +82,18 @@
       "venue":
       {
         "name":
-        "WORQ KL Sentral",
-        "rating":
-        4.6,
-        "reviews":
-        52,
-        "link":
-        "https://www.google.com/search?sca_esv=3e234f75c88b970c&gl=my&hl=en&q=WORQ+KL+Sentral&ludocid=15079032456789508204&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRus2GwGqnH0jKRrRqbAU8pUXr70cuW5lM-DA3b5DWPuTFbv_wHVG_Hdt0&s"
-    },
-    {
-      "title":
-      "My Pass'Sport 2025",
-      "date":
-      {
-        "start_date":
-        "Nov 29",
-        "when":
-        "Sat, 29 Nov, 2:00 – 7:00 pm"
-      },
-      "address":
-      [
-        "L1.01, Decathlon Nu Sentral, 201, Jalan Tun Sambanthan, Kuala Lumpur Sentral",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://activities.decathlon.my/en-MY/sport-activities/details/2981679",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=iOReR8bvHv6N7__4vMDczF56n1aUVHLDU3kgA2Dw79DV8o91jl4clM754lBBNWXU6qPZSlQHuEU4-FSMw-ip2IfsNK-wzCijXX99IQ8lK2ZxcEk9PHM",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49e0aecca911:0xe7ccb4dd3fcfe8c?sa=X&ved=2ahUKEwiMyOzd-_WQAxWhBjQIHTSpOwYQ9eIBegQICxAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49e0aecca911%3A0xe7ccb4dd3fcfe8c&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+kl+sentral&type=place"
-      },
-      "description":
-      "We aim to elevate My Pass'Sport to new heights by offering it monthly in our stores with exciting sports to be discovered and prizes to be won after 3 rounds of My Pass’Sport in 3 different...",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Decathlon Activities",
-          "link":
-          "https://activities.decathlon.my/en-MY/sport-activities/details/2981679",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Decathlon Nu Sentral",
+        "Aloft Kuala Lumpur Sentral",
         "rating":
         4.4,
         "reviews":
-        161,
+        5801,
         "link":
-        "https://www.google.com/search?sca_esv=3e234f75c88b970c&gl=my&hl=en&q=Decathlon+Nu+Sentral&ludocid=1043932748772605580&ibp=gwp%3B0,7"
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Aloft+Kuala+Lumpur+Sentral&ludocid=9040467107284739806&ibp=gwp%3B0,7"
       },
       "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDiUsxy7jwzYaWJ5E-sTCCdVGCb63yQhsJMNRVQdzEMeLIoMOUiTgI6po&s"
-    },
-    {
-      "title":
-      "High Security Printing Asia",
-      "date":
-      {
-        "start_date":
-        "Dec 2",
-        "when":
-        "Tue, 2 Dec, 6:00 am – Thu, 4 Dec, 6:00 am"
-      },
-      "address":
-      [
-        "Menara TH 1 Sentral, Jalan Stesen Sentral 5, Brickfields",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://10times.com/e1d5-r6k0-p3ff-d",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=MvqgDlEz6Swt8k_ttIj0UuYvgEfwUSv8GRVA4Ir_px6n9ngN-Ze51wcZhtMcgJaKqpbOn3LWHZHe8UPh66UYib3ldJlFhmk86B73Mt2qTNgIoUAPMeY",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49c1d1776a63:0xf1fdedebd1125cf1?sa=X&ved=2ahUKEwiMyOzd-_WQAxWhBjQIHTSpOwYQ9eIBegQIExAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49c1d1776a63%3A0xf1fdedebd1125cf1&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+kl+sentral&type=place"
-      },
-      "description":
-      "The High Security Printing Asia conference, taking place from December 1 to December 3, 2025, at 1 Sentral in Kuala Lumpur, Malaysia, is a premier event dedicated to the security printing...",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Globy",
-          "link":
-          "https://globy.com/events-calendar/high-security-printing-asia-743361",
-          "link_type":
-          "more info"
-        },
-        {
-          "source":
-          "10Times",
-          "link":
-          "https://10times.com/e1d5-r6k0-p3ff-d",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "Menara TH 1 Sentral",
-        "rating":
-        4,
-        "reviews":
-        257,
-        "link":
-        "https://www.google.com/search?sca_esv=3e234f75c88b970c&gl=my&hl=en&q=Menara+TH+1+Sentral&ludocid=17437354929329167601&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr5C1bWgodGZ3thb1Q8TjxFXeCErP7qyGMFvC9NgQoREDqUUC9QzhlzE0&s"
-    },
-    {
-      "title":
-      "Launchpad Malaysia Co-Working",
-      "date":
-      {
-        "start_date":
-        "Nov 20",
-        "when":
-        "Thu, 20 Nov, 10:00 am – 5:00 pm"
-      },
-      "address":
-      [
-        "Level 20, Menara 1 Sentrum, WORQ KL Sentral, 201, Jalan Tun Sambanthan, Brickfields",
-        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
-      ],
-      "link":
-      "https://book.remotework.com.my/events/launchpad-malaysia-coworking-1",
-      "event_location_map":
-      {
-        "image":
-        "https://www.google.com/maps/vt/data=DGg6hJxfBLH0h5JeaH5QOitszt9yu36PRU_s_NDWBhBCAK-5BOh5aqMo1UczL39wJZxAsavKd6sqFjM5eU4ogNpm4x8SHxggFtI9cNvFvKMYeuiTNJA",
-        "link":
-        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4985cbb990c3:0xd1437c209786406c?sa=X&ved=2ahUKEwiMyOzd-_WQAxWhBjQIHTSpOwYQ9eIBegQIGxAA&hl=en&gl=my",
-        "serpapi_link":
-        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4985cbb990c3%3A0xd1437c209786406c&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Kuala+Lumpur%2C+Federal+Territory+of+Kuala+Lumpur%2C+Malaysia&q=events+in+kl+sentral&type=place"
-      },
-      "description":
-      "Hey KL Launchies! We’re excited to share some great news, Launchpad has officially partnered with Remote Work Malaysia to bring you flexible co-working spaces across the city! 🎉 About Remote Work...",
-      "ticket_info":
-      [
-        {
-          "source":
-          "Workspaces - Remote Work Malaysia",
-          "link":
-          "https://book.remotework.com.my/events/launchpad-malaysia-coworking-1",
-          "link_type":
-          "more info"
-        }
-      ],
-      "venue":
-      {
-        "name":
-        "WORQ KL Sentral",
-        "rating":
-        4.6,
-        "reviews":
-        52,
-        "link":
-        "https://www.google.com/search?sca_esv=3e234f75c88b970c&gl=my&hl=en&q=WORQ+KL+Sentral&ludocid=15079032456789508204&ibp=gwp%3B0,7"
-      },
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXz56ljubXLVRLJOt_b9bogryLTLEjt1Y3yzc-WJdaHtaF6ORN-MAKMhI&s"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWUMVwIyxmCiTUgvzQ0oA-qVmo4lWUcuIl-3g_3IbJFy9IXCKGayA2E_A&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD4QlobUaxa5bQQonR9UQHBT5dE2B_7GjEzM0eneowKQ&s"
     }
   ]
 }

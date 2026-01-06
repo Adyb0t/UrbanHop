@@ -1,24 +1,43 @@
 {
-  "search_metadata": {
-    "id": "6919656273bf596f4cb86a0b",
-    "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/cfb8d43f3841c647/6919656273bf596f4cb86a0b.json",
-    "created_at": "2025-11-16 05:47:14 UTC",
-    "processed_at": "2025-11-16 05:47:14 UTC",
-    "google_events_url": "https://www.google.com/search?q=events+in+pasar+seni&ibp=htl;events&uule=w+CAIQICIBS3VhbGEgTHVtcHVyLEZlZGVyYWwgVGVycml0b3J5IG9mIEt1YWxhIEx1bXB1cixNYWxheXNpYQ&hl=en&gl=my",
-    "raw_html_file": "https://serpapi.com/searches/cfb8d43f3841c647/6919656273bf596f4cb86a0b.html",
-    "total_time_taken": 3.17
+  "search_metadata":
+  {
+    "id":
+    "695d1703421b08b5fd55878e",
+    "status":
+    "Success",
+    "json_endpoint":
+    "https://serpapi.com/searches/e2e7ff4d384cb9da/695d1703421b08b5fd55878e.json",
+    "created_at":
+    "2026-01-06 14:06:59 UTC",
+    "processed_at":
+    "2026-01-06 14:06:59 UTC",
+    "google_events_url":
+    "https://www.google.com/search?q=events+near+Pasar+Seni&ibp=htl;events&uule=w+CAIQICIITWFsYXlzaWE&gl=my&start=0",
+    "raw_html_file":
+    "https://serpapi.com/searches/e2e7ff4d384cb9da/695d1703421b08b5fd55878e.html",
+    "total_time_taken":
+    2.39
   },
-  "search_parameters": {
-    "q": "events in pasar seni",
-    "engine": "google_events",
-    "location_requested": "Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
-    "location_used": "Kuala Lumpur,Federal Territory of Kuala Lumpur,Malaysia",
-    "hl": "en",
-    "gl": "my"
+  "search_parameters":
+  {
+    "q":
+    "events near Pasar Seni",
+    "engine":
+    "google_events",
+    "location_requested":
+    "Malaysia",
+    "location_used":
+    "Malaysia",
+    "start":
+    0,
+    "gl":
+    "my"
   },
-  "search_information": {
-    "events_results_state": "Fully empty"
+  "search_information":
+  {
+    "events_results_state":
+    "Fully empty"
   },
-  "error": "Google hasn't returned any results for this query."
+  "error":
+  "Google hasn't returned any results for this query."
 }

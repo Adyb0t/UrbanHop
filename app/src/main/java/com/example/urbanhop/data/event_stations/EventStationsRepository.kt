@@ -15,7 +15,9 @@ import java.io.InputStream
 class StationsRepository(val context: Context) {
     private val gson = GsonBuilder().create()
     private val _stations = MutableStateFlow(emptyList<EventStation>())
+    private val _stationsMap = MutableStateFlow(emptyMap<String, String>())
     val stations: StateFlow<List<EventStation>> = _stations.asStateFlow()
+    val stationsMap: StateFlow<Map<String, String>> = _stationsMap.asStateFlow()
     private var loaded = false
 
     suspend fun loadStations(): StateFlow<List<EventStation>> {
@@ -45,6 +47,11 @@ class StationsRepository(val context: Context) {
             )
         }
     }
+
+    fun getStationCodesAndQueries(): StateFlow<Map<String, String>> {
+        _stationsMap.value = _stations.value.associate { it.code to it.queryName }
+        return stationsMap
+    }
 }
 
 private data class Location(
@@ -60,7 +67,3 @@ private data class Coordinates(
     val latitude: Double,
     val longitude: Double
 )
-
-fun StationsRepository.getStationCodesAndQueries(): Map<String, String> {
-    return stations.value.associate { it.code to it.queryName }
-}

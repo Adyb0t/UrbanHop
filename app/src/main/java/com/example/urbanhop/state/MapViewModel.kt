@@ -5,9 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.urbanhop.data.events.EventsRepository
 import com.example.urbanhop.data.event_stations.StationsRepository
-import com.example.urbanhop.data.event_stations.getStationCodesAndQueries
 import com.example.urbanhop.data.navigation_stations.TrainNavigationDataSource
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
@@ -20,11 +18,12 @@ class MapViewModel(
     private val _mapScreenViewState =
         MutableStateFlow<MapScreenViewState>(MapScreenViewState.LoadingPage)
     val mapScreenViewState = _mapScreenViewState.asStateFlow()
-    private val stationsCodeQueryMap = stationsRepository.getStationCodesAndQueries()
+    private var stationsCodeQueryMap = emptyMap<String, String>()
 
     init {
         viewModelScope.launch {
             stationsRepository.loadStations()
+            stationsCodeQueryMap = stationsRepository.getStationCodesAndQueries().value
             displayAllStation()
         }
     }
@@ -32,7 +31,6 @@ class MapViewModel(
     internal fun onClickStationLabel(code: String) {
         viewModelScope.launch {
             _mapScreenViewState.value = MapScreenViewState.LoadingEvents
-            delay(3000)
             Log.i("MapViewModel", "Selected Station: $code")
             eventsRepository.loadEvents(code, stationsCodeQueryMap).also { events ->
                 _mapScreenViewState.value = MapScreenViewState.EventList(events)
@@ -43,6 +41,7 @@ class MapViewModel(
     internal fun displayAllStation() {
         viewModelScope.launch {
             stationsRepository.stations.collect { stations ->
+                Log.i("MapViewModel", stations.toString())
                 if (stations.isEmpty()) {
                     _mapScreenViewState.value = MapScreenViewState.LoadingPage
                 } else {

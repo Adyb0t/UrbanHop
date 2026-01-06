@@ -1,0 +1,2862 @@
+{
+  "search_metadata":
+  {
+    "id":
+    "695d165671b492511dee1494",
+    "status":
+    "Success",
+    "json_endpoint":
+    "https://serpapi.com/searches/4287deaf48f755ba/695d165671b492511dee1494.json",
+    "created_at":
+    "2026-01-06 14:04:06 UTC",
+    "processed_at":
+    "2026-01-06 14:04:06 UTC",
+    "google_events_url":
+    "https://www.google.com/search?q=events+near+Mutiara+Damansara&ibp=htl;events&uule=w+CAIQICIITWFsYXlzaWE&gl=my&start=0",
+    "raw_html_file":
+    "https://serpapi.com/searches/4287deaf48f755ba/695d165671b492511dee1494.html",
+    "total_time_taken":
+    1.80
+  },
+  "search_parameters":
+  {
+    "q":
+    "events near Mutiara Damansara",
+    "engine":
+    "google_events",
+    "location_requested":
+    "Malaysia",
+    "location_used":
+    "Malaysia",
+    "start":
+    0,
+    "gl":
+    "my"
+  },
+  "search_information":
+  {
+    "events_results_state":
+    "Results for exact spelling"
+  },
+  "events_results":
+  [
+    {
+      "title":
+      "Sheng Wang",
+      "date":
+      {
+        "start_date":
+        "Jan 9",
+        "when":
+        "Fri, 9 Jan, 8:00 pm – Sat, 10 Jan, 12:00 am"
+      },
+      "address":
+      [
+        "Level 6, Hao Xiang Chi Seafood | ICC PUDU, ICC Pudu Hao Xiang Chi Seafood, c5, Jalan Kijang, Pudu",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://open.spotify.com/concert/4Fsoh3GbBXcNBUzbDBmGan",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Qp9edw3wJSj4lMxMAl_DuJUBKoaiL6lmgJu1PK_5tqeXqiZ9dBeRI5tE9AXosXT6gLSjHUDpw6ErHzWERFpDhXW3C9OPTG_UL8civQ3zuU3JNWVoXn4",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc36244f53558d:0x1b5f32e47846239f?sa=X&ved=2ahUKEwjm5_6wiveRAxWqSDABHadRMzkQ9eIBegQIAxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc36244f53558d%3A0x1b5f32e47846239f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=0&type=place"
+      },
+      "description":
+      "Find tickets for Sheng Wang at HXC Grand Ballroom in Kuala Lumpur on 1/9/2026 at 8:00 PM",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Spotify.com",
+          "link":
+          "https://open.spotify.com/concert/4Fsoh3GbBXcNBUzbDBmGan",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo",
+          "link":
+          "https://www.viagogo.com/Theater-Tickets/Comedy/Sheng-Wang-Tickets/E-159320540",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "StubHub",
+          "link":
+          "https://www.stubhub.com/hxc-grand-ballroom-tickets/venue/137046647/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Hao Xiang Chi Seafood | ICC PUDU",
+        "rating":
+        4.5,
+        "reviews":
+        2011,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Hao+Xiang+Chi+Seafood+%7C+ICC+PUDU&ludocid=1972351118663361439&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMu3OgBNm-6aX36ZkVH5WzMZwuQ1jZyrPKutXp-mhajVOM6Ons2oir1g&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH6BF9AgZBAj4O0FE2vfzLL46iaXXwZ-R8lHMEHSUeCg&s=10"
+    },
+    {
+      "title":
+      "Kids Art Jam @ The Red Beanbag",
+      "date":
+      {
+        "start_date":
+        "Feb 6",
+        "when":
+        "Fri, 6 Feb, 3:30 – 4:30 pm"
+      },
+      "address":
+      [
+        "G-2, The Red Beanbag, Menara Mudajaya, 12A, Jln PJU 7/3, Mutiara Damansara",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.ibufamily.org/event-details/kids-art-jam-the-red-beanbag-2026-02-06-15-30",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=G54c_XerR2A3okomoMWGZmq8HD_ZGCqvss43_gTxk6j8dDkJS56esETm1XzkEwDeFxXLBu44tddcgTU2tnMzryK22ZpjA1AsRrpZEAxNTRPn2e4N3ZY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc485de25fa709:0x5dfe1d3723bb4e3c?sa=X&ved=2ahUKEwjm5_6wiveRAxWqSDABHadRMzkQ9eIBegQICxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc485de25fa709%3A0x5dfe1d3723bb4e3c&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=0&type=place"
+      },
+      "description":
+      "A fun afternoon activity for the kids, Red Beanbag and Private Art Lessons KL present ART JAM. Children will be experimenting with different subjects and mediums such as clay, paint and...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "IBU Family",
+          "link":
+          "https://www.ibufamily.org/event-details/kids-art-jam-the-red-beanbag-2026-02-06-15-30",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Red Beanbag",
+        "rating":
+        4.4,
+        "reviews":
+        1833,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Red+Beanbag&ludocid=6772883012271689276&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE_4kBxvCJYRmguLHiuot0QOoh--99jWqozoUt750&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTghFSmJaFn_M28q3YLcvxFrI5LEKc0sw8cGBjKbZphLA&s"
+    },
+    {
+      "title":
+      "Nervous System Reset",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 8:00 pm"
+      },
+      "address":
+      [
+        "Tower M Soho Empire City (Block M), M Tower SOHO, Empire City Damansara, 8, Jalan Damansara, PJU 8",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.breathmovementsyoga.com/event-details/nervous-system-reset",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=f0r2ZtnPPp7Zt_4ax1CjfLQa0So3QDSfRg_DqwxPXTJIpQ6aKJty49RCAkvQ5fNtcQMfJqBnSRI4ukKCYRhp1FhkwAt8iKMPBwf6vOSTG1650xZrhHo",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49af3e1d3dd1:0xf967ec6f7201b846?sa=X&ved=2ahUKEwjm5_6wiveRAxWqSDABHadRMzkQ9eIBegQIExAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49af3e1d3dd1%3A0xf967ec6f7201b846&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=0&type=place"
+      },
+      "description":
+      "A Transformative Journey Home",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Breathmovementsyoga.com",
+          "link":
+          "https://www.breathmovementsyoga.com/event-details/nervous-system-reset",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Tower M Soho Empire City (Block M)",
+        "rating":
+        2.9,
+        "reviews":
+        40,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Tower+M+Soho+Empire+City+(Block+M)&ludocid=17971592801443493958&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWhVHjizddT3Gs17DuE_R3m8Cr7qa-4Wi-_9zKOfy_GyoLHouukhFuUeo&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZjYCGfCoxXeNA1jG7EOCpWIPOaXU1qskQt-P5sO95LA&s"
+    },
+    {
+      "title":
+      "Coffee Pickle Rave",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 10:00 am – 4:00 pm"
+      },
+      "address":
+      [
+        "The Pickle Fence – Indoor Pickleball Court in Subang Jaya, Lot 880, Jalan Subang 9, Taman Perindustrian Subang",
+        "Subang Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.co.uk/e/coffee-pickle-rave-tickets-1978208307299",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fdUYrwlPI36yPuK3fhwDX9AwDjiaOQspv06-pRYHo907mRlPdCTXC0z66Y_cUu0ncuZEMCkTh0UgaAlCUN-XyIBRwneXwBEewhngOk5Kxq-LuGzTLFU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cdb3ce85b41079:0x5fc09cdfac0c62c4?sa=X&ved=2ahUKEwjm5_6wiveRAxWqSDABHadRMzkQ9eIBegQIGxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cdb3ce85b41079%3A0x5fc09cdfac0c62c4&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=0&type=place"
+      },
+      "description":
+      "Pickleball meets speciality coffee and live DJs—play, sip, and vibe at KL’s ultimate social sports experience!",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.co.uk",
+          "link":
+          "https://www.eventbrite.co.uk/e/coffee-pickle-rave-tickets-1978208307299",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Pickle Fence – Indoor Pickleball Court in Subang Jaya",
+        "rating":
+        4.7,
+        "reviews":
+        50,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Pickle+Fence+%E2%80%93+Indoor+Pickleball+Court+in+Subang+Jaya&ludocid=6899687113609732804&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAtWa9BirjF5_Dk-IgsAQU6tIWm3vmbXlXw2_Z7QkeecnbtLkuDGC9VGs&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROEdIFqAQIy5JBGACMknS0Fmvt3Sq4iQOs3x-C8ryHj_85g1nQ4UAlX7k8rw&s"
+    },
+    {
+      "title":
+      "Kids Art Jam @ The Red Beanbag",
+      "date":
+      {
+        "start_date":
+        "Mar 6",
+        "when":
+        "Fri, 6 Mar, 3:30 – 4:30 pm"
+      },
+      "address":
+      [
+        "G-2, The Red Beanbag, Menara Mudajaya, 12A, Jln PJU 7/3, Mutiara Damansara",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.ibufamily.org/event-details/kids-art-jam-the-red-beanbag-2026-03-06-15-30",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=G54c_XerR2A3okomoMWGZmq8HD_ZGCqvss43_gTxk6j8dDkJS56esETm1XzkEwDeFxXLBu44tddcgTU2tnMzryK22ZpjA1AsRrpZEAxNTRPn2e4N3ZY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc485de25fa709:0x5dfe1d3723bb4e3c?sa=X&ved=2ahUKEwjm5_6wiveRAxWqSDABHadRMzkQ9eIBegQIIxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc485de25fa709%3A0x5dfe1d3723bb4e3c&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=0&type=place"
+      },
+      "description":
+      "A fun afternoon activity for the kids, Red Beanbag and Private Art Lessons KL present ART JAM. Children will be experimenting with different subjects and mediums such as clay, paint and...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "IBU Family",
+          "link":
+          "https://www.ibufamily.org/event-details/kids-art-jam-the-red-beanbag-2026-03-06-15-30",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Red Beanbag",
+        "rating":
+        4.4,
+        "reviews":
+        1833,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Red+Beanbag&ludocid=6772883012271689276&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE_4kBxvCJYRmguLHiuot0QOoh--99jWqozoUt750&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTghFSmJaFn_M28q3YLcvxFrI5LEKc0sw8cGBjKbZphLA&s"
+    },
+    {
+      "title":
+      "SQL E-Invoice Mandatory Implementation Course ENGLISH",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 9:30 am – 12:30 pm"
+      },
+      "address":
+      [
+        "SQL Accounting HQ, 1, Jln Setia Dagang AK U13/AK, Setia Alam",
+        "Shah Alam, Selangor"
+      ],
+      "link":
+      "https://www.ticket2u.com.my/event/47846/sql-e-invoice-mandatory-implementation-course-english",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=l-BjtOCdGFzQAV6ZYBd1A4Aml15kpDCsp06MNAKr0ol2kWJ8ICoWGpMwNPoJpkCNjyDnFa3u392YzhBiiM2DWji9MQ8LjfUNUPAxWIP8JuvZhVg_UOA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc531a8f38dd77:0x32ff1b6fa257a8d8?sa=X&ved=2ahUKEwjm5_6wiveRAxWqSDABHadRMzkQ9eIBegQIKxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc531a8f38dd77%3A0x32ff1b6fa257a8d8&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=0&type=place"
+      },
+      "description":
+      "SQL E-Invoice Mandatory Implementation Course Get fully equipped to navigate Malaysia’s e-Invoicing requirements with confidence using SQL Accounting software. Whether you're just getting started...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Ticket2u",
+          "link":
+          "https://www.ticket2u.com.my/event/47846/sql-e-invoice-mandatory-implementation-course-english",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "SQL Accounting HQ",
+        "rating":
+        4.5,
+        "reviews":
+        126,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=SQL+Accounting+HQ&ludocid=3674685987236587736&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRevtydkQ1T_VLv8J26zvNp3MvtuPjPdyfqx4G0XW4QsIEYSMEnmMezMyU&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-c4VLKzGJ49idKozq7jQQ89oelbORXRXj2WSkicY5Lw&s=10"
+    },
+    {
+      "title":
+      "APU Open Day – Create Your Tomorrow @ APU Campus",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 10:00 am – Sun, 11 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "Asia Pacific University of Technology & Innovation (APU), Jalan Teknologi 5, MRANTI Park",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://studymalaysia.com/events/apu-open-day-create-your-tomorrow-apu-campus/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=smNUtCCJEzggSj1LRAdoKBjCpcQtl7KQV0KlYlS6h69782723WS2PIvIMDM6JDx_ne-oBBZVhctc9oazq7FC__fitPOUsXzdd53K6mOAGL8iTYVj7aA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4abb795025d9:0x1c37182a714ba968?sa=X&ved=2ahUKEwjm5_6wiveRAxWqSDABHadRMzkQ9eIBegQIMxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4abb795025d9%3A0x1c37182a714ba968&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=0&type=place"
+      },
+      "description":
+      "✨ Experience the future at Asia Pacific University of Technology & Innovation (APU).🎓 Join us at our Open Day to explore award-winning programmes, advanced facilities, and a vibrant tech-driven...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Apu.edu.my",
+          "link":
+          "https://www.apu.edu.my/apu-open-day?utm_source=studymalaysia&utm_medium=event",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "StudyMalaysia.com",
+          "link":
+          "https://studymalaysia.com/events/apu-open-day-create-your-tomorrow-apu-campus/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Asia Pacific University of Technology & Innovation (APU)",
+        "rating":
+        4.3,
+        "reviews":
+        1566,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Asia+Pacific+University+of+Technology+%26+Innovation+(APU)&ludocid=2033120327349545320&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=smNUtCCJEzggSj1LRAdoKBjCpcQtl7KQV0KlYlS6h69782723WS2PIvIMDM6JDx_ne-oBBZVhctc9oazq7FC__fitPOUsXzdd53K6mOAGL8iTYVj7aA",
+      "image":
+      "https://www.google.com/maps/vt/data=smNUtCCJEzggSj1LRAdoKBjCpcQtl7KQV0KlYlS6h69782723WS2PIvIMDM6JDx_ne-oBBZVhctc9oazq7FC__fitPOUsXzdd53K6mOAGL8iTYVj7aA"
+    },
+    {
+      "title":
+      "Christmas Music Instrumental Performance at Berjaya Times Square",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 3:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Berjaya Times Square, 1, Jln Imbi, Bukit Bintang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/christmas-music-intrumental-performance-at-berjaya-times-square/2026-01-10/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=KglDuvRlbXAAsGRac9CrIrs4rUXW6hhNxl9SYp-0JCWTS0TpGBZWoFodi_Q8XNJ8EWXBFwymgKo1Y1NhBiuxleulo9PmNddyVvRABNuJ1jpn2TcIbzc",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3718e47dbaa1:0xc3d13b8d0aacf527?sa=X&ved=2ahUKEwjm5_6wiveRAxWqSDABHadRMzkQ9eIBegQIOxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3718e47dbaa1%3A0xc3d13b8d0aacf527&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=0&type=place"
+      },
+      "description":
+      "Cost: Free Event Category: Christmas Events Website: https://berjayatimessquarekl.com/events/a-magical-christmas-tale/",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kuala Lumpur with Kids",
+          "link":
+          "https://kualalumpurwithkids.com/event/christmas-music-intrumental-performance-at-berjaya-times-square/2026-01-10/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Berjaya Times Square",
+        "rating":
+        4.3,
+        "reviews":
+        33238,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Berjaya+Times+Square&ludocid=14110124584484009255&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZugk0nVccuDOQml8I7L6NKTygj1QuTZB_HhMhDEK5q5mc6_FeRVxFXbA&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4yzdnQMjRp62jMqwJeDtJsG8DuqSBoVsRRHed3MiL1F2efu-Aosp2w2GZQ&s=10"
+    },
+    {
+      "title":
+      "Marketing Management Training Class",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Mon 5 – Tue 6 Jan"
+      },
+      "address":
+      [
+        "Suite 1109, Level 11 Block B, Kognifi Sdn Bhd, Phileo Damansara 1, Jalan 16/11",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.kognifi.my/events/kelas-latihan-pengurusan-pemasaran/?pskip=17259",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=NLoAuwLcSXST3wfgFSlYwnCr-2L-ubPkC_GjamBL-UaCVV2kJIQcKU9uv2_2FLZ46Q3b-H7kT5WGiyRmxnCsDemmBaEdK8QyXCJMX8NWhMPAZcONxUE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49c13287867b:0x1d65a6723fff6164?sa=X&ved=2ahUKEwjm5_6wiveRAxWqSDABHadRMzkQ9eIBegQIQxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49c13287867b%3A0x1d65a6723fff6164&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=0&type=place"
+      },
+      "description":
+      "Learn how to manage sales and marketing activities. Learn how to select leading indicators of marketing plan success and how to check and track these KPIs. Build the marketing command center to...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kognifi.my",
+          "link":
+          "https://www.kognifi.my/events/marketing-management-training-classes/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kognifi Sdn Bhd",
+        "rating":
+        4.9,
+        "reviews":
+        245,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kognifi+Sdn+Bhd&ludocid=2118282209377870180&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2G29DPX8qaWVgYQP8Mum_sOWeL4XZqraJflVJrtB1oC2OejXDjNuAqzM&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD6yQy_mfx4xyiVEFPexyFtj3n5xJGWqH-kQfC6ds6x8RSjfCeB0UdRW5lyg&s=10"
+    },
+    {
+      "title":
+      "Human Personalities Through The Enneagram",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Tue, 6 Jan, 9:30 am – 5:00 pm"
+      },
+      "address":
+      [
+        "Sky Park @ One City USJ, 1, F-11-01, Jalan USJ 25/1B, One City",
+        "Subang Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/human-personalities-through-the-enneagram-tickets-1978368392117",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=vp2eU6ZTzR9T_CNwlr8yq38R1SWYJeAFT17P_vY-SVpHQlzKWzrn-nc8l57nf7BaNiQHTwv7wIkk4VAPyNAv8Nq7bhM4Lhs8vHL8HQ2EvmXIojoxaNE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cdb324de9f8567:0xc7f12946e2dd2b7?sa=X&ved=2ahUKEwjm5_6wiveRAxWqSDABHadRMzkQ9eIBegQISxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cdb324de9f8567%3A0xc7f12946e2dd2b7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=0&type=place"
+      },
+      "description":
+      "Discover what truly drives you and others. Learn Enneagram basics to communicate better, reduce conflict, and build stronger relationships. Strengthen Every Relationship with the Knowledge of the...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/human-personalities-through-the-enneagram-tickets-1978368392117",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Sky Park @ One City USJ",
+        "rating":
+        3.8,
+        "reviews":
+        3976,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Sky+Park+%40+One+City+USJ&ludocid=900458879210345143&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2hPZ17LsS68fVf10Cnl4AUIFQxpLtIyAL2G5snTc&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKYt9fmhUVmTfIU8YIiM9thfesXobfDWvhlrZbvLIomw&s"
+    },
+    {
+      "title":
+      "BrowserStack QA Meetup - Malaysia : AI in Testing 2025 & Beyond",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 5:30 – 7:30 pm"
+      },
+      "address":
+      [
+        "Skill Quotient Group, Level 6, Tower 2A, Avenue 5, The Horizon, 8, Jalan Kerinchi, Bangsar South",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.meetup.com/browserstack-software-testing-and-qa-meetup-group-malaysia/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=cQRTSGiGObAhpSfV8zICqmCX7QWCOfXTa3uLIV3M9KTISzUCIx0e1cs3JdX4Om77f9gNw_BZPUv_tQQDXijjxNJxetjbBjsTc-6EH4FH2BkTDCTE2T0",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49d32b4dcde7:0x8f69a079a86f97c5?sa=X&ved=2ahUKEwiqgOTCiveRAxU7L1kFHVR4MOM4ChD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49d32b4dcde7%3A0x8f69a079a86f97c5&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=10&type=place"
+      },
+      "description":
+      "Join the BrowserStack QA community Meetup for an evening of networking, lightning talks, and real-world stories on how AI is reshaping software testing. ​This Meetup is all about bringing QAs...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Meetup",
+          "link":
+          "https://www.meetup.com/browserstack-software-testing-and-qa-meetup-group-malaysia/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Skill Quotient Group",
+        "rating":
+        4.3,
+        "reviews":
+        7,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Skill+Quotient+Group&ludocid=10333967264355686341&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=cQRTSGiGObAhpSfV8zICqmCX7QWCOfXTa3uLIV3M9KTISzUCIx0e1cs3JdX4Om77f9gNw_BZPUv_tQQDXijjxNJxetjbBjsTc-6EH4FH2BkTDCTE2T0",
+      "image":
+      "https://www.google.com/maps/vt/data=cQRTSGiGObAhpSfV8zICqmCX7QWCOfXTa3uLIV3M9KTISzUCIx0e1cs3JdX4Om77f9gNw_BZPUv_tQQDXijjxNJxetjbBjsTc-6EH4FH2BkTDCTE2T0"
+    },
+    {
+      "title":
+      "ISO/IEC 27001 Foundations of Information Security Management System (ISMS)",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 9:00 am – 5:00 pm"
+      },
+      "address":
+      [
+        "Hotel Armada Petaling Jaya, Lot 6, Lorong Utara C, Section 52",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.co.uk/e/isoiec-27001-foundations-of-information-security-management-system-isms-tickets-1978811811396",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=j4T8AoUEkN_l4DW4kZAGuFZW5AHT_n-2aBZ5NO1-zgICsxVH5xSZAekHuuwYMswBpvOpLlh3cr9bxj9HZlSszGHLRMSsSogibk7Gy3IUlAoavrv49VY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4bdd178a0713:0xef1fe8f0c2a5d70f?sa=X&ved=2ahUKEwiqgOTCiveRAxU7L1kFHVR4MOM4ChD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4bdd178a0713%3A0xef1fe8f0c2a5d70f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=10&type=place"
+      },
+      "description":
+      "An exciting 2-day training course covering the fundamentals of ISO/IEC 27001 and the essentials of Information Security Management Systems. ISO/IEC 27001 is the internationally recognised standard...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.co.uk",
+          "link":
+          "https://www.eventbrite.co.uk/e/isoiec-27001-foundations-of-information-security-management-system-isms-tickets-1978811811396",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Hotel Armada Petaling Jaya",
+        "rating":
+        4.1,
+        "reviews":
+        3262,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Hotel+Armada+Petaling+Jaya&ludocid=17230746820098250511&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRduH5LgoUR2lShOfHxNIrXGgS0xJRwCAkRnS8N3SMSoUJsakn3PMSVwdg&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkogytGqq2mBF4u1c-kLpRnktPLuEPajsAGFh50WqwAg&s=10"
+    },
+    {
+      "title":
+      "Copy of PETRONAS Malaysia Open 8th Jan 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 5:00 am"
+      },
+      "address":
+      [
+        "Axiata Arena Bukit Jalil, L2-E-10, Enterprise 4, Technology Park Malaysia, Lebuhraya Bukit Jalil, Bukit Jalil",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.premiertickets.co/event/petronas-malaysia-open-8th-jan-2026-2/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=lwo_ZBZUeswlHkY6z66vyEMcxId3v-82oT7Vf8DGkW2pzz_aCvsDXD7TBqj0toaeGzBD218ut2hIQ961iuFv88UP9s12ajtsSqaXjNYtYuXNia9RY2E",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4a97daf75aff:0x35e03f9f339a13b1?sa=X&ved=2ahUKEwiqgOTCiveRAxU7L1kFHVR4MOM4ChD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4a97daf75aff%3A0x35e03f9f339a13b1&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=10&type=place"
+      },
+      "description":
+      "Experience the excitement of PETRONAS Malaysia Open 2026 on 8 Jan 2026, 8:00 AM at Axiata Arena Bukit Jalil with top badminton stars.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Premier Tickets",
+          "link":
+          "https://www.premiertickets.co/event/petronas-malaysia-open-8th-jan-2026-2/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Axiata Arena Bukit Jalil",
+        "rating":
+        4.5,
+        "reviews":
+        6691,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Axiata+Arena+Bukit+Jalil&ludocid=3882172831791453105&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO39LiWoRLbvKgkVaOh6rYMq5vJxF1TLArlizGUM7tBY4xYBGJ5yTdWko&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWLK6M0sFDWFNrKQgqiIGIretf903e2sH1wjv1Xsyro8HrBKjHfyMX9WnMVQ&s=10"
+    },
+    {
+      "title":
+      "Train The Trainer (TTT) Certification Course",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Mon, 5 Jan, 9:00 am – Fri, 9 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "Level 12, Malaysia HR Forum, Menara PKNS, 17, Jalan Yong Shook Lin",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://malaysiahrforum.com/catalogue/92-train-the-trainer-ttt-certification-course/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=qbsoOczU2ltULUD9Duxu37wtimMWmJ6UP2Of2Sz2QnHQvXHEfebafCzSCWQIKEc2nQ_inPxOBanL_R7k4GRltJWdnMLMOxh0iobELey1UsAfbYfOITI",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4d9b8ac6ee8f:0xf9d452401f39c36a?sa=X&ved=2ahUKEwiqgOTCiveRAxU7L1kFHVR4MOM4ChD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4d9b8ac6ee8f%3A0xf9d452401f39c36a&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=10&type=place"
+      },
+      "description":
+      "Be certified as an HRD Corp Certified Trainer, enabling you to conduct claimable training under the HRD Corp scheme",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Malaysiahrforum.com",
+          "link":
+          "https://malaysiahrforum.com/catalogue/92-train-the-trainer-ttt-certification-course/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Malaysia HR Forum",
+        "rating":
+        4.8,
+        "reviews":
+        98,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Malaysia+HR+Forum&ludocid=18002104045861978986&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=qbsoOczU2ltULUD9Duxu37wtimMWmJ6UP2Of2Sz2QnHQvXHEfebafCzSCWQIKEc2nQ_inPxOBanL_R7k4GRltJWdnMLMOxh0iobELey1UsAfbYfOITI",
+      "image":
+      "https://www.google.com/maps/vt/data=qbsoOczU2ltULUD9Duxu37wtimMWmJ6UP2Of2Sz2QnHQvXHEfebafCzSCWQIKEc2nQ_inPxOBanL_R7k4GRltJWdnMLMOxh0iobELey1UsAfbYfOITI"
+    },
+    {
+      "title":
+      "TÜV SÜD Roadshow: Connecting flow experts KUALA LUMPUR",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 8:30 am – 1:00 pm"
+      },
+      "address":
+      [
+        "Sheraton Imperial Kuala Lumpur Hotel, Jln Sultan Ismail",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.co.uk/e/tuv-sud-roadshow-connecting-flow-experts-kuala-lumpur-tickets-1970095071392",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=jpUjEEayFQMK3Xpkt99PIWxo-PKrE042v5gAchd7Y1LxvH1XH85qgnxYoXn19Z003RLMquA5JB6xfFjRvYUF6Ti0Hj0g9pphI8pJnO0IuzqlBj_BiiA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc482f20ac978d:0x84b22106e12253b4?sa=X&ved=2ahUKEwiqgOTCiveRAxU7L1kFHVR4MOM4ChD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc482f20ac978d%3A0x84b22106e12253b4&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=10&type=place"
+      },
+      "description":
+      "Join fellow professionals and industry specialists to explore best practices in flow measurement, diagnostics, and emissions quantification. Colin Lightbody, Principal Consultant at National...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.co.uk",
+          "link":
+          "https://www.eventbrite.co.uk/e/tuv-sud-roadshow-connecting-flow-experts-kuala-lumpur-tickets-1970095071392",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Sheraton Imperial Kuala Lumpur Hotel",
+        "rating":
+        4.3,
+        "reviews":
+        5378,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Sheraton+Imperial+Kuala+Lumpur+Hotel&ludocid=9561741272291627956&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREgX5OZ4B-PpzjrUyo4sWXLhpKLqK9nvLV7HP1K2MKANAZWYeK4VkM9Lc&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA1BSPv9YaB-oW27LPmCRJLEbLE6BuZTF_8VmuMYgi3A&s"
+    },
+    {
+      "title":
+      "Inner Glow: Restore, Release & Radiate",
+      "date":
+      {
+        "start_date":
+        "Jan 11",
+        "when":
+        "Sun, 11 Jan, 10:30 am – 1:30 pm"
+      },
+      "address":
+      [
+        "27-2, The Golden Space Malaysia, Jalan PJU 5/20, Kota Damansara",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/inner-glow-restore-release-radiate-tickets-1977352761338",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Y7aNRttO82ZFvc-dAGT9Vw_7LA2EoJm2bd4rjDsV4ye28EnT9L8lQFneCi2N8ovBAdLLhXcpgo2PGJlp_EaiJEVnfi3Q9rQWDDole3vUc_aRdk4WAEg",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4f1f8a79ef9d:0xc380513098a43415?sa=X&ved=2ahUKEwiqgOTCiveRAxU7L1kFHVR4MOM4ChD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4f1f8a79ef9d%3A0xc380513098a43415&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=10&type=place"
+      },
+      "description":
+      "Join us in person to unwind, let go, and shine bright from within at Inner Glow: Restore, Release & Radiate! Join us for a deeply restorative 3-hour mini-retreat blending the art of conscious...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/inner-glow-restore-release-radiate-tickets-1977352761338",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Meetup",
+          "link":
+          "https://www.meetup.com/healing-relationships-and-family-bonding-meetup-group/events/312295450/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Golden Space Malaysia",
+        "rating":
+        4.9,
+        "reviews":
+        98,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Golden+Space+Malaysia&ludocid=14087348903576089621&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnh9LGnUS4S2bIivqhzw8w7JoW3WN5McETkPjhDIg&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6N4KYHJO7nLyiY4u_F8cHdaRHrmO0oP8QgkhDGpEeHA&s"
+    },
+    {
+      "title":
+      "malaysia brand day 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 10:00 am – Sat, 10 Jan, 6:00 pm"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre Car Park, Kuala Lumpur Convention Centre, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.rogers-asia.com/events/malaysia-brand-day-2026/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Ch3iA8H7eqtvxU88n9lywBl_sdI8iut3RdOZxABV67a66B8CnW8KeS4mxpOdk6wLu2XpIjoCkRBWzeTdmAt5PlhpZl3fuvZBmZb7SbYwLlWmiVBwhYE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc371fa91643c7:0x42a417882ad8f9ca?sa=X&ved=2ahUKEwiqgOTCiveRAxU7L1kFHVR4MOM4ChD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc371fa91643c7%3A0x42a417882ad8f9ca&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=10&type=place"
+      },
+      "description":
+      "Rogers Asia is an alliance of Rogers Companies from Indonesia, Malaysia, Thailand, Singapore and Vietnam. This cohesive grouping of Rogers Companies brings together the best practices of each...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Rogers-asia.com",
+          "link":
+          "https://www.rogers-asia.com/events/malaysia-brand-day-2026/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Expolah",
+          "link":
+          "https://expolah.com/event/malaysia-brand-day-2026-klcc/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre Car Park",
+        "rating":
+        4.4,
+        "reviews":
+        18,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre+Car+Park&ludocid=4801988976285645258&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJhMxHS79TxMojb5j5Mc_mXAwIA0GwJL0PTmYGXmkKqHxkme2hYeJQC-U&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6nVI82eVQZzrLL6vit3H3ZenXYyhFD0sS1AoVnZBOPD-8huUF-KXU_7C8dA&s=10"
+    },
+    {
+      "title":
+      "Bearded Elf Charm Craft Workshop at Mid Valley Mega Mall",
+      "date":
+      {
+        "start_date":
+        "Jan 11",
+        "when":
+        "Sun, 11 Jan, 4:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Mid Valley Megamall, Lingkaran Syed Putra, Mid Valley City",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/bearded-elf-charm-craft-workshop-at-mid-valley-mega-mall/2026-01-11/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=VbcReCmkD0WrP70sJhWxVHD9pOnjw18aWN-t2AFUfsGS739qoY8NVmY2VDCke9V-HZd5rboSgUYj0scvxRWVY583ACrDoB2PobgBxD47DucMR-6SrxE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc498eb19ab83d:0x564d5053f56991fb?sa=X&ved=2ahUKEwiqgOTCiveRAxU7L1kFHVR4MOM4ChD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc498eb19ab83d%3A0x564d5053f56991fb&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=10&type=place"
+      },
+      "description":
+      "Academy Workshop Training – Bearded Elf Charm Craft Enrol this workshop to learn Elf Wisdoms and Crafts! Price: Spend MYR 50 in a single receipt or Register free from Maybank cardholders to get...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/bearded-elf-charm-craft-workshop-at-mid-valley-mega-mall/2026-01-11/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Mid Valley Megamall",
+        "rating":
+        4.4,
+        "reviews":
+        41190,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Mid+Valley+Megamall&ludocid=6218714981998367227&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAvtKqiW4lHt_qQZ-gxf8BsuhrVcDk-4YnFma3EPqVsQc4O3YuFVpPBg&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4zyMIJ2xAwqs-9IP13uLeABw45GIZ5Vjsec4PSwQj1rf0cu4w_gEVAK40aw&s=10"
+    },
+    {
+      "title":
+      "TPAS Annual School Concert & Award Ceremony",
+      "date":
+      {
+        "start_date":
+        "Jan 11",
+        "when":
+        "Sun, 11 Jan, 2:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Temple of Fine Arts KL, 116, Jalan Berhala, Brickfields",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.com.au/e/tpas-annual-school-concert-award-ceremony-tickets-1978825769144",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=AliEGW0f-lBClhUG7XlCUW1hxOtBP55k0XxnW3R8arBSA8284UOx_1Wtkhw7LCtXICCpSL-4_W0-4C9mntW4nsEuiY-eIBafKLWYrIuBPIEwm-iau0g",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49ebb99f2a69:0xe36a866a7b9fe8a?sa=X&ved=2ahUKEwiqgOTCiveRAxU7L1kFHVR4MOM4ChD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49ebb99f2a69%3A0xe36a866a7b9fe8a&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=10&type=place"
+      },
+      "description":
+      "The TPAS Annual Concert & Award Ceremony was a heartfelt celebration of creativity in every form. Graceful ballet, inspiring music, and expressive art came together to showcase our students’...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com.au",
+          "link":
+          "https://www.eventbrite.com.au/e/tpas-annual-school-concert-award-ceremony-tickets-1978825769144",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Temple of Fine Arts KL",
+        "rating":
+        4.4,
+        "reviews":
+        289,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Temple+of+Fine+Arts+KL&ludocid=1024191124127481482&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=AliEGW0f-lBClhUG7XlCUW1hxOtBP55k0XxnW3R8arBSA8284UOx_1Wtkhw7LCtXICCpSL-4_W0-4C9mntW4nsEuiY-eIBafKLWYrIuBPIEwm-iau0g",
+      "image":
+      "https://www.google.com/maps/vt/data=AliEGW0f-lBClhUG7XlCUW1hxOtBP55k0XxnW3R8arBSA8284UOx_1Wtkhw7LCtXICCpSL-4_W0-4C9mntW4nsEuiY-eIBafKLWYrIuBPIEwm-iau0g"
+    },
+    {
+      "title":
+      "TikTok Marketing For Malaysian Businesses - HRDC Approved Training Course",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Mon, 5 Jan, 9:00 am – 5:00 pm"
+      },
+      "address":
+      [
+        "Hotel Armada Petaling Jaya, Lot 6, Lorong Utara C, Section 52",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.co.uk/e/tiktok-marketing-for-malaysian-businesses-hrdc-approved-training-course-tickets-1978880196939",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=j4T8AoUEkN_l4DW4kZAGuFZW5AHT_n-2aBZ5NO1-zgICsxVH5xSZAekHuuwYMswBpvOpLlh3cr9bxj9HZlSszGHLRMSsSogibk7Gy3IUlAoavrv49VY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4bdd178a0713:0xef1fe8f0c2a5d70f?sa=X&ved=2ahUKEwiqgOTCiveRAxU7L1kFHVR4MOM4ChD14gF6BAhLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4bdd178a0713%3A0xef1fe8f0c2a5d70f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=10&type=place"
+      },
+      "description":
+      "Our popular TikTok training course focuses on the marketing advantages as well as business opportunities it provides as a social media tool. Our popular TikTok training course focuses on the...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.co.uk",
+          "link":
+          "https://www.eventbrite.co.uk/e/tiktok-marketing-for-malaysian-businesses-hrdc-approved-training-course-tickets-1978880196939",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Hotel Armada Petaling Jaya",
+        "rating":
+        4.1,
+        "reviews":
+        3262,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Hotel+Armada+Petaling+Jaya&ludocid=17230746820098250511&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-BXi4jTN0VYlmE4tNMAmV8kGl5wPySmG0V-oogEEBm7HYjE5o3LrSTMU&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxqwhcui-Ax7mds8eRrX_PNLST8rzjwy2DNewkkvNCLQ&s=10"
+    },
+    {
+      "title":
+      "Chatgpt Prompting For Content Creation",
+      "date":
+      {
+        "start_date":
+        "Jun 24",
+        "when":
+        "Wed, 24 Jun, 7:50 am"
+      },
+      "address":
+      [
+        "Royale Chulan Damansara, 2A, Jln PJU 7/3, Mutiara Damansara",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://q3solutions.com.my/event/chatgpt-prompting-for-content-creation/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=91hRg1bmz-5_6brfyZ0jhJV1NbjRoWWByB8FkdrxPm2fXr5DutFl1vrftklzwv_XJAusmkEP-f0b4d_Fav25DFk_4ypvdHk7BQdIlWjxKTVIes45kFU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4f29487b6527:0x75399886d170bfef?sa=X&ved=2ahUKEwjlifTQiveRAxXPF7kGHURQLAg4FBD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4f29487b6527%3A0x75399886d170bfef&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=20&type=place"
+      },
+      "description":
+      "AI-Powered Content Mastery is a practical, marketing-focused course that teaches teams to use ChatGPT, Deepseek and complementary AI tools to plan, create, optimise and measure high-performing...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Q3 Management Solutions",
+          "link":
+          "https://q3solutions.com.my/event/chatgpt-prompting-for-content-creation/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Royale Chulan Damansara",
+        "rating":
+        4.1,
+        "reviews":
+        3686,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Royale+Chulan+Damansara&ludocid=8446950280916942831&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQR4NrdnLJ5bCWrz_bKOfx82ZW84EpdERMlbYYJ1qCCHiZYpwRT_n_e2s&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQayOo9qYPC7uUoUuRELoK3AafhzCFiLapYfV4MmlqVL6Zlkstx0DsodUBekw&s=10"
+    },
+    {
+      "title":
+      "Lunar New Year Afternoon Tea at the Lobby Lounge Shangri-La Kuala Lumpur",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 3:00 – 6:00 pm"
+      },
+      "address":
+      [
+        "Shangri-la Lobby Lounge, Shangri La Hotel, 11, Jln Sultan Ismail, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/lunar-new-year-afternoon-tea-at-the-lobby-lounge-shangri-la-kuala-lumpur/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=LSltSfiP3DhhdzUE1De5MmzwsLFxyOBZtETiEBfeDzMjXtUSmtWGYSodO-y4X6J9OuubaWuxgdutN28pe6nKHls4oqaIchqjgwRK0w1SKcuQzJOfy6k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc482a72b1a05f:0x62ece6b8ccbf37a0?sa=X&ved=2ahUKEwjlifTQiveRAxXPF7kGHURQLAg4FBD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc482a72b1a05f%3A0x62ece6b8ccbf37a0&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=20&type=place"
+      },
+      "description":
+      "Afternoon of Elegance & Prosperity at Shangri-La Kuala Lumpur Savour highlights such as five-spiced trout tartlet, waxed duck roll with mandarin gel, and prawn kataifi with mango salsa, followed...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/lunar-new-year-afternoon-tea-at-the-lobby-lounge-shangri-la-kuala-lumpur/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Shangri-la Lobby Lounge",
+        "rating":
+        4.5,
+        "reviews":
+        119,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Shangri-la+Lobby+Lounge&ludocid=7128325991604107168&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DWd0R1cXkHopS3rQoNY-zxf1FkqBollPinJ1QzRrp--J2GL6dXrUIVQ&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnElNuRYeV07FbgAt7NKfctDsoDQU5mq-WL0FVbt8ndxp6P9_7mGMvfrhTKA&s=10"
+    },
+    {
+      "title":
+      "FSMONE INVEST EXPO 2026: INVESTING PROFITABLY THEN. NOW. NEXT.",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 10:30 am – 7:00 pm"
+      },
+      "address":
+      [
+        "Pavilion Bukit Jalil, 2, Persiaran Jalil 8, Bukit Jalil",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/fsmone-invest-expo-2026-investing-profitably-then-now-next-tickets-1974950231306",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=qqnCBXDyIjotx7MaU40fiGrf9cxRgQYMoFxVR1FsbRlCtpog-PKwOvV5B9e07pz887LGnCJPWdD7OXBzBsBzeHhHkP-eYK1CWwvjREvJ3_hPcKLh2UQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4ae7f2b662d5:0x24640a80dedccc95?sa=X&ved=2ahUKEwjlifTQiveRAxXPF7kGHURQLAg4FBD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4ae7f2b662d5%3A0x24640a80dedccc95&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=20&type=place"
+      },
+      "description":
+      "Our iconic “What & Where to Invest” event is leveling up — introducing the all-new FSMOne Invest Expo 2026! Register: https://bit.ly/4oPkcE6",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/fsmone-invest-expo-2026-investing-profitably-then-now-next-tickets-1974950231306",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Pavilion Bukit Jalil",
+        "rating":
+        3.9,
+        "reviews":
+        8987,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Pavilion+Bukit+Jalil&ludocid=2622232431647575189&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc-Z0kZ8TDous7m4S7NYVuXtXs7f_yGRjgR58c4QqusU4-3xiuy7mmvVU&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMj5dw5CnaNvG7avmLfikZw7knjbW8aX1ez7n1shXPTw&s"
+    },
+    {
+      "title":
+      "Data Analytics – Dashboard Reporting With Excel",
+      "date":
+      {
+        "start_date":
+        "May 13",
+        "when":
+        "Wed, 13 May, 7:23 am"
+      },
+      "address":
+      [
+        "Royale Chulan Damansara, 2A, Jln PJU 7/3, Mutiara Damansara",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://q3solutions.com.my/event/data-analytics-dashboard-reporting-with-excel-2/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=91hRg1bmz-5_6brfyZ0jhJV1NbjRoWWByB8FkdrxPm2fXr5DutFl1vrftklzwv_XJAusmkEP-f0b4d_Fav25DFk_4ypvdHk7BQdIlWjxKTVIes45kFU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4f29487b6527:0x75399886d170bfef?sa=X&ved=2ahUKEwjlifTQiveRAxXPF7kGHURQLAg4FBD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4f29487b6527%3A0x75399886d170bfef&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=20&type=place"
+      },
+      "description":
+      "This intensive one-day training program is designed to equip participants with the practical skills needed to create professional and interactive dashboards using Microsoft Excel. Dashboards are...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Q3 Management Solutions",
+          "link":
+          "https://q3solutions.com.my/event/data-analytics-dashboard-reporting-with-excel-2/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Royale Chulan Damansara",
+        "rating":
+        4.1,
+        "reviews":
+        3686,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Royale+Chulan+Damansara&ludocid=8446950280916942831&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=91hRg1bmz-5_6brfyZ0jhJV1NbjRoWWByB8FkdrxPm2fXr5DutFl1vrftklzwv_XJAusmkEP-f0b4d_Fav25DFk_4ypvdHk7BQdIlWjxKTVIes45kFU",
+      "image":
+      "https://www.google.com/maps/vt/data=91hRg1bmz-5_6brfyZ0jhJV1NbjRoWWByB8FkdrxPm2fXr5DutFl1vrftklzwv_XJAusmkEP-f0b4d_Fav25DFk_4ypvdHk7BQdIlWjxKTVIes45kFU"
+    },
+    {
+      "title":
+      "Professional Sales and Time Management",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
+      },
+      "address":
+      [
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.bmc.net/ct-Professional-sales-and-time-management-Kuala-Lumpur-PRC33-3",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwjlifTQiveRAxXPF7kGHURQLAg4FBD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=20&type=place"
+      },
+      "description":
+      "BMC Training provides Professional Sales and Time Management in Kuala Lumpur from 2025-12-28 to 2026-1-8",
+      "ticket_info":
+      [
+        {
+          "source":
+          "BMC Training",
+          "link":
+          "https://www.bmc.net/ct-Professional-sales-and-time-management-Kuala-Lumpur-PRC33-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-_BaNkeHOeII2KT7qUBpmOFpcV0tOReXU0C7Q4gahaYoDEXG2uF6m9W0&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrmW-YZCu_hVjAoKp2KbFzJWgH6nn19igFzlKBVyMJQ&s"
+    },
+    {
+      "title":
+      "poultry asia 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 6:00 am – Mon, 12 Jan, 6:00 am"
+      },
+      "address":
+      [
+        "Setia City Convention Centre, No. 1, Jalan Setia Dagang AG U13/AG Setia Alam, Seksyen U13",
+        "Shah Alam, Selangor"
+      ],
+      "link":
+      "https://globy.com/events-calendar/poultry-asia-71680b",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=QdfTEv3zzgCVnj7XzQdjcDK2JQZaqWP7CLxZCrNWnCGInZoGdW3eq7XugSZ7u0eI9o1aThDR5bh4HCLEXU1xx5C-Xngpmt-tGOyoYRocb_mpXAeLqzc",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc53e537d1c9fd:0xddef824a35d32362?sa=X&ved=2ahUKEwjlifTQiveRAxXPF7kGHURQLAg4FBD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc53e537d1c9fd%3A0xddef824a35d32362&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=20&type=place"
+      },
+      "description":
+      "Poultry Asia: Advancing Innovation and Collaboration in Asia's Poultry IndustryHeld at the state-of-the-art Setia City Convention Centre in Shah Alam, Malaysia, Poultry Asia has established itself...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Rogers-asia.com",
+          "link":
+          "https://www.rogers-asia.com/events/poultry-asia-2026/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Globy",
+          "link":
+          "https://globy.com/events-calendar/poultry-asia-71680b",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Setia City Convention Centre",
+        "rating":
+        4.4,
+        "reviews":
+        5924,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Setia+City+Convention+Centre&ludocid=15992144057058141026&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyvSVq-FeQw0WyjpnX9snE1AoN-FL0bwfKgXaDVPQW1xVqG9MNR2nsbO5T&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEoJfe-MT8eV4XhtQbJTMkq4RXFcek253KaKOk5hdPAkHSyqNeLF93fOPG1DU&s=10"
+    },
+    {
+      "title":
+      "NEON Music Festival Presents: Novah Live in KL",
+      "date":
+      {
+        "start_date":
+        "Jan 17",
+        "when":
+        "Sat, 17 Jan, 11:00 pm – Sun, 18 Jan, 2:00 am"
+      },
+      "address":
+      [
+        "Lot GS.03, Ground Floor, Lane 23 Club - The Exchange TRX, The Exchange TRX, Persiaran TRX",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://megatix.asia/events/nmf-novah",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=XYLAL-ajI6g7ECRJU5xxOi0MOwZ1HV1klP2vP4ogPWyBRoqxv9kS5kMLH0SMH1whvOVck0L2AqqE3G-HmLTZ7hyFWXt4T51FD73LDOl1cEDEFkzfwWQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc370012517aff:0xd73ef2407bf46cb1?sa=X&ved=2ahUKEwjlifTQiveRAxXPF7kGHURQLAg4FBD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc370012517aff%3A0xd73ef2407bf46cb1&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=20&type=place"
+      },
+      "description":
+      "Event Details NEON Music Festival brings a high-intensity night of electronic music and underground club culture. Headliner NOYAH takes over LANE 23 with her signature sound, supported by Honey...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Megatix.asia",
+          "link":
+          "https://megatix.asia/events/nmf-novah",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Lane 23 Club - The Exchange TRX",
+        "rating":
+        4.3,
+        "reviews":
+        134,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Lane+23+Club+-+The+Exchange+TRX&ludocid=15510100525482011825&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLHC1NDuHeiaRA2y2lHYS51rpGmbEvTz_YsjFuCkc&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMbGXJOz_EDqjjmvWS0NuCIT406-bt-lB1ugbg6HVfEQ&s"
+    },
+    {
+      "title":
+      "Strategic Leadership and Operational Excellence in the Oil Refinery Sector",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
+      },
+      "address":
+      [
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.bmc.net/ct-strategic-leadership-and-operational-excellence-in-the-oil-refinery-sector-Kuala-Lumpur-MNG267-3",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwjlifTQiveRAxXPF7kGHURQLAg4FBD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=20&type=place"
+      },
+      "description":
+      "BMC Training provides Strategic Leadership and Operational Excellence in the Oil Refinery Sector in Kuala Lumpur from 2025-12-28 to 2026-1-8",
+      "ticket_info":
+      [
+        {
+          "source":
+          "BMC Training",
+          "link":
+          "https://www.bmc.net/ct-strategic-leadership-and-operational-excellence-in-the-oil-refinery-sector-Kuala-Lumpur-MNG267-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+      "image":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU"
+    },
+    {
+      "title":
+      "MONIE FEST 2026 - Money | Finance | Lifestyle",
+      "date":
+      {
+        "start_date":
+        "Apr 11",
+        "when":
+        "Sat, 11 Apr, 10:30 am – Sun, 12 Apr, 8:30 pm"
+      },
+      "address":
+      [
+        "5MJ8+7R MITEC @ North Entrance, Kompleks Kerajaan",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/monie-fest-2026-money-finance-lifestyle-tickets-1978806719165",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=G6jU9pCIChjT5njrUnGWYjiLGUZ0jazhGIhZzy7WACrWL94ocFlioPWUHMPNvY1kYHmxtkyl5Gk6vmH7NpVjV9d0rFdTcv5wva_q5FoQxqO9ZwP86nE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc490037bd5963:0xee56067112f7d095?sa=X&ved=2ahUKEwjlifTQiveRAxXPF7kGHURQLAg4FBD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc490037bd5963%3A0xee56067112f7d095&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=20&type=place"
+      },
+      "description":
+      "MONIE Fest is a large-scale financial lifestyle festival focused on money, investing, banking, and daily financial decisions. Brought to you by Foodie Media and Spire Digital, the event brings...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/monie-fest-2026-money-finance-lifestyle-tickets-1978806719165",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "MITEC @ North Entrance",
+        "rating":
+        4,
+        "reviews":
+        2,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=MITEC+%40+North+Entrance&ludocid=17173921311743266965&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9d6n90vHgQYVniJlOiH-RFbK7wBUWumeueSLkh_jtD1bswLH8LA7nLM&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX4MfAO177eNJSVKJApkLYMHDZI6V55OndMgSaCcyMPw&s"
+    },
+    {
+      "title":
+      "Let's Talk About Love : A Mothers' Love in Action",
+      "date":
+      {
+        "start_date":
+        "Jan 17",
+        "when":
+        "Sat, 17 Jan, 2:00 – 3:00 pm"
+      },
+      "address":
+      [
+        "27-2, The Golden Space Malaysia, Jalan PJU 5/20, Kota Damansara",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/lets-talk-about-love-a-mothers-love-in-action-tickets-1978766688432",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Y7aNRttO82ZFvc-dAGT9Vw_7LA2EoJm2bd4rjDsV4ye28EnT9L8lQFneCi2N8ovBAdLLhXcpgo2PGJlp_EaiJEVnfi3Q9rQWDDole3vUc_aRdk4WAEg",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4f1f8a79ef9d:0xc380513098a43415?sa=X&ved=2ahUKEwjlifTQiveRAxXPF7kGHURQLAg4FBD14gF6BAhLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4f1f8a79ef9d%3A0xc380513098a43415&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=20&type=place"
+      },
+      "description":
+      "A heartfelt sharing of a mother who chose love, acceptance, and authenticity over fear and judgment.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/lets-talk-about-love-a-mothers-love-in-action-tickets-1978766688432",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Golden Space Malaysia",
+        "rating":
+        4.9,
+        "reviews":
+        98,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Golden+Space+Malaysia&ludocid=14087348903576089621&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDk_aqYH1ln2Pc7D8lnXHAJ4B5pGKqTlbPPSnGj9c&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQApN_M_RiCSUiry5I2wpHE8AXQ913qdn_tjX1IHJdt5Q&s"
+    },
+    {
+      "title":
+      "Blood Donation Program 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Tue, 6 Jan, 9:00 am – 3:30 pm"
+      },
+      "address":
+      [
+        "Tamura Electronics (M) Sdn Bhd - Transformer Manufacturer, 2, Jalan Halba 16/16, Seksyen 16",
+        "Shah Alam, Selangor"
+      ],
+      "link":
+      "https://tamura.com.my/events/month/2026-01/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=QHz5Big7vIoJB1MU9lZFLv3jXWv-a97aC6cn7nSLoJzuyUqVicwqcg6jClanrHbPCbLyW8nxOVn7caIFQ__J1YeB5i3k0vD-H_jceg_GJPZzy4htL8k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4c7163891813:0xea5795d317c12a32?sa=X&ved=2ahUKEwjv5LTmiveRAxUBi7AFHdf1MSU4HhD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4c7163891813%3A0xea5795d317c12a32&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=30&type=place"
+      },
+      "description":
+      "Good day! Dear Respective Employees, We are pleased to inform you that a Blood Donation Program (collaboration with National Blood Centre) will be held on 06th Jan 2026 (Tuesday). This is a great...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Tamura Electronics (M) Sdn. Bhd.",
+          "link":
+          "https://tamura.com.my/events/month/2026-01/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Tamura Electronics (M) Sdn Bhd - Transformer Manufacturer",
+        "rating":
+        4.6,
+        "reviews":
+        22,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Tamura+Electronics+(M)+Sdn+Bhd+-+Transformer+Manufacturer&ludocid=16886130061718137394&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=QHz5Big7vIoJB1MU9lZFLv3jXWv-a97aC6cn7nSLoJzuyUqVicwqcg6jClanrHbPCbLyW8nxOVn7caIFQ__J1YeB5i3k0vD-H_jceg_GJPZzy4htL8k",
+      "image":
+      "https://www.google.com/maps/vt/data=QHz5Big7vIoJB1MU9lZFLv3jXWv-a97aC6cn7nSLoJzuyUqVicwqcg6jClanrHbPCbLyW8nxOVn7caIFQ__J1YeB5i3k0vD-H_jceg_GJPZzy4htL8k"
+    },
+    {
+      "title":
+      "Let's Talk About Love : A Mothers' Love in Action",
+      "date":
+      {
+        "start_date":
+        "Jan 17",
+        "when":
+        "Sat, 17 Jan, 2:00 – 3:00 pm"
+      },
+      "address":
+      [
+        "27-2, The Golden Space Malaysia, Jalan PJU 5/20, Kota Damansara",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/lets-talk-about-love-a-mothers-love-in-action-tickets-1978766688432",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Y7aNRttO82ZFvc-dAGT9Vw_7LA2EoJm2bd4rjDsV4ye28EnT9L8lQFneCi2N8ovBAdLLhXcpgo2PGJlp_EaiJEVnfi3Q9rQWDDole3vUc_aRdk4WAEg",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4f1f8a79ef9d:0xc380513098a43415?sa=X&ved=2ahUKEwjv5LTmiveRAxUBi7AFHdf1MSU4HhD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4f1f8a79ef9d%3A0xc380513098a43415&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=30&type=place"
+      },
+      "description":
+      "A heartfelt sharing of a mother who chose love, acceptance, and authenticity over fear and judgment.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/lets-talk-about-love-a-mothers-love-in-action-tickets-1978766688432",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Golden Space Malaysia",
+        "rating":
+        4.9,
+        "reviews":
+        98,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Golden+Space+Malaysia&ludocid=14087348903576089621&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDk_aqYH1ln2Pc7D8lnXHAJ4B5pGKqTlbPPSnGj9c&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQApN_M_RiCSUiry5I2wpHE8AXQ913qdn_tjX1IHJdt5Q&s"
+    },
+    {
+      "title":
+      "Materialisation with TRE Workshop KL",
+      "date":
+      {
+        "start_date":
+        "Jan 24",
+        "when":
+        "Sat, 24 Jan, 1:00 – 5:00 am"
+      },
+      "address":
+      [
+        "22, Persiaran Beringin, Bukit Damansara",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.treforprofessionals.com/event-details/materialisation-with-tre-workshop-kl",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=kjdyjNepthAM6gZFu-i_mqlGw3EBwWWuCwLu28y6dabYuICMVfkyvSkZsI5RqqszNKQhZgYRQhLShqBT9H7CRaF0Oa2uQl48n6vXzpVmuRXeu1MP8Po",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc48ff535f52bf:0xf0f54e91e5c00f4e?sa=X&ved=2ahUKEwjv5LTmiveRAxUBi7AFHdf1MSU4HhD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc48ff535f52bf%3A0xf0f54e91e5c00f4e&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=30&type=place"
+      },
+      "description":
+      "How would you like to make New Year’s resolutions that you actually achieve? I do, every year! It feels magical to create life as I would like it, but materialisation is not magic, it’s derived...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Lisa Glasgow",
+          "link":
+          "https://www.treforprofessionals.com/event-details/materialisation-with-tre-workshop-kl",
+          "link_type":
+          "more info"
+        }
+      ],
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ08Oy0sMVquecim5p4hpzCI6f5XmZRzPcz4mI3sbL8qqRMpBGjlzUiSB8&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCeVLKh66BTnfI2p64SYeNFisOSK0LEZUg3GmNstBkdA&s=10"
+    },
+    {
+      "title":
+      "Warehouse Management For Best-in-class Performance",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
+      },
+      "address":
+      [
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.bmc.net/ct-Warehouse-Management-For-Best-in-class-Performance-Kuala-Lumpur-WLS3-3",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwjv5LTmiveRAxUBi7AFHdf1MSU4HhD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=30&type=place"
+      },
+      "description":
+      "BMC Training provides Warehouse Management For Best-in-class Performance in Kuala Lumpur from 2025-12-28 to 2026-1-8",
+      "ticket_info":
+      [
+        {
+          "source":
+          "BMC Training",
+          "link":
+          "https://www.bmc.net/ct-Warehouse-Management-For-Best-in-class-Performance-Kuala-Lumpur-WLS3-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+      "image":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU"
+    },
+    {
+      "title":
+      "A Man For All reasons",
+      "date":
+      {
+        "start_date":
+        "Apr 13",
+        "when":
+        "Mon, 13 Apr, 9:00 am – 5:00 pm"
+      },
+      "address":
+      [
+        "Brickfields Asia College (BAC), B-2, G-Floor, Jln Utara, Section 14",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/a-man-for-all-reasons-tickets-1223349925559",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=6HFHHT-nWQMf9Dnc490jzSxbA1-O7NIMA9uj2ig9lbDt5CeG9RF8uRLzJoLdHFZlSDkYVOUSHReGJ-vbxGRSehxDnDi9EnBFyQsE_AOwMh6DnA2-UdI",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4bdde7609517:0xa2048e0d431ccd04?sa=X&ved=2ahUKEwjv5LTmiveRAxUBi7AFHdf1MSU4HhD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4bdde7609517%3A0xa2048e0d431ccd04&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=30&type=place"
+      },
+      "description":
+      "Changing the Narrative: Men in Early Childhood",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/a-man-for-all-reasons-tickets-1223349925559",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Brickfields Asia College (BAC)",
+        "rating":
+        4.6,
+        "reviews":
+        1007,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Brickfields+Asia+College+(BAC)&ludocid=11674612321662848260&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSh2KQ5EaTVuLKwSgXJsu7dgJEiKAZzHzvUmyNBWNu43etKNlcnEHOObU&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZHxnhqh7ZNq1XZkmrui-HuJe1ddyVJ6JXcn8_G-TilgL9Eq_KYGLbHOMGLw&s=10"
+    },
+    {
+      "title":
+      "FOOD SHOW MALAYSIA 2026",
+      "date":
+      {
+        "start_date":
+        "Mar 24",
+        "when":
+        "Tue 24 – Thu 26 Mar"
+      },
+      "address":
+      [
+        "World Trade Centre Kuala Lumpur, 41, Jalan Tun Ismail",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.tradeindia.com/tradeshows/145203/food-show-malaysia-2026.html",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=xFA7_PAslqTK5LDtaui3A3iXcxayCJyasJogSfAaX5JVzC1rDRay8wWftHWGYVQEIMRlTe0VgN-zlUfeii8Pmde6BHfXG_N4VAOalGhHwwbEdVhEmjA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc483db511d29d:0xbdff5f808f6fa427?sa=X&ved=2ahUKEwjv5LTmiveRAxUBi7AFHdf1MSU4HhD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc483db511d29d%3A0xbdff5f808f6fa427&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=30&type=place"
+      },
+      "description":
+      "Food Show Malaysia is set to become the premier food and beverage exhibition in Malaysia and the surrounding region, offering a dedicated platform for industry players to access the gateway to...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/145203/food-show-malaysia-2026.html",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "World Trade Centre Kuala Lumpur",
+        "rating":
+        4.3,
+        "reviews":
+        17462,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=World+Trade+Centre+Kuala+Lumpur&ludocid=13690766397996508199&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmM0Yg0Q8meScVR2VxaYxoHuUtWNL6y_BLjd7JGOA&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxVpw_65AKuyfjC2Z8ikG9ZbymtjjrBwRT8roHmj9juNTR&s"
+    },
+    {
+      "title":
+      "DIGITAL FUTURE FOR WOMEN (MELIA HOTEL, KUALA LUMPUR)",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 9:00 am – Thu, 8 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "The Kitchen @ Melia, Melia Kuala Lumpur, 16, Jln Imbi, Imbi",
+        "Kuala Lumpur"
+      ],
+      "link":
+      "https://www.myhits.com.my/event/digital-future-for-women-melia-hotel-kuala-lumpur/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=gsJ_ukwBIhC_M1_dAyfLqEuYS2HkVrFws3IDGkqIZ7vf2kc155u1Ngzuu_DbVEIU6ydkm2tDJxXDLr6Jz7Fnt5M5_JMz_A-6DJvZujGAAlMyJFbQBnI",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3628f833750b:0x1231bfa22dbf4f3a?sa=X&ved=2ahUKEwjv5LTmiveRAxUBi7AFHdf1MSU4HhD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3628f833750b%3A0x1231bfa22dbf4f3a&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=30&type=place"
+      },
+      "description":
+      "Brochure Register",
+      "ticket_info":
+      [
+        {
+          "source":
+          "High Impact Training Services",
+          "link":
+          "https://www.myhits.com.my/event/digital-future-for-women-melia-hotel-kuala-lumpur/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Kitchen @ Melia",
+        "rating":
+        3.5,
+        "reviews":
+        55,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=The+Kitchen+%40+Melia&ludocid=1311039669814644538&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCQgVocVkkdrfbGQqyXyNo8BI9zTSs-DGfWFI-mLnthtcBAZhiyMJ-bpQ&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1n9Dsln1QwSavnTpaC7XSSBqVWoSIUWPCDChM8pfc5ufAU0ZXYtsqx9x9zA&s=10"
+    },
+    {
+      "title":
+      "Malaysia Education Franchise Expo (MEFE) 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 24",
+        "when":
+        "Sat, 24 Jan, 10:00 am – Sun, 25 Jan, 7:30 pm"
+      },
+      "address":
+      [
+        "the Starling, 6, Jalan SS 21/37, Damansara Utama",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://expolah.com/event/malaysia-education-franchise-expo-202601-the-starling-mall/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=dWXUH3HrR5P5HxQSQSW3CBOcl7w8KHLBJnFifbSL5xjAdfI7cbTI7DsrIrG5Tkw_VC_5a7tLHNTCrHtThO2-lyMZN-38x1xYHsR3fB-BECUjvKit5Ig",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49eff55edbab:0x36ad78e0972e05f?sa=X&ved=2ahUKEwjv5LTmiveRAxUBi7AFHdf1MSU4HhD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49eff55edbab%3A0x36ad78e0972e05f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=30&type=place"
+      },
+      "description":
+      "Malaysia Education Franchise Expo (MEFE) is Malaysia’s first dedicated B2B education franchise expo, designed for entrepreneurs, educators, and investors interested in launching or expanding...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Expolah",
+          "link":
+          "https://expolah.com/event/malaysia-education-franchise-expo-202601-the-starling-mall/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "the Starling",
+        "rating":
+        4.1,
+        "reviews":
+        12330,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=the+Starling&ludocid=246246134688964703&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF0_nBAZKJL_rNoPy4ry9fgrGN3tjRh6yp7HnwIKjTE1Ap4J_dZ86KkwM&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9iMhGZTo5FTyBT-HoU7bpdFHVAMhiBIirXGlPXRtspgW-_l8f6WoXOK5fiA&s=10"
+    },
+    {
+      "title":
+      "Kuala Lumpur Evening Tour: Chinatown, Temple, Dinner",
+      "date":
+      {
+        "start_date":
+        "Mar 24",
+        "when":
+        "Tue, 24 Mar"
+      },
+      "address":
+      [
+        "MATIC, 109, Jln Ampang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.peek.com/kuala-lumpur/r0g87x/kuala-lumpur-malaysian-cultural-night-experience-with-buffet-dinner/a0a68m4?list_info=Activity%7CSiblings%7C2",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=xRdJpcCMXbIKX9pKXuPlRPeXD0cNENTGuSyTnsbQIpEM7bVV7dcPD0-W7t1dsQ0rWqIEJi10McfRWtRe-HASr8uSslx5Rj0OAvH5Ac99BvAf4w59cBE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37cf6f166e6f:0x5107641e813b1a0d?sa=X&ved=2ahUKEwjv5LTmiveRAxUBi7AFHdf1MSU4HhD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37cf6f166e6f%3A0x5107641e813b1a0d&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=30&type=place"
+      },
+      "description":
+      "Discover Kuala Lumpur's vibrant culture with a guided tour, Chinatown bazaar visit, Hindu temple, cultural show, and buffet dinner. Book now for an unforgettable night!",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Peek",
+          "link":
+          "https://www.peek.com/kuala-lumpur/r0g87x/kuala-lumpur-malaysian-cultural-night-experience-with-buffet-dinner/a0a68m4?list_info=Activity%7CSiblings%7C2",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "MATIC",
+        "rating":
+        4.3,
+        "reviews":
+        2496,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=MATIC&ludocid=5838745524089068045&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpSl1nx8pq8mCBh7Qleg7uO4EoTPWBS94dfUznvxlEnIBtu04u6clUPyE&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtISrXEb_SmQpekppMYyv4YbaqaJJzcKI2b2T65OLwbw&s=10"
+    },
+    {
+      "title":
+      "Park Hyatt Festive Afternoon Tea",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Tue, 6 Jan, 12:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Park Lounge, Warisan Merdeka Tower, Level 75 Park Hyatt Kuala Lumpur, Presint Merdeka 118",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-06/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fyuYYlQX8xxNKzFXFHMuElocev3DjZi5G2OwqeJcQ-c_GnUjEwdGuzOWypylzh-mlCDVRaYfNjL7Ojb4DQNLUTLyTsFdsrn8GETxxpUV7ToSVcAV3jQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc490781872915:0x922c189a597b2d37?sa=X&ved=2ahUKEwjv5LTmiveRAxUBi7AFHdf1MSU4HhD14gF6BAhLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc490781872915%3A0x922c189a597b2d37&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=30&type=place"
+      },
+      "description":
+      "Festive Afternoon Tea Delight in the art of afternoon tea, reimagined for the holidays. Enjoy classic scones, savoury bites like Lobster Dumpling and Duck Mousse Cone, and a dessert trolley laden...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-06/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Park Lounge",
+        "rating":
+        4.1,
+        "reviews":
+        67,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Park+Lounge&ludocid=10532820679718022455&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpExRh1Son8DQymW03dIaIyYci7Q8Yzqp2XVuMydHhTO-fzsZJNHOrPzk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XF1tB9gMPlPLnjjtMo_pLnvPBejY2XFO8Py7LlqB5A&s=10"
+    },
+    {
+      "title":
+      "Slow Crush @ Petai Belalang KL",
+      "date":
+      {
+        "start_date":
+        "Jan 18",
+        "when":
+        "Sun, 18 Jan, 12:00 – 4:00 pm"
+      },
+      "address":
+      [
+        "No 112 & 114, Petai Belalang, Wisma Hainan, Jln Pudu, City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://evvntly.com/event/ev-ce0a379cc77670f4161ea8a15",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=8q9Qhnh8cJOllD_15VPprWSIN-KnvcuzxmD8prRq3GhXd7hVoxbDneebCTYmLHCEpt3zuv8ZT9KBzOs8HqVAHS-eo63F94mJDs0ZNyjiJkOjjmXwuWY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4f371e2fa917:0xc651a9657b5c300?sa=X&ved=2ahUKEwizvuOiiveRAxUt6BoGHfiQABI4KBD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4f371e2fa917%3A0xc651a9657b5c300&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=40&type=place"
+      },
+      "description":
+      "Find tickets for Slow Crush at Petai Belalang KL, Kuala Lumpur, on Sun, Jan 18th, 2026 12:00 PM. Find and track events at Evvntly.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Songkick.com",
+          "link":
+          "https://www.songkick.com/concerts/42934074-slow-crush-at-petai-belalang-kl?utm_medium=organic&utm_source=microformat",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Evvntly",
+          "link":
+          "https://evvntly.com/event/ev-ce0a379cc77670f4161ea8a15",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Petai Belalang",
+        "rating":
+        4.8,
+        "reviews":
+        39,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Petai+Belalang&ludocid=893149334121857792&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS2HXYlkX2v6ebTxizGlHAZPMYAOSdEjqZ5Y4xYoahgITORMpmrlgf1bQ&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_5IGHkQZZDPLZ1dcWOw7odTyieC9qtAgDYpHSiXswkJ5nEY3mmqijGOVcg&s=10"
+    },
+    {
+      "title":
+      "Meditation for Health",
+      "date":
+      {
+        "start_date":
+        "Jan 20",
+        "when":
+        "Tue, 20 Jan, 7:30 – 9:00 pm"
+      },
+      "address":
+      [
+        "Isha Yoga Center, Malaysia, Suite G.03, Ground Floor Block-B, Dataran Hamodal, Jalan 13/4, Section 13",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://www.ticket2u.com.my/event/47932/meditation-for-health",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=SE_H6Vh9NMkyPDecSh7HN_Td0hvDMo9nRtUddcFN0yl7GMcGqnHibQC_pJXFQjwwp6FhCUgc3iq5O9EOeLhy0MYyAwyxmY_ppmsHojdRJMjG8vS-gF0",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49879051d9b1:0x3bbba5483d2cca6c?sa=X&ved=2ahUKEwizvuOiiveRAxUt6BoGHfiQABI4KBD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49879051d9b1%3A0x3bbba5483d2cca6c&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=40&type=place"
+      },
+      "ticket_info":
+      [
+        {
+          "source":
+          "Ticket2u",
+          "link":
+          "https://www.ticket2u.com.my/event/47932/meditation-for-health",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Isha Yoga Center, Malaysia",
+        "rating":
+        4.9,
+        "reviews":
+        108,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Isha+Yoga+Center,+Malaysia&ludocid=4304215598565214828&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT24tHRP7vXeXwtvDFiuL_AeFK-8t1-Pwp0Bc2w2_zQvb3YmOaJw4zUipA&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIpvMlbsIhrv3mySKRNsT2i2t12j0qx9xy-ap7yl1XCQ&s"
+    },
+    {
+      "title":
+      "Park Hyatt Festive Afternoon Tea",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 12:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Park Lounge, Warisan Merdeka Tower, Level 75 Park Hyatt Kuala Lumpur, Presint Merdeka 118",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-08/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fyuYYlQX8xxNKzFXFHMuElocev3DjZi5G2OwqeJcQ-c_GnUjEwdGuzOWypylzh-mlCDVRaYfNjL7Ojb4DQNLUTLyTsFdsrn8GETxxpUV7ToSVcAV3jQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc490781872915:0x922c189a597b2d37?sa=X&ved=2ahUKEwizvuOiiveRAxUt6BoGHfiQABI4KBD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc490781872915%3A0x922c189a597b2d37&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=40&type=place"
+      },
+      "description":
+      "Festive Afternoon Tea Delight in the art of afternoon tea, reimagined for the holidays. Enjoy classic scones, savoury bites like Lobster Dumpling and Duck Mousse Cone, and a dessert trolley laden...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-08/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Park Lounge",
+        "rating":
+        4.1,
+        "reviews":
+        67,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Park+Lounge&ludocid=10532820679718022455&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpExRh1Son8DQymW03dIaIyYci7Q8Yzqp2XVuMydHhTO-fzsZJNHOrPzk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XF1tB9gMPlPLnjjtMo_pLnvPBejY2XFO8Py7LlqB5A&s=10"
+    },
+    {
+      "title":
+      "ATTAQUER SWARM // PENANG",
+      "date":
+      {
+        "start_date":
+        "Jan 13",
+        "when":
+        "Tue, 13 Jan, 7:00 – 11:00 am"
+      },
+      "address":
+      [
+        "15A, JBC | Denai Alam @Saddle&Beans (JAMI BIKE CENTRE), Jln, Jln. Elektron U16/P, Denai Alam",
+        "Shah Alam, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.com.au/e/attaquer-swarm-penang-tickets-1978858618397",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=WZpmpGg0USFYtoIW13vlMmOAZElyPPNYvkJJg725TKV7fMu_QC6oJ5eLV-vIK9Mx4PJNUO45nthDgn1e1A3-_11wPrC8THPQ7VRHBBP6WkIiZ6lGmf8",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc5104494a65b1:0x5f1ce039fb7b0b01?sa=X&ved=2ahUKEwizvuOiiveRAxUt6BoGHfiQABI4KBD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc5104494a65b1%3A0x5f1ce039fb7b0b01&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=40&type=place"
+      },
+      "description":
+      "Join ATTAQUER and Jami Bike Centre for a flat, beginner-friendly 80km ride for Breakfast at SpedaHub",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com.au",
+          "link":
+          "https://www.eventbrite.com.au/e/attaquer-swarm-penang-tickets-1978858618397",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "JBC | Denai Alam @Saddle&Beans (JAMI BIKE CENTRE)",
+        "rating":
+        5,
+        "reviews":
+        2,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=JBC+%7C+Denai+Alam+%40Saddle%26Beans+(JAMI+BIKE+CENTRE)&ludocid=6853599272587954945&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwWoxP3xRGIAtpZG4WkawBeB_U1af1eGOSVtioEsoey_r3GmFOOZu-veI&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEU92j1wy4J09P1z-mehvkP0mg8UCwvMWbCAyyv9U0Pw&s"
+    },
+    {
+      "title":
+      "Malaysia International Jewellery Fair",
+      "date":
+      {
+        "start_date":
+        "Jan 29",
+        "when":
+        "Thu, 29 Jan, 11:00 am – Sun, 1 Feb, 7:00 pm"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.ticket2u.com.my/event/44765/malaysia-international-jewellery-fair-2026-(mijf)-spring-edition",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sMeluAKY1MrI0LwhvOed-EgL1lFygZpNeDPJUinMjDwS-zQjYYZlioGQiDQ5YrhP-2wP299873mje9gIA6Ra_eESqJPAaUV9kdEhKJWfgt8eVI362uw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d37bd3fcff:0x7706359b57f73cb7?sa=X&ved=2ahUKEwizvuOiiveRAxUt6BoGHfiQABI4KBD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=40&type=place"
+      },
+      "description":
+      "Ticket2u provide ticketing solutions for event organizers to promote their events and sell tickets. We have the latest local events listing in Malaysia.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/malaysia-international-jewellery-fair-2026-mijf-spring-edition-tickets-1498625572429",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Ticket2u",
+          "link":
+          "https://www.ticket2u.com.my/event/44765/malaysia-international-jewellery-fair-2026-(mijf)-spring-edition",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Evvnt",
+          "link":
+          "https://evvnt.com/events/?_evDiscoveryPath=/event%2F3139450-malaysia-international-jewellery-fair-spring-edition-mijfse-",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "EXPOSALE.net",
+          "link":
+          "https://exposale.net/en/exhibitions/242/81/all",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Expo Stand Builder",
+          "link":
+          "https://expostandbuilders.com/country-malayziya/city-kuala-lumpur/expt-malaysia-international-jewellery-fair",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre",
+        "rating":
+        4.5,
+        "reviews":
+        10954,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Kuala+Lumpur+Convention+Centre&ludocid=8576601481685712055&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSijlLVrap0iHnOkMs0fjuk2NINTSEZiapbGIB_9okJzjrnFktqk5zVYlI&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYpLXHqmpLplNffkpLhtlHVW5fK_i2BssGRNV0RbEIZw&s=10"
+    },
+    {
+      "title":
+      "Park Hyatt Festive Afternoon Tea",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 12:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Park Lounge, Warisan Merdeka Tower, Level 75 Park Hyatt Kuala Lumpur, Presint Merdeka 118",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-10/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fyuYYlQX8xxNKzFXFHMuElocev3DjZi5G2OwqeJcQ-c_GnUjEwdGuzOWypylzh-mlCDVRaYfNjL7Ojb4DQNLUTLyTsFdsrn8GETxxpUV7ToSVcAV3jQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc490781872915:0x922c189a597b2d37?sa=X&ved=2ahUKEwizvuOiiveRAxUt6BoGHfiQABI4KBD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc490781872915%3A0x922c189a597b2d37&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=40&type=place"
+      },
+      "description":
+      "Festive Afternoon Tea Delight in the art of afternoon tea, reimagined for the holidays. Enjoy classic scones, savoury bites like Lobster Dumpling and Duck Mousse Cone, and a dessert trolley laden...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-10/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Park Lounge",
+        "rating":
+        4.1,
+        "reviews":
+        67,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Park+Lounge&ludocid=10532820679718022455&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpExRh1Son8DQymW03dIaIyYci7Q8Yzqp2XVuMydHhTO-fzsZJNHOrPzk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XF1tB9gMPlPLnjjtMo_pLnvPBejY2XFO8Py7LlqB5A&s=10"
+    },
+    {
+      "title":
+      "Super Junior",
+      "date":
+      {
+        "start_date":
+        "Jan 17",
+        "when":
+        "Sat, 17 Jan, 5:00 – 8:00 pm"
+      },
+      "address":
+      [
+        "Axiata Arena Bukit Jalil, L2-E-10, Enterprise 4, Technology Park Malaysia, Lebuhraya Bukit Jalil, Bukit Jalil",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/Concert-Tickets/Rock-and-Pop/Super-Junior-Tickets/E-159779537",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=lwo_ZBZUeswlHkY6z66vyEMcxId3v-82oT7Vf8DGkW2pzz_aCvsDXD7TBqj0toaeGzBD218ut2hIQ961iuFv88UP9s12ajtsSqaXjNYtYuXNia9RY2E",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4a97daf75aff:0x35e03f9f339a13b1?sa=X&ved=2ahUKEwizvuOiiveRAxUt6BoGHfiQABI4KBD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4a97daf75aff%3A0x35e03f9f339a13b1&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=40&type=place"
+      },
+      "description":
+      "Ticket listings for Super Junior at Axiata Arena in Kuala Lumpur on 01/17/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Songkick.com",
+          "link":
+          "http://www.songkick.com/concerts/42812610-super-junior-at-axiata-arena?utm_medium=organic&utm_source=microformat",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/_C-25036?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-29331%7Cev-159779537%7Ccy-3578&ps_ev=159779537",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-25036?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-29331%7Cev-159779537%7Ccy-3578&ps_ev=159779537",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "TheSmartLocal Malaysia",
+          "link":
+          "https://thesmartlocal.my/super-junior-super-show-10/",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Evvntly",
+          "link":
+          "https://evvntly.com/event/ev-c5dc9dd89e6792cc3e3db516f",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Axiata Arena Bukit Jalil",
+        "rating":
+        4.5,
+        "reviews":
+        6691,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Axiata+Arena+Bukit+Jalil&ludocid=3882172831791453105&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7LlbKRbxM_bDlWj4FJWo4qqR-B8kfdH56PVpqNeeIFBRNJxx76w-lGc&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDVzy5Dx1RBa50HJPs3QoxCkhNMW6ESyCufSMQbXi_3A&s=10"
+    },
+    {
+      "title":
+      "Park Hyatt Festive Afternoon Tea",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "Mon, 5 Jan, 12:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Park Lounge, Warisan Merdeka Tower, Level 75 Park Hyatt Kuala Lumpur, Presint Merdeka 118",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-05/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fyuYYlQX8xxNKzFXFHMuElocev3DjZi5G2OwqeJcQ-c_GnUjEwdGuzOWypylzh-mlCDVRaYfNjL7Ojb4DQNLUTLyTsFdsrn8GETxxpUV7ToSVcAV3jQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc490781872915:0x922c189a597b2d37?sa=X&ved=2ahUKEwizvuOiiveRAxUt6BoGHfiQABI4KBD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc490781872915%3A0x922c189a597b2d37&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=40&type=place"
+      },
+      "description":
+      "Festive Afternoon Tea Delight in the art of afternoon tea, reimagined for the holidays. Enjoy classic scones, savoury bites like Lobster Dumpling and Duck Mousse Cone, and a dessert trolley laden...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/park-hyatt-festive-afternoon-tea/2026-01-05/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Park Lounge",
+        "rating":
+        4.1,
+        "reviews":
+        67,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=Park+Lounge&ludocid=10532820679718022455&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpExRh1Son8DQymW03dIaIyYci7Q8Yzqp2XVuMydHhTO-fzsZJNHOrPzk&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7XF1tB9gMPlPLnjjtMo_pLnvPBejY2XFO8Py7LlqB5A&s=10"
+    },
+    {
+      "title":
+      "Fantasm X Wonder All Day Long",
+      "date":
+      {
+        "start_date":
+        "Jan 31",
+        "when":
+        "Sat, 31 Jan, 5:00 – 8:00 pm"
+      },
+      "address":
+      [
+        "Level 2, idea Live Arena, 3 Damansara, 3, Jalan SS20/27, Damansara Intan",
+        "Petaling Jaya, Selangor"
+      ],
+      "link":
+      "https://ra.co/events/2315819",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=LVJD3JXVVF2frTyY3ead1F4jUz0i-g2krU31lfSjzvfrIRrpuM7We34pbdLuYSQnBmmFhcLsoE--1xoNoIToRyaWzA5Yn-zPz9K0W4CjlgYVqvHHxGo",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49004e140079:0x35a50a42c7ae62e8?sa=X&ved=2ahUKEwizvuOiiveRAxUt6BoGHfiQABI4KBD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49004e140079%3A0x35a50a42c7ae62e8&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Mutiara+Damansara&start=40&type=place"
+      },
+      "description":
+      "𝗙𝗔𝗡𝗧𝗔𝗦𝗠 — 𝗔𝗟𝗟 𝗗𝗔𝗬 𝗟𝗢𝗡𝗚 The moment is here. For the first time in Malaysia, an international artist takes over with a full All Day Long set — our very own wonderboy",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/_C-150255719?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150187863%7Cev-160130447%7Ccy-6469&ps_ev=160130447",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-150255719?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150187863%7Cev-160130447%7Ccy-6469&ps_ev=160130447",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Resident Advisor",
+          "link":
+          "https://ra.co/events/2315819",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "idea Live Arena",
+        "rating":
+        4.4,
+        "reviews":
+        216,
+        "link":
+        "https://www.google.com/search?sca_esv=f1a6d5ece4c2b634&gl=my&q=idea+Live+Arena&ludocid=3865507137101652712&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWB9B7H3M7rTpaj_5JLQvU9KZkUwUhhoxpvk0hYhEhcXkpJqKlpeVjE_4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGkj3BPfboAwIehk-lEdn0QxJrZsOUlF7b1teUd1K-jqIWRghhT3sC_NVx3Q&s"
+    }
+  ]
+}

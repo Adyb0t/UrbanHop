@@ -1,0 +1,2192 @@
+{
+  "search_metadata":
+  {
+    "id":
+    "695d18a93d34dda1c5f60450",
+    "status":
+    "Success",
+    "json_endpoint":
+    "https://serpapi.com/searches/cc829a59be2154e6/695d18a93d34dda1c5f60450.json",
+    "created_at":
+    "2026-01-06 14:14:01 UTC",
+    "processed_at":
+    "2026-01-06 14:14:01 UTC",
+    "google_events_url":
+    "https://www.google.com/search?q=events+near+Wangsa+Maju&ibp=htl;events&uule=w+CAIQICIITWFsYXlzaWE&gl=my&start=0",
+    "raw_html_file":
+    "https://serpapi.com/searches/cc829a59be2154e6/695d18a93d34dda1c5f60450.html",
+    "total_time_taken":
+    7.19
+  },
+  "search_parameters":
+  {
+    "q":
+    "events near Wangsa Maju",
+    "engine":
+    "google_events",
+    "location_requested":
+    "Malaysia",
+    "location_used":
+    "Malaysia",
+    "start":
+    0,
+    "gl":
+    "my"
+  },
+  "search_information":
+  {
+    "events_results_state":
+    "Results for exact spelling"
+  },
+  "events_results":
+  [
+    {
+      "title":
+      "Module 2: Kuala Lumpur, Malaysia",
+      "date":
+      {
+        "start_date":
+        "Feb 28",
+        "when":
+        "Sat, 28 Feb, 9:00 am – Sun, 1 Mar, 6:00 pm"
+      },
+      "address":
+      [
+        "One Space Wellness, D'Wangsa, 8-2, Jalan Wangsa Delima 10, Wangsa Maju",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://osteopilates.com/event/module-2-kuala-lumpur-malaysia-3/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fvIIIFg7fxRHuVyjc1wudK5QufHRnwBIBn3R2xp9g5vs8lVuNYCd16Kn_ss2zLwoG5kktCVQ2g2ENyRuAhLfQIMo4DX-eHemllyC5fvYweess9RPUYA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3954e8d3856d:0x684423ee4eb59102?sa=X&ved=2ahUKEwjwuYrPjPeRAxUQhIkEHR9INFQQ9eIBegQIAxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3954e8d3856d%3A0x684423ee4eb59102&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=0&type=place"
+      },
+      "description":
+      "Welcome To Scolio-Pilates Module 2 Instructor: Helen New, Scolio-Pilates® Principal Educator Location: One Space Wellness, Kuala Lumpur, Malaysia Dates: 28th February - 1st March 2026 Times...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Scolio-Pilates",
+          "link":
+          "https://osteopilates.com/event/module-2-kuala-lumpur-malaysia-3/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "One Space Wellness",
+        "rating":
+        4.4,
+        "reviews":
+        45,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=One+Space+Wellness&ludocid=7513169584790540546&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfQnZEAYKdEf3krAuY5RrQUhHoStE6YgyaMjXCQA0&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEKdso-M2SqSQ4RnDfHosqQL-F1zXrFqI5noqe-13HoA&s=10"
+    },
+    {
+      "title":
+      "Sheng Wang",
+      "date":
+      {
+        "start_date":
+        "Jan 9",
+        "when":
+        "Fri, 9 Jan, 8:00 pm – Sat, 10 Jan, 12:00 am"
+      },
+      "address":
+      [
+        "Level 6, Hao Xiang Chi Seafood | ICC PUDU, ICC Pudu Hao Xiang Chi Seafood, c5, Jalan Kijang, Pudu",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://open.spotify.com/concert/4Fsoh3GbBXcNBUzbDBmGan",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Qp9edw3wJSj4lMxMAl_DuJUBKoaiL6lmgJu1PK_5tqeXqiZ9dBeRI5tE9AXosXT6gLSjHUDpw6ErHzWERFpDhXW3C9OPTG_UL8civQ3zuU3JNWVoXn4",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc36244f53558d:0x1b5f32e47846239f?sa=X&ved=2ahUKEwjwuYrPjPeRAxUQhIkEHR9INFQQ9eIBegQICxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc36244f53558d%3A0x1b5f32e47846239f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=0&type=place"
+      },
+      "description":
+      "Find tickets for Sheng Wang at HXC Grand Ballroom in Kuala Lumpur on 1/9/2026 at 8:00 PM",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Spotify.com",
+          "link":
+          "https://open.spotify.com/concert/4Fsoh3GbBXcNBUzbDBmGan",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo",
+          "link":
+          "https://www.viagogo.com/Theater-Tickets/Comedy/Sheng-Wang-Tickets/E-159320540",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "StubHub",
+          "link":
+          "https://www.stubhub.com/hxc-grand-ballroom-tickets/venue/137046647/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Hao Xiang Chi Seafood | ICC PUDU",
+        "rating":
+        4.5,
+        "reviews":
+        2011,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Hao+Xiang+Chi+Seafood+%7C+ICC+PUDU&ludocid=1972351118663361439&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMu3OgBNm-6aX36ZkVH5WzMZwuQ1jZyrPKutXp-mhajVOM6Ons2oir1g&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH6BF9AgZBAj4O0FE2vfzLL46iaXXwZ-R8lHMEHSUeCg&s=10"
+    },
+    {
+      "title":
+      "Professional Sales and Time Management",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
+      },
+      "address":
+      [
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.bmc.net/ct-Professional-sales-and-time-management-Kuala-Lumpur-PRC33-3",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwjwuYrPjPeRAxUQhIkEHR9INFQQ9eIBegQIExAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=0&type=place"
+      },
+      "description":
+      "BMC Training provides Professional Sales and Time Management in Kuala Lumpur from 2025-12-28 to 2026-1-8",
+      "ticket_info":
+      [
+        {
+          "source":
+          "BMC Training",
+          "link":
+          "https://www.bmc.net/ct-Professional-sales-and-time-management-Kuala-Lumpur-PRC33-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-_BaNkeHOeII2KT7qUBpmOFpcV0tOReXU0C7Q4gahaYoDEXG2uF6m9W0&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrmW-YZCu_hVjAoKp2KbFzJWgH6nn19igFzlKBVyMJQ&s"
+    },
+    {
+      "title":
+      "Module 1: Kuala Lumpur, Malaysia",
+      "date":
+      {
+        "start_date":
+        "Feb 27",
+        "when":
+        "Fri, 27 Feb, 9:00 am – 6:00 pm"
+      },
+      "address":
+      [
+        "One Space Wellness, D'Wangsa, 8-2, Jalan Wangsa Delima 10, Wangsa Maju",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://osteopilates.com/event/module-1-kuala-lumpur-malaysia-3/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=fvIIIFg7fxRHuVyjc1wudK5QufHRnwBIBn3R2xp9g5vs8lVuNYCd16Kn_ss2zLwoG5kktCVQ2g2ENyRuAhLfQIMo4DX-eHemllyC5fvYweess9RPUYA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3954e8d3856d:0x684423ee4eb59102?sa=X&ved=2ahUKEwjwuYrPjPeRAxUQhIkEHR9INFQQ9eIBegQIGxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3954e8d3856d%3A0x684423ee4eb59102&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=0&type=place"
+      },
+      "description":
+      "Welcome To Scolio-Pilates Module 1 Instructor: Helen New, Scolio-Pilates® Principal Educator Location: One Space Wellness, Kuala Lumpur, Malaysia Date: 27th February 2026 Times: 9:00am - 6:00pm...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Scolio-Pilates",
+          "link":
+          "https://osteopilates.com/event/module-1-kuala-lumpur-malaysia-3/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "One Space Wellness",
+        "rating":
+        4.4,
+        "reviews":
+        45,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=One+Space+Wellness&ludocid=7513169584790540546&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfQnZEAYKdEf3krAuY5RrQUhHoStE6YgyaMjXCQA0&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEKdso-M2SqSQ4RnDfHosqQL-F1zXrFqI5noqe-13HoA&s=10"
+    },
+    {
+      "title":
+      "Christmas Music Instrumental Performance at Berjaya Times Square",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 3:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Berjaya Times Square, 1, Jln Imbi, Bukit Bintang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/christmas-music-intrumental-performance-at-berjaya-times-square/2026-01-10/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=KglDuvRlbXAAsGRac9CrIrs4rUXW6hhNxl9SYp-0JCWTS0TpGBZWoFodi_Q8XNJ8EWXBFwymgKo1Y1NhBiuxleulo9PmNddyVvRABNuJ1jpn2TcIbzc",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3718e47dbaa1:0xc3d13b8d0aacf527?sa=X&ved=2ahUKEwjwuYrPjPeRAxUQhIkEHR9INFQQ9eIBegQIIxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3718e47dbaa1%3A0xc3d13b8d0aacf527&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=0&type=place"
+      },
+      "description":
+      "Cost: Free Event Category: Christmas Events Website: https://berjayatimessquarekl.com/events/a-magical-christmas-tale/",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kuala Lumpur with Kids",
+          "link":
+          "https://kualalumpurwithkids.com/event/christmas-music-intrumental-performance-at-berjaya-times-square/2026-01-10/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Berjaya Times Square",
+        "rating":
+        4.3,
+        "reviews":
+        33238,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Berjaya+Times+Square&ludocid=14110124584484009255&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZugk0nVccuDOQml8I7L6NKTygj1QuTZB_HhMhDEK5q5mc6_FeRVxFXbA&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4yzdnQMjRp62jMqwJeDtJsG8DuqSBoVsRRHed3MiL1F2efu-Aosp2w2GZQ&s=10"
+    },
+    {
+      "title":
+      "Warehouse Management For Best-in-class Performance",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
+      },
+      "address":
+      [
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.bmc.net/ct-Warehouse-Management-For-Best-in-class-Performance-Kuala-Lumpur-WLS3-3",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwjwuYrPjPeRAxUQhIkEHR9INFQQ9eIBegQIKxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=0&type=place"
+      },
+      "description":
+      "BMC Training provides Warehouse Management For Best-in-class Performance in Kuala Lumpur from 2025-12-28 to 2026-1-8",
+      "ticket_info":
+      [
+        {
+          "source":
+          "BMC Training",
+          "link":
+          "https://www.bmc.net/ct-Warehouse-Management-For-Best-in-class-Performance-Kuala-Lumpur-WLS3-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+      "image":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU"
+    },
+    {
+      "title":
+      "PDPA & Data Protection Officer (DPO) Essentials Training",
+      "date":
+      {
+        "start_date":
+        "Jan 9",
+        "when":
+        "Fri, 9 Jan, 9:00 am – 5:00 pm"
+      },
+      "address":
+      [
+        "ASIA DEBUT SDN. BHD., 118-1, Jln Damai Raya 2, Alam Damai",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/pdpa-data-protection-officer-dpo-essentials-training-tickets-1978159086077",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=2uKStB_iCOj9OzDuORuzTcOc-vmTCR43_Wr_LtlSbnuahDgkfTU0DsOpOD_12geQuILKde5sTRQ1knAusJVM7mam9D0_mQHRwL3oH2jqGhNUGAGVNpo",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc351b28b8cbb1:0x7af0d385aa10dcde?sa=X&ved=2ahUKEwjwuYrPjPeRAxUQhIkEHR9INFQQ9eIBegQIMxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc351b28b8cbb1%3A0x7af0d385aa10dcde&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=0&type=place"
+      },
+      "description":
+      "Need to comply with Malaysia PDPA? Join our HRD Corp Claimable DPO Training to equip your team, elevate compliance, and protect your data. This one-day training helps you understand PDPA in a...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/pdpa-data-protection-officer-dpo-essentials-training-tickets-1978159086077",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVMpJ8A86-8kpovEyOc2RQQKM_cO4Y1v-pySOHN3OzFnNf8l2_8PX8iMM&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF8d80bnqFPLvRjvtaO_uwwCNKjynM6d7a4K-tbqR3UA&s=10"
+    },
+    {
+      "title":
+      "malaysia brand day 2026",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 10:00 am – Sat, 10 Jan, 6:00 pm"
+      },
+      "address":
+      [
+        "Kuala Lumpur Convention Centre Car Park, Kuala Lumpur Convention Centre, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.rogers-asia.com/events/malaysia-brand-day-2026/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Ch3iA8H7eqtvxU88n9lywBl_sdI8iut3RdOZxABV67a66B8CnW8KeS4mxpOdk6wLu2XpIjoCkRBWzeTdmAt5PlhpZl3fuvZBmZb7SbYwLlWmiVBwhYE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc371fa91643c7:0x42a417882ad8f9ca?sa=X&ved=2ahUKEwjwuYrPjPeRAxUQhIkEHR9INFQQ9eIBegQIOxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc371fa91643c7%3A0x42a417882ad8f9ca&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=0&type=place"
+      },
+      "description":
+      "Rogers Asia is an alliance of Rogers Companies from Indonesia, Malaysia, Thailand, Singapore and Vietnam. This cohesive grouping of Rogers Companies brings together the best practices of each...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Rogers-asia.com",
+          "link":
+          "https://www.rogers-asia.com/events/malaysia-brand-day-2026/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Expolah",
+          "link":
+          "https://expolah.com/event/malaysia-brand-day-2026-klcc/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Kuala Lumpur Convention Centre Car Park",
+        "rating":
+        4.4,
+        "reviews":
+        18,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Kuala+Lumpur+Convention+Centre+Car+Park&ludocid=4801988976285645258&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJhMxHS79TxMojb5j5Mc_mXAwIA0GwJL0PTmYGXmkKqHxkme2hYeJQC-U&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6nVI82eVQZzrLL6vit3H3ZenXYyhFD0sS1AoVnZBOPD-8huUF-KXU_7C8dA&s=10"
+    },
+    {
+      "title":
+      "DIGITAL FUTURE FOR WOMEN (MELIA HOTEL, KUALA LUMPUR)",
+      "date":
+      {
+        "start_date":
+        "Jan 7",
+        "when":
+        "Wed, 7 Jan, 9:00 am – Thu, 8 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "The Kitchen @ Melia, Melia Kuala Lumpur, 16, Jln Imbi, Imbi",
+        "Kuala Lumpur"
+      ],
+      "link":
+      "https://www.myhits.com.my/event/digital-future-for-women-melia-hotel-kuala-lumpur/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=gsJ_ukwBIhC_M1_dAyfLqEuYS2HkVrFws3IDGkqIZ7vf2kc155u1Ngzuu_DbVEIU6ydkm2tDJxXDLr6Jz7Fnt5M5_JMz_A-6DJvZujGAAlMyJFbQBnI",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3628f833750b:0x1231bfa22dbf4f3a?sa=X&ved=2ahUKEwjwuYrPjPeRAxUQhIkEHR9INFQQ9eIBegQIQxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3628f833750b%3A0x1231bfa22dbf4f3a&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=0&type=place"
+      },
+      "description":
+      "Brochure Register",
+      "ticket_info":
+      [
+        {
+          "source":
+          "High Impact Training Services",
+          "link":
+          "https://www.myhits.com.my/event/digital-future-for-women-melia-hotel-kuala-lumpur/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Kitchen @ Melia",
+        "rating":
+        3.5,
+        "reviews":
+        55,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=The+Kitchen+%40+Melia&ludocid=1311039669814644538&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCQgVocVkkdrfbGQqyXyNo8BI9zTSs-DGfWFI-mLnthtcBAZhiyMJ-bpQ&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1n9Dsln1QwSavnTpaC7XSSBqVWoSIUWPCDChM8pfc5ufAU0ZXYtsqx9x9zA&s=10"
+    },
+    {
+      "title":
+      "BrowserStack QA Meetup - Malaysia : AI in Testing 2025 & Beyond",
+      "date":
+      {
+        "start_date":
+        "Jan 8",
+        "when":
+        "Thu, 8 Jan, 5:30 – 7:30 pm"
+      },
+      "address":
+      [
+        "Skill Quotient Group, Level 6, Tower 2A, Avenue 5, The Horizon, 8, Jalan Kerinchi, Bangsar South",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.meetup.com/browserstack-software-testing-and-qa-meetup-group-malaysia/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=cQRTSGiGObAhpSfV8zICqmCX7QWCOfXTa3uLIV3M9KTISzUCIx0e1cs3JdX4Om77f9gNw_BZPUv_tQQDXijjxNJxetjbBjsTc-6EH4FH2BkTDCTE2T0",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49d32b4dcde7:0x8f69a079a86f97c5?sa=X&ved=2ahUKEwjwuYrPjPeRAxUQhIkEHR9INFQQ9eIBegQISxAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49d32b4dcde7%3A0x8f69a079a86f97c5&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=0&type=place"
+      },
+      "description":
+      "Join the BrowserStack QA community Meetup for an evening of networking, lightning talks, and real-world stories on how AI is reshaping software testing. ​This Meetup is all about bringing QAs...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Meetup",
+          "link":
+          "https://www.meetup.com/browserstack-software-testing-and-qa-meetup-group-malaysia/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Skill Quotient Group",
+        "rating":
+        4.3,
+        "reviews":
+        7,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Skill+Quotient+Group&ludocid=10333967264355686341&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=cQRTSGiGObAhpSfV8zICqmCX7QWCOfXTa3uLIV3M9KTISzUCIx0e1cs3JdX4Om77f9gNw_BZPUv_tQQDXijjxNJxetjbBjsTc-6EH4FH2BkTDCTE2T0",
+      "image":
+      "https://www.google.com/maps/vt/data=cQRTSGiGObAhpSfV8zICqmCX7QWCOfXTa3uLIV3M9KTISzUCIx0e1cs3JdX4Om77f9gNw_BZPUv_tQQDXijjxNJxetjbBjsTc-6EH4FH2BkTDCTE2T0"
+    },
+    {
+      "title":
+      "NEON Music Festival Presents: Novah Live in KL",
+      "date":
+      {
+        "start_date":
+        "Jan 17",
+        "when":
+        "Sat, 17 Jan, 11:00 pm – Sun, 18 Jan, 2:00 am"
+      },
+      "address":
+      [
+        "Lot GS.03, Ground Floor, Lane 23 Club - The Exchange TRX, The Exchange TRX, Persiaran TRX",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://megatix.asia/events/nmf-novah",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=XYLAL-ajI6g7ECRJU5xxOi0MOwZ1HV1klP2vP4ogPWyBRoqxv9kS5kMLH0SMH1whvOVck0L2AqqE3G-HmLTZ7hyFWXt4T51FD73LDOl1cEDEFkzfwWQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc370012517aff:0xd73ef2407bf46cb1?sa=X&ved=2ahUKEwj0j9_hjPeRAxUCMmIAHU-9FW44ChD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc370012517aff%3A0xd73ef2407bf46cb1&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=10&type=place"
+      },
+      "description":
+      "Event Details NEON Music Festival brings a high-intensity night of electronic music and underground club culture. Headliner NOYAH takes over LANE 23 with her signature sound, supported by Honey...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Megatix.asia",
+          "link":
+          "https://megatix.asia/events/nmf-novah",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Lane 23 Club - The Exchange TRX",
+        "rating":
+        4.3,
+        "reviews":
+        134,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Lane+23+Club+-+The+Exchange+TRX&ludocid=15510100525482011825&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLHC1NDuHeiaRA2y2lHYS51rpGmbEvTz_YsjFuCkc&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMbGXJOz_EDqjjmvWS0NuCIT406-bt-lB1ugbg6HVfEQ&s"
+    },
+    {
+      "title":
+      "TPAS Annual School Concert & Award Ceremony",
+      "date":
+      {
+        "start_date":
+        "Jan 11",
+        "when":
+        "Sun, 11 Jan, 2:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Temple of Fine Arts KL, 116, Jalan Berhala, Brickfields",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.com.au/e/tpas-annual-school-concert-award-ceremony-tickets-1978825769144",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=AliEGW0f-lBClhUG7XlCUW1hxOtBP55k0XxnW3R8arBSA8284UOx_1Wtkhw7LCtXICCpSL-4_W0-4C9mntW4nsEuiY-eIBafKLWYrIuBPIEwm-iau0g",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49ebb99f2a69:0xe36a866a7b9fe8a?sa=X&ved=2ahUKEwj0j9_hjPeRAxUCMmIAHU-9FW44ChD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49ebb99f2a69%3A0xe36a866a7b9fe8a&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=10&type=place"
+      },
+      "description":
+      "The TPAS Annual Concert & Award Ceremony was a heartfelt celebration of creativity in every form. Graceful ballet, inspiring music, and expressive art came together to showcase our students’...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com.au",
+          "link":
+          "https://www.eventbrite.com.au/e/tpas-annual-school-concert-award-ceremony-tickets-1978825769144",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Temple of Fine Arts KL",
+        "rating":
+        4.4,
+        "reviews":
+        289,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Temple+of+Fine+Arts+KL&ludocid=1024191124127481482&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=AliEGW0f-lBClhUG7XlCUW1hxOtBP55k0XxnW3R8arBSA8284UOx_1Wtkhw7LCtXICCpSL-4_W0-4C9mntW4nsEuiY-eIBafKLWYrIuBPIEwm-iau0g",
+      "image":
+      "https://www.google.com/maps/vt/data=AliEGW0f-lBClhUG7XlCUW1hxOtBP55k0XxnW3R8arBSA8284UOx_1Wtkhw7LCtXICCpSL-4_W0-4C9mntW4nsEuiY-eIBafKLWYrIuBPIEwm-iau0g"
+    },
+    {
+      "title":
+      "Kuala Lumpur Evening Tour: Chinatown, Temple, Dinner",
+      "date":
+      {
+        "start_date":
+        "Mar 24",
+        "when":
+        "Tue, 24 Mar"
+      },
+      "address":
+      [
+        "MATIC, 109, Jln Ampang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.peek.com/kuala-lumpur/r0g87x/kuala-lumpur-malaysian-cultural-night-experience-with-buffet-dinner/a0a68m4?list_info=Activity%7CSiblings%7C2",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=xRdJpcCMXbIKX9pKXuPlRPeXD0cNENTGuSyTnsbQIpEM7bVV7dcPD0-W7t1dsQ0rWqIEJi10McfRWtRe-HASr8uSslx5Rj0OAvH5Ac99BvAf4w59cBE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37cf6f166e6f:0x5107641e813b1a0d?sa=X&ved=2ahUKEwj0j9_hjPeRAxUCMmIAHU-9FW44ChD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37cf6f166e6f%3A0x5107641e813b1a0d&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=10&type=place"
+      },
+      "description":
+      "Discover Kuala Lumpur's vibrant culture with a guided tour, Chinatown bazaar visit, Hindu temple, cultural show, and buffet dinner. Book now for an unforgettable night!",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Peek",
+          "link":
+          "https://www.peek.com/kuala-lumpur/r0g87x/kuala-lumpur-malaysian-cultural-night-experience-with-buffet-dinner/a0a68m4?list_info=Activity%7CSiblings%7C2",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "MATIC",
+        "rating":
+        4.3,
+        "reviews":
+        2496,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=MATIC&ludocid=5838745524089068045&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpSl1nx8pq8mCBh7Qleg7uO4EoTPWBS94dfUznvxlEnIBtu04u6clUPyE&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtISrXEb_SmQpekppMYyv4YbaqaJJzcKI2b2T65OLwbw&s=10"
+    },
+    {
+      "title":
+      "Strategic Leadership and Operational Excellence in the Oil Refinery Sector",
+      "date":
+      {
+        "start_date":
+        "Jan 6",
+        "when":
+        "28 Dec 2025, 8:00 am – 8 Jan 2026, 11:00 am"
+      },
+      "address":
+      [
+        "The Westin Kuala Lumpur, 199, Bukit Bintang Rd",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.bmc.net/ct-strategic-leadership-and-operational-excellence-in-the-oil-refinery-sector-Kuala-Lumpur-MNG267-3",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362c6f063617:0xbd4dbd340412e4ce?sa=X&ved=2ahUKEwj0j9_hjPeRAxUCMmIAHU-9FW44ChD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362c6f063617%3A0xbd4dbd340412e4ce&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=10&type=place"
+      },
+      "description":
+      "BMC Training provides Strategic Leadership and Operational Excellence in the Oil Refinery Sector in Kuala Lumpur from 2025-12-28 to 2026-1-8",
+      "ticket_info":
+      [
+        {
+          "source":
+          "BMC Training",
+          "link":
+          "https://www.bmc.net/ct-strategic-leadership-and-operational-excellence-in-the-oil-refinery-sector-Kuala-Lumpur-MNG267-3",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Westin Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        5673,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=The+Westin+Kuala+Lumpur&ludocid=13640766877479396558&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU",
+      "image":
+      "https://www.google.com/maps/vt/data=UQkE5dcCL7QdGRJBomXLs70ZgVSHIINygAF2lwbym35t1O8816jnLVxWWdNIFe-u98uB9mQb3roXtky-tuBIUPl_xv-SLZLXMJTZLr9-phT6gI6tzqU"
+    },
+    {
+      "title":
+      "GO$PEL",
+      "date":
+      {
+        "start_date":
+        "Feb 14",
+        "when":
+        "Sat, 14 Feb, 6:00 pm"
+      },
+      "address":
+      [
+        "Level 29, Marquis Sky Lounge | Rooftop Bar Kuala Lumpur, Rooftop Gtower, Marquis Sky Lounge",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.stubhub.com/go-pel-tickets/performer/150605303",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=ORQwWlwUZHiq5kxPJzCATQ6iLfH2rhLgWd89UJPeakkiOuWZ7mZup7JTJ7uX6ZgqJHoDME5ZqmPx4kvMX2BrO9syH0uVzNgPixu5nFYuDUC0Qd83s4w",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3780649bd70b:0x16699e8fa6d65bea?sa=X&ved=2ahUKEwj0j9_hjPeRAxUCMmIAHU-9FW44ChD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3780649bd70b%3A0x16699e8fa6d65bea&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=10&type=place"
+      },
+      "ticket_info":
+      [
+        {
+          "source":
+          "StubHub",
+          "link":
+          "https://www.stubhub.com/go-pel-tickets/performer/150605303",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Marquis Sky Lounge | Rooftop Bar Kuala Lumpur",
+        "rating":
+        4.7,
+        "reviews":
+        1038,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Marquis+Sky+Lounge+%7C+Rooftop+Bar+Kuala+Lumpur&ludocid=1614996281205611498&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9M8BSS3B5eCrxkQdQhaggCh8oNbaOPmk1SYK4yP3NVhUB802_sIIRxjY&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqX-sYTQ-kBsdNtZZEgYHu6kI7LalbW5QQw-s4lDGo1g&s=10"
+    },
+    {
+      "title":
+      "Auction Office Unit in Kuala Lumpur for RM162000",
+      "date":
+      {
+        "start_date":
+        "Jan 15",
+        "when":
+        "Thu, 15 Jan, 9:00 am"
+      },
+      "address":
+      [
+        "Super Refleks Sdn Bhd, Blok E-33-3-2, Jalan Semarak Api 2, Off, Jln Gombak, Diamond Square",
+        "Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.auctionpro.my/property/bDlsdG83S3M5K25FUUtTTEduS2M2Zz09/Auction-Office-Unit-in-Kuala-Lumpur-for-RM162000",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=7IrLZABrTVV0Ed_LXc15WrW99rI5X7lq6QYEQ7czvF8h5gCYdtxdfaIxx-fxU4jTs1M0P0mAetyESLJqLRmYhhtDWsc1gueNu-1Rsgdi24uGwDnswxQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc47a2316afd7b:0xa5f4e43844d73e18?sa=X&ved=2ahUKEwj0j9_hjPeRAxUCMmIAHU-9FW44ChD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc47a2316afd7b%3A0xa5f4e43844d73e18&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=10&type=place"
+      },
+      "ticket_info":
+      [
+        {
+          "source":
+          "Auctionpro.my",
+          "link":
+          "https://www.auctionpro.my/property/bDlsdG83S3M5K25FUUtTTEduS2M2Zz09/Auction-Office-Unit-in-Kuala-Lumpur-for-RM162000",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA9yOUwp7epHBcadzMlmS1FnTakWqYnXa_E-YD4yGiLpLkzvg4o1twJW0&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScG2hqwolsjJmHXZVtMRX5AFkApP40skhEjaBCiVaYrN5FBpIX-vWpTKGeNw&s=10"
+    },
+    {
+      "title":
+      "Lunar New Year Afternoon Tea at the Lobby Lounge Shangri-La Kuala Lumpur",
+      "date":
+      {
+        "start_date":
+        "Jan 10",
+        "when":
+        "Sat, 10 Jan, 3:00 – 6:00 pm"
+      },
+      "address":
+      [
+        "Shangri-la Lobby Lounge, Shangri La Hotel, 11, Jln Sultan Ismail, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://kualalumpurwithkids.com/event/lunar-new-year-afternoon-tea-at-the-lobby-lounge-shangri-la-kuala-lumpur/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=LSltSfiP3DhhdzUE1De5MmzwsLFxyOBZtETiEBfeDzMjXtUSmtWGYSodO-y4X6J9OuubaWuxgdutN28pe6nKHls4oqaIchqjgwRK0w1SKcuQzJOfy6k",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc482a72b1a05f:0x62ece6b8ccbf37a0?sa=X&ved=2ahUKEwj0j9_hjPeRAxUCMmIAHU-9FW44ChD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc482a72b1a05f%3A0x62ece6b8ccbf37a0&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=10&type=place"
+      },
+      "description":
+      "Afternoon of Elegance & Prosperity at Shangri-La Kuala Lumpur Savour highlights such as five-spiced trout tartlet, waxed duck roll with mandarin gel, and prawn kataifi with mango salsa, followed...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Kualalumpurwithkids.com",
+          "link":
+          "https://kualalumpurwithkids.com/event/lunar-new-year-afternoon-tea-at-the-lobby-lounge-shangri-la-kuala-lumpur/",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Shangri-la Lobby Lounge",
+        "rating":
+        4.5,
+        "reviews":
+        119,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Shangri-la+Lobby+Lounge&ludocid=7128325991604107168&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DWd0R1cXkHopS3rQoNY-zxf1FkqBollPinJ1QzRrp--J2GL6dXrUIVQ&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnElNuRYeV07FbgAt7NKfctDsoDQU5mq-WL0FVbt8ndxp6P9_7mGMvfrhTKA&s=10"
+    },
+    {
+      "title":
+      "ELN Corporate Connect: The Bufori Experience (KL)",
+      "date":
+      {
+        "start_date":
+        "Feb 5",
+        "when":
+        "Thu, 5 Feb, 10:30 am – 12:00 pm"
+      },
+      "address":
+      [
+        "Bufori Motor Car Company (M) Sdn Bhd, 34B, Jalan 5/32a, Kawasan Perusahaan Kepong",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://web.cvent.com/event/50d005d7-a5a8-4282-9a25-7193f817817a",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=BWHYRtrLxO6ewMLUj5-QQz85ocqwc1Ls5Khsz6D6M6ABgMB1exWQ9e1gyOOiEq00tqhKl-YOu8h_2P-oEjIqrTt9y4nzbf36GGTV03OWqEBBFIQqJsM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc46308f78ebfd:0x5625dbc881b23a5c?sa=X&ved=2ahUKEwj0j9_hjPeRAxUCMmIAHU-9FW44ChD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc46308f78ebfd%3A0x5625dbc881b23a5c&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=10&type=place"
+      },
+      "description":
+      "As CPA Australia celebrates 70 years in Malaysia, the Emerging Leaders Network (ELN) invites you to a Corporate Connect experience at Bufori, a Malaysian luxury car brand recognised for its...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Cvent",
+          "link":
+          "https://web.cvent.com/event/50d005d7-a5a8-4282-9a25-7193f817817a",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "CPA Australia",
+          "link":
+          "https://events.cpaaustralia.com.au/event/50d005d7-a5a8-4282-9a25-7193f817817a",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Bufori Motor Car Company (M) Sdn Bhd",
+        "rating":
+        4.6,
+        "reviews":
+        77,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Bufori+Motor+Car+Company+(M)+Sdn+Bhd&ludocid=6207609315615980124&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=BWHYRtrLxO6ewMLUj5-QQz85ocqwc1Ls5Khsz6D6M6ABgMB1exWQ9e1gyOOiEq00tqhKl-YOu8h_2P-oEjIqrTt9y4nzbf36GGTV03OWqEBBFIQqJsM",
+      "image":
+      "https://www.google.com/maps/vt/data=BWHYRtrLxO6ewMLUj5-QQz85ocqwc1Ls5Khsz6D6M6ABgMB1exWQ9e1gyOOiEq00tqhKl-YOu8h_2P-oEjIqrTt9y4nzbf36GGTV03OWqEBBFIQqJsM"
+    },
+    {
+      "title":
+      "MEF Meet-up Kuala Lumpur",
+      "date":
+      {
+        "start_date":
+        "Jan 21",
+        "when":
+        "Wed, 21 Jan, 6:00 – 8:00 pm"
+      },
+      "address":
+      [
+        "Level 23A Tower B, Fuego at Troika Sky Dining, The Troika, 19, Persiaran KLCC, Kuala Lumpur",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://netnumber.com/event/mef-meet-up-kuala-lumpur/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=W-90YRALyAoFRMuEtTRV0W2L3DbZLV3Z3RKdsBubAsF4-8L4MmAc_7Qwv0MIDL7iNpbzLWK-64E6vWNZpLR9WAuugmnp1w8ST2bCf48d-2QwFfejFv4",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37d1d7fddcc3:0xfb3baf76fe660b25?sa=X&ved=2ahUKEwj0j9_hjPeRAxUCMmIAHU-9FW44ChD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37d1d7fddcc3%3A0xfb3baf76fe660b25&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=10&type=place"
+      },
+      "description":
+      "January 21, 2026, Netnumber is attending the MEF Meet-Up in Kuala Lumpur.\nJoin us the evening before the MEF Leadership Forum Asia Pacific for the exclusive Meet-up. \nWe’re looking forward to...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Netnumber",
+          "link":
+          "https://netnumber.com/event/mef-meet-up-kuala-lumpur/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Fuego at Troika Sky Dining",
+        "rating":
+        4.7,
+        "reviews":
+        3077,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Fuego+at+Troika+Sky+Dining&ludocid=18103256052754942757&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDI2wk_9KvhAC1kU3LHYiQxK2znEWrhyhaqTSlcKkvWlq3c1e1Jcd4G4g&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRe8bMCo3_mFoUfm-jnEeBmbVQEuM_yCxZDN_4HPzOlw&s=10"
+    },
+    {
+      "title":
+      "Matchmaker Setlist",
+      "date":
+      {
+        "start_date":
+        "Feb 1",
+        "when":
+        "Sun, 1 Feb, 8:00 pm"
+      },
+      "address":
+      [
+        "BE KL, 1-1, Dataran Dwitasik, Bandar Sri Permaisuri Cheras",
+        "Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/Concert-Tickets/World-Music/Kureiji-Tickets/E-159946935",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=e-BKwzGHjh6Zl1YoazHGnlz2Goee-xEU-K4YlRsz7t7USQ-Iat05ezEP-NLRJvR45SuTQjGqt_lfKeifGnxFxwPTpWjQodH1NkDryTASPKAEswCTm7c",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3595d53757ab:0xfe5da448b6a93af1?sa=X&ved=2ahUKEwj-4tLqjPeRAxULLtAFHfcUJAU4FBD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3595d53757ab%3A0xfe5da448b6a93af1&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=20&type=place"
+      },
+      "description":
+      "Ticket listings for Matchmaker Setlist at BE KL in Kuala Lumpur on 02/01/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Viagogo",
+          "link":
+          "https://www.viagogo.com/Concert-Tickets/World-Music/Kureiji-Tickets/E-159946935",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "StubHub",
+          "link":
+          "https://www.stubhub.com/kureiji-tickets/performer/150596684",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "BE KL",
+        "rating":
+        4.8,
+        "reviews":
+        35,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=BE+KL&ludocid=18328986690676931313&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=e-BKwzGHjh6Zl1YoazHGnlz2Goee-xEU-K4YlRsz7t7USQ-Iat05ezEP-NLRJvR45SuTQjGqt_lfKeifGnxFxwPTpWjQodH1NkDryTASPKAEswCTm7c",
+      "image":
+      "https://www.google.com/maps/vt/data=e-BKwzGHjh6Zl1YoazHGnlz2Goee-xEU-K4YlRsz7t7USQ-Iat05ezEP-NLRJvR45SuTQjGqt_lfKeifGnxFxwPTpWjQodH1NkDryTASPKAEswCTm7c"
+    },
+    {
+      "title":
+      "CDM PROFESIONAL / CDM COORDINATOR TRAINED PERSON",
+      "date":
+      {
+        "start_date":
+        "Mar 26",
+        "when":
+        "Thu, 26 Mar, 5:00 pm – Sat, 28 Mar, 1:00 am"
+      },
+      "address":
+      [
+        "UTM Kuala Lumpur, Jalan Sultan Yahya Petra, Universiti Teknologi Malaysia",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://utmunboxresources.com/event/cdm-profesional-cdm-coordinator-trained-person-4/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=uJaf7vTcxogXj4DyG6lCDbct6F11zV_pc4-bCUpJCl_VrT75VUWnrWcnsTtQ8HCXKJ8Xmlhz47vjD-UF-QhoYr-noqggnhuBcKBNvMZG3TbRWO96NSw",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37e8de0a443f:0x9e772d5b7ac66d27?sa=X&ved=2ahUKEwj-4tLqjPeRAxULLtAFHfcUJAU4FBD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37e8de0a443f%3A0x9e772d5b7ac66d27&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=20&type=place"
+      },
+      "description":
+      "NORMAL: RM1800 HRDC: RM1999",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Unbox Resources Sdn Bhd",
+          "link":
+          "https://utmunboxresources.com/event/cdm-profesional-cdm-coordinator-trained-person-4/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "UTM Kuala Lumpur",
+        "rating":
+        4.4,
+        "reviews":
+        605,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=UTM+Kuala+Lumpur&ludocid=11418645251146280231&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbcvY9REdYkOITxtD2OWVmBj-lUm5VssjJRQMcDGjwYoSuhkavpaxbciE&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDHej91Je9lsO5DT3Bs1pTfstvnFuSpS9MwNjmPUBC0o_V6zehyMH5BsWqOQ&s=10"
+    },
+    {
+      "title":
+      "Sayur in the City: A Mini Garden Experience",
+      "date":
+      {
+        "start_date":
+        "Jan 17",
+        "when":
+        "Sat, 17 Jan, 9:00 – 10:00 am"
+      },
+      "address":
+      [
+        "Sayur In The City @ YWCA KL, 143, Jalan Hang Jebat, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/sayur-in-the-city-a-mini-garden-experience-tickets-1978950614560",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=ILk-AIdYWgPdcsHYTpuBehNrNdL5tFeheEPjD5zwiDRbecTavgzrBX49Yu2O7RcP3Loh_E140gbs_zVdu7_RSaFXluZ7BAoVryDX5q4tYbyIAhuNbBM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc49b8c4f6f3ed:0x1d5ed05f9f7c31cd?sa=X&ved=2ahUKEwj-4tLqjPeRAxULLtAFHfcUJAU4FBD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc49b8c4f6f3ed%3A0x1d5ed05f9f7c31cd&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=20&type=place"
+      },
+      "description":
+      "Join us for a refreshing morning at Sayur in the City, an urban farm nestled in the heart of Kuala Lumpur, and discover the meaningful work. Join us for a refreshing morning at Sayur in the City...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/sayur-in-the-city-a-mini-garden-experience-tickets-1978949734929",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Sayur In The City @ YWCA KL",
+        "rating":
+        5,
+        "reviews":
+        1,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Sayur+In+The+City+%40+YWCA+KL&ludocid=2116357984026898893&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREb4qftPG7lf4xA9q7hrjnuP4VsHFGViWsYhaw5XISKqtw20OcAB0BgKs&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZtNJQ887jrvzDn8sb_SS-nXPmg06f5u97t8TaGNjldg&s"
+    },
+    {
+      "title":
+      "Butterfingers and Amir Jahari",
+      "date":
+      {
+        "start_date":
+        "Jan 24",
+        "when":
+        "Sat, 24 Jan, 3:00 – 6:00 pm"
+      },
+      "address":
+      [
+        "LaLaport Bukit Bintang City Centre, 2, Jln Hang Tuah, Bukit Bintang",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/Concert-Tickets/Rap-and-Hip-Hop-Music/Butterfingers-Tickets/E-160134103",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=LRRnGKqe2pOLadY-52pdkOhZr5MEPC8o8OZ4DMDcSsqgnp4b27SPe2V-vOHBLsx91CyI3zEYc3sBik1XEGldkYf3CHoiZBKJAsxApTRIAln_q19OLfQ",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3726cf342663:0x5f4e529b3d3e41b0?sa=X&ved=2ahUKEwj-4tLqjPeRAxULLtAFHfcUJAU4FBD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3726cf342663%3A0x5f4e529b3d3e41b0&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=20&type=place"
+      },
+      "description":
+      "Ticket listings for Butterfingers and Amir Jahari at Zepp Kuala Lumpur in Kuala Lumpur on 01/24/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/butterfingers-kuala-lumpur-tickets-1-24-2026/event/160134103/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-80655?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-160134103%7Ccy-3578&ps_ev=160134103",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "LaLaport Bukit Bintang City Centre",
+        "rating":
+        4.3,
+        "reviews":
+        6827,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=LaLaport+Bukit+Bintang+City+Centre&ludocid=6867517308487483824&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQ4HMCiIH2pSkdQV0Ex93xrVhfUdBj9K_k3GqnWmzrHY-PrRmjytWTc4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW6_nxADdvPHRjy1aijq6LbrhXof5oCxznQg8hJ_hHfQ&s=10"
+    },
+    {
+      "title":
+      "UM Deep Tech (UMDT) Cohort-4 Demo Day",
+      "date":
+      {
+        "start_date":
+        "Jan 15",
+        "when":
+        "Thu, 15 Jan, 9:30 am – 2:00 pm"
+      },
+      "address":
+      [
+        "KPPI Building, Universiti Malaya",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/um-deep-tech-umdt-cohort-4-demo-day-tickets-1976689790374?aff=ebdssbcategorybrowse",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=kru0aKtAPSs3dWBysB1o2R_I074yg9KcgAWHWTLPZzeRoonziMUGEWb6ZptD4i7qUrRVkUcodm_U1JlXtTuyGGR8b7h8wRN5rGG4vbxIUZBzpfyQpcA",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4977c6bf75d1:0x7445c792ba343060?sa=X&ved=2ahUKEwj-4tLqjPeRAxULLtAFHfcUJAU4FBD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4977c6bf75d1%3A0x7445c792ba343060&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=20&type=place"
+      },
+      "description":
+      "Get ready for an awesome showcase of cutting-edge tech projects at UM Deep Tech (UMDT) Cohort-4 Demo Day on January 10th! 🌟 UM Deep Tech (UMDT) Cohort-3 Demo Day 🌟 📅 Date: Thursday, 15 January...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/um-deep-tech-umdt-cohort-4-demo-day-tickets-1976689790374",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "KPPI Building, Universiti Malaya",
+        "rating":
+        4.5,
+        "reviews":
+        25,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=KPPI+Building,+Universiti+Malaya&ludocid=8378322114795810912&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=kru0aKtAPSs3dWBysB1o2R_I074yg9KcgAWHWTLPZzeRoonziMUGEWb6ZptD4i7qUrRVkUcodm_U1JlXtTuyGGR8b7h8wRN5rGG4vbxIUZBzpfyQpcA",
+      "image":
+      "https://www.google.com/maps/vt/data=kru0aKtAPSs3dWBysB1o2R_I074yg9KcgAWHWTLPZzeRoonziMUGEWb6ZptD4i7qUrRVkUcodm_U1JlXtTuyGGR8b7h8wRN5rGG4vbxIUZBzpfyQpcA"
+    },
+    {
+      "title":
+      "PATHDFINDERS Education Fair - Kuala Lumpur",
+      "date":
+      {
+        "start_date":
+        "Jan 22",
+        "when":
+        "Thu, 22 Jan, 1:00 – 7:00 pm"
+      },
+      "address":
+      [
+        "Cititel Mid Valley, Lingkaran Syed Putra, Mid Valley City",
+        "Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/pathdfinders-education-fair-kuala-lumpur-tickets-1977568210753",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=tVqjOfSr8Uv_JmmOsKoPKGVo5Aus_u8_4C8uvtgeB1W2HkIKXnOC9RjWVPhJmHfFYL3gnyOoMBew8lsKktXDNnN3O9nkNwgSGrd5gI-vZRGkoxkocIs",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc498ea887c2d7:0x90dfd956df69d7ba?sa=X&ved=2ahUKEwj-4tLqjPeRAxULLtAFHfcUJAU4FBD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc498ea887c2d7%3A0x90dfd956df69d7ba&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=20&type=place"
+      },
+      "description":
+      "Pathfinders Education Fair is proudly organized by MyStudy, a trusted education consultancy dedicated to helping students find the best way.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/pathdfinders-education-fair-kuala-lumpur-tickets-1977568210753",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Cititel Mid Valley",
+        "rating":
+        4.1,
+        "reviews":
+        3936,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Cititel+Mid+Valley&ludocid=10439301428406769594&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCVQbs_am95FFymwd4N1keaf7i6p5KfSUKE_ZnM0U&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCwLonTQX4f1Wdc1QyIx2TFhmwwDas44Iy_-_PZ_MOkQ&s=10"
+    },
+    {
+      "title":
+      "Tribute ST12 & Kangen Band",
+      "date":
+      {
+        "start_date":
+        "Jan 18",
+        "when":
+        "Sun, 18 Jan, 8:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "BE KL, 1-1, Dataran Dwitasik, Bandar Sri Permaisuri Cheras",
+        "Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/au/Concert-Tickets/Other-Concerts/Kangen-Band-Tickets/E-160130589",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=e-BKwzGHjh6Zl1YoazHGnlz2Goee-xEU-K4YlRsz7t7USQ-Iat05ezEP-NLRJvR45SuTQjGqt_lfKeifGnxFxwPTpWjQodH1NkDryTASPKAEswCTm7c",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3595d53757ab:0xfe5da448b6a93af1?sa=X&ved=2ahUKEwj-4tLqjPeRAxULLtAFHfcUJAU4FBD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3595d53757ab%3A0xfe5da448b6a93af1&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=20&type=place"
+      },
+      "description":
+      "Ticket listings for Tribute ST12 & Kangen Band at BE KL in Kuala Lumpur on 18/01/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/_C-150304329?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150191069%7Cev-160130589%7Ccy-3578&ps_ev=160130589",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-150304329?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150191069%7Cev-160130589%7Ccy-3578&ps_ev=160130589",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "BE KL",
+        "rating":
+        4.8,
+        "reviews":
+        35,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=BE+KL&ludocid=18328986690676931313&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzezEafla7f35glFlxqGDDnZfCalwJNPNBOQ-3Ym-UoHUALoZ79GN8l-k&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHTnUlEDDSmxaxXNzkiScL_iX4imk8uPOf3mbclHOylQ&s=10"
+    },
+    {
+      "title":
+      "Hari Patah Hati Wanita",
+      "date":
+      {
+        "start_date":
+        "Jan 17",
+        "when":
+        "Sat, 17 Jan, 8:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "BE KL, 1-1, Dataran Dwitasik, Bandar Sri Permaisuri Cheras",
+        "Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.co.za/Festival-Tickets/International-Festivals/Hari-Patah-Hati-Wanita-Tickets",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=e-BKwzGHjh6Zl1YoazHGnlz2Goee-xEU-K4YlRsz7t7USQ-Iat05ezEP-NLRJvR45SuTQjGqt_lfKeifGnxFxwPTpWjQodH1NkDryTASPKAEswCTm7c",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3595d53757ab:0xfe5da448b6a93af1?sa=X&ved=2ahUKEwj-4tLqjPeRAxULLtAFHfcUJAU4FBD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3595d53757ab%3A0xfe5da448b6a93af1&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=20&type=place"
+      },
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/_C-150599238?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150191069%7Cev-159997405%7Ccy-3578&ps_ev=159997405",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-150599238?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150191069%7Cev-159997405%7Ccy-3578&ps_ev=159997405",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "BE KL",
+        "rating":
+        4.8,
+        "reviews":
+        35,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=BE+KL&ludocid=18328986690676931313&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWPs89Ms8qXn6D8xcTq4esfJQP1I3WaSqyMkF15BlSaz07lKV0mLIHs5c&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi8zein7NRGaNBEXSJT3GtJh1AKXgLfVdWO65b4mYbyg&s=10"
+    },
+    {
+      "title":
+      "Introverts’ Speed Dating 4.0 (Mixer / Non-Halal) by Take The Leap",
+      "date":
+      {
+        "start_date":
+        "Mar 7",
+        "when":
+        "Sat, 7 Mar, 3:00 – 7:00 pm"
+      },
+      "address":
+      [
+        "1(BO1-C, Common Ground KL Eco City, Boutique Office, Menara 2, Levels 16-19, 3, Jalan Bangsar, KL Eco City",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://chinchilla-chihuahua-x757.squarespace.com/events/introverts-speed-dating-mixer-4",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=sB97o1eKi69Z0JegF2CpY1-bBQgZRJWMArYlg9c83RzE6zU7_y3uC9Iy3EpbuO7lGxrARMUetzAj6y02awWYtGQPrxGS7ug3fc4PuIIKy-xluGGpvnc",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4917cd971547:0x88822670a0357010?sa=X&ved=2ahUKEwj-4tLqjPeRAxULLtAFHfcUJAU4FBD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4917cd971547%3A0x88822670a0357010&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=20&type=place"
+      },
+      "description":
+      "(Mixer / Non-Halal Round) Dating can be a very daunting task. What if talking to new people can be less dreading? Reduce the stress of dating and have a fun afternoon of ice breakers and...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/introverts-speed-dating-40-mixer-non-halal-by-take-the-leap-tickets-1978097868975",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Take The Leap",
+          "link":
+          "https://chinchilla-chihuahua-x757.squarespace.com/events/introverts-speed-dating-mixer-4",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Common Ground KL Eco City",
+        "rating":
+        4.4,
+        "reviews":
+        48,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Common+Ground+KL+Eco+City&ludocid=9836466801296633872&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTecRnAXXgrcIwXig6azuE_WmEXaT-2x-P2LQD8mIkobi4Jfc-whe8GSV4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ24NQERp0Pl8vsoWSsg-BAd6Ca46FfEoRh_K8A_tlObQ&s=10"
+    },
+    {
+      "title":
+      "Malaysia Tango Weekend (MTW) 2026",
+      "date":
+      {
+        "start_date":
+        "Mar 19",
+        "when":
+        "Thu, 19 Mar, 7:00 am – Mon, 23 Mar, 6:59 am"
+      },
+      "address":
+      [
+        "TANGO MALAYSIA, Tundok, Tivoli Villas, Jalan Medang, Bangsar",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://tangofestivals.net/events/malaysia-tango-weekend-mtw-2026/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=Wokzb7Xdv3vdBm0MKJ2BAJYAfflJpt2y2hZJ0lS5FJ3Eg5v641NGRmQifPMibomqFjc1UsiVthUDbQFsQsqsjT9LTxfXGx54KHZiq4-S4XE7tDi8mGc",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4909cabd51d9:0xbad95ba32f4b86d9?sa=X&ved=2ahUKEwjK5bP4jPeRAxUiHNAFHd9bMAc4HhD14gF6BAgDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4909cabd51d9%3A0xbad95ba32f4b86d9&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=30&type=place"
+      },
+      "description":
+      "Guide to Tango Festivals, Marathons, Vacations",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Tango Festivals",
+          "link":
+          "https://tangofestivals.net/events/malaysia-tango-weekend-mtw-2026/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "TANGO MALAYSIA",
+        "rating":
+        5,
+        "reviews":
+        14,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=TANGO+MALAYSIA&ludocid=13463893317432084185&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSga4QKtlp7FEB-Tr7tuQrSWgHADWEuDG1A_OEfW1fLQ1pqESHh8LjPyho&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_UydL-PLC_XfulbulkC6AW06HE6JE1sb9JDmjAYhssQ&s=10"
+    },
+    {
+      "title":
+      "Cognitive Coaching Part II -Doug Woodward",
+      "date":
+      {
+        "start_date":
+        "Apr 2",
+        "when":
+        "Thu, 2 Apr, 8:00 am – Sun, 5 Apr, 3:30 pm"
+      },
+      "address":
+      [
+        "The International School of Kuala Lumpur (ISKL), No. 2, Lorong Kelab Polo Di Raja, Ampang Hilir",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/cognitive-coaching-part-ii-with-doug-woodward-tickets-1334777267739",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=3zpHRW-PycVKEsHBj3WLPAfx1IT0AlUksppGI2QNuBygSc298rWwt9Kpjbha9p7KviJ_4EDwpj38skQMYZT58kB6FX1gJCO8gpnnLSKWqeXMkdO-JUU",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc37b23897eec5:0x8440df22b50847e3?sa=X&ved=2ahUKEwjK5bP4jPeRAxUiHNAFHd9bMAc4HhD14gF6BAgLEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc37b23897eec5%3A0x8440df22b50847e3&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=30&type=place"
+      },
+      "description":
+      "Interactive and engaging 4 day training with Doug Woodward",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/cognitive-coaching-part-ii-with-doug-woodward-tickets-1334777267739",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "StubHub",
+          "link":
+          "https://www.stubhub.com/doug-woodward-tickets/performer/150561037",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "AllEvents",
+          "link":
+          "https://allevents.in/kuala-lumpur/cognitive-coaching-part-ii-with-doug-woodward/100001334777267739",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Viagogo",
+          "link":
+          "https://www.viagogo.com/Theater-Tickets/Workshops-and-Courses/Doug-Woodward-Tickets",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Eventsize",
+          "link":
+          "https://eventsize.com/event/cognitive-coaching-part-ii-with-17533979503469",
+          "link_type":
+          "more info"
+        }
+      ],
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq9FwwGEp50gYJvwNIHmaspqBSuNHLvcV21HdrqTUhh23RCbU9fhxEF4Q&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7V8vdWXWrlYx3JWNtpq-pX6Un0f_GYyIPpQb_lXIolg&s=10"
+    },
+    {
+      "title":
+      "A Tribute to Dedication & Resilience: When Compassion Meets Innovation",
+      "date":
+      {
+        "start_date":
+        "Jan 23",
+        "when":
+        "Fri, 23 Jan, 3:00 – 6:00 pm"
+      },
+      "address":
+      [
+        "P-09, Botanica+Co at Bamboo Hills, Taman Bukit Bambu, Off, Lebuhraya Duta - Ulu Kelang, Taman Bamboo",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/a-tribute-to-dedication-resilience-when-compassion-meets-innovation-tickets-1969027860335",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=JP7Qy22tyc-P-qahJfEha_IvCo3ZtIU8hW4zvs3gsVmsSffz2vf0BdklJxRQvVM2rprDKEftcv3eniqSpSTLAauLRUg-E8EybPAm1lstNpnDkBIsrNY",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc472341d93f1d:0xd90ebacb07e453db?sa=X&ved=2ahUKEwjK5bP4jPeRAxUiHNAFHd9bMAc4HhD14gF6BAgTEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc472341d93f1d%3A0xd90ebacb07e453db&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=30&type=place"
+      },
+      "description":
+      "Your dedication inspires hope, touches lives, and advances care. We honor your passion and commitment to a healthier future.",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/a-tribute-to-dedication-resilience-when-compassion-meets-innovation-tickets-1969027860335",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Botanica+Co at Bamboo Hills",
+        "rating":
+        4.5,
+        "reviews":
+        2439,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Botanica%2BCo+at+Bamboo+Hills&ludocid=15640643937077842907&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=JP7Qy22tyc-P-qahJfEha_IvCo3ZtIU8hW4zvs3gsVmsSffz2vf0BdklJxRQvVM2rprDKEftcv3eniqSpSTLAauLRUg-E8EybPAm1lstNpnDkBIsrNY",
+      "image":
+      "https://www.google.com/maps/vt/data=JP7Qy22tyc-P-qahJfEha_IvCo3ZtIU8hW4zvs3gsVmsSffz2vf0BdklJxRQvVM2rprDKEftcv3eniqSpSTLAauLRUg-E8EybPAm1lstNpnDkBIsrNY"
+    },
+    {
+      "title":
+      "【Malaysia TAR UMT lecture】What Makes Japan’s HR System Unique – Practical Takeaways for Malaysia",
+      "date":
+      {
+        "start_date":
+        "Jan 22",
+        "when":
+        "Thu, 22 Jan, 3:00 – 5:00 pm"
+      },
+      "address":
+      [
+        "Ground Floor, Tunku Abdul Rahman University of Management and Technology (TAR UMT), Bangunan Tan Sri Khaw Kai Boh (Block A), Jalan Genting Kelang, Setapak",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.ghrjapan.org/en/event-details/tarumt",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=7mKeS0utmmgbo0nyURqaW5NV7kthvYL-GD2NxMM3nSdRO0JRfogDnLKnkZXvtEQ4Hypb05RWnwFKXBtc8T6KFwu30ubN3r3gNUS0V4qXgh8mDqRT4aM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc3843bfb6a031:0x2dc5e067aae3ab84?sa=X&ved=2ahUKEwjK5bP4jPeRAxUiHNAFHd9bMAc4HhD14gF6BAgbEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc3843bfb6a031%3A0x2dc5e067aae3ab84&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=30&type=place"
+      },
+      "description":
+      "2026年1月22日（木）、マレーシアの TAR UMT（Tunku Abdul Rahman University of Management and Technology） に招聘いただき、華園ふみ江の講演が決定いたしました。",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Ghrjapan.org",
+          "link":
+          "https://www.ghrjapan.org/en/event-details/tarumt",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Tunku Abdul Rahman University of Management and Technology (TAR UMT)",
+        "rating":
+        3.9,
+        "reviews":
+        658,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Tunku+Abdul+Rahman+University+of+Management+and+Technology+(TAR+UMT)&ludocid=3298289037972056964&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VPLyn3uGw6p6wwzMKae3LHsJMdXBYg-EHgTFKtg&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX48SmPFA-vpaY9P0bTctDNzUd3zwVZA2ZGplvDtTfhQ&s=10"
+    },
+    {
+      "title":
+      "Pakar Pertanian Expo 2026",
+      "date":
+      {
+        "start_date":
+        "Apr 17",
+        "when":
+        "Fri, 17 Apr, 10:00 am – Sun, 19 Apr, 5:00 pm"
+      },
+      "address":
+      [
+        "MAEPS Serdang, Taman Ekspo Pertanian Malaysia Serdang (MAEPS Persiaran MARDI - UPM Serdang",
+        "Seri Kembangan, Selangor"
+      ],
+      "link":
+      "https://www.eventbrite.com/e/pakar-pertanian-expo-2026-tickets-1295500640289?aff=erelexpmlt",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=MJ86Lk9UN5HAAbRFWmlfhcOhrQ22VY1YO_lXQLUQ-zyt5Cqh-UV5T4k04K43UvMSNeaoJfx47A-F9_6sXHnUBLY2Uy8nKqRriFUn561_hnxK7bLD3kE",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc4b3725e5c50b:0x7eccde966fce5ad6?sa=X&ved=2ahUKEwjK5bP4jPeRAxUiHNAFHd9bMAc4HhD14gF6BAgjEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc4b3725e5c50b%3A0x7eccde966fce5ad6&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=30&type=place"
+      },
+      "description":
+      "The specified expo driving agriculture, aquaculture, livestock, technology advancements and solutions in Malaysia. Pakar Pertanian Expo 2026 Get ready for the ultimate agricultural extravaganza at...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.com",
+          "link":
+          "https://www.eventbrite.com/e/pakar-pertanian-expo-2026-tickets-1295500640289",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Tradeindia",
+          "link":
+          "https://www.tradeindia.com/tradeshows/147521/pakar-pertanian-expo-2026-malaysia-international-agriculture-expo-conference.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Evvnt",
+          "link":
+          "https://evvnt.com/events/?_evDiscoveryPath=/event/2963396-pakar-pertanian-expo-2026",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Trade Fair Dates",
+          "link":
+          "https://www.tradefairdates.com/PAKAR-Pertanian-Expo-PPE-M9853/Seri-Kembangan.html",
+          "link_type":
+          "more info"
+        },
+        {
+          "source":
+          "Canton Fair net",
+          "link":
+          "https://yo.cantonfair.net/event/37660-pakar-pertanian-expo",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "MAEPS Serdang",
+        "rating":
+        4.3,
+        "reviews":
+        4713,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=MAEPS+Serdang&ludocid=9136922481730149078&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFB8qqGPv1YrEIpCIBItunVJQrOYpAnHsBkwIVPTNSu5xXnMN93RS5Ocw&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMAbTtrcVWEDRZ1a9A-1K9-vkrNS_syP37O1zzb81jYw&s=10"
+    },
+    {
+      "title":
+      "Kristal X and Azlan & The Typewriter",
+      "date":
+      {
+        "start_date":
+        "Feb 1",
+        "when":
+        "Sun, 1 Feb, 8:00 – 11:00 pm"
+      },
+      "address":
+      [
+        "Zepp Kuala Lumpur, B2-01-02 HAB BBCC.2, Jalan Hang Tuah Bukit Bintang, Kuala Lumpur City Centre",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.viagogo.com/au/Concert-Tickets/Rock-and-Pop/Kristal-X-Tickets/E-159592743",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=IF80T5uPMMnYDwuSo8OxGc3VK9qJc16IuVbtpRfKhxE_Q4xFNF6Lc_8v4uvILC2vb7iTxMb-cZk8zjiSoVq1pJE2WjDQnNeVNn2LKmX22Pfw3X0zMyM",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc379e71c29e11:0xf25c59c21cbbd992?sa=X&ved=2ahUKEwjK5bP4jPeRAxUiHNAFHd9bMAc4HhD14gF6BAgrEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc379e71c29e11%3A0xf25c59c21cbbd992&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=30&type=place"
+      },
+      "description":
+      "Ticket listings for Kristal X and Azlan & The Typewriter at Zepp Kuala Lumpur in Kuala Lumpur on 01/02/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/kristal-x-kuala-lumpur-tickets-2-1-2026/event/159592743/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-150580675?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-150002080%7Cev-159592743%7Ccy-3578&ps_ev=159592743",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Zepp Kuala Lumpur",
+        "rating":
+        4.6,
+        "reviews":
+        1526,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Zepp+Kuala+Lumpur&ludocid=17463932145276541330&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0oANAUYt9nnW3c46sNdUyM5j8jVY0vy9gvWdW8jU_uLTCY094E7ngDi4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrr460304Pn57QmAWEP9Ve5YiiURKM8gZQjQCTYHAVRg&s=10"
+    },
+    {
+      "title":
+      "Cool Mum Super Dad – Level 1: Be My Nurturer (Parenting 0-6 years old)",
+      "date":
+      {
+        "start_date":
+        "Feb 14",
+        "when":
+        "Sat, 14 Feb, 9:00 am – 1:00 pm"
+      },
+      "address":
+      [
+        "323 & 324, The Thinking Space, Pusat Bandar Melawati, Jln Bandar Melawati",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://coolmumsuperdad.com/event/cool-mum-super-dad-level-1-be-my-nurturer-parenting-0-6-years-old/",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=dfmTA8Tt0W_PnW7TF9qFz71E_u0aI-X70b3-bDDaclvlFbp2k3SgmyA-rqAOQtTabi-3lE5mK-iTWr6raNvQVbdtyeKxi1iSUZIxoSac0Hx6ECq_HDI",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc39a63a94c59d:0xd03668d5ad0d3758?sa=X&ved=2ahUKEwjK5bP4jPeRAxUiHNAFHd9bMAc4HhD14gF6BAgzEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc39a63a94c59d%3A0xd03668d5ad0d3758&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=30&type=place"
+      },
+      "description":
+      "Cool Mum Super Dad Consultancy is your premier resource centre for both personal and professional growth. The seminars and workshops offered by Cool Mum Super Dad Consultancy are led by the...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Cool Mum Super Dad",
+          "link":
+          "https://coolmumsuperdad.com/event/cool-mum-super-dad-level-1-be-my-nurturer-parenting-0-6-years-old/",
+          "link_type":
+          "more info"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "The Thinking Space",
+        "rating":
+        4.6,
+        "reviews":
+        11,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=The+Thinking+Space&ludocid=15003294475572033368&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://www.google.com/maps/vt/data=dfmTA8Tt0W_PnW7TF9qFz71E_u0aI-X70b3-bDDaclvlFbp2k3SgmyA-rqAOQtTabi-3lE5mK-iTWr6raNvQVbdtyeKxi1iSUZIxoSac0Hx6ECq_HDI",
+      "image":
+      "https://www.google.com/maps/vt/data=dfmTA8Tt0W_PnW7TF9qFz71E_u0aI-X70b3-bDDaclvlFbp2k3SgmyA-rqAOQtTabi-3lE5mK-iTWr6raNvQVbdtyeKxi1iSUZIxoSac0Hx6ECq_HDI"
+    },
+    {
+      "title":
+      "Advanced AI & ChatGPT for Secretarial and Administrative Professionals",
+      "date":
+      {
+        "start_date":
+        "Jan 28",
+        "when":
+        "Wed, 28 Jan, 9:00 am – Thu, 29 Jan, 5:00 pm"
+      },
+      "address":
+      [
+        "16, Meliá Kuala Lumpur, Jln Imbi",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur"
+      ],
+      "link":
+      "https://www.eventbrite.sg/e/advanced-ai-chatgpt-for-secretarial-and-administrative-professionals-tickets-1978947553404?aff=ebdssbcategorybrowse",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=36rTUkH7DEk3YvOj8us9bk4Q-rOeFlT9yQtGlg1D-F6nZqB9DZl-biH6gQeid9JqPb4mcfEzTmKxlk7BGhCdCot3TiquexF80Ys0EZAYCSE7MZeN-Ac",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc362842962319:0x200c0ae4933ae07f?sa=X&ved=2ahUKEwjK5bP4jPeRAxUiHNAFHd9bMAc4HhD14gF6BAg7EAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc362842962319%3A0x200c0ae4933ae07f&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=30&type=place"
+      },
+      "description":
+      "Advanced AI & ChatGPT for Secretarial and Administrative Professionals, 100% HRDC Claimable Courses Advanced AI & ChatGPT for Secretarial and Administrative Professionals 28 & 29 January 2026 Join...",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Eventbrite.sg",
+          "link":
+          "https://www.eventbrite.sg/e/advanced-ai-chatgpt-for-secretarial-and-administrative-professionals-tickets-1978947553404",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Meliá Kuala Lumpur",
+        "rating":
+        4.3,
+        "reviews":
+        4013,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Meli%C3%A1+Kuala+Lumpur&ludocid=2309232685773152383&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6vR7RWVPlaYZhP84_dAn1vVgzKDgeExytKMiq3CjcbRNC6RLh-HgZ6cA&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmtNj4moZJxBZCaJ1J6SMd_T5nJBK34Xt5GMnpD9McWcxJZMUr2qu1bDPJLw&s"
+    },
+    {
+      "title":
+      "Nick Chung",
+      "date":
+      {
+        "start_date":
+        "Jan 13",
+        "when":
+        "Tue, 13 Jan, 6:00 – 9:00 pm"
+      },
+      "address":
+      [
+        "Arena Of Stars, Arena Of Stars, Resorts World Genting Genting Highlands",
+        "Bentong, Pahang"
+      ],
+      "link":
+      "https://www.viagogo.co.za/Concert-Tickets/Pop-Rock/Asian-Pop/Nick-Chung-Tickets/E-159793106",
+      "event_location_map":
+      {
+        "image":
+        "https://www.google.com/maps/vt/data=WdgjE9e--ekVFXEBvpafVRovc9hi3hFiCzxgQ_M1UxsG20O7JNGKBbZWGaSGjKDOKhRa33aFKlGKkkyPPqlAxr-GMEOBCQVuDSJkCXImwL2q4UpDQXk",
+        "link":
+        "https://www.google.com/maps/place//data=!4m2!3m1!1s0x31cc140151eaaa93:0x4b3af085b8b19ca9?sa=X&ved=2ahUKEwjK5bP4jPeRAxUiHNAFHd9bMAc4HhD14gF6BAhDEAA&gl=my",
+        "serpapi_link":
+        "https://serpapi.com/search.json?data=%214m2%213m1%211s0x31cc140151eaaa93%3A0x4b3af085b8b19ca9&engine=google_maps&gl=my&google_domain=google.com&hl=en&location=Malaysia&q=events+near+Wangsa+Maju&start=30&type=place"
+      },
+      "description":
+      "Ticket listings for Nick Chung at Arena of Stars in Pahang on 13/01/2026",
+      "ticket_info":
+      [
+        {
+          "source":
+          "Stubhub.com",
+          "link":
+          "https://www.stubhub.com/nick-chung-pahang-tickets-1-13-2026/event/159793106/",
+          "link_type":
+          "tickets"
+        },
+        {
+          "source":
+          "Viagogo.com",
+          "link":
+          "https://www.viagogo.com/_C-120666?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-33794%7Cev-159793106%7Ccy-63027&ps_ev=159793106",
+          "link_type":
+          "tickets"
+        }
+      ],
+      "venue":
+      {
+        "name":
+        "Arena Of Stars",
+        "rating":
+        4.3,
+        "reviews":
+        1030,
+        "link":
+        "https://www.google.com/search?sca_esv=078c3514d761d573&gl=my&q=Arena+Of+Stars&ludocid=5420909558613777577&ibp=gwp%3B0,7"
+      },
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLfhFjSGtECCfgL2mawJuKDhu6lrZWlZ-Co8ikR-vr876UV6QYb11mEA4&s",
+      "image":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgKTAyExc7jtmawboK_9w8NpH1A1gs3_dEg1eP4HXLIQ&s=10"
+    }
+  ]
+}

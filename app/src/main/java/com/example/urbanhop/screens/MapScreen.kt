@@ -248,8 +248,8 @@ fun Map(
                         modifier = Modifier
                             .offset {
                                 station.coordinates.mapToMap(
-                                    PIN_OFFSET,
-                                    cameraPositionState
+                                    xOffset = PIN_OFFSET,
+                                    cameraPositionState = cameraPositionState
                                 )
                             },
                         station,
@@ -408,7 +408,7 @@ fun Map(
                                     .fillMaxSize()
                                     .padding(16.dp),
                                 contentAlignment = Alignment.Center
-                            ){
+                            ) {
                                 Text(
                                     text = "Uh oh! seems like there is no events",
                                     fontSize = 32.sp,
@@ -473,13 +473,15 @@ fun Map(
     }
 }
 
+private const val displayLimit = 3
+
 @Composable
 private fun EventPin(
     openedEvents: Coordinate?,
     eventGroup: Map.Entry<Coordinate?, List<Event>>,
     cameraPositionState: CameraPositionState,
     onClickPin: (Coordinate?) -> Unit,
-    onClickEvent: (Boolean, Event, Boolean) -> Unit
+    onClickEvent: (Boolean, Event?, Boolean) -> Unit
 ) {
     val isOpened = openedEvents == eventGroup.key
     val changeSize by animateDpAsState(
@@ -508,7 +510,10 @@ private fun EventPin(
                     LatLng(
                         it.lat!!,
                         it.lng!!
-                    ).mapToMap(cameraPositionState = cameraPositionState)
+                    ).mapToMap(
+                        yOffset = -80,
+                        cameraPositionState = cameraPositionState
+                    )
                 }!!
             }
     ) {
@@ -517,7 +522,7 @@ private fun EventPin(
         ) {
             Row(
                 verticalAlignment = Alignment.CenterVertically
-            ){
+            ) {
                 Card(
                     modifier = Modifier
                         .size(changeSize)
@@ -530,10 +535,10 @@ private fun EventPin(
                             }
                         ),
                     shape = RoundedCornerShape(
-                        topStart = pointToCurve,
+                        topStart = roundToCurve,
                         topEnd = roundToCurve,
                         bottomEnd = roundToCurve,
-                        bottomStart = roundToCurve
+                        bottomStart = pointToCurve
                     ),
                     colors = CardDefaults.cardColors(
                         containerColor = colorScheme.secondary
@@ -583,7 +588,7 @@ private fun EventPin(
             enter = slideInHorizontally { -it }
         ) {
             Column {
-                eventGroup.value.forEach { event ->
+                for (i in 0 until if (eventGroup.value.size > displayLimit) displayLimit else eventGroup.value.size) {
                     Spacer(modifier = Modifier.height(4.dp))
                     Text(
                         modifier = Modifier
@@ -592,11 +597,28 @@ private fun EventPin(
                             .background(colorScheme.secondary)
                             .clickable(
                                 onClick = {
-                                    onClickEvent(true, event, true)
+                                    onClickEvent(true, eventGroup.value[i], true)
                                 }
                             )
                             .padding(vertical = 4.dp, horizontal = 8.dp),
-                        text = event.title!!,
+                        text = eventGroup.value[i].title!!,
+                        color = colorScheme.onSecondary,
+                    )
+                }
+                if (eventGroup.value.size > displayLimit) {
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(6.dp))
+                            .widthIn(max = 300.dp)
+                            .background(colorScheme.secondary)
+                            .clickable(
+                                onClick = {
+                                    onClickEvent(true, null, true)
+                                }
+                            )
+                            .padding(vertical = 4.dp, horizontal = 8.dp),
+                        text = "See More...",
                         color = colorScheme.onSecondary,
                     )
                 }
