@@ -22,19 +22,29 @@ class TrainNavViewModel(
             trainNavigationDataSource.loadStations()
             trainNavigationDataSource.mapStations()
             trainNavigationDataSource.loadLines()
-            trainNavigationDataSource.stations.combine(trainNavigationDataSource.stationsMap) { stations, stationRef ->
-                if (stations.isEmpty()) {
-                    TrainNavScreenViewState.Loading
-                } else {
-                    TrainNavScreenViewState.DirectionQuery(
-                        selected = selected,
-                        stations = stations,
-                        stationsRef = stationRef
-                    )
-                }
-            }.collect { newState ->
-                _trainNavScreenViewState.value = newState
+            queryPage()
+        }
+    }
+
+    fun onBack() {
+        viewModelScope.launch {
+            queryPage()
+        }
+    }
+
+    private suspend fun queryPage() {
+        trainNavigationDataSource.stations.combine(trainNavigationDataSource.stationsMap) { stations, stationRef ->
+            if (stations.isEmpty()) {
+                TrainNavScreenViewState.Loading
+            } else {
+                TrainNavScreenViewState.DirectionQuery(
+                    selected = selected,
+                    stations = stations,
+                    stationsRef = stationRef
+                )
             }
+        }.collect { newState ->
+            _trainNavScreenViewState.value = newState
         }
     }
 
