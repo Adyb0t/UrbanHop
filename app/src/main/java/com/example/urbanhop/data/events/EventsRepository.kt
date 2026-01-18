@@ -1,140 +1,45 @@
 package com.example.urbanhop.data.events
 
-import android.content.Context
 import android.util.Log
-import com.example.urbanhop.R
+import android.location.Location
 import com.example.urbanhop.data.location.GeocodeApi
-import com.example.urbanhop.data.location.Location
+import com.example.urbanhop.data.location.LocationCoordinate
 import com.google.android.gms.maps.model.LatLng
 import com.google.firebase.Firebase
 import com.google.firebase.firestore.firestore
 import com.google.firebase.firestore.toObject
-import com.google.gson.GsonBuilder
 import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
-import org.simmetrics.metrics.CosineSimilarity
-import java.io.InputStream
 import org.simmetrics.builders.StringMetricBuilder.with
+import org.simmetrics.metrics.CosineSimilarity
 import org.simmetrics.simplifiers.Simplifiers
 import org.simmetrics.tokenizers.Tokenizers
-import kotlin.collections.plusAssign
+import kotlin.math.roundToInt
 
 private val eventCollectionRef = Firebase.firestore.collection("events")
 private const val isNotWeeklyUpdate = true
 private const val TAG = "EventsRepo"
+private const val QUERY_LIMIT = 30
+private const val MAX_DISTANCE_MTR = 3000f
+
+enum class Queries(
+    val query: String,
+    val limit: Int
+) {
+    KL("Events in Kuala Lumpur", QUERY_LIMIT * 0.6.roundToInt()),
+    SELANGOR("Events in Selangor", QUERY_LIMIT * 0.3.roundToInt())
+}
 
 class EventsRepository(
-    val context: Context,
-    val geocodeApi: GeocodeApi
+    val geocodeApi: GeocodeApi,
+    val serpApi: SerpApi
 ) {
-    internal val gson = GsonBuilder().create()
     private val codedCachedEvents = mutableMapOf<String, List<Event>>()
 
     suspend fun loadEvents(
         code: String,
-        codeQueryMap: Map<String, String>,
-    ): List<Event> {
-
-        val capturedEvents = mutableListOf<Event>()
-
-        if (isNotWeeklyUpdate) {
-            codedCachedEvents[code]?.let {
-                return it
-            }
-            try { //if already updated, load from firebase
-                capturedEvents +=
-                    eventCollectionRef
-                        .whereEqualTo("code", code)
-                        .get()
-                        .await()
-                        .documents.mapNotNull { it.toObject<Event>() }.toMutableList()
-                codedCachedEvents[code] = capturedEvents
-            } catch (e: Exception) {
-                Log.e(TAG, "Error loading events: ${e.message}")
-            }
-        } else { //update firebase weekly
-            val batch = Firebase.firestore.batch()
-            eventCollectionRef.get().await().documents.forEach { batch.delete(it.reference) }
-            batch.commit().await()
-            codeQueryMap.forEach { pair ->
-                //API query simulation
-                Log.d(TAG, pair.toString())
-                val eventPerCode = context.resources.openRawResource(
-                    when (pair.key) {
-                        "MBB" -> {
-                            Log.i(TAG, "querying MBB: events near ${pair.value}")
-                            R.raw.events_bukit_bintang
-                        }
-
-                        "LKC" -> {
-                            Log.i(TAG, "querying LKC: events near ${pair.value}")
-                            R.raw.events_klcc
-                        }
-
-                        "LKS" -> {
-                            Log.i(TAG, "querying LKS: events near ${pair.value}")
-                            R.raw.events_kl_sentral
-                        }
-
-                        "LPS" -> {
-                            Log.i(TAG, "querying LPS: events near ${pair.value}")
-                            R.raw.events_pasar_seni
-                        }
-
-                        "MMD" -> {
-                            Log.i(TAG, "querying MMD: events near ${pair.value}")
-                            R.raw.events_mutiara_damansara
-                        }
-
-                        "LWM" -> {
-                            Log.i(TAG, "querying LWM: events near ${pair.value}")
-                            R.raw.events_wangsa_maju
-                        }
-
-                        "L15" -> {
-                            Log.i(TAG, "querying L15: events near ${pair.value}")
-                            R.raw.events_ss15
-                        }
-
-                        "MKG" -> {
-                            Log.i(TAG, "querying MKG: events near ${pair.value}")
-                            R.raw.events_kajang
-                        }
-
-                        else -> throw Exception("Unknown code")
-                    }
-                ).use { inputStream ->
-                    readEventInfo(inputStream)
-                }
-                eventPerCode.forEach {
-                    if (it.codes == null) it.codes = mutableListOf()
-                    it.codes?.add(pair.key)
-                }
-                capturedEvents.addAll(eventPerCode.distinctBy { it.title })
-            }
-            coroutineScope {
-                capturedEvents.forEach { event ->
-                    if (event.location == null) {
-                        findCoordinateAndSaveEvent(event)
-                    } else {
-                        eventCollectionRef.add(event)
-                    }
-                }
-            }
-            codedCachedEvents[code] = capturedEvents.distinct()
-        }
-        codedCachedEvents[code]?.forEach {
-            Log.i(
-                TAG,
-                "Event: ${it.title} | ${it.date} | ${it.address} | ${it.location?.lat}, ${it.location?.lng}"
-            )
-        }
-        return codedCachedEvents[code] ?: emptyList()
-    }
-
-    suspend fun loadEvents2(
-        code: String,
-        codeCoordMap: Map<String, LatLng>,
+        codeCordMap: Map<String, LatLng>
     ): List<Event> {
 
         val capturedEvents = mutableListOf<Event>()
@@ -154,25 +59,101 @@ class EventsRepository(
             } catch (e: Exception) {
                 Log.e(TAG, "Error loading events: ${e.message}")
             }
-        }
-        else
-        {
-            return codedCachedEvents[code] ?: emptyList()
+        } else {
+
+            val batch = Firebase.firestore.batch()
+            var overallQueryCount = 0
+            var leftoverQuery = 0
+
+            eventCollectionRef.get().await().documents.forEach { batch.delete(it.reference) }
+            batch.commit().await()
+
+            Queries.entries.forEach { query ->
+                var queryCount = 0
+                var continueQuery = true
+
+                while (continueQuery && queryCount < query.limit + leftoverQuery && overallQueryCount < QUERY_LIMIT) {
+                    val events = searchEvents(query.query, queryCount * 10)
+                    if (events.size < 10) continueQuery = false
+                    queryCount++
+                    overallQueryCount++
+                    Log.i(TAG, "Querying: ${query.query} + $queryCount")
+                    capturedEvents.addAll(events)
+                }
+
+                if (queryCount < query.limit) {
+                    leftoverQuery = query.limit - queryCount
+                }
+            }
+
+            coroutineScope {
+                capturedEvents.forEach { event ->
+                    if (event.location == null) {
+                        launch {
+                            findCoordinate(event)
+                        }
+                    }
+                }
+            }
+
+            codeCordMap.forEach { map ->
+                capturedEvents.forEach { event ->
+                    val results = FloatArray(1)
+                    if (event.location?.lat != null && event.location?.lng != null) {
+                        Location.distanceBetween(
+                            map.value.latitude,
+                            map.value.longitude,
+                            event.location!!.lat!!,
+                            event.location!!.lng!!,
+                            results
+                        )
+
+                    }
+                    if (results.first() <= MAX_DISTANCE_MTR) {
+                        if (event.codes == null) event.codes = mutableListOf()
+                        event.codes?.add(map.key)
+                    }
+                }
+            }
+
+            capturedEvents.filter { !it.codes.isNullOrEmpty() }.forEach { event ->
+                eventCollectionRef.add(event)
+            }
+
+            codedCachedEvents[code] =
+                capturedEvents.filter {
+                    it.codes?.contains(code) ?: false
+                }
         }
         return codedCachedEvents[code] ?: emptyList()
     }
 }
 
-private fun EventsRepository.readEventInfo(inputStream: InputStream): List<Event> {
-    val eventInfoList = gson.fromJson(inputStream.reader(), EventInfo::class.java)
-    when (eventInfoList.searchInfo.state) {
+private suspend fun EventsRepository.searchEvents(query: String, start: Int): List<Event> {
+    return serpApi.getEventInfo(
+        query,
+        start
+    ).let { response ->
+        when (response.code()) {
+            200 -> {
+                readEventInfo(response.body()!!)
+            }
+
+            else -> throw Exception("Error getting events: ${response.code()}")
+        }
+    }
+}
+
+private fun readEventInfo(queryResponse: EventQueryResponse): List<Event> {
+
+    when (queryResponse.searchInfo.state) {
 
         "Fully empty" -> {
             return emptyList()
         }
 
         "Results for exact spelling" -> {
-            return eventInfoList.events.map { eventInfo ->
+            return queryResponse.events.map { eventInfo ->
                 with(eventInfo) {
                     Event(
                         title = title ?: "No title available",
@@ -206,28 +187,23 @@ private fun EventsRepository.readEventInfo(inputStream: InputStream): List<Event
     }
 }
 
-private suspend fun EventsRepository.findCoordinateAndSaveEvent(event: Event) =
+private suspend fun EventsRepository.findCoordinate(event: Event) =
     try {
         if (event.address?.get(1) != null) {
             val location = searchCoordinate(
-                with(event) {
-                    address?.get(0) + ", " + address?.get(1)
-                }
-                    .replace(" ", "+")
-                    .replace(",", "%2C")
-                    .replace("&", "%26")
-                    .replace("#", "%23")
+                event.address[0] + ", " + event.address[1]
             )
             location?.let {
                 event.location = Coordinate(location.lat, location.lng)
             }
+        } else {
+            event.location = null
         }
-        eventCollectionRef.add(event)
     } catch (e: Exception) {
         Log.e(TAG, "Error saving event: ${e.message}")
     }
 
-private suspend fun EventsRepository.searchCoordinate(address: String): Location? {
+private suspend fun EventsRepository.searchCoordinate(address: String): LocationCoordinate? {
     return geocodeApi.getVenueInfo(address).let { response ->
         when (response.code()) {
             200 -> {
