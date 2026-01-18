@@ -20,9 +20,6 @@ const val GOOGLE_MAPS_DI = "GoogleMapsDI"
 const val SERP_API_DI = "SerpApiDI"
 
 val appModule = module {
-    single { TrainNavigationDataSource(androidContext()) }
-    single { StationsRepository(androidContext()) }
-    single { EventsRepository(androidContext(), get<GeocodeApi>()) }
     single(named(GOOGLE_MAPS_DI)) {
         Retrofit.Builder()
             .baseUrl("https://maps.googleapis.com/maps/api/geocode/")
@@ -61,7 +58,12 @@ val appModule = module {
                 val request = original.newBuilder().url(url).build()
                 chain.proceed(request)
             }
+            .build()
     }
+
+    single { TrainNavigationDataSource(androidContext()) }
+    single { StationsRepository(androidContext()) }
+    single { EventsRepository(get<GeocodeApi>(), get<SerpApi>()) }
     viewModelOf(::MapViewModel)
     viewModelOf(::TrainNavViewModel)
 }

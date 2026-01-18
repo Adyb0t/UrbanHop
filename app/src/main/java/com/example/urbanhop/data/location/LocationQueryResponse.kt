@@ -14,10 +14,10 @@ data class VenueInfo(
 )
 
 data class Geometry(
-    val location: Location
+    val location: LocationCoordinate
 )
 
-data class Location(
+data class LocationCoordinate(
     val lat: Double,
     val lng: Double
 )

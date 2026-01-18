@@ -48,7 +48,7 @@ class StationsRepository(val context: Context) {
         }
     }
 
-    fun getStationCodesAndQueries(): StateFlow<Map<String, LatLng>> {
+    internal fun getStationCodesAndQueries(): StateFlow<Map<String, LatLng>> {
         _stationsMap.value = _stations.value.associate { it.code to it.coordinates }
         return stationsMap
     }
