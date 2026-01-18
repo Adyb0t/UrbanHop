@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.urbanhop.data.navigation_stations.TrainNavigationDataSource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.launch
 
@@ -43,7 +44,7 @@ class TrainNavViewModel(
                     stationsRef = stationRef
                 )
             }
-        }.collect { newState ->
+        }.collectLatest { newState ->
             _trainNavScreenViewState.value = newState
         }
     }
@@ -64,7 +65,7 @@ class TrainNavViewModel(
                         stationsRef = stationRef
                     )
                 }
-            }.collect { newState ->
+            }.collectLatest { newState ->
                 _trainNavScreenViewState.value = newState
             }
         }

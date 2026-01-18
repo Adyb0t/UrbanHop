@@ -2,7 +2,7 @@ package com.example.urbanhop.data.location
 
 import com.google.gson.annotations.SerializedName
 
-data class QueryResponse(
+data class LocationQueryResponse(
     val results: List<VenueInfo>,
     val status: String
 )

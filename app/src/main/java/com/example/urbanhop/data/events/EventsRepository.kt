@@ -5,6 +5,7 @@ import android.util.Log
 import com.example.urbanhop.R
 import com.example.urbanhop.data.location.GeocodeApi
 import com.example.urbanhop.data.location.Location
+import com.google.android.gms.maps.model.LatLng
 import com.google.firebase.Firebase
 import com.google.firebase.firestore.firestore
 import com.google.firebase.firestore.toObject
@@ -16,6 +17,7 @@ import java.io.InputStream
 import org.simmetrics.builders.StringMetricBuilder.with
 import org.simmetrics.simplifiers.Simplifiers
 import org.simmetrics.tokenizers.Tokenizers
+import kotlin.collections.plusAssign
 
 private val eventCollectionRef = Firebase.firestore.collection("events")
 private const val isNotWeeklyUpdate = true
@@ -26,6 +28,7 @@ class EventsRepository(
     val geocodeApi: GeocodeApi
 ) {
     internal val gson = GsonBuilder().create()
+    private val codedCachedEvents = mutableMapOf<String, List<Event>>()
 
     suspend fun loadEvents(
         code: String,
@@ -33,9 +36,11 @@ class EventsRepository(
     ): List<Event> {
 
         val capturedEvents = mutableListOf<Event>()
-        var filteredEvents = emptyList<Event>()
 
         if (isNotWeeklyUpdate) {
+            codedCachedEvents[code]?.let {
+                return it
+            }
             try { //if already updated, load from firebase
                 capturedEvents +=
                     eventCollectionRef
@@ -43,7 +48,7 @@ class EventsRepository(
                         .get()
                         .await()
                         .documents.mapNotNull { it.toObject<Event>() }.toMutableList()
-                filteredEvents = capturedEvents
+                codedCachedEvents[code] = capturedEvents
             } catch (e: Exception) {
                 Log.e(TAG, "Error loading events: ${e.message}")
             }
@@ -51,48 +56,48 @@ class EventsRepository(
             val batch = Firebase.firestore.batch()
             eventCollectionRef.get().await().documents.forEach { batch.delete(it.reference) }
             batch.commit().await()
-            codeQueryMap.forEach { map ->
+            codeQueryMap.forEach { pair ->
                 //API query simulation
-                Log.d(TAG, map.toString())
+                Log.d(TAG, pair.toString())
                 val eventPerCode = context.resources.openRawResource(
-                    when (map.key) {
+                    when (pair.key) {
                         "MBB" -> {
-                            Log.i(TAG, "querying MBB: events near ${map.value}")
+                            Log.i(TAG, "querying MBB: events near ${pair.value}")
                             R.raw.events_bukit_bintang
                         }
 
                         "LKC" -> {
-                            Log.i(TAG, "querying LKC: events near ${map.value}")
+                            Log.i(TAG, "querying LKC: events near ${pair.value}")
                             R.raw.events_klcc
                         }
 
                         "LKS" -> {
-                            Log.i(TAG, "querying LKS: events near ${map.value}")
+                            Log.i(TAG, "querying LKS: events near ${pair.value}")
                             R.raw.events_kl_sentral
                         }
 
                         "LPS" -> {
-                            Log.i(TAG, "querying LPS: events near ${map.value}")
+                            Log.i(TAG, "querying LPS: events near ${pair.value}")
                             R.raw.events_pasar_seni
                         }
 
                         "MMD" -> {
-                            Log.i(TAG, "querying MMD: events near ${map.value}")
+                            Log.i(TAG, "querying MMD: events near ${pair.value}")
                             R.raw.events_mutiara_damansara
                         }
 
                         "LWM" -> {
-                            Log.i(TAG, "querying LWM: events near ${map.value}")
+                            Log.i(TAG, "querying LWM: events near ${pair.value}")
                             R.raw.events_wangsa_maju
                         }
 
                         "L15" -> {
-                            Log.i(TAG, "querying L15: events near ${map.value}")
+                            Log.i(TAG, "querying L15: events near ${pair.value}")
                             R.raw.events_ss15
                         }
 
                         "MKG" -> {
-                            Log.i(TAG, "querying MKG: events near ${map.value}")
+                            Log.i(TAG, "querying MKG: events near ${pair.value}")
                             R.raw.events_kajang
                         }
 
@@ -101,7 +106,7 @@ class EventsRepository(
                 ).use { inputStream ->
                     readEventInfo(inputStream)
                 }
-                eventPerCode.forEach { it.code = map.key }
+                eventPerCode.forEach { it.code = pair.key }
                 capturedEvents.addAll(eventPerCode.distinctBy { it.title })
             }
             coroutineScope {
@@ -113,28 +118,58 @@ class EventsRepository(
                     }
                 }
             }
-            filteredEvents = capturedEvents.distinct()
+            codedCachedEvents[code] = capturedEvents.distinct()
         }
-        filteredEvents.forEach {
+        codedCachedEvents[code]?.forEach {
             Log.i(
                 TAG,
                 "Event: ${it.title} | ${it.date} | ${it.address} | ${it.location?.lat}, ${it.location?.lng}"
             )
         }
-        return filteredEvents.filter { it.code == code }
+        return codedCachedEvents[code] ?: emptyList()
+    }
+
+    suspend fun loadEvents2(
+        code: String,
+        codeCoordMap: Map<String, LatLng>,
+    ): List<Event> {
+
+        val capturedEvents = mutableListOf<Event>()
+
+        if (isNotWeeklyUpdate) {
+            codedCachedEvents[code]?.let {
+                return it
+            }
+            try {
+                capturedEvents +=
+                    eventCollectionRef
+                        .whereArrayContains("codes", code)
+                        .get()
+                        .await()
+                        .documents.mapNotNull { it.toObject<Event>() }.toMutableList()
+                codedCachedEvents[code] = capturedEvents
+            } catch (e: Exception) {
+                Log.e(TAG, "Error loading events: ${e.message}")
+            }
+        }
+        else
+        {
+            return codedCachedEvents[code] ?: emptyList()
+        }
+        return codedCachedEvents[code] ?: emptyList()
     }
 }
 
 private fun EventsRepository.readEventInfo(inputStream: InputStream): List<Event> {
-    val eventQueryResponseList = gson.fromJson(inputStream.reader(), EventQueryResponse::class.java)
-    when (eventQueryResponseList.searchInfo.state) {
+    val eventInfoList = gson.fromJson(inputStream.reader(), EventInfo::class.java)
+    when (eventInfoList.searchInfo.state) {
 
         "Fully empty" -> {
             return emptyList()
         }
 
         "Results for exact spelling" -> {
-            return eventQueryResponseList.events.map { eventInfo ->
+            return eventInfoList.events.map { eventInfo ->
                 with(eventInfo) {
                     Event(
                         title = title ?: "No title available",

@@ -8,5 +8,5 @@ interface GeocodeApi {
     @GET("json?region=my")
     suspend fun getVenueInfo(
         @Query("address") address: String
-    ): Response<QueryResponse>
+    ): Response<LocationQueryResponse>
 }

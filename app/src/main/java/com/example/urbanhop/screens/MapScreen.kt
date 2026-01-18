@@ -285,7 +285,7 @@ fun Map(
                                     event.location!!.lng!!,
                                     results
                                 )
-                                results[0] <= 2000f
+                                results.first() <= 2000f
                             } else {
                                 false
                             }

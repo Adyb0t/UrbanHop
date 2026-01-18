@@ -8,6 +8,7 @@ import com.example.urbanhop.data.event_stations.StationsRepository
 import com.example.urbanhop.data.navigation_stations.TrainNavigationDataSource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
 class MapViewModel(
@@ -18,12 +19,14 @@ class MapViewModel(
     private val _mapScreenViewState =
         MutableStateFlow<MapScreenViewState>(MapScreenViewState.LoadingPage)
     val mapScreenViewState = _mapScreenViewState.asStateFlow()
-    private var stationsCodeQueryMap = emptyMap<String, String>()
+    private var stationsCodeQueryMap = stationsRepository.stationsMap.value
 
     init {
         viewModelScope.launch {
             stationsRepository.loadStations()
-            stationsCodeQueryMap = stationsRepository.getStationCodesAndQueries().value
+            if (stationsCodeQueryMap.isEmpty()) {
+                stationsCodeQueryMap = stationsRepository.getStationCodesAndQueries().value
+            }
             displayAllStation()
         }
     }
@@ -40,7 +43,7 @@ class MapViewModel(
 
     internal fun displayAllStation() {
         viewModelScope.launch {
-            stationsRepository.stations.collect { stations ->
+            stationsRepository.stations.collectLatest { stations ->
                 Log.i("MapViewModel", stations.toString())
                 if (stations.isEmpty()) {
                     _mapScreenViewState.value = MapScreenViewState.LoadingPage
@@ -54,7 +57,7 @@ class MapViewModel(
     internal fun onExpandedSearch() {
         viewModelScope.launch {
             trainNavDataSource.loadStations()
-            trainNavDataSource.stations.collect { stations ->
+            trainNavDataSource.stations.collectLatest { stations ->
                 _mapScreenViewState.value = MapScreenViewState.ExpandedSearch(stations)
             }
         }

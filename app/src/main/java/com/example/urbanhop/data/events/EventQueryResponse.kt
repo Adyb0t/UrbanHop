@@ -3,6 +3,11 @@ package com.example.urbanhop.data.events
 import com.google.gson.annotations.SerializedName
 
 data class EventQueryResponse(
+    val result: EventInfo,
+    val status: String
+)
+
+data class EventInfo(
     @SerializedName("search_information")
     val searchInfo: ResultState,
     @SerializedName("events_results")
