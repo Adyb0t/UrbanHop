@@ -7,6 +7,6 @@ import retrofit2.http.Query
 interface GeocodeApi {
     @GET("json?region=my")
     suspend fun getVenueInfo(
-        @Query("address") address: String
+        @Query("address", encoded = false) address: String
     ): Response<LocationQueryResponse>
 }
