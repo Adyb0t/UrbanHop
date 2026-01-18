@@ -1,8 +1,5 @@
 package com.example.urbanhop.data.events
 
-import com.google.android.gms.maps.model.LatLng
-
-
 data class Event(
     val title: String? = null,
     val date: String? = null,
@@ -11,7 +8,7 @@ data class Event(
     val description: String? = null,
     val ticketInfo: List<TicketInfo?>? = null,
     val venue: Venue? = null,
-    var code: String? = null,
+    var codes: MutableList<String>? = null,
     var location: Coordinate? = null
 )
 

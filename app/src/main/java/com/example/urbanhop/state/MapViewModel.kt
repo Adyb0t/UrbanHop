@@ -19,13 +19,13 @@ class MapViewModel(
     private val _mapScreenViewState =
         MutableStateFlow<MapScreenViewState>(MapScreenViewState.LoadingPage)
     val mapScreenViewState = _mapScreenViewState.asStateFlow()
-    private var stationsCodeQueryMap = stationsRepository.stationsMap.value
+    private var stationsCodeCoordMap = stationsRepository.stationsMap.value
 
     init {
         viewModelScope.launch {
             stationsRepository.loadStations()
-            if (stationsCodeQueryMap.isEmpty()) {
-                stationsCodeQueryMap = stationsRepository.getStationCodesAndQueries().value
+            if (stationsCodeCoordMap.isEmpty()) {
+                stationsCodeCoordMap = stationsRepository.getStationCodesAndQueries().value
             }
             displayAllStation()
         }
@@ -35,7 +35,7 @@ class MapViewModel(
         viewModelScope.launch {
             _mapScreenViewState.value = MapScreenViewState.LoadingEvents
             Log.i("MapViewModel", "Selected Station: $code")
-            eventsRepository.loadEvents(code, stationsCodeQueryMap).also { events ->
+            eventsRepository.loadEvents2(code, stationsCodeCoordMap).also { events ->
                 _mapScreenViewState.value = MapScreenViewState.EventList(events)
             }
         }

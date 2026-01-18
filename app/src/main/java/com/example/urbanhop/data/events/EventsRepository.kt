@@ -106,7 +106,10 @@ class EventsRepository(
                 ).use { inputStream ->
                     readEventInfo(inputStream)
                 }
-                eventPerCode.forEach { it.code = pair.key }
+                eventPerCode.forEach {
+                    if (it.codes == null) it.codes = mutableListOf()
+                    it.codes?.add(pair.key)
+                }
                 capturedEvents.addAll(eventPerCode.distinctBy { it.title })
             }
             coroutineScope {
