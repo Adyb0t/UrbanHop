@@ -6,6 +6,7 @@ import com.example.urbanhop.data.location.GeocodeApi
 import com.example.urbanhop.data.location.LocationCoordinate
 import com.google.android.gms.maps.model.LatLng
 import com.google.firebase.Firebase
+import com.google.firebase.Timestamp
 import com.google.firebase.firestore.firestore
 import com.google.firebase.firestore.toObject
 import kotlinx.coroutines.coroutineScope
@@ -18,7 +19,7 @@ import org.simmetrics.tokenizers.Tokenizers
 import kotlin.math.roundToInt
 
 private val eventCollectionRef = Firebase.firestore.collection("events")
-private const val isNotWeeklyUpdate = true
+private val metadataUpdateRef = Firebase.firestore.collection("metadata").document("events_update")
 private const val TAG = "EventsRepo"
 private const val QUERY_LIMIT = 30
 private const val MAX_DISTANCE_MTR = 3000f
@@ -44,22 +45,7 @@ class EventsRepository(
 
         val capturedEvents = mutableListOf<Event>()
 
-        if (isNotWeeklyUpdate) {
-            codedCachedEvents[code]?.let {
-                return it
-            }
-            try {
-                capturedEvents +=
-                    eventCollectionRef
-                        .whereArrayContains("codes", code)
-                        .get()
-                        .await()
-                        .documents.mapNotNull { it.toObject<Event>() }.toMutableList()
-                codedCachedEvents[code] = capturedEvents
-            } catch (e: Exception) {
-                Log.e(TAG, "Error loading events: ${e.message}")
-            }
-        } else {
+        if (shouldUpdateEvents()) {
 
             val batch = Firebase.firestore.batch()
             var overallQueryCount = 0
@@ -87,6 +73,7 @@ class EventsRepository(
             }
 
             coroutineScope {
+                // add distinct later
                 capturedEvents.forEach { event ->
                     if (event.location == null) {
                         launch {
@@ -120,10 +107,29 @@ class EventsRepository(
                 eventCollectionRef.add(event)
             }
 
-            codedCachedEvents[code] =
-                capturedEvents.filter {
-                    it.codes?.contains(code) ?: false
-                }
+            markUpdateComplete()
+
+            codedCachedEvents[code] = capturedEvents.filter {
+                it.codes?.contains(code) ?: false
+            }
+
+        } else {
+
+            codedCachedEvents[code]?.let {
+                return it
+            }
+            try {
+                capturedEvents +=
+                    eventCollectionRef
+                        .whereArrayContains("codes", code)
+                        .get()
+                        .await()
+                        .documents.mapNotNull { it.toObject<Event>() }.toMutableList()
+                codedCachedEvents[code] = capturedEvents
+            } catch (e: Exception) {
+                Log.e(TAG, "Error loading events: ${e.message}")
+            }
+
         }
         return codedCachedEvents[code] ?: emptyList()
     }
@@ -247,6 +253,39 @@ private suspend fun EventsRepository.searchCoordinate(address: String): Location
             else -> throw Exception("Error getting coordinate: ${response.code()}")
         }
     }
+}
+
+private suspend fun shouldUpdateEvents(): Boolean {
+    return Firebase.firestore.runTransaction { transaction ->
+
+        val snapshot = transaction.get(metadataUpdateRef)
+
+        val lastUpdated = snapshot.getTimestamp("lastUpdated")
+        val isUpdating = snapshot.getBoolean("isUpdating") ?: false
+
+        if (isUpdating) return@runTransaction false
+        if (lastUpdated != null && !isOlderThan7Days(lastUpdated)) {
+            return@runTransaction false
+        }
+
+        transaction.update(metadataUpdateRef, "isUpdating", true)
+        true
+    }.await()
+}
+
+private suspend fun markUpdateComplete() {
+    metadataUpdateRef.update(
+        mapOf(
+            "lastUpdated" to Timestamp.now(),
+            "isUpdating" to false
+        )
+    ).await()
+}
+
+private fun isOlderThan7Days(timestamp: Timestamp): Boolean {
+    val now = System.currentTimeMillis()
+    val last = timestamp.toDate().time
+    return now - last > 7 * 24 * 60 * 60 * 1000L
 }
 
 
